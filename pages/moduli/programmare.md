@@ -36,9 +36,9 @@ Chris Bosh, professional basketball player
 [...e tanti altri...]
 
 
-<h2 class="bg-dark">I superpoteri ... nella vita reale</h2>
+<h2 class="bg-dark mb-3">I superpoteri ... nella vita reale</h2>
 
-
+![Astronauta](images/astro.jpg)![Old_PC](images/old_pc.jpg)![too_goo](images/too_goo.png)
 
 La programmazione ha reso possibile lo sbarco sulla luna, e accorciato la WWII
 
@@ -57,6 +57,7 @@ fonte: programmareilfuturo.it
 
 un modo di pensare che ci aiuta a formulare un procedimento, ossia una sequenza ordinata di singoli passaggi necessari a realizzare un obiettivo, ad esempio trovare una soluzione a un problema che dobbiamo risolvere
 
+![scheme_code](images/scheme_code.png)
 Il progetto Hour-of-Code: evento internazionale
 
 
