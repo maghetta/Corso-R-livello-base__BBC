@@ -1,0 +1,28 @@
+ <div class="landingpage">
+       <section id="search-section" class="bg-dark py-5 card border border-secondary">
+           <div class="container">
+                <div class="row">
+                    <h2 class="no-anchor text-secondary text-center mb-3">Moduli previsti in questo ciclo di attività</h2>
+                    <div class="position-relative">
+                        <div class="d-flex justify-content-center">
+                            <form role="search" class="input-group">
+                                <span class="input-group-text" id="search-label"><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <input type="search" id="search-input" class="search-input form-control form-control-lg bg-white" tabindex="0"
+                                    placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
+                            </form>
+                            <div id="search-results" class="search-results"></div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </section>
+
+        
+       
+
+ </div>
+    {%- if site.theme_variables.back_to_top or site.theme_variables.back_to_top == nil %}
+    <button id="back-to-top" class="btn btn-primary" type="button" aria-hidden="true" onclick="topFunction()">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+{%- endif %} 
