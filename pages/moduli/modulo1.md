@@ -103,3 +103,36 @@ Il linguaggio di programmazione R
 ![Pagina CRAN](images/CRAN.png)
 
 - R ha una comunità di utilizzatori e sviluppatori attiva e vastissima, che assicura migliaia di pacchetti disponibili e aggiornati, grande supporto (es: forum online) e facile accesso a documentazione
+
+
+## Svolgimento corso R online su DataCamp (capitoli 1 e 2)
+
+Per svolgere i capitoli 1 (Introduzione alle basi di R) e 2 (Vettori) del corso online di R:
+
+1. Collegati al sito di DataCamp: [https://www.datacamp.com/](https://www.datacamp.com/)
+
+2. Effettua l'accesso con le credenziali (indirizzo email e password) ricevute (--> click sul pulsante "Sign In" in alto a destra nella pagina)
+
+3. Ora collegati al seguente link:  [https://www.datacamp.com/community/open-courses/introduzione-a-r](https://www.datacamp.com/community/open-courses/introduzione-a-r) (fai un click sopra al link oppure copia/incolla il link in una nuova finestra di browser)
+
+4. Fai click sul pulsante giallo "Start Free Course" in alto al centro della pagina (subito sotto il titolo "Introduzione a R" (vedi Figura "step 4" qui sotto)
+
+5. Inizia il corso (vedi Figura "step 5" qui sotto). In particolare, per ogni schermata: 
+
+	- Leggi ***con calma e con attenzione*** la spiegazione fornita nel pannello a sinistra in alto.
+
+	- Esegui l'esercizio così come indicato nel pannello a sinistra in basso
+
+	- Scrivi nel pannello in alto a destra ("script.R") il codice R necessario per svolgere l'esercizio indicato
+
+	- Puoi provare ad eseguire il codice (es. per verificare che sia corretto) premendo sul pulsante "Run code"
+
+	- Quando ritieni di aver scritto il codice corretto per svolgere l'esercizio indicato, premi il pulsante "Submit Answer".
+
+	- Se il tuo codice è corretto, comparirà un messaggio con il punteggio da te ottenuto. Premi sul pulsante verde "continue" per continuare sulla schermata successiva. Se invece ci sono errori nel tuo codice, leggi i consigli che appariranno nel pannello in basso a sinistra e correggi di conseguenza il tuo codice nel pannello in alto a destra. Poi ri-premi "Submit Answer" per proseguire.
+
+6. Al termine del capitolo (cioé quando compare la scritta "Good Job!" o simile, vedi Figura "step 6") fai una foto allo schermo (esempio: usa il pulsante "stamp" o "print screen" sulla tua tastiera) e conservala per generare il prodotto finale. Poi fai click sulla "X" per chiudere il messaggio.
+
+7. Una volta chiuso il messaggio che annuncia che hai terminato con successo un capitolo, ti troverai subito alla prima schermata del capitolo successivo. Qui ad esempio, dopo aver chiuso il messaggio che ti fa i complimenti per aver concluso il Capitolo 1, ti ritroverai alla prima schermata del Capitolo 2. Come verifica, fai caso a quanto scritto nell'indirizzo URL scritto in cima alla pagina browser. Leggerai ad esempio "[https://campus.datacamp.com/courses/introduzione-a-r/capitolo-2-vettori?ex=1](https://campus.datacamp.com/courses/introduzione-a-r/capitolo-2-vettori?ex=1)" se stai eseguendo il primo esercizio del Capitolo 2.
+
+NOTA: possono comparire durante il corso messaggi promozionali (vedi ad esempio Figura "esempio messaggio promozionale da rifiutare"). Semplicemente, scegli sempre di chiudere il messaggio (quando possibile) oppure di continuare il corso ("Continue course" nella figura di esempio riportata qui sotto).
