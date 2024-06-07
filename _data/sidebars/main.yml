@@ -1,0 +1,21 @@
+subitems:
+  - title: Home
+    url: /index
+  - title: Schedule
+    url: /schedule
+  - title: Moduli Tematici
+  subitems:
+    - title: Perché programmare?
+      url: /programmare
+    - title: Modulo 1
+      url: /modulo1
+    - title: Modulo 2
+      url: /modulo2
+    - title: Modulo 3
+      url: /modulo3
+    - title: Modulo 4
+      url: /modulo4
+    - title: Modulo 5
+      url: / modulo5
+
+  
