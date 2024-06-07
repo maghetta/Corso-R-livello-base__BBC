@@ -1,5 +1,6 @@
 ---
-title: Index page
+search_exclude: true
+layout: none
 ---
 
 
