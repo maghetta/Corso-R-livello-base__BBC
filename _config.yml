@@ -1,42 +1,18 @@
-title: Corso-R-livello-base
+title: Website title
 # This appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: Corso-R-livello-base
+topnav_title: Website title
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
 
 description: "Example of ELIXIR toolkit theme as a remote jekyll theme"
 # Metadata description of the website
 
-remote_theme: ELIXIR-Belgium/elixir-toolkit-theme
-
-
-
-basename: "/Corso-R-livello-base"
-
-
-sass:
-  style: compressed
-  sourcemap: never
-
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@3.0.0
 
 exclude:
   - README.md
-  - .gitignore
-  - var/
   - vendor
-  - Gemfile*
-  - LICENSE
-
-
-
-  plugins:
-  - elixir-toolkit-theme-plugins
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-github-metadata
-  - jemoji
-  - webrick
+  - Gemfile
 
 defaults:
 # Define here page metadata attributes for all pages at once or on specific directories. More information: https://jekyllrb.com/docs/configuration/front-matter-defaults/
@@ -48,9 +24,8 @@ defaults:
       permalink: /:basename
       layout: "page"
       sidebar: main
-      search_exclude: false
 
-#theme_variables: 
+theme_variables: 
   # git_host: GitHub
   # back_to_top: true
   # privacy_statement_url: /privacy
@@ -78,7 +53,14 @@ defaults:
   # fonts:
   #   - url towards a font
 
-
+plugins:
+  - elixir-toolkit-theme-plugins
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-github-metadata
+  - jemoji
+  - webrick
 
 # --- Missing in gitlab: ---
 # github:
