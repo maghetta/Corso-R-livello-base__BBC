@@ -8,7 +8,7 @@ subitems:
 - title: Moduli Tematici
   subitems:
     - title: Perché programmare?
-    url: /programmare
+      url: /programmare
     - title: Modulo 1
       url: /modulo1
     - title: Modulo 2
@@ -18,4 +18,4 @@ subitems:
     - title: Modulo 4
       url: /modulo4
     - title: Modulo 5
-      url:/ modulo5
+      url: / modulo5
