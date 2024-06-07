@@ -2,13 +2,14 @@
 <header>
     <a class="visually-hidden-focusable" href='#main'>Skip to content</a>
     <a class="visually-hidden-focusable" href='#footer'>Skip to footer</a>
-    <nav class="navbar navbar-{{ site.theme_variables.topnav.theme | default: 'light' }} navbar-expand-lg mb-3 mb-lg-5">
+    <nav class="navbar navbar-{{ site.theme_variables.topnav.theme | default: 'light' }} navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="{{ '/' | relative_url }}"><img class="{% if site.topnav_title %}me-3 {% endif %}img-fluid" alt="{{site.title}} logo" src="{{ site.theme_variables.topnav.brand_logo | default: 'assets/img/main_logo.svg' | relative_url }}">{% if site.topnav_title %}<span class="me-0 me-lg-3">{{site.topnav_title}}</span>{% endif %}</a>
-            <button class="navbar-toggler text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="{{ '/' | relative_url }}"><img class="{% if site.topnav_title %}me-2 {% endif %}img-fluid" alt="{{site.title}} logo" src="{{ site.theme_variables.topnav.brand_logo | default: 'assets/img/main_logo.svg' | relative_url }}">{% if site.topnav_title %}<span class="me-0 me-lg-3">{{site.topnav_title}}</span>{% endif %}</a>
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <i title="navbar-toggler" class="fa-solid fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+			    
                 <ul class="navbar-nav gap-2">
                     <!-- navigation entries -->
                     {%- assign topnav = site.data.topnav %}
@@ -56,19 +57,9 @@
                         <a class="nav-link ps-2 d-flex align-items-center" href="{{site.theme_variables.topnav.twitter}}"><i class="fa-brands fa-twitter me-2"></i>Twitter</a>
                     </li>
                     {%- endif %}
-                    {%- if site.theme_variables.topnav.github or site.theme_variables.topnav.github == nil %}
-                    <li class="nav-item">
-                        <a class="nav-link ps-2 d-flex align-items-center" href="{{site.github.repository_url}}">
-                            {%- assign git_host = site.theme_variables.git_host | downcase %}
-                            {%- if git_host == 'gitlab' %}
-                            <i class="fa-brands fa-gitlab me-2"></i>
-                            {%- else %}
-                            <i class="fa-brands fa-github me-2"></i>
-                            {%- endif %}
-                            {{site.theme_variables.git_host | default: 'GitHub' }}
-                        </a>
-                    </li>
-                    {%- endif %}
+
+                    
+					
                     {%- unless include.search == false %}
                     <!--start search-->
                     <li class="nav-item">

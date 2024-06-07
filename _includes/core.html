@@ -43,20 +43,7 @@
         
        
        
-       <section class="py-5">
-            <div class="container">
-                <div class="row">
 
-                    <div class="col-lg-8 mt-3 mt-lg-0">
-                    {% include events.html caption=true title=true event_type="open_event" caption_url="/about/events" %}
-                    </div>
-
-                    <div class="col-lg-4 mt-3 mt-lg-0">
-                    {% include news.html caption=true title=true news_type="What's next?" limit=10 caption_url="/about/news" %}
-                    </div>                    
-                </div>
-            </div>
-       </section>
  </div>
     {%- if site.theme_variables.back_to_top or site.theme_variables.back_to_top == nil %}
     <button id="back-to-top" class="btn btn-primary" type="button" aria-hidden="true" onclick="topFunction()">
