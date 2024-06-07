@@ -35,7 +35,7 @@ Chris Bosh, professional basketball player
 [...e tanti altri...]
 </div>
 
-I superpoteri ... nella vita reale
+<h2 class="bg-dark">I superpoteri ... nella vita reale</h2>
 
 
 
