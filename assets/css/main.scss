@@ -1,25 +1,39 @@
 --- 
 layout: none
-permalink: assets/css/main.css
+permalink: assets/css/main
 ---
 
+@use "sass:color";
+
 /*-----Default theme variables-----*/
+
+@import "bootstrap/functions";
 $popover-max-width: 12em;
 $enable-caret: false;
+$h3-font-size: 1rem * 1.6 !default;
+$h2-font-size: 1rem * 2.1 !default;
+$h1-font-size: 1rem * 3.3 !default;
 $card-border-width: 0;
+$custom-container-max-widths: (
+    xxxl: 1500px
+);
 
-/*-----Include other SASS files-----*/
+/*-----Initialize Bootstrap variables-----*/
 
 @import "bootstrap_variables";
+@import "bootstrap/variables";
+
+/*-----Custom maps-----*/
+$container-max-widths: map-merge($container-max-widths, $custom-container-max-widths);
+
+/*-----Include other SASS files-----*/
 @import "bootstrap/bootstrap";
 @import "variables";
 @import "custom_variables";
 
-
-
 /*-----General styling-----*/
 
-main {
+#main {
     h1 {
         font-family: $font-family-theme;
         font-weight: 400;
@@ -54,10 +68,6 @@ main {
         word-wrap: break-word;
         -ms-word-break: break-all;
         word-break: break-word;
-
-        &:hover {
-            text-decoration: underline;
-        }
     }
 
     ol li,
@@ -69,10 +79,10 @@ main {
             font-weight: 600;
         }
     }
+}
 
-    img {
-        @extend .img-fluid;
-    }
+body img {
+    @extend .img-fluid;
 }
 
 .ff-body {
@@ -81,6 +91,82 @@ main {
 
 .ff-theme {
     font-family: $font-family-theme !important;
+}
+
+/*-----Layout-----*/
+
+#main {
+    grid-area: main;
+}
+
+@include media-breakpoint-up(md) {
+    #main {
+        display: grid;
+        grid-template-areas:
+            "intro"
+            "toc"
+            "content";
+        grid-template-rows: auto auto 1fr;
+    }
+}
+@include media-breakpoint-up(xl) {
+    #main {
+        grid-template-areas:
+            "intro toc"
+            "content toc";
+        grid-template-rows: auto 1fr;
+    }
+
+    .add-grid {
+        grid-template-columns: 5fr 2fr;
+    }
+}
+
+#toc {
+    grid-area: toc;
+    display: none;
+}
+
+@include media-breakpoint-up(xl) {
+    #toc {
+        top: $spacer * 3;
+        right: 0;
+        z-index: 2;
+        height: calc(100vh - 7rem);
+        overflow-y: auto;
+        margin-left: $spacer * 3;
+    }
+}
+
+#intro {
+    grid-area: intro;
+}
+
+#sidebar {
+    grid-area: sidebar;
+}
+
+#content {
+    grid-area: content;
+    min-width: 1px;
+    position: relative;
+    > h2:first-child {
+        margin-top: 0;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    #layout {
+        display: grid;
+        grid-template-areas: "sidebar main";
+        grid-template-columns: 3fr 9fr;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    #layout {
+        grid-template-columns: 2fr 9fr;
+    }
 }
 
 /*-----Blockquote-----*/
@@ -155,7 +241,7 @@ header .navbar {
         color: $topnav-title-color;
 
         img {
-            height: $topnav-brand-height;
+            max-height: $topnav-brand-height;
         }
     }
 }
@@ -171,7 +257,7 @@ header .navbar {
     font-weight: 900;
     margin-left: 0.25rem;
     content: "\f0d7";
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.15s ease-in-out;
 }
 
 .dropdown-toggle[aria-expanded="true"]::after {
@@ -294,15 +380,14 @@ header .navbar {
 /*-----Sidebar-----*/
 
 @include media-breakpoint-up(lg) {
-    #side-nav {
+    #sidebar > nav {
         display: block !important;
     }
 }
 
-#side-nav .btn.sidebar-title {
-    color: $secondary;
-    background-color: transparent;
-    border-color: transparent;
+#sidebar > nav .btn.sidebar-title {
+    color: $sidebar-color;
+    border: 0;
 }
 
 .sidebar-collapse {
@@ -320,7 +405,7 @@ header .navbar {
     background-color: $sidebar-bg-active;
 }
 
-#side-nav > ul {
+#sidebar > nav > ul {
     > li:not(.sidebar-title) > a {
         background-color: $sidebar-bg;
         color: $sidebar-color;
@@ -343,7 +428,7 @@ header .navbar {
             font-family: "Font Awesome 6 Free";
             font-weight: 900;
             content: "\f078";
-            transition: transform 0.2s ease-in-out;
+            transition: transform 0.15s ease-in-out;
         }
     }
 
@@ -374,6 +459,15 @@ header .navbar {
                 color: $sidebar-lvl3-color;
             }
         }
+
+        .sidebar_rdm_sub {
+            border-color: $sidebar-bg;
+            padding: 0.75rem 0.5rem 0.5rem 0.5rem;
+            border-radius: 0px 0px $border-radius $border-radius;
+            border-style: none solid solid solid;
+            border-width: 0.2em;
+            margin-top: -0.25rem;
+        }
     }
 }
 
@@ -393,28 +487,32 @@ header .navbar {
 
 /*-----TOC-----*/
 
-#toc {
-    background-color: $toc-bg;
-    // Indent the lists and reset any other padding
-
+#toc-contents {
+    @include media-breakpoint-up(xl) {
+        display: block !important;
+    } // Indent the lists and reset any other padding
     ul {
-        padding: 0 0 0 20px;
+        // highlighting active links
+        a {
+            color: inherit;
+            padding-left: 0.25rem;
+            border-left: 0.125rem solid transparent;
+            display: block;
+            transition: border-left 0.15s ease-in-out;
+            &.active,
+            &:hover {
+                text-decoration: none !important;
+                border-left: 0.125rem solid $primary;
+                color: $primary;
+            }
+        }
     }
-	
-    a {
-        color: $white
-    }
+
     // Consistent vertical space between list items
 
     li,
     ul ul li {
-        margin: 8px 0 0 0;
-    }
-
-    // Sublists
-
-    ul ul {
-        list-style: circle outside;
+        margin: 13px 0 0 0;
     }
 }
 
@@ -500,11 +598,11 @@ footer {
     }
 
     #ett-logo {
-        transition: color .15s ease-in-out;
+        transition: color 0.15s ease-in-out;
 
         .cls-1 {
             fill: $footer-ett;
-            transition: fill .15s ease-in-out;
+            transition: fill 0.15s ease-in-out;
         }
         &:hover {
             .cls-1 {
@@ -524,11 +622,25 @@ footer {
     opacity: 0;
     overflow: hidden;
     z-index: 1000;
+    font-size: 21px;
+    padding: 12px 20px;
+    transition:
+        bottom 0.15s ease-out,
+        opacity 0.15s ease-out;
 
     &.visible {
         bottom: $spacer;
         opacity: 1;
     }
+}
+
+/*-----Border radius card header/footer fix-----*/
+.card-header:first-child {
+    border-radius: $border-radius $border-radius 0 0;
+}
+
+.card-footer:last-child {
+    border-radius: 0 0 $border-radius $border-radius;
 }
 
 /*-----Contributors cards-----*/
@@ -557,17 +669,31 @@ footer {
 }
 
 @include media-breakpoint-down(md) {
-    #contributors-carousel .card-title {
-        font-size: 0.5em;
-    }
+    #contributors-carousel {
+        .card-title {
+            font-size: 0.5em;
+        }
 
-    #contributors-carousel .card-affiliation {
-        color: $primary;
-        font-size: 0.4em;
-    }
+        .card-affiliation,
+        .badge {
+            font-size: 0.4em;
+        }
 
-    #contributors-carousel .card-body {
-        padding: 0rem 0.5rem 0.5rem 0.5rem;
+        .card-body,
+        .card-footer {
+            padding: 0.5rem 0.25rem;
+        }
+
+        .social-icons {
+            line-height: 2ex;
+            width: 2.2ex;
+            height: 2.2ex;
+            i {
+                font-size: 0.625em;
+                line-height: 0.1em;
+                vertical-align: 0.225em;
+            }
+        }
     }
 }
 
@@ -590,14 +716,6 @@ footer {
     width: 4ex;
     height: 4ex;
     text-align: center;
-}
-
-@include media-breakpoint-down(md) {
-    #contributors-carousel .social-icons {
-        line-height: 1.2ex;
-        width: 1.2ex;
-        height: 1.2ex;
-    }
 }
 
 /*--------Page contributors---------*/
@@ -674,6 +792,33 @@ footer {
     transition-delay: 1000ms;
 }
 
+/*-----Tools-----*/
+
+.tool {
+    cursor: pointer;
+    color: $link-color;
+    background-color: rgba($link-color, 0.05);
+    border-radius: $border-radius;
+    padding: 0.1rem 0.25rem;
+
+    &:hover {
+        text-decoration: none !important;
+        color: $primary;
+    }
+}
+@include media-breakpoint-up(sm) {
+    .tool {
+        white-space: nowrap;
+    }
+}
+.popover-tool {
+    max-width: 20rem;
+
+    h5 {
+        font-weight: bold;
+    }
+}
+
 /*-----Hoover classes-----*/
 
 .hover-primary:hover,
@@ -709,7 +854,7 @@ footer {
 
 /*-----News and events-----*/
 
-li.open_event,
+li.upcoming_event,
 li.past_event,
 .events {
     display: none;
@@ -746,30 +891,67 @@ li.past_event,
 }
 
 /*-----More information tiles-----*/
-
-.info-card {
-    background-color: $info-card-bg;
-
-    .card-header {
-        background-color: $info-card-header-bg;
-        color: $info-card-header-color;
+// Main accordion style
+a.info-collapse {
+    i {
+        transition: transform .2s ease-in-out;
+        margin-right: $spacer;
     }
-
-    a:hover {
-        .text-muted {
-            transition: $btn-transition;
-            color: $white !important;
-        }
-
+    h3 {
+        transition: color .2s ease-in-out;
+    }
+    &[aria-expanded="true"] {
         i {
-            transition: $btn-transition;
-            color: $white !important;
+            transform: rotate(180deg);
         }
     }
+    &:hover {
+        i,
+        h3 {
+            color: rgba($link-color, .8)!important;
+        }
+    }
+}
 
-    img {
-        height: 40px;
-        max-width: 45px;
+// Add a bottom border to the last accordion.
+a.info-collapse[aria-expanded="false"]:last-of-type, 
+a.info-collapse[aria-expanded="true"]:last-of-type + .show {
+    border-bottom: 1px solid $border-color;
+}
+
+// Collapsed content styling
+.info-card {
+    .info-logo {
+        max-width: 250px;
+        max-height: 40px;
+    }
+
+    // Do not show border on last row tools table
+    .tooltable tbody tr:last-of-type {
+        border-bottom-color: transparent;
+    }
+
+    .info-links {
+        a.btn {
+            background-color: $info-card-bg;
+            color: $info-card-color;
+            i {
+                transition: $btn-transition;
+                color: $info-card-color !important;
+            }
+            &:hover {
+                background-color: $info-card-bg-hover;
+                color: $info-card-color-hover !important;
+                i {
+                    color: $info-card-color-hover !important;
+                }
+            }
+        }
+
+        img {
+            height: 30px;
+            max-width: 35px;
+        }
     }
 }
 
@@ -781,51 +963,36 @@ li.past_event,
 }
 
 /*-----Section navigation tiles-----*/
-
 .navigation-tiles {
-    .card {
+    .card,
+    .btn {
         background-color: $nav-card-bg;
-
-        a:not(.stretched-link),
-        button:not(.stretched-link) {
-            z-index: 2;
-            position: relative;
-        }
-
-        .card-header {
-            background-color: $nav-card-header-bg;
-
-            a {
-                color: $nav-card-header-color;
-            }
-        }
-	    
-        .card-header-upc {
-            background-color: $nav-card-header-bgu;
-
-            a {
-                color: $nav-card-header-coloru;
+        color: $nav-card-color;
+        transition: $btn-transition;
+        &:hover {
+            background-color: $nav-card-bg-hover;
+            color: $nav-card-color-hover;
+            a.section-title {
+                text-decoration: none;
+                transition: $btn-transition;
+                color: $nav-card-color-hover;
             }
         }
 
-        .card-header-clo {
-            background-color: $nav-card-header-bgc;
+        a {
+            &:not(.stretched-link),
+            button:not(.stretched-link) {
+                z-index: 2;
+                position: relative;
+            }
 
-            a {
-                color: $nav-card-header-colorc;
+            &.section-title {
+                color: $nav-card-color;
+                font-size: 1.2rem;
             }
         }
-	    
-        button {
-            background-color: $nav-card-badge-bg;
-            color: $nav-card-badge-color;
-            &:hover {
-                color: $nav-card-badge-color-hover;
-                background-color: $nav-card-badge-bg-hover;
-            }
-            img {
-                height: 1.2em;
-            }
+        .type-icon {
+            height: 1.2rem;
         }
     }
 }
