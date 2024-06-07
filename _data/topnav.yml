@@ -3,4 +3,10 @@
 subitems:
 - title: Home
   url: /index
+-title: Schedule
+  url: /Schedule
+-title: Moduli tematici
+  subitems: 
+    - title: Perché Programmare?
+      url: /why_prog
     
