@@ -23,7 +23,7 @@ defaults:
     values:
       permalink: /:basename
       layout: "page"
-      sidebar: main
+      
       
 theme_variables: 
   # git_host: GitHub
