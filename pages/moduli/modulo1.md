@@ -90,17 +90,17 @@ In ambito scientifico, per assicurare trasparenza e riproducibilità di procedur
 
 Il linguaggio di programmazione R
 
-![Pagina wiki R](images/R_page.png)
+![Pagina wiki R](images/modulo1/R_page.png)
 
 
 - R è un linguaggio di programmazione potente e gratuito, specialmente per l'analisi di dati e la visualizzazione grafica dei risultati
 - R, con Python, è ormai da anni il linguaggio di programmazione open source più usato per l'analisi di dati (vedi ad esempio questa classifica stilata da KDnuggets)
 
-![Pagina wiki R](images/R_page2.png)
+![Pagina wiki R](images/modulo1/R_page2.png)
 
 - R è un software multipiattaforma, disponibile per sistemi UNIX e UNIX-based (Linux), Windows e Mac OS X
 
-![Pagina CRAN](images/CRAN.png)
+![Pagina CRAN](images/modulo1/CRAN.png)
 
 - R ha una comunità di utilizzatori e sviluppatori attiva e vastissima, che assicura migliaia di pacchetti disponibili e aggiornati, grande supporto (es: forum online) e facile accesso a documentazione
 
@@ -139,32 +139,39 @@ Per svolgere i capitoli 1 (Introduzione alle basi di R) e 2 (Vettori) del corso 
 NOTA: possono comparire durante il corso messaggi promozionali (vedi ad esempio **Figura "esempio messaggio promozionale da rifiutare"**). Semplicemente, scegli sempre di chiudere il messaggio (quando possibile) oppure di continuare il corso ("Continue course" nella figura di esempio riportata qui sotto).
 
 
+![modulo1_step4](images/modulo1/step4.png)
+**Figura "step 4"**
+
+![modulo1_step5](images/modulo1/step5.png)
+**Figura "step 5"**
+
+
+![modulo1_schema_datacamp](images/modulo1/schema_datacamp.png)
+
+schema della finestra di lavoro del corso R su DataCamp
+
+NOTA: 
+
+- i riquadri (1), (2) e (4) sono specifici del sito di  DataCamp.
+
+- (3) e (5) rappresentano 2 elementi fondamentali della programmazione in R, in particolare:
+
+	1. Il riquadro (3) fornisce un editor di testo (software per scrivere il tuo codice R)
+
+	2. Il riquadro (5) fornisce la console R: ambiente interattivo in grado di ricevere e interpretare le righe di comando scritte utilizzando la sintassi del linguaggio R
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[datacamp1](images/datacamp1.png)
+![datacamp1](images/modulo1/datacamp1.png)
 
 **Figura "step 6"**
 
-[datacamp2](images/datacamp2.png)
+[datacamp2](images/modulo1/datacamp2.png)
 
-Figura "esempio messaggio promozionale da rifiutare"
+**Figura "esempio messaggio promozionale da rifiutare"**
 
-****C'è un errore nel capitolo 2****
+
+**C'è un errore nel capitolo 2**
 
 Nel capitolo 2 (vettori) c'è un errore nella descrizione al paragrafo "crea un vettore (3)".
 
@@ -179,3 +186,15 @@ Per sottomettere con successo la risposta è necessario considerare per il vetto
 - Giovedì hai perso $350
 
 - Venerdì hai vinto $10
+
+[schema_datacamp2](images/modulo1/schema_datacamp2.png)
+
+___
+
+## Sfide interattive
+
+- Nomina 2 funzioni di R che conosci
+- a = c(1:7, 21:15,67); come puoi sapere in R la media del vettore a? \[opzione 1: mean(a); opzione 2: media(a); opzione 3: median(a)]
+- come fai in R a verificare se 65 è maggiore di 34?
+- Quale parentesi devi usare per specificare 1 o + elementi di un vettore da estrarre?  \[opzione 1: {}; opzione 2: \[]; opzione 3: (())]
+- qui = c("A","E","O"); quo = "I"; qua = "U"
