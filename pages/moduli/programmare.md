@@ -15,7 +15,7 @@ title: Perché Programmare?
 ### Perché programmare 
 
 
-[![Anteprima Video](https://img.youtube.com/vi/)](https://youtu.be/nKIu9yen5nc) 
+[![Anteprima Video](https://img.youtube.com/vi/nKIu9yen5nc)](https://youtu.be/nKIu9yen5nc) 
 
 Everybody in this country should learn how to program a computer because it teaches you how to think...
 
