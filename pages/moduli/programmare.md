@@ -12,10 +12,11 @@ title: Perché Programmare?
 
 - Blocky: (a Google coding game)
 
-### Perché programmare
+### Perché programmare 
 
 
-Everybody in this country should learn how to program a computer because it teaches you how to think...
+<div>[![Anteprima Video](https://img.youtube.com/vi/)](https://youtu.be/nKIu9yen5nc)
+</div><div>Everybody in this country should learn how to program a computer because it teaches you how to think...
 
 Steve Jobs (Co-founder, chairman and CEO of Apple)
 
@@ -32,6 +33,7 @@ Ruchi Sanghvi, vice-president of operations at Dropbox
 Chris Bosh, professional basketball player
 
 [...e tanti altri...]
+</div>
 
 I superpoteri ... nella vita reale
 
