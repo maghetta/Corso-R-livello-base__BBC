@@ -101,3 +101,5 @@ Il linguaggio di programmazione R
 - R è un software multipiattaforma, disponibile per sistemi UNIX e UNIX-based (Linux), Windows e Mac OS X
 
 ![Pagina CRAN](images/CRAN.png)
+
+- R ha una comunità di utilizzatori e sviluppatori attiva e vastissima, che assicura migliaia di pacchetti disponibili e aggiornati, grande supporto (es: forum online) e facile accesso a documentazione
