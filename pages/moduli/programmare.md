@@ -38,7 +38,7 @@ Chris Bosh, professional basketball player
 
 <h2 class="bg-dark mb-3">I superpoteri ... nella vita reale</h2>
 
-![Astronauta](images/astro.jpg)![Old_PC](images/old_pc.jpg)![too_goo](images/too_goo.png)
+![Astronauta](images/astro.jpg){: height="100px" width="100px"}![Old_PC](images/old_pc.jpg){: height="100px" width="100px"}![too_goo](images/too_goo.png){: height="100px" width="100px"}
 
 La programmazione ha reso possibile lo sbarco sulla luna, e accorciato la WWII
 
