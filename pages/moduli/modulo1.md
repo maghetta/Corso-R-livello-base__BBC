@@ -91,3 +91,13 @@ In ambito scientifico, per assicurare trasparenza e riproducibilità di procedur
 Il linguaggio di programmazione R
 
 [Pagina wiki R](images/R_page.png)
+
+
+- R è un linguaggio di programmazione potente e gratuito, specialmente per l'analisi di dati e la visualizzazione grafica dei risultati
+- R, con Python, è ormai da anni il linguaggio di programmazione open source più usato per l'analisi di dati (vedi ad esempio questa classifica stilata da KDnuggets)
+
+[Pagina wiki R](images/R_page2.png)
+
+- R è un software multipiattaforma, disponibile per sistemi UNIX e UNIX-based (Linux), Windows e Mac OS X
+
+[Pagina CRAN](images/CRAN.png)
