@@ -15,8 +15,9 @@ title: Perché Programmare?
 ### Perché programmare 
 
 
-<div>[![Anteprima Video](https://img.youtube.com/vi/)](https://youtu.be/nKIu9yen5nc)
-</div><div>Everybody in this country should learn how to program a computer because it teaches you how to think...
+[![Anteprima Video](https://img.youtube.com/vi/)](https://youtu.be/nKIu9yen5nc) 
+
+Everybody in this country should learn how to program a computer because it teaches you how to think...
 
 Steve Jobs (Co-founder, chairman and CEO of Apple)
 
@@ -33,7 +34,7 @@ Ruchi Sanghvi, vice-president of operations at Dropbox
 Chris Bosh, professional basketball player
 
 [...e tanti altri...]
-</div>
+
 
 <h2 class="bg-dark">I superpoteri ... nella vita reale</h2>
 
