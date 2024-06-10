@@ -47,10 +47,10 @@ Chris Bosh, professional basketball player
   <tr>
     <td>
       <img src="images/astro.jpg" style="height: 200px; width: auto;"><br>
-      <img src="old_pc.jpg" style="height: 200px; width: auto;">
+      <img src="images/old_pc.jpg" style="height: 200px; width: auto;">
     </td>
     <td>
-      <img src="too_goo.png" style="height: 400px; width: auto;">
+      <img src="images/too_goo.png" style="height: 400px; width: auto;">
     </td>
   </tr>
 </table>
