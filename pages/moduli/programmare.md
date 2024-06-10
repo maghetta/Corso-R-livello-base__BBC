@@ -75,7 +75,7 @@ Chris Bosh, professional basketball player
 
 
 <hr>
-<iframe width="560" height="315" src="https://youtu.be/Zh6E99aySI4" title="Titolo del video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zh6E99aySI4" title="Titolo del video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <hr>
 Il pensiero computazionale
 
@@ -83,7 +83,7 @@ Il pensiero computazionale
 <table>
   <tr>
     <td>
-      <iframe width="560" height="315" src="[https://youtu.be/Zh6E99aySI4](https://youtu.be/vNaNxwATJqY)" title="Titolo del video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/vNaNxwATJqY" title="Titolo del video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </td>
     <td>
 Il pensiero computazionale – può essere definito come l’insieme dei processi mentali usati per modellare una situazione e specificare i modi mediante i quali un agente elaboratore di informazioni può operare in modo effettivo all’interno della situazione stessa per raggiungere uno o più obiettivi forniti dall’esterno.
