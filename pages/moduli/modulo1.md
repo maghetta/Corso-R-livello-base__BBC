@@ -237,4 +237,4 @@ Per sottomettere con successo la risposta è necessario considerare per il vetto
 ### Riferimenti utili
 
 - <span style="color:blue;">Progetto R - sito ufficiale: [https://www.r-project.org/](https://www.r-project.org/)</span>
-- <span style="color:blue;">Corso introduttivo di R su DataCamp: [https://www.datacamp.com/courses/free-introduction-to-r](https://www.datacamp.com/courses/free-introduction-to-r)</span>
+- <span style="color:blue;">Corso introduttivo di R su DataCamp:[https://app.datacamp.com/learn/courses/introduzione-a-r](https://app.datacamp.com/learn/courses/introduzione-a-r)</span>
