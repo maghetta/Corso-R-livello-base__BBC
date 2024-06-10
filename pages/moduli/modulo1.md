@@ -212,7 +212,7 @@ Per sottomettere con successo la risposta è necessario considerare per il vetto
 
 - Venerdì hai vinto $10
 
-[schema_datacamp2](images/modulo1/schema_datacamp2.png)
+![schema_datacamp2](images/modulo1/schema_datacamp2.png)
 
 <hr class="bg-dark mb-4">
 
