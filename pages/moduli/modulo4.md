@@ -2,6 +2,10 @@
 title: Modulo 4
 ---
 
+![modulo4](/images/modulo4/modulo4.jpg)
+
+<br>
+
 ## Argomenti di oggi
 
 - Liste in R, cioé il capitolo 6 del corso di Introduzione a R di DataCamp
@@ -211,7 +215,7 @@ NOTA 2: questo passaggio sarà necessario solo la prima volta che usiamo un nuov
 
 2. caricare il dato pacchetto nella propria sessione di lavoro di R,  con la funzione library():
 
-es. **library(A3) **                            # nota il nome del pacchetto scritto senza virgolette
+es. **library(A3)**                            # nota il nome del pacchetto scritto senza virgolette
 
 NOTA: questo passaggio sarà necessario ogni volta che vorremo utilizzare le funzioni di un dato pacchetto R nella nostra sessione di lavoro
 

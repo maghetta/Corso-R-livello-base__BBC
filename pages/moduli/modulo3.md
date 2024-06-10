@@ -2,6 +2,10 @@
 title: Modulo 3
 ---
 
+![modulo3](/images/modulo3/modulo3.jpg)
+
+<br>
+
 ## Argomenti di oggi
 
 - *Data Frames in R, cioé il capitolo 5 del [corso di Introduzione a R di DataCamp](https://www.datacamp.com/courses/free-introduction-to-r)*

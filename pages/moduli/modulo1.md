@@ -2,6 +2,9 @@
 title: Modulo 1
 ---
 
+![modulo1](/images/modulo1/modulo1.jpg)
+
+<br>
 
 ## Argomenti di oggi
 
