@@ -88,7 +88,7 @@ Il pensiero computazionale
     <td>
 Il pensiero computazionale – può essere definito come l’insieme dei processi mentali usati per modellare una situazione e specificare i modi mediante i quali un agente elaboratore di informazioni può operare in modo effettivo all’interno della situazione stessa per raggiungere uno o più obiettivi forniti dall’esterno.
 
-fonte: [programmareilfuturo.it](https://programmailfuturo.it/progetto/cose-il-pensiero-computazionale)
+fonte: <a href="https://programmailfuturo.it/progetto/cose-il-pensiero-computazionale">programmareilfuturo.it</a>
 
 un modo di pensare che ci aiuta a formulare un procedimento, ossia una sequenza ordinata di singoli passaggi necessari a realizzare un obiettivo, ad esempio trovare una soluzione a un problema che dobbiamo risolvere
       
