@@ -17,29 +17,15 @@ title: Perché Programmare?
 
 ### Perché programmare 
 
+<table>
+  <tr>
+    <td> <iframe width="560" height="315" src="https://www.youtube.com/embed/nKIu9yen5nc" title="Titolo del video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+    <td>
+      Everybody in this country should learn how to program a computer because it teaches you how to think...<br>Steve Jobs (Co-founder, chairman and CEO of Apple)<br>Perché programmare secondo:<br>Bill Gates, co-founder of Microsoft<br>Jack Dorsey, co-founder of Twitter<br>Mark Zuckerberg, Chief Executive Officer of Facebook<br>Ruchi Sanghvi, vice-president of operations at Dropbox<br>Gabe Newell, Valve founder and game designer<br>Chris Bosh, professional basketball player<br>[...e tanti altri...]
+    </td>
+  </tr>
+</table>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nKIu9yen5nc" title="Titolo del video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
-Everybody in this country should learn how to program a computer because it teaches you how to think...
-
-Steve Jobs (Co-founder, chairman and CEO of Apple)
-
-Perché programmare secondo:
-
-Bill Gates, co-founder of Microsoft
-
-Jack Dorsey, co-founder of Twitter
-
-Mark Zuckerberg, Chief Executive Officer of Facebook
-
-Ruchi Sanghvi, vice-president of operations at Dropbox
-
-Chris Bosh, professional basketball player
-
-[...e tanti altri...]
 
 
 <h2 class="bg-dark mb-4">I superpoteri ... nella vita reale</h2>
