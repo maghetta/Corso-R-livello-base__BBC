@@ -104,13 +104,10 @@ Il progetto Hour-of-Code: evento internazionale
 
 <table>
   <tr>
-    <td><img src="images/programmare/scheme_code.png" style="height: 500px; width: auto;"> </td>
+    <td>  <img src="images/programmare/scheme_code.png" style="height: 500px; width: auto;"> </td>
       
 
-  </tr>
-
-  <tr>
-    <td> cos'è: Iniziativa mondiale promossa da Code.org, associazione non-profit che promuove l'insegnamento della programmazione nelle scuole, dalla materna alle superiori.
+  <td> cos'è: Iniziativa mondiale promossa da <a href="https://code.org/"><img src="logo_code.svg" alt="Logo_code" style="width: 100px; height: 100px;"></a>, associazione non-profit che promuove l'insegnamento della programmazione nelle scuole, dalla materna alle superiori.
       <br>
       <br>
       quando: ufficialmente a inizio Dicembre ... ma anche quando vuoi tu
