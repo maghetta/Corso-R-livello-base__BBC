@@ -100,10 +100,11 @@ Il pensiero computazionale
 <hr>
 
 Il progetto Hour-of-Code: evento internazionale
+<hr>
 
 <table>
   <tr>
-    <td> ![scheme_code](images/programmare/scheme_code.png) </td>
+    <td><img src="images/programmare/scheme_code.png" style="height: 500px; width: auto;"> </td>
       
 
   </tr>
