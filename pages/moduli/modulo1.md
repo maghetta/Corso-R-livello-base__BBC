@@ -214,7 +214,7 @@ Per sottomettere con successo la risposta è necessario considerare per il vetto
 
 [schema_datacamp2](images/modulo1/schema_datacamp2.png)
 
-___
+<hr class="bg-dark mb-4">
 
 ## Sfide interattive
 
