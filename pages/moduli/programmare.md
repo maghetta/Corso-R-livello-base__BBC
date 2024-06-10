@@ -46,11 +46,17 @@ Chris Bosh, professional basketball player
 <table>
   <tr>
     <td>
-      <img src="images/astro.jpg" style="height: 200px; width: auto;"><br>
+      <figure>
+        <img src="images/astro.jpg" style="height: 200px; width: auto;"><br><br>
       <img src="images/old_pc.jpg" style="height: 200px; width: auto;">
+        <figcaption>La programmazione ha reso possibile lo sbarco sulla luna, e accorciato la WWII</figcaption>
+      </figure>
     </td>
     <td>
+      <figure>
       <img src="images/too_goo.png" style="height: 400px; width: auto;">
+        <figcaption>La programmazione ha svolto un ruolo diretto nei principali eventi nel corso della storia, ma fa anche parte della nostra vita quotidiana. E può cambiare la nostra vita quotidiana, come può fare una semplice applicazione, per non sprecare il cibo.</figcaption>
+      </figure>
     </td>
   </tr>
 </table>
@@ -59,13 +65,12 @@ Chris Bosh, professional basketball player
 
 
 
-|La programmazione ha reso possibile lo sbarco sulla luna, e accorciato la WWII|
 
 
-La programmazione ha svolto un ruolo diretto nei principali eventi nel corso della storia, ma fa anche parte della nostra vita quotidiana. E può cambiare la nostra vita quotidiana, come può fare una semplice applicazione, per non sprecare il cibo.|
 
-Ti viene in mente qualche altro esempio - di vita comune o di grandi eventi - in cui la programmazione gioca/ha giocato un ruolo importante?
 
+<hr>Ti viene in mente qualche altro esempio - di vita comune o di grandi eventi - in cui la programmazione gioca/ha giocato un ruolo importante?
+<hr>
 
 Il pensiero computazionale
 
