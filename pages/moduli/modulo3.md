@@ -135,7 +135,7 @@ diversi altri esempi di funzioni disponibili in R, quali: *matrix(), rownames(),
 
 
 
-Per riprendere il corso di R su DataCamp al capitolo 5 --> segui i passaggi illustrati nella [pagina web del Modulo 2](pages/modulo2.md) alla sezione intitolata
+Per riprendere il corso di R su DataCamp al capitolo 5 --> segui i passaggi illustrati nella [pagina web del Modulo 2](pages/moduli/modulo2.md) alla sezione intitolata
 
 ***
 
