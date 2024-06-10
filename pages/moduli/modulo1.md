@@ -47,25 +47,45 @@ Al termine di questa attività dovresti essere in grado di:
 
 durata: 6 ore; modalità: presenza
 
-[8:30-9:30]	Introduzione all'attività di oggi + panoramica di R
-
-[pausa 10']
-
-[9:40-10:20]	Svolgimento corso R online (capitolo 1)
-
-[10:20-10:50]	Sfide interattive sul contenuto del capitolo 1
-
-[pausa 10']
-
-[11:00-11:40]	Svolgimento corso R online (capitolo 2)
-
-[11:40-12:10]	Sfide interattive sul contenuto del capitolo 2
-
-[pausa pranzo 40']
-
-[12:50-14:00]	Svolgimento e invio prodotto di lavoro richiesto
-
-[14:00-14:30]	Conclusioni
+<table border="1" width="700">
+	<tr>
+		<td>8:30-9:30</td>
+		<td>Introduzione all'attività di oggi + panoramica di R</td>
+	</tr>
+	<tr>
+	<td colspan="2">pausa 10'</td>
+	</tr>
+	<tr>
+		<td>9:40-10:20</td>
+		<td>Svolgimento corso R online (capitolo 1)</td>		
+	</tr>
+	<tr>
+		<td>10:20-10:50</td>
+		<td>Sfide interattive sul contenuto del capitolo 1</td>		
+	</tr>
+	<tr>
+	<td colspan="2">pausa 10'</td>
+	</tr>
+	<tr>
+		<td>11:00-11:40</td>
+		<td>Svolgimento corso R online (capitolo 2)</td>		
+	</tr>
+	<tr>
+		<td>11:40-12:10</td>
+		<td>Sfide interattive sul contenuto del capitolo 2</td>		
+	</tr>
+	<tr>
+	<td colspan="2">pausa 40'</td>
+	</tr>
+	<tr>
+		<td>12:50-14:00</td>
+		<td>Svolgimento e invio prodotto di lavoro richiesto</td>		
+	</tr>
+	<tr>
+		<td>14:00-14:30</td>
+		<td>Conclusioni</td>		
+	</tr>
+</table>
 
 <br>
 
@@ -73,7 +93,7 @@ durata: 6 ore; modalità: presenza
 
 <br>
 
-Un passo indietro: perché imparare a programmare?
+### Un passo indietro: perché imparare a programmare?
 
 Programmare vuol dire saper scrivere un programma che una macchina può comprendere per far sì che esegua una data attività. 
 Un programma è un gruppo di operazioni (esempio funzioni logiche o matematiche) da svolgere in una data sequenza. Quando sono eseguite insieme in un certo ordine stabilito dal programma, queste operazioni portano a compimento una data attività.
@@ -81,20 +101,22 @@ Programmare ci consente di creare cose come software per computer, siti web, app
 
 
 Imparare a programmare è un'ottima scelta per tante buone ragioni, ad esempio: <br>
-- Per acquisire una forma mentale basata su ragionamento lineare, logica e rigore di fronte ad un problema e per pensare e delineare una sua possibile soluzione. Un'abilità che puoi applicare nella vita in generale, non solo per chi finisca a lavorare nell'informatica o in ambiti affini.
-- Perché nella nostra quotidianità siamo pervasi dalla tecnologia, e conoscere almeno le basi di un linguaggio di programmazione ci aiuta a vedere questa tecnologia - per quanto complessa - non come magiche scatole nere ma come prodotto della programmazione di qualche essere umano, riconducibile ad un numero finito di istruzioni.
-- Perché programmare è molto più semplice di quanto si pensi, almeno a livello base. Ed essere esposti ad un linguaggio di programmazione può farci scoprire un'interesse.
-- Perché nel nostro mondo sempre più tecnologico, il programmatore come l'analista di dati (una persona capace di scrivere programmi utili ad estrarre informazioni e conoscenza da collezioni di dati) è uno dei mestieri a più grande richiesta in vari contesti lavorativi, dalla ricerca all'industria.
+- Per acquisire una forma mentale basata su **ragionamento lineare, logica e rigore di fronte ad un problema e per pensare e delineare una sua possibile soluzione**. Un'abilità che puoi applicare nella vita in generale, non solo per chi finisca a lavorare nell'informatica o in ambiti affini.
+- Perché nella nostra quotidianità siamo **pervasi dalla tecnologia**, e conoscere almeno le basi di un linguaggio di programmazione ci aiuta a vedere questa tecnologia - per quanto complessa - **non** come **magiche scatole nere** ma come prodotto della programmazione di qualche essere umano, riconducibile ad un numero finito di istruzioni.
+- Perché programmare è **molto più semplice di quanto si pensi**, almeno a livello base. Ed essere esposti ad un linguaggio di programmazione può farci scoprire un'interesse.
+- Perché nel nostro mondo sempre più tecnologico, **il programmatore come l'analista di dati** (una persona capace di scrivere programmi utili ad estrarre informazioni e conoscenza da collezioni di dati) **è uno dei mestieri a più grande richiesta** in vari contesti lavorativi, dalla ricerca all'industria.
 - Per automatizzare procedure ripetute più volte, rendendole più semplici, più veloci e meno soggette ad errore (es. grafico settimanale andamento dati pandemici)
-In ambito scientifico, per assicurare trasparenza e riproducibilità di procedure di analisi di dati effettuate che hanno portato ad una data conclusione e nuova conoscenza.
+In ambito scientifico, **per assicurare trasparenza e riproducibilità** di procedure di analisi di dati effettuate che hanno portato ad una data conclusione e nuova conoscenza.
 
+<hr>
 Il linguaggio di programmazione R
+<hr>
 
 ![Pagina wiki R](images/modulo1/R_page.png)
 
 
 - R è un linguaggio di programmazione potente e gratuito, specialmente per l'analisi di dati e la visualizzazione grafica dei risultati
-- R, con Python, è ormai da anni il linguaggio di programmazione open source più usato per l'analisi di dati (vedi ad esempio questa classifica stilata da KDnuggets)
+- R, con Python, è ormai da anni il linguaggio di programmazione *open source* più usato per l'analisi di dati (vedi ad esempio questa classifica stilata da [KDnuggets](https://www.kdnuggets.com/2019/05/new-poll-software-analytics-data-science-machine-learning.html))
 
 ![Pagina wiki R](images/modulo1/R_page2.png)
 
@@ -102,23 +124,24 @@ Il linguaggio di programmazione R
 
 ![Pagina CRAN](images/modulo1/CRAN.png)
 
-- R ha una comunità di utilizzatori e sviluppatori attiva e vastissima, che assicura migliaia di pacchetti disponibili e aggiornati, grande supporto (es: forum online) e facile accesso a documentazione
+- R ha una comunità di utilizzatori e sviluppatori attiva e vastissima, che assicura **migliaia di pacchetti disponibili e aggiornati**, grande supporto (es: forum online) e facile accesso a **documentazione**
 
 ___
 
 ## Svolgimento corso R online su DataCamp (capitoli 1 e 2)
+<br>
 
-Per svolgere i capitoli 1 (Introduzione alle basi di R) e 2 (Vettori) del corso online di R:
+Per svolgere i capitoli 1 (*Introduzione alle basi di R*) e 2 (**Vettori**) del corso online di R:
 
 1. Collegati al sito di DataCamp: [https://www.datacamp.com/](https://www.datacamp.com/)
 
-2. Effettua l'accesso con le credenziali (indirizzo email e password) ricevute (--> click sul pulsante "Sign In" in alto a destra nella pagina)
+2. Effettua l'accesso con le credenziali (indirizzo email e password) ricevute (--> click sul pulsante **"Sign In"** in alto a destra nella pagina)
 
 3. Ora collegati al seguente link:  [https://www.datacamp.com/community/open-courses/introduzione-a-r](https://www.datacamp.com/community/open-courses/introduzione-a-r) (fai un click sopra al link oppure copia/incolla il link in una nuova finestra di browser)
 
-4. Fai click sul pulsante giallo "Start Free Course" in alto al centro della pagina (subito sotto il titolo "Introduzione a R" (vedi Figura "step 4" qui sotto)
+4. Fai click sul pulsante giallo "Start Free Course" in alto al centro della pagina (subito sotto il titolo "Introduzione a R" (vedi **Figura "step 4"** qui sotto)
 
-5. Inizia il corso (vedi Figura "step 5" qui sotto). In particolare, per ogni schermata: 
+5. Inizia il corso (vedi **Figura "step 5"** qui sotto). In particolare, per ogni schermata: 
 
 	- Leggi ***con calma e con attenzione*** la spiegazione fornita nel pannello a sinistra in alto.
 
@@ -140,9 +163,11 @@ NOTA: possono comparire durante il corso messaggi promozionali (vedi ad esempio 
 
 
 ![modulo1_step4](images/modulo1/step4.png)
+
 **Figura "step 4"**
 
 ![modulo1_step5](images/modulo1/step5.png)
+
 **Figura "step 5"**
 
 
@@ -166,7 +191,7 @@ NOTA:
 
 **Figura "step 6"**
 
-[datacamp2](images/modulo1/datacamp2.png)
+![datacamp2](images/modulo1/datacamp2.png)
 
 **Figura "esempio messaggio promozionale da rifiutare"**
 
