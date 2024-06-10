@@ -229,3 +229,9 @@ Per sottomettere con successo la risposta è necessario considerare per il vetto
 
 <br>
 
+<hr class="bg-dark mb-4">
+
+### Riferimenti utili
+
+- <span style="color:blue;">Progetto R - sito ufficiale: [https://www.r-project.org/](https://www.r-project.org/)</span>
+- <span style="color:blue;">Corso introduttivo di R su DataCamp: [https://www.datacamp.com/courses/free-introduction-to-r](https://www.datacamp.com/courses/free-introduction-to-r)</span>
