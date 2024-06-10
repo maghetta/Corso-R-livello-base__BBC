@@ -41,12 +41,13 @@ Chris Bosh, professional basketball player
 
 <h2 class="bg-dark mb-3">I superpoteri ... nella vita reale</h2>
 
-![Astronauta](images/astro.jpg){: height="200px" width="200px"}![Old_PC](images/old_pc.jpg){: height="200px" width="200px"}![too_goo](images/too_goo.png){: height="200px" width="200px"}
+| ![Astronauta](images/astro.jpg){: height="200px" width="200px"}|![too_goo](images/too_goo.png){: height="200px" width="200px"}|
+|![Old_PC](images/old_pc.jpg){: height="200px" width="200px"}|:---:|
 
-La programmazione ha reso possibile lo sbarco sulla luna, e accorciato la WWII
+|La programmazione ha reso possibile lo sbarco sulla luna, e accorciato la WWII|
 
 
-La programmazione ha svolto un ruolo diretto nei principali eventi nel corso della storia, ma fa anche parte della nostra vita quotidiana. E può cambiare la nostra vita quotidiana, come può fare una semplice applicazione, per non sprecare il cibo.
+La programmazione ha svolto un ruolo diretto nei principali eventi nel corso della storia, ma fa anche parte della nostra vita quotidiana. E può cambiare la nostra vita quotidiana, come può fare una semplice applicazione, per non sprecare il cibo.|
 
 Ti viene in mente qualche altro esempio - di vita comune o di grandi eventi - in cui la programmazione gioca/ha giocato un ruolo importante?
 
