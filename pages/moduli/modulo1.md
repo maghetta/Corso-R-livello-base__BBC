@@ -6,11 +6,11 @@ title: Modulo 1
 
 <br>
 
-## Argomenti di oggi
+## Argomenti
 
 - Il linguaggio di programmazione R 
 
-- la piattaforma di learning DataCamp e il suo corso di Introduzione a R, gratuito e in italiano; 
+- la piattaforma di learning DataCamp e il suo corso di Introduzione a R, gratuito ed in italiano; 
 
 - Introduzione alle basi di R e Vettori in R, cioé i capitoli 1 e 2 del corso di Introduzione a R di DataCamp
 
@@ -19,7 +19,7 @@ title: Modulo 1
 <br>
 
 
-## Obiettivi conoscitivi di oggi
+## Obiettivi conoscitivi
 
 
 Al termine di questa attività dovresti essere in grado di:
@@ -46,53 +46,57 @@ Al termine di questa attività dovresti essere in grado di:
 <br>
 <br>
 
-## Programma dell'attività di oggi
+## Durata e programma dell'attività:
 
-durata: 6 ore; modalità: presenza
+4 ore;
 
 <table border="1" width="700">
 	<tr>
-		<td>8:30-9:30</td>
-		<td>Introduzione all'attività di oggi + panoramica di R</td>
+		<td>[10']</td>
+		<td>Introduzione all'attività del modulo</td>
 	</tr>
 	<tr>
-	<td colspan="2">pausa 10'</td>
+		<td>[30']</td>
+		<td>R: una panoramica introduttiva (cosa è, diffusione, vantaggi)</td>
 	</tr>
 	<tr>
-		<td>9:40-10:20</td>
+	<td colspan="2">pausa 15'</td>
+	</tr>
+	<tr>
+		<td>[40']</td>
 		<td>Svolgimento corso R online (capitolo 1)</td>		
 	</tr>
 	<tr>
-		<td>10:20-10:50</td>
+		<td>[30']</td>
 		<td>Sfide interattive sul contenuto del capitolo 1</td>		
 	</tr>
 	<tr>
-	<td colspan="2">pausa 10'</td>
+	<td colspan="2">pausa 15'</td>
 	</tr>
 	<tr>
-		<td>11:00-11:40</td>
+		<td>[40']</td>
 		<td>Svolgimento corso R online (capitolo 2)</td>		
 	</tr>
 	<tr>
-		<td>11:40-12:10</td>
+		<td>[30']</td>
 		<td>Sfide interattive sul contenuto del capitolo 2</td>		
 	</tr>
 	<tr>
-	<td colspan="2">pausa 40'</td>
+	<td colspan="2">pausa 15'</td>
 	</tr>
 	<tr>
-		<td>12:50-14:00</td>
-		<td>Svolgimento e invio prodotto di lavoro richiesto</td>		
+		<td>[20']</td>
+		<td>Spazio per domande e curiosità</td>		
 	</tr>
 	<tr>
-		<td>14:00-14:30</td>
+		<td>[10']</td>
 		<td>Conclusioni</td>		
 	</tr>
 </table>
 
 <br>
 
-## Introduzione all'attività di oggi
+## Introduzione all'attività del modulo
 
 <br>
 
