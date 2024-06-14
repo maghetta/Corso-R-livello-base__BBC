@@ -6,13 +6,13 @@ title: Modulo 2
 
 <br>
 
-## Argomenti di oggi
+## Argomenti
 
 - Matrici e Fattori in R, cioé i capitoli 3 e 4 del corso di Introduzione a R di DataCamp
 
 <hr>
 
-## Obiettivi conoscitivi di oggi
+## Obiettivi conoscitivi
 
 Al termine di questa attività dovresti essere in grado di:
 
