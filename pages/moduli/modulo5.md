@@ -161,11 +161,7 @@ Ogni volta che voglio utilizzare funzioni da un dato pacchetto, carico quel pacc
 
 <br>
 
-<iframe src="https://www.bioconductor.org" width="800" height="600"></iframe>
-
-<br>
-
-# tipi di grafici di uso comune per la rappresentazione grafica di variabili 
+<iframe src="https://it.wikipedia.org/wiki/Statistica_descrittiva" width="800" height="600"></iframe>
 
 <br>
 
