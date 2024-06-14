@@ -5,7 +5,7 @@ title: Perché Programmare?
 ![programmare](/images/programmare/programmare.jpg)
 
 
-### Argomenti di oggi
+### Argomenti
 
 - Perché programmare
 
