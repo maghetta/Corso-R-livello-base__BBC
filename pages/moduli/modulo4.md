@@ -54,7 +54,7 @@ Al termine di questa attività dovresti essere in grado di:
 	</tr>
 	<tr>
 		<td>[40']</td>
-		<td>Svolgimento corso R online (capitolo 6)</td>		
+		<td>Svolgimento corso R online (capitolo 6 del corso di DataCamp)</td>		
 	</tr>
 	<tr>
 		<td>[30']</td>
