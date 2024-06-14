@@ -12,7 +12,7 @@ title: Modulo 5
 
 - caricamento e ispezione di dati in R
 
-- tipi di grafici di uso comune per la rappresentazione grafica di dati (numerici, logico, categorici)
+- tipi di grafici di uso comune per la rappresentazione grafica di dati
 
 <br>
 <br>
@@ -57,7 +57,7 @@ Al termine di questa attività dovresti essere in grado di:
 	</tr>
 	<tr>
 		<td>[15']</td>
-		<td>tipi di grafici di uso comune per rappresentare distribuzioni di variabili numeriche, logiche o categoriche</td>		
+		<td>tipi di grafici</td>		
 	</tr>
 	<tr>
 		<td>[15']</td>
@@ -142,8 +142,8 @@ Ogni volta che voglio utilizzare funzioni da un dato pacchetto, carico quel pacc
 
 <br>
 
-# tipi di grafici di uso comune per rappresentare distribuzioni di variabili numeriche, logiche o categoriche
-
+# tipi di grafici
+Alcuni tipi di grafici di uso comune per rappresentare distribuzioni di variabili numeriche, logiche o categoriche.
 <br>
 
 # caricare tabelle di dati in R
