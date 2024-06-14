@@ -8,11 +8,11 @@ title: Modulo 5
 
 ## Argomenti di oggi
 
-- Il progetto Bioconductor
+- cenni di statistica descrittiva
 
-- espressione genica e microarrays
+- caricamento e ispezione di dati in R
 
-- tutorial su Bioconducto
+- tipi di grafici di uso comune per la rappresentazione grafica di dati (numerici, logico, categorici)
 
 <br>
 <br>
@@ -21,7 +21,7 @@ title: Modulo 5
 
 Al termine di questa attività dovresti essere in grado di:
 
-- descrivere cos'è il progetto Bioconductor
+- caricare un set di dati (esempio da spreadsheet o 
 
 - trovare in rete e installare sul tuo PC un pacchetto R/Bioconductor
 
