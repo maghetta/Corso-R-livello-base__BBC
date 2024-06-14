@@ -6,7 +6,7 @@ title: Modulo 3
 
 <br>
 
-## Argomenti di oggi
+## Argomenti
 
 - *Data Frames in R, cioé il capitolo 5 del [corso di Introduzione a R di DataCamp](https://www.datacamp.com/courses/free-introduction-to-r)*
 
@@ -15,7 +15,7 @@ title: Modulo 3
 <br>
 <br>
 
-## Obiettivi conoscitivi di oggi
+## Obiettivi conoscitivi
 
 Al termine di questa attività dovresti essere in grado di:
 
@@ -43,46 +43,54 @@ Al termine di questa attività dovresti essere in grado di:
 
 <br>
 
-## Programma dell'attività di oggi
+## Durata e programma dell'attività:
 
-durata: 6 ore; modalità: presenza
+4 ore;
 
 <table border="1" width="700">
 	<tr>
-		<td>8:30-9:00</td>
-		<td>Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa</td>
+		<td>[10']</td>
+		<td>Introduzione all'attività del modulo</td>
 	</tr>
 	<tr>
-	<td colspan="2">pausa 10'</td>
+		<td>[30']</td>
+		<td>R: una panoramica introduttiva (cosa è, diffusione, vantaggi)</td>
 	</tr>
 	<tr>
-		<td>9:10-10:00</td>
+	<td colspan="2">pausa 15'</td>
+	</tr>
+	<tr>
+		<td>[40']</td>
 		<td>Svolgimento corso R online (capitolo 5)</td>		
 	</tr>
 	<tr>
-		<td>10:00-10:30</td>
+		<td>[30']</td>
 		<td>Sfide interattive sul contenuto del capitolo 5</td>		
 	</tr>
 	<tr>
-	<td colspan="2">pausa 10'</td>
+	<td colspan="2">pausa 15'</td>
 	</tr>
 	<tr>
-		<td>10:30-11:00</td>
-		<td>Svolgimento del tutorial sui grafici in R (più in fondo su questa pagina)</td>		
+		<td>[20']</td>
+		<td>Svolgimento del tutorial sui grafici in R (scorri questa pagina per trovarlo)</td>		
 	</tr>
 	<tr>
-		<td>11:00-12:00</td>
-		<td>Svolgimento sfida tremendissima (vedi sotto)</td>		
+		<td>[30']</td>
+		<td>Svolgimento sfida tremendissima  (scorri questa pagina per trovarla)</td>		
 	</tr>
 	<tr>
-	<td colspan="2">pausa 45'</td>
+		<td>[20']</td>
+		<td>Sfide interattive sul contenuto del capitolo 2</td>		
 	</tr>
 	<tr>
-		<td>12:45-14:00</td>
-		<td>Svolgimento e invio prodotto di lavoro richiesto</td>		
+	<td colspan="2">pausa 15'</td>
 	</tr>
 	<tr>
-		<td>14:00-14:30</td>
+		<td>[20']</td>
+		<td>Spazio per domande e curiosità</td>		
+	</tr>
+	<tr>
+		<td>[10']</td>
 		<td>Conclusioni</td>		
 	</tr>
 </table>
