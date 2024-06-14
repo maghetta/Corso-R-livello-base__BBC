@@ -6,7 +6,7 @@ title: Modulo 5
 
 <br>
 
-## Argomenti di oggi
+## Argomenti
 
 - cenni di statistica descrittiva
 
@@ -17,72 +17,80 @@ title: Modulo 5
 <br>
 <br>
 
-## Obiettivi conoscitivi di oggi
+## Obiettivi conoscitivi
 
 Al termine di questa attività dovresti essere in grado di:
 
-- caricare un set di dati (esempio da spreadsheet o 
+- caricare una tabella di dati di interesse dal proprio PC (esempio, da un file excel o testo semplice formattato in colonne)
 
-- trovare in rete e installare sul tuo PC un pacchetto R/Bioconductor
+- scrivere comandi R per calcolare indicatori statistici descrittivi di variabili numeriche (media, mediana, deviazione standard)
 
-- caricare in una sessione di lavoro un pacchetto R/Bioconductor
+- scrivere comandi R per calcolare indicatori statistici descrittivi di variabili categoriche e logiche
 
-- trovare la documentazione di uso per un pacchetto R/Bioconductor di interesse
+- scegliere un tipo di grafico adatto per visualizzare distribuzioni di variabili di interesse
+
+- scrivere comandi R per rappresentare graficamente una distribuzione di variabili (numeriche, logiche o categoriche)
 
 - seguire le istruzioni fornite in un tutorial (codice commentato, con domande ed esercizi)
 
-- descrivere cos'è una heatmap
+- elencare e descrivere almeno tre tipi di grafici di uso comune per rappresentare distribuzioni di variabili numeriche, logiche o categoriche
 
 <br>
 <br>
 
-## Programma dell'attività di oggi
+## Durata e programma dell'attività:
 
-durata: 6 ore; modalità: presenza
+4 ore;
+
 
 <table border="1" width="700">
 	<tr>
-		<td>8:30-9:30</td>
+		<td>[20']</td>
 		<td>Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa</td>
 	</tr>
 	<tr>
-		<td>9:30-10:20</td>
-		<td>Sfide interattive su www.menti.com</td>
+		<td>[30']</td>
+		<td>Statistica descrittiva: una panoramica introduttiva</td>
 	</tr>
 	<tr>
-	<td colspan="2">pausa 10'</td>
+	<td colspan="2">pausa 5'</td>
 	</tr>
 	<tr>
-		<td>10:30-11:00</td>
-		<td>Il progetto Bioconductor</td>		
+		<td>[15']</td>
+		<td>tipi di grafici di uso comune per rappresentare distribuzioni di variabili numeriche, logiche o categoriche</td>		
 	</tr>
 	<tr>
-		<td>11:00-11:20</td>
-		<td>Inizio svolgimento tutorial su Bioconductor</td>		
+		<td>[15']</td>
+		<td>caricare tabelle di dati in R</td>		
 	</tr>
 	<tr>
-	<td colspan="2">pausa 10'</td>
+		<td>[35']</td>
+		<td>to be defined</td>		
 	</tr>
 	<tr>
-		<td>11:30-12:00</td>
-		<td>Fine svolgimento tutorial su Bioconductor</td>		
+	<td colspan="2">pausa 15'</td>
 	</tr>
 	<tr>
-	<td colspan="2">pausa pranzo 50'</td>
+		<td>[40']</td>
+		<td>to be defined</td>
 	</tr>
 	<tr>
-		<td>12:50-14:00</td>
-		<td>Svolgimento e invio prodotto di lavoro richiesto</td>		
-	</tr>
-	<tr>
-		<td>14:00-14:20</td>
+		<td>[30']</td>
 		<td>Sfide interattive</td>		
 	</tr>
 	<tr>
-		<td>14:20-14:30</td>
-		<td>Conclusioni e saluti: questo era l'ultimo dei 5 appuntamenti di questo percorso di PCTO: com'è andata?</td>		
+	<td colspan="2">pausa 15'</td>
+	</tr>
+	<tr>
+		<td>[20']</td>
+		<td>Spazio per domande e curiosità</td>		
+	</tr>
+	<tr>
+		<td>[10']</td>
+		<td>Conclusioni</td>		
 	</tr>
 </table>
+
 
 
 ## Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa
@@ -126,30 +134,30 @@ Ogni volta che voglio utilizzare funzioni da un dato pacchetto, carico quel pacc
 
 <hr>
 
-## Il progetto Bioconductor
+## Statistica descrittiva: una panoramica introduttiva
 
-L'analisi statistica dei dati relativi a un fenomeno è un passaggio cruciale per qualsiasi ricercatore.
-
-E' infatti necessario per formulare modelli funzionali e ipotesi di lavoro. 
-
-L'ambiente statistico R e il progetto Bioconductor forniscono un sistema di strumenti (analitici, statistici, computazionali e grafici) molto potente per adempiere questo scopo, specialmente in ambito di analisi di dati genomici.
+...
+...
+...
 
 <br>
 
-# CHE COS'È IL PROGETTO BIOCONDUCTOR
+# tipi di grafici di uso comune per rappresentare distribuzioni di variabili numeriche, logiche o categoriche
 
 <br>
 
-**Bioconductor**: software libero per l'analisi e l'interpretazione di dati genomici massivi
-Bioconductor è un progetto aperto e partecipato che ha come obiettivo fornire strumenti per l'analisi e l'interpretazione di dati genomici. 
+# caricare tabelle di dati in R
 
 <br>
 
-**Bioconductor** utilizza il <u>linguaggio di programmazione statistica **R** </u> ed è un progetto open-source e open-development. È open-source perché chiunque può leggere e modificare il codice di una funzione, ed è open-development perchè chiunque può contribuire e partecipare allo sviluppo del codice.
+...
+
+<br>
+...
 
 <br>
 
-Il progetto **Bioconductor** ha una comunità di utenti molto attiva, una <u>documentazione approfondita</u>, diversi <u>forum di discussione dedicati</u> e viene costantemente aggiornato (la versione corrente è la 3.18, e una nuova versione viene rilasciata ogni 6 mesi).
+...
 
 <br>
 
@@ -157,57 +165,14 @@ Il progetto **Bioconductor** ha una comunità di utenti molto attiva, una <u>doc
 
 <br>
 
-# CHE COSA SI INTENDE PER PACCHETTO R/BIOCONDUCTOR
+# tipi di grafici di uso comune per la rappresentazione grafica di variabili 
 
 <br>
 
-## Pacchetto R/Bioconductor: la app per la mia sessione di lavoro R
+## Contenuti in via di definizione---
 
 
-Il software sviluppato dal progetto **Bioconductor** è distribuito principalmente sotto forma di **pacchetti** compatibili con il linguaggio R. **Un pacchetto R/Bioconductor** è concettualmente simile ad una applicazione o app del cellulare: fornisce un insieme strutturato di codice, documentazione e/o dati per l'esecuzione di un certo scopo, ampliando così le funzionalità a disposizione dell'utente. 
-
-Ad esempio, se installo sul mio cellulare la app *Instagram* estendo la gamma di funzioni a mia disposizione nel senso che ora dal mio cellulare posso anche: accedere al mio account Istagram oppure crearne uno, scorrere le pagine della mia rete di connessioni, caricare o commentare una foto, etc. 
-
-In modo del tutto simile, se carico in una sessione di lavoro R il pacchetto R/Bioconductor [GEOquery](http://www.bioconductor.org/packages/release/bioc/html/GEOquery.html) posso interrogare l'archivio pubblico di dati di microarray Gene Expression Omnibus (GEO) del National Center for Biotechnology Information (NCBI), una risorsa ricca e varia, e ottenere direttamente nella mia sessione di lavoro R i dati di espressione che mi interessa analizzare. GEOquery è il ponte tra GEO e la mia sessione di lavoro R.
-
-La versione corrente di **Bioconductor** (**versione 3.18**, a Febbraio 2024) esistono **oltre 2200 pacchetti** a disposizione della comunità scientifica biomedica. Questi pacchetti sono raggruppati in **4 tipologie principali**: 
-
-- **software** - implementano analisi particolari o altre funzionalità, ad es. metodi per interrogare banche dati presenti sul Web o importare formati di file comuni in oggetti R
-
-- **annotazione** - contengono dati che possono essere utili per interpretare i risultati di un'analisi, ad esempio: mappatura tra identificativi di diverse banche dati biologiche come "BRCA1" (da HUGO) e "ENSG00000012048" (da Ensembl); o anche, descrizione delle coordinate genomiche di esoni, trascritti o geni di interesse.
-
-- **dati sperimentali** - contengono insiemi di dati biologici curati che possono essere utili per esercitazioni e tutorial.
-
-- **procedure complete di analisi** - riassumono i flussi di lavoro comuni, ad es. il pacchetto SimpleSingleCell per analisi di espressione dati di RNA-seq a singola cella. 
-
-Questa collezione di pacchetti può essere navigata per parola chiave sulla pagina [Bioconductor BioCViews](https://www.bioconductor.org/packages/release/BiocViews.html#___Software), in maniera del tutto simile a come cercheresti una app per un certo scopo su *Play Store* o su *Apple Store*.
-
-<br>
-
-<iframe src="https://www.bioconductor.org/packages/release/BiocViews.html#___Software" width="800" height="600"></iframe>
-
-<br>
-
-# COME SI USA UN PACCHETTO R/BIOCONDUCTOR
-
-## I punti cardinali: pagina web e 'vignettes' del pacchetto 
-
-Ogni **pacchetto R/Bioconductor** ha una **pagina web** ad esso dedicata sul sito del progetto Bioconductor: [http://www.bioconductor.org/](http://www.bioconductor.org/). Se già si conosce il nome del pacchetto di interesse, il modo più veloce per raggiungerne la pagina web dedicata è una ricerca del tipo "*NomeDelPacchetto Bioconductor*" su un motore di ricerca, ad esempio su Google. 
-
-<span style="color:red;">*************             Seguendo quanto appena detto, riusciresti a trovare la pagina web del pacchetto GEOquery?              *************</span>
-
-Ogni **pagina web di un dato pacchetto R/Bioconductor** mostra **come installare il pacchetto** stesso sul proprio computer con 2-3 righe di codice che si possono direttamente copiare e incollare nella propria sessione di lavoro R. Si noti che, in maniera del tutto simile all'esempio della app sul cellulare di prima, l'installazione di un pacchetto è necessaria solo la prima volta. Una volta installato, il pacchetto sarà pronto all'uso sul nostro computer, basterà caricarlo all'occorrenza nella sessione di lavoro di R ( con il comando R: *library(NomePacchetto)* ).
-
-Ogni **pagina web di un dato pacchetto R/Bioconductor** contiene inoltre una o più **vignettes**, cioè documenti che forniscono una descrizione accurata e operativa del pacchetto. Questa documentazione è disponibile in varie forme: molti sono dei veri e propri tutorial che illustrano esempi di uso o dimostrano come un particolare compito può essere realizzato con il software di quel pacchetto. Altri documenti forniscono una panoramica più generale del pacchetto, come l'elenco delle funzioni in esso contenute e le loro specifiche.
-
-Altra informazione utile presente sulla **pagina web di un dato pacchetto R/Bioconductor** è la lista delle **dipendenze**, cioè la lista di altri pacchetti, R o Bioconductor, che il dato pacchetto si aspetta di trovare installati sul vostro computer per poter funzionare.
-
-<br>
-
-<iframe src="https://www.bioconductor.org/packages/release/bioc/html/GEOquery.html" width="800" height="1200"></iframe>
-
-<br>
-
+...
 
 <hr>
 
