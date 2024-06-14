@@ -49,15 +49,11 @@ Al termine di questa attività dovresti essere in grado di:
 
 <table border="1" width="700">
 	<tr>
-		<td>[10']</td>
-		<td>Introduzione all'attività del modulo</td>
+		<td>[35']</td>
+		<td>Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa</td>
 	</tr>
 	<tr>
-		<td>[30']</td>
-		<td>R: una panoramica introduttiva (cosa è, diffusione, vantaggi)</td>
-	</tr>
-	<tr>
-	<td colspan="2">pausa 15'</td>
+	<td colspan="2">5'</td>
 	</tr>
 	<tr>
 		<td>[40']</td>
@@ -147,7 +143,7 @@ diversi altri esempi di funzioni disponibili in R, quali: *matrix(), rownames(),
 
 
 
-Per riprendere il corso di R su DataCamp al capitolo 5 --> segui i passaggi illustrati nella [pagina web del Modulo 2](pages/moduli/modulo2.md) alla sezione intitolata
+Per riprendere il corso di R su DataCamp al capitolo 5 --> segui i passaggi illustrati nel <a href="https://maghetta.github.io/Corso-R-livello-base/modulo2">[modulo 2]</a> alla sezione intitolata
 
 ***
 
