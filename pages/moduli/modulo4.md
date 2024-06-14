@@ -43,12 +43,11 @@ Al termine di questa attività dovresti essere in grado di:
 
 <table border="1" width="700">
 	<tr>
-		<td>[10']</td>
-		<td>Introduzione all'attività del modulo</td>
+		<td>[35']</td>
+		<td>Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa</td>
 	</tr>
 	<tr>
-		<td>[30']</td>
-		<td>R: una panoramica introduttiva (cosa è, diffusione, vantaggi)</td>
+	<td colspan="2">5'</td>
 	</tr>
 	<tr>
 	<td colspan="2">pausa 15'</td>
@@ -65,8 +64,12 @@ Al termine di questa attività dovresti essere in grado di:
 	<td colspan="2">pausa 15'</td>
 	</tr>
 	<tr>
-		<td>[40']</td>
-		<td>Svolgimento corso R online (capitolo 2)</td>		
+		<td>[20']</td>
+		<td>Ottenere aiuto in R (vedi box qui sotto)</td>		
+	</tr>
+	<tr>
+		<td>[20']</td>
+		<td>Pacchetti R: cosa sono, come si usano (vedi box qui sotto)</td>		
 	</tr>
 	<tr>
 		<td>[30']</td>
@@ -191,7 +194,7 @@ Avrai in risposta un elenco di tutti i pacchetti R che contengono funzioni (ripo
 
 <hr>
 
-(Installare e) caricare un pacchetto R
+Pacchetti R: cosa sono, come si usano
 
 - I pacchetti di R sono delle ulteriori collezioni di funzioni, rispetto alle funzioni di base già disponibili in qualunque console di R, dedicate a svolgere un certo compito.
 
