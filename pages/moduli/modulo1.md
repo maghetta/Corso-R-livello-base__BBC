@@ -223,7 +223,7 @@ Per sottomettere con successo la risposta è necessario considerare per il vetto
 
 <hr class="bg-dark mb-4">
 
-## Sfide interattive
+## Esercizi
 
 <br>
 <br>
