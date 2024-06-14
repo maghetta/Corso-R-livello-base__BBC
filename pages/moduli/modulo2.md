@@ -47,8 +47,11 @@ Al termine di questa attività dovresti essere in grado di:
 
 <table border="1" width="700">
 	<tr>
-		<td>[40']</td>
+		<td>[35']</td>
 		<td>Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa</td>
+	</tr>
+	<tr>
+	<td colspan="2">5'</td>
 	</tr>
 	<tr>
 		<td>[40']</td>
