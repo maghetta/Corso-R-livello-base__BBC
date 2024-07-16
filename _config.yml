@@ -1,7 +1,7 @@
 title: Corso-R-livello-base
 # This appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-topnav_title: Corso-R-livello-base
+topnav_title: Statistics and data manipulation with R
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
 
 description: "Example of ELIXIR toolkit theme as a remote jekyll theme"
