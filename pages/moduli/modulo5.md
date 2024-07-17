@@ -140,6 +140,7 @@ In questa sezione, copriremo i seguenti argomenti:
 
 - [Tipi di Variabili in Statistica]
 - [Indicatori Principali della Statistica Descrittiva]
+- [Distribuzioni di Frequenza Assolute e Relative]
 - [Grafici di Base]
 
 ## Tipi di Variabili in Statistica
@@ -242,6 +243,72 @@ percentile_25 <- quantile(data, 0.25)
 print(percentile_25)  # Output: 4
 ```
 
+# Una funzione utile: `summary()` in R
+
+La funzione `summary()` in R è uno strumento potente e versatile che fornisce un riepilogo statistico dei principali indicatori di un set di dati. È particolarmente utile per ottenere rapidamente una panoramica delle caratteristiche di un dataset e per individuare eventuali valori anomali o pattern interessanti.
+
+# Cosa Fa `summary()`
+
+Quando si applica la funzione `summary()` a un dataset, essa restituisce i seguenti indicatori statistici per ciascuna variabile:
+
+- **Valore Minimo (Min.)**: Il valore più basso nel dataset.
+- **Primo Quartile (1st Qu.)**: Il valore al 25-esimo percentile.
+- **Mediana (Median)**: Il valore al 50-esimo percentile.
+- **Media (Mean)**: La media aritmetica dei valori.
+- **Terzo Quartile (3rd Qu.)**: Il valore al 75-esimo percentile.
+- **Valore Massimo (Max.)**: Il valore più alto nel dataset.
+
+Per le variabili categoriche, `summary()` restituisce un conteggio delle occorrenze di ciascun livello.
+
+# Perché È Utile
+
+- **Rapida Panoramica**: Fornisce un riepilogo conciso delle principali statistiche descrittive.
+- **Identificazione di Outliers**: Facilita l'individuazione di valori anomali.
+- **Verifica di Dati Mancanti**: Indica la presenza di valori mancanti.
+
+Di sequito un esempio di utilizzo della funzione `summary()` con un semplice dataset:
+
+```
+# Creazione di un dataset di esempio
+data <- data.frame(
+  age = c(23, 25, 31, 35, 42, 58, 60, 22, 30, 40),
+  salary = c(50000, 60000, 80000, 55000, 120000, 70000, 75000, 65000, 62000, 58000)
+)
+
+# Applicazione della funzione summary()
+summary_stats <- summary(data)
+print(summary_stats)
+```
+
+## Distribuzioni di Frequenza Assolute e Relative
+
+# Distribuzione di Frequenza Assoluta
+La distribuzione di frequenza assoluta è una tabulazione che mostra il numero di occorrenze di ciascun valore o intervallo di valori in un dataset. È utile per capire come i dati sono distribuiti in termini di conteggio.
+
+# Distribuzione di Frequenza Relativa
+La distribuzione di frequenza relativa, invece, esprime la frequenza assoluta come una frazione o una percentuale del totale. È utile per confrontare distribuzioni di dataset di dimensioni diverse, poiché normalizza i dati rispetto al totale.
+
+# Utilità
+- **Comprensione della Distribuzione dei Dati**: Permette di visualizzare come i dati sono distribuiti e individuare pattern o anomalie.
+- **Confronto di Dataset**: Le frequenze relative facilitano il confronto tra dataset di dimensioni diverse.
+- **Base per Altre Analisi**: Costituiscono il punto di partenza per calcolare ulteriori statistiche descrittive o per visualizzazioni grafiche come istogrammi.
+
+
+Ecco un esempio di come calcolare e visualizzare le distribuzioni di frequenza assolute e relative in R:
+
+```
+# Creazione di un dataset di esempio
+data <- c(2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 7)
+
+# Calcolo della distribuzione di frequenza assoluta
+freq_abs <- table(data)
+print(freq_abs)
+
+# Calcolo della distribuzione di frequenza relativa
+freq_rel <- prop.table(freq_abs)
+print(freq_rel)
+```
+
 
 ## Grafici di Base
 
@@ -296,8 +363,6 @@ cat("Moda:", moda(data), "\n")
 
 <br>
 
-# tipi di grafici
-Alcuni tipi di grafici di uso comune per rappresentare distribuzioni di variabili numeriche, logiche o categoriche.
 <br>
 
 # caricare tabelle di dati in R
