@@ -134,38 +134,39 @@ Ogni volta che voglio utilizzare funzioni da un dato pacchetto, carico quel pacc
 
 <hr>
 
-## Statistica descrittiva: una panoramica introduttiva
+### Statistica descrittiva: una panoramica introduttiva
 
-# Tipi di Variabili in Statistica
+In questa sezione, copriremo i seguenti argomenti:
 
-In statistica, le variabili si classificano in diversi tipi in base alla natura dei dati che rappresentano e al tipo di misurazione. Ecco una panoramica dei principali tipi di variabili:
+- [Tipi di Variabili in Statistica]
+- [Indicatori Statistici di una distribuzione di Dati]
+- [Grafici di Base]
 
-## 1. Variabili Qualitative (o Categoriali)
+## Tipi di Variabili in Statistica
+
+In statistica, le variabili si classificano in diversi tipi in base alla natura dei dati che rappresentano e al tipo di misurazione. Conoscere la tipologia di dati con cui si sta lavorando è essenziale per scegliere i giusti metodi di analisi statistica e per una corretta interpretazione dei risultati.Ecco una panoramica dei principali tipi di variabili:
+
+# 1. Variabili Qualitative (o Categoriali)
 Queste variabili descrivono categorie o attributi distinti e non numerici.
 
 - **Nominali**: Le categorie non hanno un ordine intrinseco. Esempi includono il colore degli occhi (blu, verde, marrone), il genere (maschio, femmina), e il tipo di veicolo (auto, moto, bici).
 - **Ordinali**: Le categorie hanno un ordine intrinseco, ma le distanze tra le categorie non sono misurabili. Esempi includono i livelli di istruzione (scuola elementare, media, superiore, università) e i livelli di soddisfazione (soddisfatto, neutro, insoddisfatto).
 
-## 2. Variabili Quantitative (o Numeriche)
+# 2. Variabili Quantitative (o Numeriche)
 Queste variabili rappresentano quantità misurabili e possono essere numeri con significato matematico.
 
 - **Discrete**: Possono assumere solo valori distinti e separati (tipicamente numeri interi). Esempi includono il numero di figli in una famiglia, il numero di studenti in una classe, e il numero di macchine vendute.
 - **Continue**: Possono assumere qualsiasi valore in un intervallo continuo e possono essere frazionarie. Esempi includono l'altezza, il peso, e il tempo.
 
-## 3. Variabili Dicotomiche e Logiche
-Queste sono un tipo speciale di variabili nominali che hanno solo due categorie. Esempi includono il risultato di un test (passato/fallito) e la presenza o assenza di una caratteristica (sì/no). Un caso particolare di variabile dicotomica è rappresentato dalle variabili logiche (TRUE/FALSE).
+# 3. Variabili Dicotomiche e Logiche
+Queste sono un tipo speciale di variabili nominali che hanno solo due categorie. Esempi includono il risultato di un test (passato/fallito) e la presenza o assenza di una caratteristica (sì/no). Un caso particolare di variabile dicotomica è rappresentato dalle variabili logiche (TRUE/FALSE). Queste ultime sono immediatamente interpretabili e trattabili come numeriche da R (1/0).
 
-Conoscere la tipologia di dati con cui si sta lavorando è essenziale per scegliere i giusti metodi di analisi statistica e per una corretta interpretazione dei risultati.
+## Indicatori Statistici di una distribuzione di Dati
 
 
-L'analisi statistica di base in R comprende diverse tecniche fondamentali per la descrizione e l'interpretazione dei dati. 
 
-Alle variabili quantitative sono associati valori numerici, alle variabili qualitative sono associate delle modalità (qualità) che possono essere anche ordinabili (come nel caso dei fattori).
-In questa sezione, copriremo i seguenti argomenti:
 
-- [Media, Mediana, Moda](#media-mediana-moda)
-- [Varianza e Deviazione Standard](#varianza-deviazione-standard)
-- [Grafici di Base](#grafici-di-base)
+
 
 ### Media, Mediana, Moda
 
