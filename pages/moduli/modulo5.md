@@ -169,37 +169,37 @@ La statistica descrittiva si avvale di diversi indicatori per riassumere e descr
 # 1. Media
 La media aritmetica è la somma di tutti i valori divisa per il numero di valori. È un indicatore della tendenza centrale dei dati.
 
-# in R
-```r
+```
 # Genera un set di dati
 data <- c(2, 4, 6, 8, 10)
 
 # Calcola la media
 mean_value <- mean(data)
 print(mean_value)  # Output: 6
+```
 
 # 2. Mediana
 La mediana è il valore che separa la metà superiore dei dati dalla metà inferiore. È meno sensibile ai valori anomali rispetto alla media.
 
-# in R
-```r
+```
 # Genera un set di dati
 data <- c(2, 4, 6, 8, 10)
 
 # Calcola la mediana
 median_value <- median(data)
 print(median_value)  # Output: 6
+```
 
 # 3. Deviazione Standard
 La deviazione standard misura la dispersione dei dati rispetto alla media. Un valore elevato indica che i dati sono molto dispersi.
 
-# in R
-```r
+```
 # Genera un set di dati
 data <- c(2, 4, 6, 8, 10)
 
 # Calcola la deviazione standard
 sd_value <- sd(data)
+```
 
 
 ### Media, Mediana, Moda
