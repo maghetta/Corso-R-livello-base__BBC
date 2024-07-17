@@ -138,11 +138,12 @@ Ogni volta che voglio utilizzare funzioni da un dato pacchetto, carico quel pacc
 
 In questa sezione, copriremo i seguenti argomenti:
 
-- [Tipi di Variabili in Statistica]
-- [Indicatori Principali della Statistica Descrittiva]
-- [Distribuzioni di Frequenza Assolute e Relative]
-- [Principali Tipi di Grafico in Statistica Descrittiva con R]
-- [Importare una matrice di dati in R]
+- Tipi di Variabili in Statistica
+- Indicatori Principali della Statistica Descrittiva
+- Distribuzioni di Frequenza Assolute e Relative
+- Principali Tipi di Grafico in Statistica Descrittiva con R
+- Importare Dati in R: Diversi Formati e Modi Possibili
+
 
 ## Tipi di Variabili in Statistica
 
@@ -377,6 +378,65 @@ labels <- c("A", "B", "C", "D")
 # Crea un grafico a torta
 pie(slices, labels=labels, main="Grafico a Torta", col=rainbow(length(slices)))
 ```
+
+# Importare Dati in R: Diversi Formati e Modi Possibili
+## Introduzione
+R offre diverse funzioni per importare dati da vari formati di file. Di seguito vengono illustrati i modi più comuni per leggere tabelle di dati in R, con esempi di codice per ciascun formato.
+
+## 1. Importare Dati da un File CSV
+
+Il formato CSV (Comma-Separated Values) è uno dei formati più comuni per l'archiviazione e lo scambio di dati tabulari. In R, si utilizza la funzione `read.csv()`.
+
+```
+# Importare dati da un file CSV
+data_csv <- read.csv("path/to/yourfile.csv")
+head(data_csv)
+```
+
+
+2. Importare Dati da un File TSV
+Il formato TSV (Tab-Separated Values) utilizza il tab come delimitatore. In R, si può usare la funzione read.table() specificando il delimitatore.
+
+```
+# Importare dati da un file TSV
+data_tsv <- read.table("path/to/yourfile.tsv", sep="\t", header=TRUE)
+head(data_tsv)
+```
+
+
+3. Importare Dati da un File Excel
+Per leggere file Excel (.xls o .xlsx), si può utilizzare il pacchetto readxl.
+
+```
+# Installare e caricare il pacchetto readxl
+install.packages("readxl")
+library(readxl)
+
+# Importare dati da un file Excel
+head(data_excel)
+data_excel <- read_excel("path/to/yourfile.xlsx", sheet = 1)
+```
+
+4. Importare Dati da un File di Testo con Delimitatore Personalizzato
+Se si ha un file di testo con un delimitatore diverso da virgola o tab, si può utilizzare la funzione read.table() specificando il delimitatore corretto.
+
+```
+# Importare dati da un file di testo con delimitatore personalizzato
+data_custom <- read.table("path/to/yourfile.txt", sep=";", header=TRUE)
+head(data_custom)
+```
+
+5. Importare Dati da una Connessione URL
+È possibile importare dati direttamente da una URL che punta a un file CSV.
+
+```
+# Importare dati da una URL
+url <- "http://example.com/yourfile.csv"
+data_url <- read.csv(url)
+head(data_url)
+```
+
+
 
 
 
