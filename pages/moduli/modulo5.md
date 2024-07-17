@@ -141,7 +141,8 @@ In questa sezione, copriremo i seguenti argomenti:
 - [Tipi di Variabili in Statistica]
 - [Indicatori Principali della Statistica Descrittiva]
 - [Distribuzioni di Frequenza Assolute e Relative]
-- [Grafici di Base]
+- [Principali Tipi di Grafico in Statistica Descrittiva con R]
+- [Importare una matrice di dati in R]
 
 ## Tipi di Variabili in Statistica
 
@@ -243,13 +244,13 @@ percentile_25 <- quantile(data, 0.25)
 print(percentile_25)  # Output: 4
 ```
 
-# Una funzione utile: `summary()` in R
+# Una funzione di R utile per un riepilogo dei dati: summary()
 
-La funzione `summary()` in R è uno strumento potente e versatile che fornisce un riepilogo statistico dei principali indicatori di un set di dati. È particolarmente utile per ottenere rapidamente una panoramica delle caratteristiche di un dataset e per individuare eventuali valori anomali o pattern interessanti.
+La funzione summary() in R è uno strumento potente e versatile che fornisce un riepilogo statistico dei principali indicatori di un set di dati. È particolarmente utile per ottenere rapidamente una panoramica delle caratteristiche di un dataset e per individuare eventuali valori anomali o pattern interessanti.
 
-# Cosa Fa `summary()`
+# Cosa Fa summary()
 
-Quando si applica la funzione `summary()` a un dataset, essa restituisce i seguenti indicatori statistici per ciascuna variabile:
+Quando si applica la funzione summary() a un dataset, essa restituisce i seguenti indicatori statistici per ciascuna variabile:
 
 - **Valore Minimo (Min.)**: Il valore più basso nel dataset.
 - **Primo Quartile (1st Qu.)**: Il valore al 25-esimo percentile.
@@ -258,7 +259,7 @@ Quando si applica la funzione `summary()` a un dataset, essa restituisce i segue
 - **Terzo Quartile (3rd Qu.)**: Il valore al 75-esimo percentile.
 - **Valore Massimo (Max.)**: Il valore più alto nel dataset.
 
-Per le variabili categoriche, `summary()` restituisce un conteggio delle occorrenze di ciascun livello.
+Per le variabili categoriche, summary() restituisce un conteggio delle occorrenze di ciascun livello.
 
 # Perché È Utile
 
@@ -266,7 +267,7 @@ Per le variabili categoriche, `summary()` restituisce un conteggio delle occorre
 - **Identificazione di Outliers**: Facilita l'individuazione di valori anomali.
 - **Verifica di Dati Mancanti**: Indica la presenza di valori mancanti.
 
-Di sequito un esempio di utilizzo della funzione `summary()` con un semplice dataset:
+Di sequito un esempio di utilizzo della funzione summary() con un semplice dataset:
 
 ```
 # Creazione di un dataset di esempio
@@ -293,7 +294,7 @@ La distribuzione di frequenza relativa, invece, esprime la frequenza assoluta co
 - **Confronto di Dataset**: Le frequenze relative facilitano il confronto tra dataset di dimensioni diverse.
 - **Base per Altre Analisi**: Costituiscono il punto di partenza per calcolare ulteriori statistiche descrittive o per visualizzazioni grafiche come istogrammi.
 
-
+# Un paio di funzioni di R utile per calcolare frequenze asolute e relative: table() e prop.table()
 Ecco un esempio di come calcolare e visualizzare le distribuzioni di frequenza assolute e relative in R:
 
 ```
@@ -310,26 +311,72 @@ print(freq_rel)
 ```
 
 
-## Grafici di Base
+## Principali Tipi di Grafico in Statistica Descrittiva con R
 
-I grafici sono strumenti fondamentali per visualizzare i dati. Alcuni dei grafici di base in R includono il grafico a dispersione, il boxplot e l'istogramma.
+I grafici sono strumenti fondamentali per visualizzare i dati. La statistica descrittiva utilizza vari tipi di grafici per rappresentare visivamente i dati.  Ogni tipo di grafico ha il suo specifico uso e può fornire diverse prospettive sui dati analizzati. Qui di seguito una panoramica dei principali tipi di grafico utilizzati nella statistica descrittiva con R. con esempi di codice R per ciascuno:
 
-# Principali Tipi di Grafico in Statistica Descrittiva con R
 
-La statistica descrittiva utilizza vari tipi di grafici per rappresentare visivamente i dati. Ecco una panoramica dei principali tipi di grafico utilizzati, con esempi di codice R per ciascuno.
-
-## 1. Istogramma
-
+# 1. Istogramma
 Un istogramma è utilizzato per rappresentare la distribuzione di una variabile numerica continua. Mostra la frequenza dei dati suddivisi in intervalli (bins).
 
-### Esempio di Codice
-```r
+```
 # Genera un set di dati casuale
 set.seed(123)
 data <- rnorm(100)
 
 # Crea un istogramma
 hist(data, main="Istogramma", xlab="Valori", ylab="Frequenza", col="blue", border="black")
+```
+
+# 2. Grafico a Barre
+Un grafico a barre è utilizzato per rappresentare la frequenza o la percentuale di categorie di dati qualitativi.
+
+```
+# Genera dati categoriali
+categories <- c("A", "B", "C", "D")
+values <- c(10, 23, 15, 8)
+
+# Crea un grafico a barre
+barplot(values, names.arg=categories, main="Grafico a Barre", xlab="Categorie", ylab="Frequenza", col="lightblue")
+```
+
+
+# 3. Boxplot
+Un boxplot è utilizzato per visualizzare la distribuzione di una variabile numerica continua attraverso i suoi quartili. È utile per identificare i valori anomali.
+
+```
+# Genera un set di dati casuale
+set.seed(123)
+data <- rnorm(100)
+
+# Crea un boxplot
+boxplot(data, main="Boxplot", ylab="Valori", col="lightgreen")
+```
+
+# 4. Grafico a Dispersione (Scatter Plot)
+Un grafico a dispersione è utilizzato per visualizzare la relazione tra due variabili numeriche.
+
+```
+# Genera due set di dati correlati
+set.seed(123)
+x <- rnorm(100)
+y <- 2 * x + rnorm(100)
+
+# Crea un grafico a dispersione
+plot(x, y, main="Grafico a Dispersione", xlab="Variabile X", ylab="Variabile Y", col="red", pch=19)
+```
+
+# 5. Grafico a Torta
+Un grafico a torta è utilizzato per rappresentare la proporzione di diverse categorie di dati qualitativi.
+
+```
+# Genera dati categoriali
+slices <- c(10, 23, 15, 8)
+labels <- c("A", "B", "C", "D")
+
+# Crea un grafico a torta
+pie(slices, labels=labels, main="Grafico a Torta", col=rainbow(length(slices)))
+```
 
 
 
