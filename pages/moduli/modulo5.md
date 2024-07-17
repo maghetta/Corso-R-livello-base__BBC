@@ -139,7 +139,7 @@ Ogni volta che voglio utilizzare funzioni da un dato pacchetto, carico quel pacc
 In questa sezione, copriremo i seguenti argomenti:
 
 - [Tipi di Variabili in Statistica]
-- [Indicatori Statistici di una distribuzione di Dati]
+- [Indicatori Principali della Statistica Descrittiva]
 - [Grafici di Base]
 
 ## Tipi di Variabili in Statistica
@@ -161,11 +161,35 @@ Queste variabili rappresentano quantità misurabili e possono essere numeri con 
 # 3. Variabili Dicotomiche e Logiche
 Queste sono un tipo speciale di variabili nominali che hanno solo due categorie. Esempi includono il risultato di un test (passato/fallito) e la presenza o assenza di una caratteristica (sì/no). Un caso particolare di variabile dicotomica è rappresentato dalle variabili logiche (TRUE/FALSE). Queste ultime sono immediatamente interpretabili e trattabili come numeriche da R (1/0).
 
-## Indicatori Statistici di una distribuzione di Dati
 
+## Indicatori Principali della Statistica Descrittiva
 
+La statistica descrittiva si avvale di diversi indicatori per riassumere e descrivere le caratteristiche principali di un insieme di dati. Ecco una panoramica degli indicatori più comuni e degli esempi su come calcolarli in R.
 
+# 1. Media
+La media aritmetica è la somma di tutti i valori divisa per il numero di valori. È un indicatore della tendenza centrale dei dati.
 
+# in R
+```r
+# Genera un set di dati
+data <- c(2, 4, 6, 8, 10)
+
+# Calcola la media
+mean_value <- mean(data)
+print(mean_value)  # Output: 6
+
+# 2. Mediana
+La mediana è il valore che separa la metà superiore dei dati dalla metà inferiore. È meno sensibile ai valori anomali rispetto alla media.
+
+# in R
+```r
+Copy code
+# Genera un set di dati
+data <- c(2, 4, 6, 8, 10)
+
+# Calcola la mediana
+median_value <- median(data)
+print(median_value)  # Output: 6
 
 
 ### Media, Mediana, Moda
