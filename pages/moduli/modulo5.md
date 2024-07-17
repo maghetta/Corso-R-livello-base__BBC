@@ -136,9 +136,55 @@ Ogni volta che voglio utilizzare funzioni da un dato pacchetto, carico quel pacc
 
 ## Statistica descrittiva: una panoramica introduttiva
 
-...
-...
-...
+# Analisi Statistica di Base in R
+
+## Teoria
+
+L'analisi statistica di base in R comprende diverse tecniche fondamentali per la descrizione e l'interpretazione dei dati. In questa sezione, copriremo i seguenti argomenti:
+
+- [Media, Mediana, Moda](#media-mediana-moda)
+- [Varianza e Deviazione Standard](#varianza-deviazione-standard)
+- [Grafici di Base](#grafici-di-base)
+
+### Media, Mediana, Moda
+
+La **media** è la somma di tutti i valori divisa per il numero di valori. La **mediana** è il valore centrale di un insieme di dati ordinato. La **moda** è il valore che appare più frequentemente nei dati.
+
+### Varianza e Deviazione Standard
+
+La **varianza** misura la dispersione dei dati intorno alla media. La **deviazione standard** è la radice quadrata della varianza e rappresenta la dispersione media dei valori dalla media.
+
+### Grafici di Base
+
+I grafici sono strumenti fondamentali per visualizzare i dati. Alcuni dei grafici di base in R includono il grafico a dispersione, il boxplot e l'istogramma.
+
+## Esercizi
+
+Prova a risolvere i seguenti esercizi utilizzando R. Puoi eseguire i comandi di R direttamente nel tuo ambiente di lavoro.
+
+### Esercizio 1: Calcolo della Media, Mediana e Moda
+
+Utilizza il seguente dataset: `c(4, 8, 6, 5, 3, 8, 9, 7, 6, 8)`. Calcola la media, la mediana e la moda.
+
+```r
+# Esercizio 1
+data <- c(4, 8, 6, 5, 3, 8, 9, 7, 6, 8)
+
+# Calcola la media
+media <- mean(data)
+cat("Media:", media, "\n")
+
+# Calcola la mediana
+mediana <- median(data)
+cat("Mediana:", mediana, "\n")
+
+# Calcola la moda
+moda <- function(x) {
+  uniqx <- unique(x)
+  uniqx[which.max(tabulate(match(x, uniqx)))]
+}
+cat("Moda:", moda(data), "\n")
+
 
 <br>
 
