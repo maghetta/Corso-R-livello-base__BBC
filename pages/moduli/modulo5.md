@@ -201,14 +201,46 @@ data <- c(2, 4, 6, 8, 10)
 sd_value <- sd(data)
 ```
 
+# 4. Distribuzione di Frequenza
+La distribuzione di frequenza mostra come i dati sono distribuiti tra diverse categorie o intervalli.
 
-### Media, Mediana, Moda
+```
+# Genera un set di dati
+data <- c(18 ,19 , 20 , 30 , 29 , 28 , 21 , 22 , 23 , 27 , 26 , 25 , 24 , 25 , 26, 24 , 23 , 22 , 27 , 28 , 21 , 24 , 25 , 25 , 27 , 19 , 21 , 28 , 29, 28)
 
-La **media** è la somma di tutti i valori divisa per il numero di valori. La **mediana** è il valore centrale di un insieme di dati ordinato. La **moda** è il valore che appare più frequentemente nei dati.
+# Calcola la distribuzione di frequenza
+frequency_distribution <- table(data)
+print(frequency_distribution)
+# Output:
+# data
+# 18 19 20 21 22 23 24 25 26 27 28 29 30 
+# 1  2  1  3  2  2  3  4  2  3  4  2  1 
+```
 
-### Varianza e Deviazione Standard
+# 5. Varianza
+La varianza è la media dei quadrati delle deviazioni dei dati dalla loro media. È un'altra misura della dispersione dei dati.
 
-La **varianza** misura la dispersione dei dati intorno alla media. La **deviazione standard** è la radice quadrata della varianza e rappresenta la dispersione media dei valori dalla media.
+```
+# Genera un set di dati
+data <- c(2, 4, 6, 8, 10)
+
+# Calcola la varianza
+variance_value <- var(data)
+print(variance_value)  # Output: 10
+```
+
+
+# 6. Percentili
+I percentili indicano il valore sotto il quale cade una certa percentuale di osservazioni.
+
+```
+# Genera un set di dati
+data <- c(2, 4, 6, 8, 10)
+
+# Calcola il 25-esimo percentile
+percentile_25 <- quantile(data, 0.25)
+print(percentile_25)  # Output: 4
+```
 
 
 ## Grafici di Base
