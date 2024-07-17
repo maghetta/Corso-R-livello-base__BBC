@@ -60,7 +60,7 @@ Al termine di questa attività dovresti essere in grado di:
 		<td>R: una panoramica introduttiva (cosa è, diffusione, vantaggi)</td>
 	</tr>
 	<tr>
-	<td colspan="2">pausa 15'</td>
+	<td colspan="2">pausa 10'</td>
 	</tr>
 	<tr>
 		<td>[40']</td>
@@ -71,7 +71,7 @@ Al termine di questa attività dovresti essere in grado di:
 		<td>Sfide interattive sul contenuto del capitolo 1</td>		
 	</tr>
 	<tr>
-	<td colspan="2">pausa 15'</td>
+	<td colspan="2">pausa 10'</td>
 	</tr>
 	<tr>
 		<td>[40']</td>
@@ -82,7 +82,7 @@ Al termine di questa attività dovresti essere in grado di:
 		<td>Sfide interattive sul contenuto del capitolo 2</td>		
 	</tr>
 	<tr>
-	<td colspan="2">pausa 15'</td>
+	<td colspan="2">pausa 10'</td>
 	</tr>
 	<tr>
 		<td>[20']</td>
