@@ -2,9 +2,9 @@
 Per installare R ed RStudio sul proprio PC, segui le istruzioni fornite in questa guida.
 
 
-## Come collegarsi al sito di [https://www.datacamp.com/]DataCamp
+## Come collegarsi al sito di <a href="https://www.datacamp.com/">DataCamp</a>
 
-*Premessa*: per poter accedere ai contenuti del corso gratuito "Introduzione a R" offerto dalla piattaforma DataCamp, è necessario per prima cosa registrarsi (cioé, creare un'utenza) sul sito di DataCamp [https://www.datacamp.com/](https://www.datacamp.com/).
+*Premessa*: per poter accedere ai contenuti del corso gratuito "Introduzione a R" offerto dalla piattaforma DataCamp, è necessario per prima cosa registrarsi (cioé, creare un'utenza) sul sito di DataCamp <a href="https://www.datacamp.com/">(https://www.datacamp.com/)</a>.
 
 
 ## 
