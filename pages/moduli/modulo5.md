@@ -287,7 +287,7 @@ La distribuzione di frequenza relativa, invece, esprime la frequenza assoluta co
 - **Confronto di Dataset**: Le frequenze relative facilitano il confronto tra dataset di dimensioni diverse.
 - **Base per Altre Analisi**: Costituiscono il punto di partenza per calcolare ulteriori statistiche descrittive o per visualizzazioni grafiche come istogrammi.
 
-# Un paio di funzioni di R utile per calcolare frequenze asolute e relative: table() e prop.table()
+# Un paio di funzioni di R utile per calcolare frequenze assolute e relative: table() e prop.table()
 Ecco un esempio di come calcolare e visualizzare le distribuzioni di frequenza assolute e relative in R:
 
 ```
@@ -430,17 +430,15 @@ head(data_url)
 
 
 
-
-
 ## Esercizi
 
 Prova a risolvere i seguenti esercizi utilizzando R. Puoi eseguire i comandi di R direttamente nel tuo ambiente di lavoro.
 
-### Esercizio 1: Calcolo della Media e Mediana di un vettore numerico
+# Esercizio 1: Calcolo della Media e Mediana di un vettore numerico
 
 Utilizza il seguente dataset per svolgere l'esercizio: `c(4, 8, 6, 5, 3, 8, 9, 7, 6, 8)`. Calcola la media, la mediana e la moda.
 
-```r
+```
 # Esercizio 1
 data <- c(4, 8, 6, 5, 3, 8, 9, 7, 6, 8)
 
