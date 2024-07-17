@@ -183,13 +183,23 @@ La mediana è il valore che separa la metà superiore dei dati dalla metà infer
 
 # in R
 ```r
-Copy code
 # Genera un set di dati
 data <- c(2, 4, 6, 8, 10)
 
 # Calcola la mediana
 median_value <- median(data)
 print(median_value)  # Output: 6
+
+# 3. Deviazione Standard
+La deviazione standard misura la dispersione dei dati rispetto alla media. Un valore elevato indica che i dati sono molto dispersi.
+
+# in R
+```r
+# Genera un set di dati
+data <- c(2, 4, 6, 8, 10)
+
+# Calcola la deviazione standard
+sd_value <- sd(data)
 
 
 ### Media, Mediana, Moda
@@ -200,7 +210,8 @@ La **media** è la somma di tutti i valori divisa per il numero di valori. La **
 
 La **varianza** misura la dispersione dei dati intorno alla media. La **deviazione standard** è la radice quadrata della varianza e rappresenta la dispersione media dei valori dalla media.
 
-### Grafici di Base
+
+## Grafici di Base
 
 I grafici sono strumenti fondamentali per visualizzare i dati. Alcuni dei grafici di base in R includono il grafico a dispersione, il boxplot e l'istogramma.
 
