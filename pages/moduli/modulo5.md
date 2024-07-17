@@ -49,26 +49,18 @@ Al termine di questa attività dovresti essere in grado di:
 		<td>Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa</td>
 	</tr>
 	<tr>
-		<td>[30']</td>
+		<td>[50']</td>
 		<td>Statistica descrittiva: una panoramica introduttiva</td>
 	</tr>
 	<tr>
 	<td colspan="2">pausa 5'</td>
 	</tr>
 	<tr>
-		<td>[15']</td>
-		<td>tipi di grafici</td>		
+		<td>[30']</td>
+		<td>esercizi</td>		
 	</tr>
 	<tr>
-		<td>[15']</td>
-		<td>caricare tabelle di dati in R</td>		
-	</tr>
-	<tr>
-		<td>[35']</td>
-		<td>to be defined</td>		
-	</tr>
-	<tr>
-	<td colspan="2">pausa 10'</td>
+	<td colspan="2">pausa 15'</td>
 	</tr>
 	<tr>
 		<td>[40']</td>
