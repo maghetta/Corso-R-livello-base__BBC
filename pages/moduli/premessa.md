@@ -4,7 +4,8 @@ title: Premessa - prima di iniziare
 
 
 ## Installare R e RStudio sul proprio PC
-Per installare R ed RStudio sul proprio PC, segui le istruzioni fornite <a href="https://github.com/maghetta/teaching_R/blob/main/Installazione-R-RStudio.pdf" download>in questa guida</a>.
+Per installare R ed RStudio sul proprio PC, segui le istruzioni fornite <a href="[https://github.com/maghetta/teaching_R/blob/main/Installazione-R-RStudio.pdf](https://github.com/maghetta/teaching_R/raw/main/Installazione-R-RStudio.pdf
+)" download>in questa guida</a>.
 
 <br>
 <br>
