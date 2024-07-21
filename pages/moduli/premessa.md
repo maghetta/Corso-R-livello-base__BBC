@@ -9,10 +9,11 @@ Per installare R ed RStudio sul proprio PC, segui le istruzioni fornite <a href=
 
 <small>(*) Nella pagina che si aprirà, che mostra un'anteprima della guida, premi l'icona di download in alto a destra per scaricare il file PDF sul tuo PC. Oppure, consulta la guida online scorrendo la pagina verso il basso.</small>
 <br>
-<br>
-<br>
 
 ---
+
+<br>
+<br>
 
 ## Come collegarsi al sito di <a href="https://www.datacamp.com/">DataCamp</a>
 
@@ -49,4 +50,11 @@ Per iniziare a svolgere il corso online "Introduzione a R" su DataCamp:
 ![modulo1_step5](images/modulo1/step5.png)
 
 **Figura "step 5"**
+
+
+---
+
+<br>
+<br>
+
 
