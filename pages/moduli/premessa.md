@@ -46,11 +46,12 @@ Per iniziare a svolgere il corso online "Introduzione a R" su DataCamp:
 ![modulo1_step4](images/modulo1/modulo1_step4.png)
 
 **Figura "step 4"**
+---
+<br>
 
 ![modulo1_step5](images/modulo1/step5.png)
 
 **Figura "step 5"**
-
 
 ---
 
