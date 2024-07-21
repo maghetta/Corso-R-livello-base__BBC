@@ -7,6 +7,7 @@ In quel che segue troverai indicazioni utili per:
 - Installare R e RStudio sul proprio PC
 - Come collegarsi al sito di <a href="https://www.datacamp.com/">DataCamp</a>
 - Come riprendere il corso di Introduzione a R sul sito di <a href="https://www.datacamp.com/">DataCamp</a>
+
 ---
   
 ## Installare R e RStudio sul proprio PC
@@ -58,6 +59,13 @@ Per iniziare a svolgere il corso online "Introduzione a R" su DataCamp:
 ![modulo1_step5](images/modulo1/step5.png)
 
 **Figura "step 5"**
+
+---
+
+<br>
+<br>
+
+## Come riprendere il corso di Introduzione a R sul sito di <a href="https://www.datacamp.com/">DataCamp</a>
 
 ---
 
