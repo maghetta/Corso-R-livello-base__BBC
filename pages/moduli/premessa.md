@@ -2,7 +2,12 @@
 title: Premessa - prima di iniziare
 ---
 
+In quel che segue troverai indicazioni utili per:
 
+- Installare R e RStudio sul proprio PC
+- Come collegarsi al sito di <a href="https://www.datacamp.com/">DataCamp</a>
+- Come riprendere il corso di Introduzione a R sul sito di <a href="https://www.datacamp.com/">DataCamp</a>
+  
 ## Installare R e RStudio sul proprio PC
 Per installare R ed RStudio sul proprio PC, segui le istruzioni fornite <a href="[https://github.com/maghetta/teaching_R/blob/main/Installazione-R-RStudio.pdf](https://github.com/maghetta/teaching_R/raw/main/Installazione-R-RStudio.pdf
 )" download>in questa guida</a> (*).
