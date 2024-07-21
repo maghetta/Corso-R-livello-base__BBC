@@ -9,7 +9,7 @@ subitems:
   subitems:
     - title: Perché programmare?
       url: /programmare
-    - title: Per iniziare
+    - title: Premessa - prima di iniziare
       url: /premessa
     - title: Modulo 1
       url: /modulo1
