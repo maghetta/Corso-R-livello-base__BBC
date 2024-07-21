@@ -40,7 +40,7 @@ Per iniziare a svolgere il corso online "Introduzione a R" su DataCamp:
 
 - Se il tuo codice è corretto , comparirà un messaggio con il punteggio da te ottenuto. Premi sul pulsante verde "continue" per continuare sulla schermata successiva. Se invece ci sono errori nel tuo codice, leggi i consigli che appariranno nel pannello in basso a sinistra e correggi di conseguenza il tuo codice nel pannello in alto a destra. Poi ri-premi "Submit Answer" per proseguire.
 
-![modulo1_step4](images/modulo1/step4.png)
+![modulo1_step4](images/modulo1/modulo1_step4.png)
 
 **Figura "step 4"**
 
