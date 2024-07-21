@@ -73,19 +73,19 @@ Segui le istruzioni fornite qui sopra alla voce *Come collegarsi al sito di <a h
 
 **step 2: visualizza elenco dei capitoli del corso di R**
 
-![datacamp](/images/modulo2/datacamp4.png)
+![datacamp](images/modulo2/datacamp4.png)
 
 1. premi sul pulsante con su scritto "Start Course"
 
-![datacamp](/images/modulo2/datacamp5.png)
+![datacamp](images/modulo2/datacamp5.png)
 
 2. premi sul pulsante "Course Outline" in alto al centro della schermata
 
-![datacamp](/images/modulo2/datacamp6.png)
+![datacamp](images/modulo2/datacamp6.png)
 
 3. scorri i capitoli e fai click sul pulsante "View Chapter Details" del capitolo di tuo interesse
 
-![datacamp](/images/modulo2/datacamp7.png)
+![datacamp](images/modulo2/datacamp7.png)
 
 4. Vedrai in grigio chiaro le parti di capitolo già fatte, **in blu scuro** quelle da fare. Fai click sulla prima voce **in blu scuro** per riprendere da lì a lavorare al corso di R
 
