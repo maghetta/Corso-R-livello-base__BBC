@@ -2,7 +2,7 @@
 title: Modulo 5
 ---
 
-![modulo5](/images/modulo5/modulo5.jpg)
+![modulo5](images/modulo5/modulo5.jpg)
 
 <br>
 
