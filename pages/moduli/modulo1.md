@@ -143,15 +143,6 @@ Per svolgere i capitoli 1 (*Introduzione alle basi di R*) e 2 (**Vettori**) del 
 NOTA: possono comparire durante il corso messaggi promozionali (vedi ad esempio **Figura "esempio messaggio promozionale da rifiutare"**). Semplicemente, scegli sempre di chiudere il messaggio (quando possibile) oppure di continuare il corso ("Continue course" nella figura di esempio riportata qui sotto).
 
 
-![modulo1_step4](images/modulo1/step4.png)
-
-**Figura "step 4"**
-
-![modulo1_step5](images/modulo1/step5.png)
-
-**Figura "step 5"**
-
-
 ![modulo1_schema_datacamp](images/modulo1/schema_datacamp.png)
 
 schema della finestra di lavoro del corso R su DataCamp
