@@ -2,7 +2,7 @@
 title: Modulo 4
 ---
 
-![modulo4](/images/modulo4/modulo4.jpg)
+![modulo4](images/modulo4/modulo4.jpg)
 
 <br>
 
