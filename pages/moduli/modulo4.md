@@ -175,20 +175,20 @@ Alternativamente, e nel caso in cui non conosci già il nome della funzione R da
 
 - Puoi trovare aiuto in rete utilizzando un motore di ricerca (es. [https://www.google.com/](https://www.google.com/)), specificando con le giuste parole chiave il tuo dubbio / problema.
 
-Prova ad esempio a cercare su Google:
+Prova ad esempio a digitare su Google il tuo dubbio. Meglio ancora se poni la richeista in inglese: avrai accesso ad un numero ancor più vasto di documenti tecnici e discussioni in forum specializzati.
+<br>
+Ad esempio:
 
-come faccio a rinominare righe e colonne di un data.frame in R?
+How do I rename rows and columns of a data.frame in R?
 
 **--> Sei soddisfatto del risultato? Hai trovato la risposta al tuo dubbio?**
-
-Meglio ancora se riesci a formulare la tua domanda in inglese: avrai accesso ad un numero ancor più vasto di documenti tecnici e discussioni in forum specializzati
 
 
 - Altra via, digitando nella console di R il comando: 
 
 **help.search()** o il suo sinonimo **??**
 
-es. help.search("expression") o ??"expression"
+es. help.search("names") o ??"names"
 
 Avrai in risposta un elenco di tutti i pacchetti R che contengono funzioni (riportati come nome_pacchetto::nome_funzione) nella cui documentazione è presente la/le parola/e chiave da te inserite per la ricerca di aiuto, insieme ad una minima descrizione di scopo della data funzione R.
 
