@@ -169,10 +169,7 @@ Vedrai che la guida include dei **blocchi di codice R** (evidenziati come box su
 **Premessa:**
 <br>
 
-Per risolvere questa sfida tremendissima **ti servirà una console di R**. Se non ne hai una installata in locale sul tuo PC, **puoi usare quella del corso di DataCamp**. Mentre NON andrà bene l'emulatore che trovi al link [https://rdrr.io/snippets/](https://rdrr.io/snippets/) perché manca di alcune funzioni.
-
-
-Per dimostrarmi fin dove ti sei spinto nella soluzione di questa sfida, copia e in colla il **codice R da te generato** in un file di testo (possibilmente **un file di testo semplice**) e **inviamelo per email**, in modo che io possa eseguirlo in R e gustarmi il risultato! Usa delle **righe di commento** nel tuo codice per rispondere alle domande che troverai qua e la qui sotto.
+Per risolvere questa sfida tremendissima **ti servirà una console di R**. Se non ne hai una installata in locale sul tuo PC (ad esempio, disponibile da RStudio), **puoi usare quella del corso di DataCamp**.
 
 <br>
 
