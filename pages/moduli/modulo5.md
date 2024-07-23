@@ -382,7 +382,7 @@ Per leggere file Excel (.xls o .xlsx), si può utilizzare il pacchetto readxl.
 
 ```
 # Installare e caricare il pacchetto readxl
-install.packages("readxl")
+# install.packages("readxl") # decommenta ed esegui questo comando se hai bisogno di installare il pacchetto "readxl"
 library(readxl)
 
 # Importare dati da un file Excel
