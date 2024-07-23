@@ -383,8 +383,10 @@ install.packages("readxl")
 library(readxl)
 
 # Importare dati da un file Excel
-head(data_excel)
+# per un file excel da usare come esempio, scarica <a href="https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/length-height-for-age/lhfa_girls_0-to-13-weeks_zscores.xlsx?sfvrsn=a2c6650e_11" download>questo file ("lhfa_girls_0-to-13-weeks_zscores.xlsx")</a> sul tuo PC che riporta i dati della <a href="[https://www.datacamp.com/](https://www.who.int/tools/child-growth-standards/standards/length-height-for-age)"> World Health Organization (WHO)</a> su peso e altezza di bambine tra 0 e 13 settimane.
+
 data_excel <- read_excel("path/to/yourfile.xlsx", sheet = 1)
+head(data_excel)
 ```
 
 4. Importare Dati da un File di Testo con Delimitatore Personalizzato
