@@ -290,12 +290,14 @@ Un istogramma è utilizzato per rappresentare la distribuzione di una variabile 
 
 ```
 # Genera un set di dati casuale
-set.seed(123)		# questa funzione serve ad assicurare che tutti noi lavoreremo con gli stessi numeri 
+set.seed(123)	# questa funzione serve ad assicurare che tutti noi lavoreremo con gli stessi numeri (*)
 data <- rnorm(100)
 
 # Crea un istogramma
 hist(data, main="Istogramma", xlab="Valori", ylab="Frequenza", col="blue", border="black")
 ```
+(*) La funzione set.seed(), ad esempio **set.seed(123)**,  Imposta il seme del generatore di numeri casuali a 123. Questo significa che ogni volta che esegui il codice con lo stesso seme (123), otterrai la stessa sequenza di numeri casuali. Questo è particolarmente utile per garantire la riproducibilità dei risultati nelle analisi e nei test.
+ Imposta il seme del generatore di numeri casuali a 123. Questo significa che ogni volta che esegui il codice con lo stesso seme (123), otterrai la stessa sequenza di numeri casuali. Questo è particolarmente utile per garantire la riproducibilità dei risultati nelle analisi e nei test.
 
 # 2. Grafico a Barre
 Un grafico a barre è utilizzato per rappresentare la frequenza o la percentuale di categorie di dati qualitativi.
