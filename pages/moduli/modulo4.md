@@ -251,47 +251,50 @@ Suggerimento extra: se leggere la documentazione non ti piace, dai uno sguardo a
 
 <br>
 
-## Sfida tremendissima
+## Esempio di installazione ed uso di un pacchetto R
 
 **Premessa:**
+Per eseguire il codice di esempio qui di seguito, **ti servirà una console di R**. Ad esempio, quella fornita da **RStudio**.
 
-Per risolvere questa sfida tremendissima **ti servirà una console di R**. Se stai lavorando da casa e non ne hai una installata in locale sul tuo PC, **puoi usare quella del corso di DataCamp**. 
+In questo esempio, utilizzeremo il pacchetto `dplyr` per dimostrare come caricare un pacchetto e applicare alcune delle sue funzioni per la manipolazione dei dati.
 
-Per dimostrarmi fin dove ti sei spinto nella soluzione di questa sfida, copia e incolla il codice R da te generato in un file di testo (possibilmente un file di testo semplice) e inviamelo per email, in modo che io possa eseguirlo in R e gustarmi il risultato! Usa delle righe di commento nel tuo codice per rispondere alle domande che troverai qua e la qui sotto.
+## Installazione del Pacchetto
+Se non hai già installato il pacchetto `dplyr`, puoi farlo con il comando `install.packages()`. Questa operazione deve essere eseguita solo una volta.
 
+```
+# Installazione del pacchetto dplyr (da eseguire una sola volta)
+install.packages("dplyr")
+Caricamento del Pacchetto
+Una volta installato, puoi caricare il pacchetto dplyr utilizzando library().
 
-**Pronti? Via!**
+```
+# Caricamento del pacchetto dplyr
+library(dplyr)
+Uso delle Funzioni di dplyr
+Utilizziamo il pacchetto dplyr per eseguire alcune operazioni di manipolazione dei dati. Useremo il dataset integrato mtcars per questo esempio.
 
-**********************************************************************************************
+Visualizzazione dei Dati
+```
+# Visualizzazione delle prime righe del dataset mtcars
+head(mtcars)
+Filtraggio dei Dati
+Filtriamo le auto con almeno 6 cilindri.
 
-\##  1. DATI
+```
+# Filtraggio delle auto con almeno 6 cilindri
+mtcars_6_cyl <- filter(mtcars, cyl >= 6)
+head(mtcars_6_cyl)
+Selezione delle Colonne
+Selezioniamo solo le colonne mpg (miglia per gallone) e hp (potenza del motore).
 
-**********************************************************************************************
+```
+# Selezione delle colonne mpg e hp
+mtcars_mpg_hp <- select(mtcars, mpg, hp)
+head(mtcars_mpg_hp)
+Ordinamento dei Dati
+Ordiniamo le auto in base alla potenza del motore (hp) in ordine decrescente.
 
-\### Carica i dati presenti nel data.frame chiamato USArrests
-
-\# (suggerimento: USArrests è un altro dataset di esempio di R, si carica come caricavi nel modulo scorso il dataset mtcars)
-
-
-\### Ora stampa a video le prime 8 righe di questo data.frame 
-
-\# (suggerimento: per stamparne proprio 8 dovrai vedere la documentazione della funzione di R che ti verrà in mente di usare)
-
-
-\### Ora estrai la nona riga di questo data.frame
-
-
-\### Infine, estrai i valori riportati nelle colonne 2, 3, e 4 per le righe 5, 6 e 7 di questo data.frame
-
-**********************************************************************************************
-
-
-**********************************************************************************************
-
-\##  2. CREAZIONE DI UN GRAFICO DEI DATI
-
-**********************************************************************************************
-
-\### Crea un plot della variabile 'Murder' del data.frame chiamato 'USArrests'. Fai in modo che nel grafico compaia un titolo in colore blu con su scritto "Omicidi nel 1973 negli USA per 100,000 abitanti" 
-
-**********************************************************************************************
+```
+# Ordinamento delle auto per potenza del motore in ordine decrescente
+mtcars_sorted <- arrange(mtcars, desc(hp))
+head(mtcars_sorted)
