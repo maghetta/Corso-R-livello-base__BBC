@@ -266,19 +266,21 @@ Se non hai già installato il pacchetto `dplyr`, puoi farlo con il comando `inst
 install.packages("dplyr")
 Caricamento del Pacchetto
 Una volta installato, puoi caricare il pacchetto dplyr utilizzando library().
+```
 
 ```
 # Caricamento del pacchetto dplyr
 library(dplyr)
 Uso delle Funzioni di dplyr
 Utilizziamo il pacchetto dplyr per eseguire alcune operazioni di manipolazione dei dati. Useremo il dataset integrato mtcars per questo esempio.
+```
 
-Visualizzazione dei Dati
 ```
 # Visualizzazione delle prime righe del dataset mtcars
 head(mtcars)
 Filtraggio dei Dati
 Filtriamo le auto con almeno 6 cilindri.
+```
 
 ```
 # Filtraggio delle auto con almeno 6 cilindri
@@ -286,6 +288,7 @@ mtcars_6_cyl <- filter(mtcars, cyl >= 6)
 head(mtcars_6_cyl)
 Selezione delle Colonne
 Selezioniamo solo le colonne mpg (miglia per gallone) e hp (potenza del motore).
+```
 
 ```
 # Selezione delle colonne mpg e hp
@@ -293,8 +296,10 @@ mtcars_mpg_hp <- select(mtcars, mpg, hp)
 head(mtcars_mpg_hp)
 Ordinamento dei Dati
 Ordiniamo le auto in base alla potenza del motore (hp) in ordine decrescente.
+```
 
 ```
 # Ordinamento delle auto per potenza del motore in ordine decrescente
 mtcars_sorted <- arrange(mtcars, desc(hp))
 head(mtcars_sorted)
+```
