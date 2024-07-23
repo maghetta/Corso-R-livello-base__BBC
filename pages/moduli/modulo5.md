@@ -357,9 +357,12 @@ R offre diverse funzioni per importare dati da vari formati di file. Di seguito 
 
 Il formato CSV (Comma-Separated Values) è uno dei formati più comuni per l'archiviazione e lo scambio di dati tabulari. In R, si utilizza la funzione `read.csv()`.
 
+<<small> Per un file CSV da usare come esempio, scarica <a "https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/anagrafica-vaccini-summary-latest.csv"" download>questo file ("anagrafica-vaccini-summary-latest.csv")</a> sul tuo PC che riporta i dati del Ministero della Salute sui vaccinati in Italia. </small>
+
+
 ```
 # Importare dati da un file CSV
-data_csv <- read.csv("path/to/yourfile.csv")
+data_csv <- read.csv("path/to/yourfile.csv")	# adatta questo comando con il path sul tuo PC al file "anagrafica-vaccini-summary-latest.csv" appena scaricato
 head(data_csv)
 ```
 
@@ -404,7 +407,7 @@ head(data_custom)
 
 ```
 # Importare dati da una URL
-url <- "http://example.com/yourfile.csv"
+url <- "https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/anagrafica-vaccini-summary-latest.csv"
 data_url <- read.csv(url)
 head(data_url)
 ```
