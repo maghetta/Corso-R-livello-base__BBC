@@ -377,7 +377,7 @@ head(data_tsv)
 3. Importare Dati da un File Excel
 Per leggere file Excel (.xls o .xlsx), si può utilizzare il pacchetto readxl.
 <br>
-<small> Per un file excel da usare come esempio, scarica <a href="https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/length-height-for-age/lhfa_girls_0-to-13-weeks_zscores.xlsx?sfvrsn=a2c6650e_11" download>questo file ("lhfa_girls_0-to-13-weeks_zscores.xlsx")</a> sul tuo PC che riporta i dati della <a href="https://www.who.int/tools/child-growth-standards/standards/length-height-for-age">World Health Organization (WHO)</a> su peso e altezza di bambine tra 0 e 13 settimane. </small>
+<small> Per un file excel da usare come esempio, scarica <a href="https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/length-height-for-age/lhfa_girls_0-to-13-weeks_zscores.xlsx?sfvrsn=a2c6650e_11" download>questo file ("lhfa_girls_0-to-13-weeks_zscores.xlsx")</a> sul tuo PC che riporta i dati della World Health Organization (WHO) su peso e altezza di bambine tra 0 e 13 settimane. </small>
 
 
 ```
