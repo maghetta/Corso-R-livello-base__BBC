@@ -448,6 +448,8 @@ cat("Deviazione standard:", sd(data), "\n")
 <hr>
 
 ## Vediamo un esempio di analisi descrittiva utilizzando il dataset **iris** in R:
+<br>
+
 ```
 # Caricamento del dataset
 data(iris)
@@ -474,6 +476,8 @@ plot(iris$Sepal.Length, iris$Petal.Length, main="Scatter plot di Sepal Length vs
 # Matrice di correlazione
 cor(iris[, 1:4])
 ```
+
+
 
 
 <hr>
