@@ -89,15 +89,15 @@ Al termine di questa attività dovresti essere in grado di:
 
 1. **Abbiamo conosciuto il quinto ed ultimo tipo di "oggetto" di R: la lista**
 
-![r_liste](/images/modulo5/r_liste.png)
+![r_liste](images/modulo5/r_liste.png)
 
 2. **Abbiamo imparato come chiedere aiuto se abbiamo dubbi sul codice, in R o in rete**
 
-![cmd](/images/modulo5/cmd.png)
+![cmd](images/modulo5/cmd.png)
 
 ad esempio dalla console di R, con il simbolo ? seguito dal nome della funzione per cui vogliamo vedere la documentazione
 
-![firefox](/images/modulo5/firefox.png)
+![firefox](images/modulo5/firefox.png)
 
 
 Oppure direttamente ad un motore di ricerca, per sapere come fare una certa cosa in R. Approfittando dei tanti utenti R e dei tanti forum con argomenti e problemi di ogni tipo già affrontati e risolti, e documentati in rete.
@@ -106,11 +106,11 @@ Oppure direttamente ad un motore di ricerca, per sapere come fare una certa cosa
 
 3. **Abbiamo visto come installare e caricare nella propria sessione di lavoro un pacchetto R**
 
-![cmd](/images/modulo5/cmd2.png)
+![cmd](images/modulo5/cmd2.png)
 
 installo un pacchetto, dei tanti disponibili nel repository di R, una sola volta sul mio PC con la funzione **install.packages()**
 
-![cmd](/images/modulo5/cmd3.png)
+![cmd](images/modulo5/cmd3.png)
 
 Ogni volta che voglio utilizzare funzioni da un dato pacchetto, carico quel pacchetto nella mia sessione di lavoro R con la funzione *library()*
 
@@ -130,10 +130,11 @@ Ogni volta che voglio utilizzare funzioni da un dato pacchetto, carico quel pacc
 
 In questa sezione, copriremo i seguenti argomenti:
 
+- Statistica descrittiva: scopi e modalità
 - Tipi di Variabili in Statistica
 - Indicatori Principali della Statistica Descrittiva
 - Distribuzioni di Frequenza Assolute e Relative
-- Principali Tipi di Grafico in Statistica Descrittiva con R
+- Principali Tipi di Grafico usati in Statistica Descrittiva
 - Importare Dati in R: Diversi Formati e Modi Possibili
 
 
@@ -212,31 +213,6 @@ print(frequency_distribution)
 # 1  2  1  3  2  2  3  4  2  3  4  2  1 
 ```
 
-# 5. Varianza
-La varianza è la media dei quadrati delle deviazioni dei dati dalla loro media. È un'altra misura della dispersione dei dati.
-
-```
-# Genera un set di dati
-data <- c(2, 4, 6, 8, 10)
-
-# Calcola la varianza
-variance_value <- var(data)
-print(variance_value)  # Output: 10
-```
-
-
-# 6. Percentili
-I percentili indicano il valore sotto il quale cade una certa percentuale di osservazioni.
-
-```
-# Genera un set di dati
-data <- c(2, 4, 6, 8, 10)
-
-# Calcola il 25-esimo percentile
-percentile_25 <- quantile(data, 0.25)
-print(percentile_25)  # Output: 4
-```
-
 # Una funzione di R utile per un riepilogo dei dati: summary()
 
 La funzione summary() in R è uno strumento potente e versatile che fornisce un riepilogo statistico dei principali indicatori di un set di dati. È particolarmente utile per ottenere rapidamente una panoramica delle caratteristiche di un dataset e per individuare eventuali valori anomali o pattern interessanti.
@@ -304,7 +280,7 @@ print(freq_rel)
 ```
 
 
-## Principali Tipi di Grafico in Statistica Descrittiva con R
+## Principali Tipi di Grafico usati in Statistica Descrittiva
 
 I grafici sono strumenti fondamentali per visualizzare i dati. La statistica descrittiva utilizza vari tipi di grafici per rappresentare visivamente i dati.  Ogni tipo di grafico ha il suo specifico uso e può fornire diverse prospettive sui dati analizzati. Qui di seguito una panoramica dei principali tipi di grafico utilizzati nella statistica descrittiva con R. con esempi di codice R per ciascuno:
 
@@ -314,7 +290,7 @@ Un istogramma è utilizzato per rappresentare la distribuzione di una variabile 
 
 ```
 # Genera un set di dati casuale
-set.seed(123)
+set.seed(123)		# questa funzione serve ad assicurare che tutti noi lavoreremo con gli stessi numeri 
 data <- rnorm(100)
 
 # Crea un istogramma
