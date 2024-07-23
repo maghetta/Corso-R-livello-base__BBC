@@ -443,28 +443,6 @@ cat("Moda:", moda(data), "\n")
 
 <br>
 
-# caricare tabelle di dati in R
-
-<br>
-
-...
-
-<br>
-...
-
-<br>
-
-...
-
-<br>
-
-<iframe src="https://it.wikipedia.org/wiki/Statistica_descrittiva" width="800" height="600"></iframe>
-
-<br>
-
-## Contenuti in via di definizione---
-
-
 ...
 
 <hr>
