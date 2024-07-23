@@ -376,12 +376,19 @@ data_tsv <- read.table("path/to/yourfile.tsv", sep="\t", header=TRUE)
 head(data_tsv)
 ```
 
+3. Importare Dati da un File di Testo con Delimitatore Personalizzato
+Se si ha un file di testo con un delimitatore diverso da virgola o tab, si può utilizzare la funzione read.table() specificando il delimitatore corretto.
 
-3. Importare Dati da un File Excel
+```
+# Importare dati da un file di testo con delimitatore personalizzato
+data_custom <- read.table("path/to/yourfile.txt", sep=";", header=TRUE)
+head(data_custom)
+```
+
+4. Importare Dati da un File Excel
 Per leggere file Excel (.xls o .xlsx), si può utilizzare il pacchetto readxl.
 <br>
 <small> Per un file excel da usare come esempio, scarica <a href="https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/length-height-for-age/lhfa_girls_0-to-13-weeks_zscores.xlsx?sfvrsn=a2c6650e_11" download>questo file ("lhfa_girls_0-to-13-weeks_zscores.xlsx")</a> sul tuo PC che riporta i dati della World Health Organization (WHO) su peso e altezza di bambine tra 0 e 13 settimane. </small>
-
 
 ```
 # Installare e caricare il pacchetto readxl
@@ -391,15 +398,6 @@ library(readxl)
 # Importare dati da un file Excel
 data_excel <- read_excel("path/to/yourfile.xlsx", sheet = 1)	# es. adatta con il path al file "lhfa_girls_0-to-13-weeks_zscores.xlsx"
 head(data_excel)
-```
-
-4. Importare Dati da un File di Testo con Delimitatore Personalizzato
-Se si ha un file di testo con un delimitatore diverso da virgola o tab, si può utilizzare la funzione read.table() specificando il delimitatore corretto.
-
-```
-# Importare dati da un file di testo con delimitatore personalizzato
-data_custom <- read.table("path/to/yourfile.txt", sep=";", header=TRUE)
-head(data_custom)
 ```
 
 5. Importare Dati da una Connessione URL
@@ -420,7 +418,7 @@ Prova a risolvere i seguenti esercizi utilizzando R. Puoi eseguire i comandi di 
 
 # Esercizio 1: Calcolo della Media e Mediana di un vettore numerico
 
-Utilizza il seguente dataset per svolgere l'esercizio: `c(4, 8, 6, 5, 3, 8, 9, 7, 6, 8)`. Calcola la media, la mediana e la moda.
+Utilizza il seguente dataset per svolgere l'esercizio: c(4, 8, 6, 5, 3, 8, 9, 7, 6, 8). Calcola la media, la mediana e la deviazione standard.
 
 ```
 # Esercizio 1
@@ -438,17 +436,16 @@ cat("Mediana:", mediana, "\n")
 sd <- sd(data)
 cat("Deviazione standard:", sd(data), "\n")
 
+```
+
 
 <br>
 
 <br>
-
-...
 
 <hr>
 
 ## Vediamo un esempio di analisi descrittiva utilizzando il dataset **iris** in R:
-<br>
 
 ```
 # Caricamento del dataset
@@ -476,9 +473,8 @@ plot(iris$Sepal.Length, iris$Petal.Length, main="Scatter plot di Sepal Length vs
 # Matrice di correlazione
 cor(iris[, 1:4])
 ```
-
-
-
+<br>
+<br>
 
 <hr>
 
