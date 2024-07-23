@@ -434,12 +434,9 @@ cat("Media:", media, "\n")
 mediana <- median(data)
 cat("Mediana:", mediana, "\n")
 
-# Calcola la moda
-moda <- function(x) {
-  uniqx <- unique(x)
-  uniqx[which.max(tabulate(match(x, uniqx)))]
-}
-cat("Moda:", moda(data), "\n")
+# Calcola la deviazione standard
+sd <- sd(data)
+cat("Deviazione standard:", sd(data), "\n")
 
 
 <br>
@@ -447,6 +444,37 @@ cat("Moda:", moda(data), "\n")
 <br>
 
 ...
+
+<hr>
+
+## Vediamo un esempio di analisi descrittiva utilizzando il dataset **iris** in R:
+```
+# Caricamento del dataset
+data(iris)
+
+# Riepilogo statistico
+summary(iris)
+
+# Media e deviazione standard
+mean(iris$Sepal.Length)
+sd(iris$Sepal.Length)
+
+# Varianza
+var(iris$Sepal.Length)
+
+# Istogramma
+hist(iris$Sepal.Length, main="Istogramma di Sepal Length", xlab="Lunghezza del sepalo", col="blue")
+
+# Boxplot
+boxplot(iris$Sepal.Length ~ iris$Species, main="Boxplot di Sepal Length per Specie", xlab="Specie", ylab="Lunghezza del sepalo", col="green")
+
+# Scatter plot
+plot(iris$Sepal.Length, iris$Petal.Length, main="Scatter plot di Sepal Length vs Petal Length", xlab="Lunghezza del sepalo", ylab="Lunghezza del petalo", col="red")
+
+# Matrice di correlazione
+cor(iris[, 1:4])
+```
+
 
 <hr>
 
