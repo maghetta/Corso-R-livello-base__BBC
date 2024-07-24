@@ -663,7 +663,8 @@ legend("topright", lty=2, lwd=2, col=c("blue","red","green"), legend=c("setosa",
 
 
 # Boxplot: confrontiamo in altro modo le distribuzioni di lunghezza dei sepali tra le diverse specie
-boxplot(iris$Sepal.Length ~ iris$Species, main="Boxplot di Sepal Length per Specie", xlab="Specie", ylab="Lunghezza del sepalo", col=c("blue","red","green"), legend=TRUE)
+boxplot(iris$Sepal.Length ~ iris$Species, main="Boxplot di Sepal Length per Specie", xlab="Specie",
+	ylab="Lunghezza del sepalo", col=c("blue","red","green"), legend=TRUE)
 
 
 # Scatter plot: altro scopo nella statistica descrittiva è evidenziare possibili associazioni tra variabili.
@@ -681,7 +682,8 @@ points(iris_versicolor$Sepal.Length, iris_versicolor$Petal.Length, col="red", pc
 # aggiungiamo una legenda in alto a sinistra
 legend("topleft", pch=16, col=c("blue","red"), legend=c("setosa","versicolor"))
 
-#.... **per te**: modifica il comando qui sopra affinché nella legenda compaia anche la specie "virginica". Poi rigenera da capo il plot, con questa legenda completa in sostituzione di quella parziale generata dal comando qui sopra
+#.... **per te**: modifica il comando qui sopra affinché nella legenda compaia anche la specie "virginica". Poi rigenera da capo il plot,
+#	con questa legenda completa in sostituzione di quella parziale generata dal comando qui sopra
 
 #.... **per te**: come puoi scoprire tutta la gamma di valori del parametro pch (cioé, aspetto del punto sul plot) a tua disposizione in R?
 
