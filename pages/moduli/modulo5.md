@@ -190,7 +190,7 @@ hist(data, main="Istogramma", xlab="Valori", ylab="Frequenza", col="blue", borde
 (*) La funzione set.seed(), ad esempio **set.seed(123)**,  Imposta il seme del generatore di numeri casuali a 123. Questo significa che ogni volta che esegui il codice con lo stesso seme (123), otterrai la stessa sequenza di numeri casuali. Questo è particolarmente utile per garantire la riproducibilità dei risultati nelle analisi e nei test.
  Imposta il seme del generatore di numeri casuali a 123. Questo significa che ogni volta che esegui il codice con lo stesso seme (123), otterrai la stessa sequenza di numeri casuali. Questo è particolarmente utile per garantire la riproducibilità dei risultati nelle analisi e nei test.
 
-# 2. Grafico a Barre
+# 2. Grafico a Barre (barplot)
 Un grafico a barre è utilizzato per rappresentare la frequenza o la percentuale di categorie di dati qualitativi.
 
 ```
@@ -343,6 +343,38 @@ range_difference <- diff(range_value)
 # Stampa il range
 print(range_difference)
 ```
+
+
+## Mettiti alla prova!
+
+Ora prova tu a scrivere un codice che faccia quanto indicato nei commenti qui sotto.
+Immagina di avere i punteggi degli studenti in un esame e di volerne trarre una descrizione statistica.
+Per farlo, fai riferimento ai blocchi di codice R visti qui sopra.
+
+```
+# Utilizza il seguente vettore di dati per svolgere l'esercizio:
+voti <- c(18 , 25 , 23 , 28 , 24 , 26 , 19 , 30 , 25 , 27 , 23 , 26 , 25 , 19 , 20)
+
+
+# Calcola la media dei voti
+
+
+# Calcola la mediana dei voti
+
+
+# Trova la moda per capire qual'è il voto preso più frequente (qual'è il voto preso più di frequente?)
+
+
+# Calcola la deviazione standard per vedere quanto variano i voti rispetto alla media
+
+
+# Crea un boxplot per visualizzare la distribuzione dei voti
+
+
+```
+
+
+
 
 ## Distribuzione di Frequenza
 La distribuzione di frequenza mostra come i dati sono distribuiti tra diverse categorie o intervalli.
