@@ -21,8 +21,6 @@ title: Modulo 5
 
 Al termine di questa attività dovresti essere in grado di:
 
-- caricare una tabella di dati di interesse dal proprio PC (esempio, da un file excel o testo semplice formattato in colonne)
-
 - scrivere comandi R per calcolare indicatori statistici descrittivi di variabili numeriche (media, mediana, deviazione standard)
 
 - scrivere comandi R per calcolare indicatori statistici descrittivi di variabili categoriche e logiche
@@ -31,7 +29,7 @@ Al termine di questa attività dovresti essere in grado di:
 
 - scrivere comandi R per rappresentare graficamente una distribuzione di variabili (numeriche, logiche o categoriche)
 
-- seguire le istruzioni fornite in un tutorial (codice commentato, con domande ed esercizi)
+- caricare una tabella di dati di interesse dal proprio PC (esempio, da un file excel o testo semplice formattato in colonne)
 
 - elencare e descrivere almeno tre tipi di grafici di uso comune per rappresentare distribuzioni di variabili numeriche, logiche o categoriche
 
@@ -132,9 +130,9 @@ In questa sezione, copriremo i seguenti argomenti:
 
 - Statistica descrittiva: scopi e modalità
 - Tipi di Variabili in Statistica
+- Principali Tipi di Grafico usati in Statistica Descrittiva
 - Indicatori Principali della Statistica Descrittiva
 - Distribuzioni di Frequenza Assolute e Relative
-- Principali Tipi di Grafico usati in Statistica Descrittiva
 - Importare Dati in R: Diversi Formati e Modi Possibili
 
 
