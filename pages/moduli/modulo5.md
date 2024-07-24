@@ -478,6 +478,46 @@ cor(iris[, 1:4])
 
 <hr>
 
+
+## Vediamo un altro esempio di analisi descrittiva, utilizzando un dataset di altezze di studenti:
+
+In questo esempio, esamineremo un dataset di altezze degli studenti utilizzando la statistica descrittiva. Analizzeremo la media, la deviazione standard e visualizzeremo i dati tramite un istogramma e un box plot.
+
+```
+# Creiamo un dataset di esempio con le altezze degli studenti.
+altezza_studenti <- c(150, 160, 155, 170, 165, 172, 158, 162, 168, 175,
+                      160, 157, 164, 161, 169, 166, 171, 167, 159, 174)
+
+# Visualizzazione del dataset
+
+# Calcolo della media
+media_altezze <- mean(altezza_studenti)
+
+# Calcolo della deviazione standard
+deviazione_standard <- sd(altezza_studenti)
+
+# Creiamo un istogramma e un box plot per visualizzare la distribuzione delle altezze.
+
+# Caricamento del pacchetto necessario
+library(ggplot2)
+
+# Creazione dell'istogramma
+ggplot(data = data.frame(altezza_studenti), aes(x = altezza_studenti)) +
+  geom_histogram(binwidth = 5, fill = "skyblue", color = "black") +
+  labs(title = "Distribuzione delle Altezze degli Studenti",
+       x = "Altezza (cm)",
+       y = "Frequenza")
+
+# Creazione del box plot
+ggplot(data = data.frame(altezza_studenti), aes(y = altezza_studenti)) +
+  geom_boxplot(fill = "lightgreen", color = "black") +
+  labs(title = "Box Plot delle Altezze degli Studenti",
+       y = "Altezza (cm)")
+```
+
+
+
+
 # WHAT'S NEXT
 
 **Ti stava piacendo e vorresti continuare a "giocare" con R?**
