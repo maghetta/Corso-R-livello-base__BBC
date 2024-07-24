@@ -64,16 +64,12 @@ Al termine di questa attività dovresti essere in grado di:
 	<td colspan="2">pausa 15'</td>
 	</tr>
 	<tr>
-		<td>[20']</td>
+		<td>[35']</td>
 		<td>Ottenere aiuto in R (vedi box qui sotto)</td>		
 	</tr>
 	<tr>
-		<td>[20']</td>
+		<td>[35']</td>
 		<td>Pacchetti R: cosa sono, come si usano (vedi box qui sotto)</td>		
-	</tr>
-	<tr>
-		<td>[30']</td>
-		<td>Sfide interattive sul contenuto del capitolo 2</td>		
 	</tr>
 	<tr>
 	<td colspan="2">pausa 15'</td>
