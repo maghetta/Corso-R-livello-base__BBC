@@ -64,11 +64,11 @@ Al termine di questa attività dovresti essere in grado di:
 	</tr>
 	<tr>
 		<td>[40']</td>
-		<td>to be defined</td>
+		<td>Slides statistica</td>
 	</tr>
 	<tr>
 		<td>[30']</td>
-		<td>Sfide interattive</td>		
+		<td>Esercizi</td>		
 	</tr>
 	<tr>
 	<td colspan="2">pausa 10'</td>
