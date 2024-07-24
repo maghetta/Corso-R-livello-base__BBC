@@ -604,6 +604,25 @@ Prova ad esempio a scaricare(*) i seguenti file EXCEL sul tuo PC. Arpili, e prov
 
 ## Vediamo un esempio di analisi descrittiva utilizzando il dataset **iris** in R:
 
+
+Il dataset **iris** è un esempio di dataset già caricato e disponibile come data.frame in R. Contiene misurazioni di quattro caratteristiche (lunghezza e larghezza sia dei sepali che dei petali) di tre diverse specie di fiori di iris. Si deve a Ronald A. Fisher, che nel 1936 lo ha creato come parte del suo lavoro sulla discriminazione lineare. Ecco i dettagli del dataset:
+
+<br>
+**Dimensioni**: 
+- 150 osservazioni (righe)
+- 5 variabili (colonne)
+<br>
+
+**Variabili**:
+- Sepal.Length: Lunghezza del sepalo (in centimetri).
+- Sepal.Width: Larghezza del sepalo (in centimetri).
+- Petal.Length: Lunghezza del petalo (in centimetri).
+- Petal.Width: Larghezza del petalo (in centimetri).
+- Species: Specie del fiore di iris, con tre possibili valori: setosa, versicolor o virginica
+<br>
+<br>
+
+
 ```
 # Caricamento del dataset
 data(iris)
