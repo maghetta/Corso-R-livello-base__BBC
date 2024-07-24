@@ -308,18 +308,43 @@ data <- c(2, 4, 6, 8, 10)
 
 # Calcola la deviazione standard
 sd_value <- sd(data)
+
+# Stampa il valore della deviazione standard
+print(sd_value)
 ```
 
 # 2. Varianza
 La varianza rappresenta la media dei quadrati delle differenze tra ciascun valore e la media.
 
+```
+# Genera un set di dati
+data <- c(2, 4, 6, 8, 10)
+
+# Calcola la varianza
+variance_value <- var(data)
+
+# Stampa il valore della varianza
+print(variance_value)
+```
 
 # 3. Range
 Il range (o intervallo) è la misura della differenza tra il valore massimo e il valore minimo di una serie di numeri. Può essere influenzato dalla presenza di outlier.
 
+```
+# Genera un set di dati
+data <- c(2, 4, 6, 8, 10)
 
+# Calcola il range
+range_value <- range(data)
 
-# 4. Distribuzione di Frequenza
+# Calcola la differenza tra il massimo e il minimo per ottenere il range
+range_difference <- diff(range_value)
+
+# Stampa il range
+print(range_difference)
+```
+
+## Distribuzione di Frequenza
 La distribuzione di frequenza mostra come i dati sono distribuiti tra diverse categorie o intervalli.
 
 ```
