@@ -456,7 +456,7 @@ print(range_difference)
 <br>
 <hr>
 
-## Esercizio guidato: Calcolo della Media, Mediana e Deviazione Standard di un vettore numerico
+## Esercizio guidato: Calcolo della Media, Mediana e Deviazione Standard
 
 Esegui il codice riportato nel seguente esercizio utilizzando R sul tuo PC.
 
