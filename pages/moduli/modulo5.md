@@ -190,7 +190,7 @@ hist(data, main="Istogramma", xlab="Valori", ylab="Frequenza", col="blue", borde
 (*) La funzione set.seed(), ad esempio **set.seed(123)**,  Imposta il seme del generatore di numeri casuali a 123. Questo significa che ogni volta che esegui il codice con lo stesso seme (123), otterrai la stessa sequenza di numeri casuali. Questo è particolarmente utile per garantire la riproducibilità dei risultati nelle analisi e nei test.
  Imposta il seme del generatore di numeri casuali a 123. Questo significa che ogni volta che esegui il codice con lo stesso seme (123), otterrai la stessa sequenza di numeri casuali. Questo è particolarmente utile per garantire la riproducibilità dei risultati nelle analisi e nei test.
 
-# 2. Grafico a Barre (barplot)
+# 2. Grafico a Barre (Barplot)
 Un grafico a barre è utilizzato per rappresentare la frequenza o la percentuale di categorie di dati qualitativi.
 
 ```
@@ -199,12 +199,27 @@ categories <- c("A", "B", "C", "D")
 values <- c(10, 23, 15, 8)
 
 # Crea un grafico a barre
+barplot(values)
+
+# Crea un grafico a barre un pò più informativo (aggiungendo i nomi alle categorie mostrate e agli assi)
 barplot(values, names.arg=categories, main="Grafico a Barre", xlab="Categorie", ylab="Frequenza", col="lightblue")
 ```
 
 
-# 3. Boxplot
+# 3. Grafico a Scatola e Baffi (Boxplot)
 Un boxplot è utilizzato per visualizzare la distribuzione di una variabile numerica continua attraverso i suoi quartili. È utile per identificare i valori anomali.
+In particolare, in un boxplot vengono evidenziate i seguenti cinque indicatori statistici:
+
+- **Minimo (Minimum):** cioé il valore più piccolo nel dataset, esclusi gli outlier. Rappresentato dalla linea inferiore (baffo) che si estende dalla scatola.
+- **Primo Quartile (Q1):** cioé il 25° percentile dei dati, il valore sotto il quale cade il 25% dei dati. Rappresenta il bordo inferiore della scatola.
+- **Mediana (Median):** cioé il valore centrale dei dati, il 50° percentile. Indica che il 50% dei dati è inferiore a questo valore e il 50% è superiore. Rappresentata dalla linea all'interno della scatola.
+- **Terzo Quartile (Q3):** cioé il 75° percentile dei dati, il valore sotto il quale cade il 75% dei dati. Rappresenta il bordo superiore della scatola.
+- **Massimo (Maximum):** cioé il valore più grande nel dataset, esclusi gli outlier. Rappresentato dalla linea superiore (baffo) che si estende dalla scatola.
+
+Inoltre, i **Baffi (Whiskers)**, di un boxplot, cioé Le linee che si estendono dalla scatola ai valori minimi e massimi (esclusi gli outlier), raccontano la dispersione dei dati al di fuori del primo e del terzo quartile.
+Avendo questi riferimenti statistici, chiameremo **outlier:**, cioé valori **anomali** o **estremi** della nostra distribuzione di dati, quei i punti dati che si trovano al di fuori dei baffi. Infatti, gli outlier sono solitamente definiti come punti che si trovano oltre 1.5 volte l'intervallo interquartile (IQR, dall'inglese InterQuartile Range). Quindi oltre i valori dati da: (Q1 - 1.5*IQR) e (Q3 + 1.5*IQR).
+
+
 
 ```
 # Genera un set di dati casuale
