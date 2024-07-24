@@ -287,18 +287,20 @@ data <- c(2, 4, 6, 8, 10, 10, 5, 8, 9, 8)
 # Passaggi per calcolare la moda
 
 # 1. usa la funzione **table()** per contare la frequenza di ogni valore
-f <- table(data)
+frequenze <- table(data)
 
-
-mode_value <- mode(data)
-print(mode_value)  # Output: 8
+# 2. Trova il valore con la frequenza massima
+moda <- as.numeric(names(frequenze)[frequenze == max(frequenze)])
+print(moda)  # Output: 8
 ```
 
 
+## Indicatori Principali della Statistica Descrittiva (parte B: Misure di dispersione dei dati)
+Queste misure indicano il valore centrale o tipico di un insieme di dati.
 
 
-# 3. Deviazione Standard
-La deviazione standard misura la dispersione dei dati rispetto alla media. Un valore elevato indica che i dati sono molto dispersi.
+# 1. Deviazione Standard
+La deviazione standard misura la dispersione dei dati rispetto alla media. Infatti indica quanto i valori si discostano in media dalla media. Un valore elevato indica che i dati sono molto dispersi.
 
 ```
 # Genera un set di dati
@@ -307,6 +309,15 @@ data <- c(2, 4, 6, 8, 10)
 # Calcola la deviazione standard
 sd_value <- sd(data)
 ```
+
+# 2. Varianza
+La varianza rappresenta la media dei quadrati delle differenze tra ciascun valore e la media.
+
+
+# 3. Range
+Il range (o intervallo) è la misura della differenza tra il valore massimo e il valore minimo di una serie di numeri. Può essere influenzato dalla presenza di outlier.
+
+
 
 # 4. Distribuzione di Frequenza
 La distribuzione di frequenza mostra come i dati sono distribuiti tra diverse categorie o intervalli.
