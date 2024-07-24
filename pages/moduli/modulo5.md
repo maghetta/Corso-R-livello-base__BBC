@@ -678,6 +678,14 @@ points(iris_versicolor$Sepal.Length, iris_versicolor$Petal.Length, col="red", pc
 
 #.... **per te**: aggiungi un'altra riga di codice per visualizzare nel plot anche i punti relativi alla specie virginica, in colore verde ("green")
 
+# proviamo a "fittare" un modello di regressione lineare per evidenziare la dipendenza tra lunghezza del sepalo e del petalo che sembra emergere dal plot
+<br>
+# a questo scopo, utilizzaiamo la funzione **lm()**
+lm(Sepal.Length ~ Petal.Length, data=iris) 	# con questo comando stimiamo x e y della retta di minimizazione delle distanze che vogliamo stimare
+abline( lm(Sepal.Length ~ Petal.Length, data=iris) ) 	# con questo comando aggiungiamo la retta appena stiata dal modello nel plot
+
+
+
 
 # aggiungiamo una legenda in alto a sinistra
 legend("topleft", pch=16, col=c("blue","red"), legend=c("setosa","versicolor"))
