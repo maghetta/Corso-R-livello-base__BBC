@@ -456,6 +456,35 @@ print(range_difference)
 <br>
 <hr>
 
+## Esercizio guidato: Calcolo della Media, Mediana e Deviazione Standard di un vettore numerico
+
+Esegui il codice riportato nel seguente esercizio utilizzando R sul tuo PC.
+
+
+```
+# Crea un vettore numerico
+data <- c(4, 8, 6, 5, 3, 8, 9, 7, 6, 8)
+
+# Calcola la media
+media <- mean(data)
+cat("Media:", media, "\n")
+
+# Calcola la mediana
+mediana <- median(data)
+cat("Mediana:", mediana, "\n")
+
+# Calcola la deviazione standard
+sd <- sd(data)
+cat("Deviazione standard:", sd(data), "\n")
+
+```
+
+
+<br>
+
+<br>
+
+<hr>
 ## Mettiti alla prova!
 
 Ora prova tu a scrivere un codice che faccia quanto indicato nei commenti qui sotto.
@@ -571,38 +600,7 @@ Prova ad esempio a scaricare(*) i seguenti file EXCEL sul tuo PC. Arpili, e prov
 <br>
 
 
-## Esercizi
 
-Prova a risolvere i seguenti esercizi utilizzando R. Puoi eseguire i comandi di R direttamente nel tuo ambiente di lavoro.
-
-# Esercizio 1: Calcolo della Media e Mediana di un vettore numerico
-
-Utilizza il seguente dataset per svolgere l'esercizio: c(4, 8, 6, 5, 3, 8, 9, 7, 6, 8). Calcola la media, la mediana e la deviazione standard.
-
-```
-# Esercizio 1
-data <- c(4, 8, 6, 5, 3, 8, 9, 7, 6, 8)
-
-# Calcola la media
-media <- mean(data)
-cat("Media:", media, "\n")
-
-# Calcola la mediana
-mediana <- median(data)
-cat("Mediana:", mediana, "\n")
-
-# Calcola la deviazione standard
-sd <- sd(data)
-cat("Deviazione standard:", sd(data), "\n")
-
-```
-
-
-<br>
-
-<br>
-
-<hr>
 
 ## Vediamo un esempio di analisi descrittiva utilizzando il dataset **iris** in R:
 
