@@ -355,7 +355,7 @@ R offre diverse funzioni per importare dati da vari formati di file. Di seguito 
 
 - Importare Dati da un File CSV
 
-Il formato CSV (Comma-Separated Values) è uno dei formati più comuni per l'archiviazione e lo scambio di dati tabulari. In R, si utilizza la funzione read.csv().
+Il formato CSV (Comma-Separated Values) è uno dei formati più comuni per l'archiviazione e lo scambio di dati tabulari. In R, si utilizza la funzione **read.csv()**.
 
 <small> Per un file CSV da usare come esempio, scarica <a href="https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/anagrafica-vaccini-summary-latest.csv" download>questo file ("anagrafica-vaccini-summary-latest.csv")</a> sul tuo PC che riporta i dati del Ministero della Salute sui vaccinati in Italia. </small>
 
@@ -368,7 +368,7 @@ head(data_csv)
 
 
 - Importare Dati da un File TSV
-Il formato TSV (Tab-Separated Values) utilizza il tab come delimitatore. In R, si può usare la funzione read.table() specificando il delimitatore.
+Il formato TSV (Tab-Separated Values) utilizza il tab come delimitatore. In R, si può usare la funzione **read.table()** specificando che il delimitatore è la tabulazione (argomento **sep="\t"**).
 
 ```
 # Importare dati da un file TSV
@@ -377,7 +377,7 @@ head(data_tsv)
 ```
 
 - Importare Dati da un File di Testo con Delimitatore Personalizzato
-Se si ha un file di testo con un delimitatore diverso da virgola o tab, si può utilizzare la funzione read.table() specificando il delimitatore corretto.
+Se si ha un file di testo con un delimitatore diverso da virgola o tab, si può di nuovo utilizzare la funzione generica **read.table()**, specificando il delimitatore corretto come valore dell'argomento **sep**. Esempio: read.table(miofile, **sep=";"**), per importare una tabella di dati i cui valori sono separati da un ";".
 
 ```
 # Importare dati da un file di testo con delimitatore personalizzato
