@@ -414,9 +414,10 @@ head(data_url)
 ## Un excursus: file excel. Quando è una tabella e... quando è arte
 Attenzione all'uso creativo dello spazio nei fogli excel. Spesso per armonia di visione "umana", si dispongono dati in un foglio excel perdendo completamente il formato righe e colonne che caratterizza una matrice di tdati. 
 E che è anche l'unico formato (righe x colonne) importabile in R.
-
-
-
+<br>
+https://github.com/maghetta/teaching_R/blob/main/esempio1.xlsx
+https://github.com/maghetta/teaching_R/blob/main/esempio2.xlsx
+<br>
 
 
 
