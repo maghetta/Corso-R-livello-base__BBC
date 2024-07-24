@@ -717,6 +717,9 @@ altezza_studenti <- c(162 , 157 , 174 , 171 , 167 , 160 , 168 , 164 , 159 , 161 
 plot(density(altezza_studenti), ann=FALSE)	# comando che serve a visualizzare graficamente la distribuzione dei valori del vettore di dati di altezze in termini di densità di probabilità.
 title(main="curva di densità stimata delle altezze", col.main="blue", xlab="altezze studenti osservate", ylab="Densità di Probabilità") 	 # aggiungo titolo al grafico e nome degli assi (che avevo lasciati bianchi nel comando sopra con l'opzione ann=FALSE)
 
+#...**per te**: come commnteresti la curva che descrive i dati mostrata qui sopra? Ti suggerisce qualcosa?
+
+
 #...**per te**: aggiungi una legenda in alto a destra nel plot che dica "altezze studenti"
 
 
