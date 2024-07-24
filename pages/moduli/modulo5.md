@@ -421,8 +421,8 @@ E che è anche l'unico formato (righe x colonne) importabile in R.
 <br>
 Prova ad esempio a scaricare(*) i seguenti file EXCEL sul tuo PC. Arpili, e prova a capire cosa NON va:
 <br>
-<a href="[percorso/del/file/nomefile.ext](https://github.com/maghetta/teaching_R/blob/main/esempio1.xlsx)" download>Esempio 1</a>
-<a href="[percorso/del/file/nomefile.ext](https://github.com/maghetta/teaching_R/blob/main/esempio2.xlsx)" download>Esempio 2</a>
+<a href="https://github.com/maghetta/teaching_R/blob/main/esempio1.xlsx" download>Esempio 1</a>
+<a href="https://github.com/maghetta/teaching_R/blob/main/esempio2.xlsx" download>Esempio 2</a>
 <br>
 
 <small> (*) Nella pagina che si aprirà, per scaricare il file EXCEl premi l’icona di download presente tutto a destra nella banda grigia.</small>
