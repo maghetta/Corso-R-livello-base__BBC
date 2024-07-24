@@ -141,9 +141,9 @@ In questa sezione, copriremo i seguenti argomenti:
 
 - Statistica descrittiva: scopi e modalità
 - Tipi di Variabili in Statistica
+- Distribuzioni di Frequenza Assolute e Relative
 - Principali Tipi di Grafico usati in Statistica Descrittiva
 - Indicatori Principali della Statistica Descrittiva
-- Distribuzioni di Frequenza Assolute e Relative
 - Importare Dati in R: Diversi Formati e Modi Possibili
 
 
@@ -260,6 +260,98 @@ pie(slices, labels=labels, main="Grafico a Torta", col=rainbow(length(slices)))
 <hr>
 
 
+
+## Distribuzione di Frequenza
+La distribuzione di frequenza mostra come i dati sono distribuiti tra diverse categorie o intervalli.
+
+```
+# Genera un set di dati
+data <- c(18 ,19 , 20 , 30 , 29 , 28 , 21 , 22 , 23 , 27 , 26 , 25 , 24 , 25 , 26, 24 , 23 , 22 , 27 , 28 , 21 , 24 , 25 , 25 , 27 , 19 , 21 , 28 , 29, 28)
+
+# Calcola la distribuzione di frequenza
+frequency_distribution <- table(data)
+print(frequency_distribution)
+# Output:
+# data
+# 18 19 20 21 22 23 24 25 26 27 28 29 30 
+# 1  2  1  3  2  2  3  4  2  3  4  2  1 
+```
+
+# Una funzione di R utile per un riepilogo dei dati: summary()
+
+La funzione summary() in R è uno strumento potente e versatile che fornisce un riepilogo statistico dei principali indicatori di un set di dati. È particolarmente utile per ottenere rapidamente una panoramica delle caratteristiche di un dataset e per individuare eventuali valori anomali o pattern interessanti.
+
+# Cosa Fa summary()
+
+Quando si applica la funzione summary() a un dataset, essa restituisce i seguenti indicatori statistici per ciascuna variabile:
+
+- **Valore Minimo (Min.)**: Il valore più basso nel dataset.
+- **Primo Quartile (1st Qu.)**: Il valore al 25-esimo percentile.
+- **Mediana (Median)**: Il valore al 50-esimo percentile.
+- **Media (Mean)**: La media aritmetica dei valori.
+- **Terzo Quartile (3rd Qu.)**: Il valore al 75-esimo percentile.
+- **Valore Massimo (Max.)**: Il valore più alto nel dataset.
+
+Per le variabili categoriche, **summary()** restituisce un conteggio delle occorrenze di ciascun livello, che mi consente di:
+
+- **avere una panoramica dei dati**: Fornisce un riepilogo conciso delle principali statistiche descrittive.
+- **identificare eventuali outliers**: Facilita l'individuazione di valori anomali.
+- **verifica l'eventuale presenza di dati mancanti**: Indica la presenza di valori mancanti (NAs).
+
+Di sequito un esempio di utilizzo della funzione summary() con un semplice dataset:
+
+```
+# Creazione di un dataset di esempio
+data <- data.frame(
+  age = c(23, 25, 31, 35, 42, 58, 60, 22, 30, 40),
+  salary = c(50000, 60000, 80000, 55000, 120000, 70000, 75000, 65000, 62000, 58000)
+)
+
+# Applicazione della funzione summary()
+summary_stats <- summary(data)
+print(summary_stats)
+```
+<br>
+<br>
+<hr>
+
+# Distribuzioni di Frequenza Assolute e Relative
+
+**Distribuzione di Frequenza Assoluta**
+<br>
+La distribuzione di frequenza assoluta è una tabulazione che mostra il numero di occorrenze di ciascun valore o intervallo di valori in un dataset. È utile per capire come i dati sono distribuiti in termini di conteggio.
+<br>
+
+**Distribuzione di Frequenza Relativa**
+<br>
+La distribuzione di frequenza relativa, invece, esprime la frequenza assoluta come una frazione o una percentuale del totale. È utile per confrontare distribuzioni di dataset di dimensioni diverse, poiché normalizza i dati rispetto al totale.
+<br>
+
+# Utilità
+- **Comprensione della Distribuzione dei Dati**: Permette di visualizzare come i dati sono distribuiti e individuare pattern o anomalie.
+- **Confronto di Dataset**: Le frequenze relative facilitano il confronto tra dataset di dimensioni diverse.
+- **Base per Altre Analisi**: Costituiscono il punto di partenza per calcolare ulteriori statistiche descrittive o per visualizzazioni grafiche come istogrammi.
+
+# Un paio di funzioni di R utile per calcolare frequenze assolute e relative: table() e prop.table()
+Ecco un esempio di come calcolare e visualizzare le distribuzioni di frequenza assolute e relative in R:
+
+```
+# Creazione di un dataset di esempio
+data <- c(2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 7)
+
+# Calcolo della distribuzione di frequenza assoluta
+freq_abs <- table(data)
+print(freq_abs)
+
+# Calcolo della distribuzione di frequenza relativa
+freq_rel <- prop.table(freq_abs)
+print(freq_rel)
+```
+<br>
+<br>
+
+<hr>
+
 ## Indicatori Principali della Statistica Descrittiva (parte A: Misure di tendenza centrale)
 Queste misure indicano il valore centrale o tipico di un insieme di dati.
 
@@ -308,6 +400,8 @@ frequenze <- table(data)
 moda <- as.numeric(names(frequenze)[frequenze == max(frequenze)])
 print(moda)  # Output: 8
 ```
+
+<br>
 
 
 ## Indicatori Principali della Statistica Descrittiva (parte B: Misure di dispersione dei dati)
@@ -358,7 +452,9 @@ range_difference <- diff(range_value)
 # Stampa il range
 print(range_difference)
 ```
-
+<br>
+<br>
+<hr>
 
 ## Mettiti alla prova!
 
@@ -388,97 +484,10 @@ voti <- c(18 , 25 , 23 , 28 , 24 , 26 , 19 , 30 , 25 , 27 , 23 , 26 , 25 , 19 , 
 
 ```
 
-
-
-
-## Distribuzione di Frequenza
-La distribuzione di frequenza mostra come i dati sono distribuiti tra diverse categorie o intervalli.
-
-```
-# Genera un set di dati
-data <- c(18 ,19 , 20 , 30 , 29 , 28 , 21 , 22 , 23 , 27 , 26 , 25 , 24 , 25 , 26, 24 , 23 , 22 , 27 , 28 , 21 , 24 , 25 , 25 , 27 , 19 , 21 , 28 , 29, 28)
-
-# Calcola la distribuzione di frequenza
-frequency_distribution <- table(data)
-print(frequency_distribution)
-# Output:
-# data
-# 18 19 20 21 22 23 24 25 26 27 28 29 30 
-# 1  2  1  3  2  2  3  4  2  3  4  2  1 
-```
-
-# Una funzione di R utile per un riepilogo dei dati: summary()
-
-La funzione summary() in R è uno strumento potente e versatile che fornisce un riepilogo statistico dei principali indicatori di un set di dati. È particolarmente utile per ottenere rapidamente una panoramica delle caratteristiche di un dataset e per individuare eventuali valori anomali o pattern interessanti.
-
-# Cosa Fa summary()
-
-Quando si applica la funzione summary() a un dataset, essa restituisce i seguenti indicatori statistici per ciascuna variabile:
-
-- **Valore Minimo (Min.)**: Il valore più basso nel dataset.
-- **Primo Quartile (1st Qu.)**: Il valore al 25-esimo percentile.
-- **Mediana (Median)**: Il valore al 50-esimo percentile.
-- **Media (Mean)**: La media aritmetica dei valori.
-- **Terzo Quartile (3rd Qu.)**: Il valore al 75-esimo percentile.
-- **Valore Massimo (Max.)**: Il valore più alto nel dataset.
-
-Per le variabili categoriche, summary() restituisce un conteggio delle occorrenze di ciascun livello.
-
-# Perché È Utile
-
-- **Rapida Panoramica**: Fornisce un riepilogo conciso delle principali statistiche descrittive.
-- **Identificazione di Outliers**: Facilita l'individuazione di valori anomali.
-- **Verifica di Dati Mancanti**: Indica la presenza di valori mancanti.
-
-Di sequito un esempio di utilizzo della funzione summary() con un semplice dataset:
-
-```
-# Creazione di un dataset di esempio
-data <- data.frame(
-  age = c(23, 25, 31, 35, 42, 58, 60, 22, 30, 40),
-  salary = c(50000, 60000, 80000, 55000, 120000, 70000, 75000, 65000, 62000, 58000)
-)
-
-# Applicazione della funzione summary()
-summary_stats <- summary(data)
-print(summary_stats)
-```
 <br>
 <br>
 <hr>
 
-## Distribuzioni di Frequenza Assolute e Relative
-
-# Distribuzione di Frequenza Assoluta
-La distribuzione di frequenza assoluta è una tabulazione che mostra il numero di occorrenze di ciascun valore o intervallo di valori in un dataset. È utile per capire come i dati sono distribuiti in termini di conteggio.
-
-# Distribuzione di Frequenza Relativa
-La distribuzione di frequenza relativa, invece, esprime la frequenza assoluta come una frazione o una percentuale del totale. È utile per confrontare distribuzioni di dataset di dimensioni diverse, poiché normalizza i dati rispetto al totale.
-
-# Utilità
-- **Comprensione della Distribuzione dei Dati**: Permette di visualizzare come i dati sono distribuiti e individuare pattern o anomalie.
-- **Confronto di Dataset**: Le frequenze relative facilitano il confronto tra dataset di dimensioni diverse.
-- **Base per Altre Analisi**: Costituiscono il punto di partenza per calcolare ulteriori statistiche descrittive o per visualizzazioni grafiche come istogrammi.
-
-# Un paio di funzioni di R utile per calcolare frequenze assolute e relative: table() e prop.table()
-Ecco un esempio di come calcolare e visualizzare le distribuzioni di frequenza assolute e relative in R:
-
-```
-# Creazione di un dataset di esempio
-data <- c(2, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6, 6, 7)
-
-# Calcolo della distribuzione di frequenza assoluta
-freq_abs <- table(data)
-print(freq_abs)
-
-# Calcolo della distribuzione di frequenza relativa
-freq_rel <- prop.table(freq_abs)
-print(freq_rel)
-```
-<br>
-<br>
-
-<hr>
 
 ## Importare Dati in R: Diversi Formati e Modi Possibili
 R offre diverse funzioni per importare dati da vari formati di file. Di seguito vengono illustrati i modi più comuni per leggere tabelle di dati in R, con esempi di codice per ciascun formato.
