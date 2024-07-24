@@ -156,6 +156,84 @@ Queste variabili rappresentano quantità misurabili e possono essere numeri con 
 
 # 3. Variabili Dicotomiche e Logiche
 Queste sono un tipo speciale di variabili nominali che hanno solo due categorie. Esempi includono il risultato di un test (passato/fallito) e la presenza o assenza di una caratteristica (sì/no). Un caso particolare di variabile dicotomica è rappresentato dalle variabili logiche (TRUE/FALSE). Queste ultime sono immediatamente interpretabili e trattabili come numeriche da R (1/0).
+<br>
+<br>
+<hr>
+
+
+
+## Principali Tipi di Grafico usati in Statistica Descrittiva
+
+I grafici sono strumenti fondamentali per visualizzare i dati. La statistica descrittiva utilizza vari tipi di grafici per rappresentare visivamente i dati.  Ogni tipo di grafico ha il suo specifico uso e può fornire diverse prospettive sui dati analizzati. Qui di seguito una panoramica dei principali tipi di grafico utilizzati nella statistica descrittiva con R. con esempi di codice R per ciascuno:
+
+
+# 1. Istogramma
+Un istogramma è utilizzato per rappresentare la distribuzione di una variabile numerica continua. Mostra la frequenza dei dati suddivisi in intervalli (bins).
+
+```
+# Genera un set di dati casuale
+set.seed(123)	# questa funzione serve ad assicurare che tutti noi lavoreremo con gli stessi numeri (*)
+data <- rnorm(100)
+
+# Crea un istogramma
+hist(data, main="Istogramma", xlab="Valori", ylab="Frequenza", col="blue", border="black")
+```
+(*) La funzione set.seed(), ad esempio **set.seed(123)**,  Imposta il seme del generatore di numeri casuali a 123. Questo significa che ogni volta che esegui il codice con lo stesso seme (123), otterrai la stessa sequenza di numeri casuali. Questo è particolarmente utile per garantire la riproducibilità dei risultati nelle analisi e nei test.
+ Imposta il seme del generatore di numeri casuali a 123. Questo significa che ogni volta che esegui il codice con lo stesso seme (123), otterrai la stessa sequenza di numeri casuali. Questo è particolarmente utile per garantire la riproducibilità dei risultati nelle analisi e nei test.
+
+# 2. Grafico a Barre
+Un grafico a barre è utilizzato per rappresentare la frequenza o la percentuale di categorie di dati qualitativi.
+
+```
+# Genera dati categoriali
+categories <- c("A", "B", "C", "D")
+values <- c(10, 23, 15, 8)
+
+# Crea un grafico a barre
+barplot(values, names.arg=categories, main="Grafico a Barre", xlab="Categorie", ylab="Frequenza", col="lightblue")
+```
+
+
+# 3. Boxplot
+Un boxplot è utilizzato per visualizzare la distribuzione di una variabile numerica continua attraverso i suoi quartili. È utile per identificare i valori anomali.
+
+```
+# Genera un set di dati casuale
+set.seed(123)
+data <- rnorm(100)
+
+# Crea un boxplot
+boxplot(data, main="Boxplot", ylab="Valori", col="lightgreen")
+```
+
+# 4. Grafico a Dispersione (Scatter Plot)
+Un grafico a dispersione è utilizzato per visualizzare la relazione tra due variabili numeriche.
+
+```
+# Genera due set di dati correlati
+set.seed(123)
+x <- rnorm(100)
+y <- 2 * x + rnorm(100)
+
+# Crea un grafico a dispersione
+plot(x, y, main="Grafico a Dispersione", xlab="Variabile X", ylab="Variabile Y", col="red", pch=19)
+```
+
+# 5. Grafico a Torta
+Un grafico a torta è utilizzato per rappresentare la proporzione di diverse categorie di dati qualitativi.
+
+```
+# Genera dati categoriali
+slices <- c(10, 23, 15, 8)
+labels <- c("A", "B", "C", "D")
+
+# Crea un grafico a torta
+pie(slices, labels=labels, main="Grafico a Torta", col=rainbow(length(slices)))
+```
+
+<br>
+<br>
+<hr>
 
 
 ## Indicatori Principali della Statistica Descrittiva
@@ -249,6 +327,9 @@ data <- data.frame(
 summary_stats <- summary(data)
 print(summary_stats)
 ```
+<br>
+<br>
+<hr>
 
 ## Distribuzioni di Frequenza Assolute e Relative
 
@@ -278,79 +359,12 @@ print(freq_abs)
 freq_rel <- prop.table(freq_abs)
 print(freq_rel)
 ```
+<br>
+<br>
 
+<hr>
 
-## Principali Tipi di Grafico usati in Statistica Descrittiva
-
-I grafici sono strumenti fondamentali per visualizzare i dati. La statistica descrittiva utilizza vari tipi di grafici per rappresentare visivamente i dati.  Ogni tipo di grafico ha il suo specifico uso e può fornire diverse prospettive sui dati analizzati. Qui di seguito una panoramica dei principali tipi di grafico utilizzati nella statistica descrittiva con R. con esempi di codice R per ciascuno:
-
-
-# 1. Istogramma
-Un istogramma è utilizzato per rappresentare la distribuzione di una variabile numerica continua. Mostra la frequenza dei dati suddivisi in intervalli (bins).
-
-```
-# Genera un set di dati casuale
-set.seed(123)	# questa funzione serve ad assicurare che tutti noi lavoreremo con gli stessi numeri (*)
-data <- rnorm(100)
-
-# Crea un istogramma
-hist(data, main="Istogramma", xlab="Valori", ylab="Frequenza", col="blue", border="black")
-```
-(*) La funzione set.seed(), ad esempio **set.seed(123)**,  Imposta il seme del generatore di numeri casuali a 123. Questo significa che ogni volta che esegui il codice con lo stesso seme (123), otterrai la stessa sequenza di numeri casuali. Questo è particolarmente utile per garantire la riproducibilità dei risultati nelle analisi e nei test.
- Imposta il seme del generatore di numeri casuali a 123. Questo significa che ogni volta che esegui il codice con lo stesso seme (123), otterrai la stessa sequenza di numeri casuali. Questo è particolarmente utile per garantire la riproducibilità dei risultati nelle analisi e nei test.
-
-# 2. Grafico a Barre
-Un grafico a barre è utilizzato per rappresentare la frequenza o la percentuale di categorie di dati qualitativi.
-
-```
-# Genera dati categoriali
-categories <- c("A", "B", "C", "D")
-values <- c(10, 23, 15, 8)
-
-# Crea un grafico a barre
-barplot(values, names.arg=categories, main="Grafico a Barre", xlab="Categorie", ylab="Frequenza", col="lightblue")
-```
-
-
-# 3. Boxplot
-Un boxplot è utilizzato per visualizzare la distribuzione di una variabile numerica continua attraverso i suoi quartili. È utile per identificare i valori anomali.
-
-```
-# Genera un set di dati casuale
-set.seed(123)
-data <- rnorm(100)
-
-# Crea un boxplot
-boxplot(data, main="Boxplot", ylab="Valori", col="lightgreen")
-```
-
-# 4. Grafico a Dispersione (Scatter Plot)
-Un grafico a dispersione è utilizzato per visualizzare la relazione tra due variabili numeriche.
-
-```
-# Genera due set di dati correlati
-set.seed(123)
-x <- rnorm(100)
-y <- 2 * x + rnorm(100)
-
-# Crea un grafico a dispersione
-plot(x, y, main="Grafico a Dispersione", xlab="Variabile X", ylab="Variabile Y", col="red", pch=19)
-```
-
-# 5. Grafico a Torta
-Un grafico a torta è utilizzato per rappresentare la proporzione di diverse categorie di dati qualitativi.
-
-```
-# Genera dati categoriali
-slices <- c(10, 23, 15, 8)
-labels <- c("A", "B", "C", "D")
-
-# Crea un grafico a torta
-pie(slices, labels=labels, main="Grafico a Torta", col=rainbow(length(slices)))
-```
-
-# Importare Dati in R: Diversi Formati e Modi Possibili
-## Introduzione
+## Importare Dati in R: Diversi Formati e Modi Possibili
 R offre diverse funzioni per importare dati da vari formati di file. Di seguito vengono illustrati i modi più comuni per leggere tabelle di dati in R, con esempi di codice per ciascun formato.
 
 - Importare Dati da un File CSV
@@ -427,7 +441,9 @@ Prova ad esempio a scaricare(*) i seguenti file EXCEL sul tuo PC. Arpili, e prov
 
 <small> (*) Nella pagina che si aprirà, per scaricare il file EXCEl premi l’icona di download presente tutto a destra nella banda grigia.</small>
 
-
+<hr>
+<br>
+<br>
 
 
 ## Esercizi
@@ -524,6 +540,11 @@ deviazione_standard <- sd(altezza_studenti)
 # Creiamo un istogramma e un box plot per visualizzare la distribuzione delle altezze.
 
 ```
+<br>
+<br>
+<br>
+<br>
+<hr>
 
 
 
