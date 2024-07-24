@@ -353,7 +353,7 @@ pie(slices, labels=labels, main="Grafico a Torta", col=rainbow(length(slices)))
 ## Introduzione
 R offre diverse funzioni per importare dati da vari formati di file. Di seguito vengono illustrati i modi più comuni per leggere tabelle di dati in R, con esempi di codice per ciascun formato.
 
-## 1. Importare Dati da un File CSV
+- Importare Dati da un File CSV
 
 Il formato CSV (Comma-Separated Values) è uno dei formati più comuni per l'archiviazione e lo scambio di dati tabulari. In R, si utilizza la funzione `read.csv()`.
 
@@ -367,7 +367,7 @@ head(data_csv)
 ```
 
 
-2. Importare Dati da un File TSV
+- Importare Dati da un File TSV
 Il formato TSV (Tab-Separated Values) utilizza il tab come delimitatore. In R, si può usare la funzione read.table() specificando il delimitatore.
 
 ```
@@ -376,7 +376,7 @@ data_tsv <- read.table("path/to/yourfile.tsv", sep="\t", header=TRUE)
 head(data_tsv)
 ```
 
-3. Importare Dati da un File di Testo con Delimitatore Personalizzato
+- Importare Dati da un File di Testo con Delimitatore Personalizzato
 Se si ha un file di testo con un delimitatore diverso da virgola o tab, si può utilizzare la funzione read.table() specificando il delimitatore corretto.
 
 ```
@@ -385,7 +385,7 @@ data_custom <- read.table("path/to/yourfile.txt", sep=";", header=TRUE)
 head(data_custom)
 ```
 
-4. Importare Dati da un File Excel
+- Importare Dati da un File Excel
 Per leggere file Excel (.xls o .xlsx), si può utilizzare il pacchetto readxl.
 <br>
 <small> Per un file excel da usare come esempio, scarica <a href="https://cdn.who.int/media/docs/default-source/child-growth/child-growth-standards/indicators/length-height-for-age/lhfa_girls_0-to-13-weeks_zscores.xlsx?sfvrsn=a2c6650e_11" download>questo file ("lhfa_girls_0-to-13-weeks_zscores.xlsx")</a> sul tuo PC che riporta i dati della World Health Organization (WHO) su peso e altezza di bambine tra 0 e 13 settimane. </small>
@@ -400,7 +400,7 @@ data_excel <- read_excel("path/to/yourfile.xlsx", sheet = 1)	# es. adatta con il
 head(data_excel)
 ```
 
-5. Importare Dati da una Connessione URL
+- Importare Dati da una Connessione URL
 È possibile importare dati direttamente da una URL che punta a un file CSV.
 
 ```
@@ -409,6 +409,14 @@ url <- "https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master
 data_url <- read.csv(url)
 head(data_url)
 ```
+
+
+## Un excursus: file excel. Quando è una tabella e... quando è arte
+Attenzione all'uso creativo dello spazio nei fogli excel. Spesso per armonia di visione "umana", si dispongono dati in un foglio excel perdendo completamente il formato righe e colonne che caratterizza una matrice di tdati. 
+E che è anche l'unico formato (righe x colonne) importabile in R.
+
+
+
 
 
 
