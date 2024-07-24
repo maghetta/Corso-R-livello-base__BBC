@@ -672,8 +672,16 @@ Lo scatter plot è una rappresentazione grafica utile a identificare possibili a
 plot(iris$Sepal.Length, iris$Petal.Length, main="Scatter plot di Sepal Length vs Petal Length", xlab="Lunghezza del sepalo", ylab="Lunghezza del petalo", col="red")
 
 # aggiungiamo al plot i punti, in diversi colori, relativi alle singole specie utilizzando la funzione **points()**
-points(iris_setosa$Sepal.Length, iris_setosa$Petal.Length, col="blue", pch=1)	# con pch=1 usiamo il pallino pieno per maggior evidenza
+points(iris_setosa$Sepal.Length, iris_setosa$Petal.Length, col="blue", pch=16)	# con pch=1 usiamo il pallino pieno per maggior evidenza
+points(iris_versicolor$Sepal.Length, iris_versicolor$Petal.Length, col="red", pch=16)
 
+#.... **per te**: aggiungi un'altra riga di codice per visualizzare nel plot anche i punti relativi alla specie virginica, in colore verde ("green")
+
+
+# aggiungiamo una legenda in alto a sinistra
+legend("topleft", pch=16, col=c("blue","red"), legend=c("setosa","versicolor"))
+
+#.... **per te**: modifica il comando qui sopra affinché nella legenda compaia anche la specie "virginica". Poi rigenera da capo il plot, con questa legenda completa in sostituzione di quella parziale generata dal comando qui sopra
 
 #.... **per te**: come puoi scoprire tutta la gamma di valori del parametro pch (cioé, aspetto del punto sul plot) a tua disposizione in R?
 
