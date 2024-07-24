@@ -126,6 +126,17 @@ Ogni volta che voglio utilizzare funzioni da un dato pacchetto, carico quel pacc
 
 ### Statistica descrittiva: una panoramica introduttiva
 
+La statistica descrittiva ha lo scopo di:
+
+- **Riassumere i dati**: Fornisce un quadro chiaro e sintetico di un insieme di dati.
+- **Descrivere le caratteristiche principali**: Aiuta a capire le caratteristiche essenziali dei dati, come la tendenza centrale e la variabilità.
+- **Visualizzare i dati**: Utilizza grafici e tabelle per rappresentare i dati in modo visivo e intuitivo.
+- **Identificare pattern**: Aiuta a individuare eventuali pattern, tendenze o anomalie nei dati.
+
+
+<br>
+<br>
+
 In questa sezione, copriremo i seguenti argomenti:
 
 - Statistica descrittiva: scopi e modalità
@@ -234,7 +245,8 @@ pie(slices, labels=labels, main="Grafico a Torta", col=rainbow(length(slices)))
 <hr>
 
 
-## Indicatori Principali della Statistica Descrittiva
+## Indicatori Principali della Statistica Descrittiva (parte A: Misure di tendenza centrale)
+Queste misure indicano il valore centrale o tipico di un insieme di dati.
 
 La statistica descrittiva si avvale di diversi indicatori per riassumere e descrivere le caratteristiche principali di un insieme di dati. Ecco una panoramica degli indicatori più comuni e degli esempi su come calcolarli in R.
 
@@ -261,6 +273,29 @@ data <- c(2, 4, 6, 8, 10)
 median_value <- median(data)
 print(median_value)  # Output: 6
 ```
+
+# 3. Moda
+La moda è il valore che appare più frequentemente nei dati.
+<br>
+Nota: in R, non esiste una funzione predefinita per calcolare la moda, ma puoi facilmente scrivere un piccolo codice R personalizzato per farlo. Ecco come puoi calcolare la moda di un vettore di dati:
+
+
+```
+# Genera un set di dati
+data <- c(2, 4, 6, 8, 10, 10, 5, 8, 9, 8)
+
+# Passaggi per calcolare la moda
+
+# 1. usa la funzione **table()** per contare la frequenza di ogni valore
+f <- table(data)
+
+
+mode_value <- mode(data)
+print(mode_value)  # Output: 8
+```
+
+
+
 
 # 3. Deviazione Standard
 La deviazione standard misura la dispersione dei dati rispetto alla media. Un valore elevato indica che i dati sono molto dispersi.
