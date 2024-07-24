@@ -723,10 +723,15 @@ title(main="curva di densità stimata delle altezze", col.main="blue", xlab="alt
 # Calcolo della media
 media_altezze <- mean(altezza_studenti)
 
-# Calcolo della deviazione standard
-deviazione_standard <- sd(altezza_studenti)
+# Calcolo della mediana
+mediana_altezze <- median(altezza_studenti)
 
-#...**per te**: Crea un istogramma e un box plot per visualizzare la distribuzione delle altezze.
+#...**per te**: aggiungi il valore di media e mediana come righe verticali nel plot creato qui sopra, rispettivamente come linee di colore "blue" e "orange". Per farlo, utilizza la funzione **abline()** incontrata negli esempi visti qui sopra.
+
+
+#...**per te**: Crea un istogramma per visualizzare la distribuzione delle altezze.
+#...**per te**: Crea un boxplot per visualizzare la distribuzione delle altezze.
+
 
 ```
 <br>
