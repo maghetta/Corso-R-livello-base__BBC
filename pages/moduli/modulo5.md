@@ -355,7 +355,7 @@ R offre diverse funzioni per importare dati da vari formati di file. Di seguito 
 
 - Importare Dati da un File CSV
 
-Il formato CSV (Comma-Separated Values) è uno dei formati più comuni per l'archiviazione e lo scambio di dati tabulari. In R, si utilizza la funzione `read.csv()`.
+Il formato CSV (Comma-Separated Values) è uno dei formati più comuni per l'archiviazione e lo scambio di dati tabulari. In R, si utilizza la funzione read.csv().
 
 <small> Per un file CSV da usare come esempio, scarica <a href="https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/anagrafica-vaccini-summary-latest.csv" download>questo file ("anagrafica-vaccini-summary-latest.csv")</a> sul tuo PC che riporta i dati del Ministero della Salute sui vaccinati in Italia. </small>
 
@@ -488,14 +488,21 @@ cor(iris[, 1:4])
 <hr>
 
 
+
 ## Vediamo un altro esempio di analisi descrittiva, utilizzando un dataset di altezze di studenti:
 
 In questo esempio, esamineremo un dataset di altezze degli studenti utilizzando la statistica descrittiva. Analizzeremo la media, la deviazione standard e visualizzeremo i dati tramite un istogramma e un box plot.
+<br>
+Inoltre, utilizzeremo il comando R **density()** che calcola la densità di probabilità stimata per i dati numerici contenuti in un vettore. E useremo la funzione **plot()** per graficare una curca di questa densità.
+In particolare, con il comando combinato **plot( density(<vettore_dati>) )** che compare nel codice qui sotto, R calcola una curva che mostra graficamente dove i dati sono più densi (cioè dove ci sono più valori) e dove sono meno densi. Il grafico risultante mostrerà una curva liscia che rappresenta questa distribuzione.
+
 
 ```
 # Creiamo un dataset di esempio con le altezze degli studenti.
-altezza_studenti <- c(150, 160, 155, 170, 165, 172, 158, 162, 168, 175,
-                      160, 157, 164, 161, 169, 166, 171, 167, 159, 174)
+altezza_studenti <- c(162 , 157 , 174 , 171 , 167 , 160 , 168 , 164 , 159 , 161 , 155 , 162 , 167 , 158 , 155 , 166 , 157 , 174 , 161 , 172 , 167 , 168 , 162 , 169 , 155 , 164 , 161 , 170 , 157 , 170 , 169 , 175 , 171 , 155 , 174 , 150 , 162 , 167 , 170 , 167 , 159 , 171 , 150 , 162 , 160 , 171 , 168 , 158 , 157 , 150 , 150 , 175 , 150 , 166 , 174 , 166 , 171 , 165 , 166 , 161 , 170 , 150 , 150 , 155 , 166 , 169 , 172 , 166 , 150 , 157 , 168 , 174 , 158 , 175 , 169 , 174 , 160 , 165 , 155 , 160) 
+
+plot(density(altezza_studenti), ann=FALSE)	# comando che serve a visualizzare graficamente la distribuzione dei valori del vettore di dati di altezze in termini di densità di probabilità.
+title(main="curva di densità stimata delle altezze", )
 
 # Visualizzazione del dataset
 
@@ -507,22 +514,8 @@ deviazione_standard <- sd(altezza_studenti)
 
 # Creiamo un istogramma e un box plot per visualizzare la distribuzione delle altezze.
 
-# Caricamento del pacchetto necessario
-library(ggplot2)
-
-# Creazione dell'istogramma
-ggplot(data = data.frame(altezza_studenti), aes(x = altezza_studenti)) +
-  geom_histogram(binwidth = 5, fill = "skyblue", color = "black") +
-  labs(title = "Distribuzione delle Altezze degli Studenti",
-       x = "Altezza (cm)",
-       y = "Frequenza")
-
-# Creazione del box plot
-ggplot(data = data.frame(altezza_studenti), aes(y = altezza_studenti)) +
-  geom_boxplot(fill = "lightgreen", color = "black") +
-  labs(title = "Box Plot delle Altezze degli Studenti",
-       y = "Altezza (cm)")
 ```
+
 
 
 
