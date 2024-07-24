@@ -502,7 +502,7 @@ In particolare, con il comando combinato **plot( density(<vettore_dati>) )** che
 altezza_studenti <- c(162 , 157 , 174 , 171 , 167 , 160 , 168 , 164 , 159 , 161 , 155 , 162 , 167 , 158 , 155 , 166 , 157 , 174 , 161 , 172 , 167 , 168 , 162 , 169 , 155 , 164 , 161 , 170 , 157 , 170 , 169 , 175 , 171 , 155 , 174 , 150 , 162 , 167 , 170 , 167 , 159 , 171 , 150 , 162 , 160 , 171 , 168 , 158 , 157 , 150 , 150 , 175 , 150 , 166 , 174 , 166 , 171 , 165 , 166 , 161 , 170 , 150 , 150 , 155 , 166 , 169 , 172 , 166 , 150 , 157 , 168 , 174 , 158 , 175 , 169 , 174 , 160 , 165 , 155 , 160) 
 
 plot(density(altezza_studenti), ann=FALSE)	# comando che serve a visualizzare graficamente la distribuzione dei valori del vettore di dati di altezze in termini di densità di probabilità.
-title(main="curva di densità stimata delle altezze", )
+title(main="curva di densità stimata delle altezze", col.main="blue", xlab="altezze studenti osservate", ylab="Densità di Probabilità") 	 # aggiungo titolo al grafico e nome degli assi (che avevo lasciati bianchi nel comando sopra con l'opzione ann=FALSE)
 
 # Visualizzazione del dataset
 
