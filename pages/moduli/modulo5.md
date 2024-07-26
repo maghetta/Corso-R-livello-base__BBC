@@ -112,7 +112,7 @@ installo un pacchetto, dei tanti disponibili nel repository di R, una sola volta
 
 Ogni volta che voglio utilizzare funzioni da un dato pacchetto, carico quel pacchetto nella mia sessione di lavoro R con la funzione *library()*
 
-4. **Qua e la tra i capitoli abbiamo anche conosciuto**
+4. **Qua e là tra i capitoli abbiamo anche conosciuto**
 
 - diversi altri esempi di funzioni disponibili in R, quali: *list(), names(), sessionInfo()* 
 
