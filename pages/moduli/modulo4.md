@@ -205,7 +205,10 @@ Per utilizzare un pacchetto di R sul nostro computer, seguire 2 passaggi:
 
 1. **installare il pacchetto sul nostro PC** con la funzione R **install.packages()**
 
-es. **install.packages("A3")**	# nota il nome del pacchetto messo tra virgolette
+```
+# Esempio:
+install.packages("A3") 		# nota il nome del pacchetto messo tra virgolette
+```
 
 NOTA 1: questo lo possiamo fare SOLO sulla nostra console R locale, dove abbiamo permessi adeguati
 
@@ -214,7 +217,10 @@ NOTA 2: questo passaggio sarà necessario solo la prima volta che usiamo un nuov
 
 2. **caricare il dato pacchetto nella propria sessione di lavoro** di R,  con la funzione **library()**:
 
-es. **library(A3)**                            # nota il nome del pacchetto scritto senza virgolette
+```
+# Esempio:
+library(A3)                 # nota il nome del pacchetto scritto senza virgolette
+```
 
 NOTA: questo passaggio sarà necessario ogni volta che vorremo utilizzare le funzioni di un dato pacchetto R nella nostra sessione di lavoro
 
@@ -225,7 +231,9 @@ Un paio di riferimenti utili:
 
 Prova ad esempio a digitare il seguente comando di R nella console di R che utilizzi di solito:
 
-*sessionInfo()*
+```
+sessionInfo()
+```
 
 - Ogni pacchetto di R ha una pagina dedicata, dove è anche possibile scaricare la documentazione che ci insegna ad usarlo. Es.: fai click sul nome A3 nell'elenco di pacchetti che trovi a questo link [Table of available packages, sorted by name](https://cloud.r-project.org/web/packages/available_packages_by_name.html) per accedere alla pagina di documentazione del pacchetto A3
 
@@ -250,10 +258,10 @@ Suggerimento extra: se leggere la documentazione non ti piace, dai uno sguardo a
 **Premessa:**
 Per eseguire il codice di esempio qui di seguito, **ti servirà una console di R**. Ad esempio, quella fornita da **RStudio**.
 
-In questo esempio, utilizzeremo il pacchetto `dplyr` per dimostrare come caricare un pacchetto e applicare alcune delle sue funzioni per la manipolazione dei dati.
+In questo esempio, utilizzeremo il pacchetto dplyr per dimostrare come caricare un pacchetto e applicare alcune delle sue funzioni per la manipolazione dei dati.
 
 ## Installazione del Pacchetto
-Se non hai già installato il pacchetto `dplyr`, puoi farlo con il comando `install.packages()`. Questa operazione deve essere eseguita solo una volta.
+Se non hai già installato il pacchetto dplyr, puoi farlo con il comando `install.packages()`. Questa operazione deve essere eseguita solo una volta.
 
 ```
 # Installazione del pacchetto dplyr (da eseguire una sola volta)
