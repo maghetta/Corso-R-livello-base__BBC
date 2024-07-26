@@ -142,12 +142,10 @@ diversi altri esempi di funzioni disponibili in R, quali: *matrix(), rownames(),
 <hr>
 
 
-
+***Come riprendere il corso di Introduzione a R su DataCamp da dove lo si aveva interrotto***
+<br>
 Per riprendere il corso di R su DataCamp al capitolo 5 --> segui i passaggi illustrati nel <a href="https://maghetta.github.io/Corso-R-livello-base/modulo2">[modulo 2]</a> alla sezione intitolata
 
-***
-
-***Come riprendere il corso di Introduzione a R su DataCamp da dove lo si aveva interrotto***
 
 <hr>
 
