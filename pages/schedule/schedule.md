@@ -1,8 +1,6 @@
 ---
-title: Calendario Attività
+title: Calendario Appuntamenti
 ---
-
-# ELENCO APPUNTAMENTI
 
 <a href="https://maghetta.github.io/Corso-R-livello-base/premessa">[Prima di iniziare]</a> Lunedì 9 Settembre 2024, ore 11:00-13:00 (consigliato: check installazione R; account su Datacamp). 
 
