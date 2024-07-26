@@ -135,7 +135,7 @@ A proposito: cos'è una variabile? E come la creo in R?
 
 ![datacamp](images/modulo2/datacamp3.png)
 
-Una perla di saggezza: in R tutto è un oggetto (sia esso un vettore, una matrice, o... altri oggeti che conosceremo nelle prossime puntate). A proposito: i nomi di un vettore, che tipo di oggetto sono?
+Una perla di saggezza: in R tutto è un oggetto (sia esso un vettore, una matrice, o... altri oggetti che conosceremo nelle prossime puntate). A proposito: i nomi di un vettore, che tipo di oggetto sono?
 
 4. **Qua e là tra i capitoli abbiamo anche conosciuto**
 
