@@ -127,7 +127,7 @@ A proposito: secondo te, posso avere colonne di classe diversa in una matrice? P
 A proposito, sapresti farmi un esempio di variabile fattoriale nominale? e un esempio di variabile fattoriale ordinale?
 
 
-4. Qua e la tra i capitoli abbiamo anche conosciuto
+4. Qua e là tra i capitoli abbiamo anche conosciuto
 
 diversi altri esempi di funzioni disponibili in R, quali: *matrix(), rownames(), colnames(), rowSums(), colSums(), ls(), mean(), factor(), levels(), summary(), cbind(), rbind()*
 
