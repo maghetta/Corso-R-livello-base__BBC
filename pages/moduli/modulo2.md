@@ -95,7 +95,7 @@ Al termine di questa attività dovresti essere in grado di:
 
 1. Abbiamo cominciato ad usare la console di R
 
-![datacamp](/images/modulo2/datacamp1.png)
+![datacamp](images/modulo2/datacamp1.png)
 
 <br>
 
@@ -127,13 +127,13 @@ Nota:
 
 2. **Abbiamo conosciuto l'utilizzo di base della console di R, come un semplice calcolatore**
 
-![datacamp](/images/modulo2/datacamp2.png)
+![datacamp](images/modulo2/datacamp2.png)
 
 A proposito: cos'è una variabile? E come la creo in R?
 
 3. **Abbiamo conosciuto il primo tipo di "oggetto" di R: il vettore**
 
-![datacamp](/images/modulo2/datacamp3.png)
+![datacamp](images/modulo2/datacamp3.png)
 
 Una perla di saggezza: in R tutto è un oggetto (sia esso un vettore, una matrice, o... altri oggeti che conosceremo nelle prossime puntate). A proposito: i nomi di un vettore, che tipo di oggetto sono?
 
@@ -160,45 +160,15 @@ Una perla di saggezza: in R tutto è un oggetto (sia esso un vettore, una matric
 
 <hr>
 
-***Importante: prima di svolgere i capitoli 3 e 4***
-
-
-→ vai a vedere il Prodotto di lavoro richiesto al termine di questo modulo
-
-<hr>
-
 **Come riprendere il corso di Introduzione a R su DataCamp da dove lo si aveva interrotto**
 
 <hr>
 
-**step 1: accesso al sito di DataCamp**
+Per riprendere il corso online "Introduzione a R" su DataCamp, segui le istruzioni fornite <a href="https://maghetta.github.io/Corso-R-livello-base/premessa">a questo link</a>.
 
+NOTA: possono comparire durante lo svolgimento del corso online - soprattutto al completameno di un capitolo - messaggi promozionali. Scegli sempre di chiudere il messaggio (quando possibile, facendo click sulla X in alto a destra del messaggio. Oppure facendo click al difuori del riquadro di pubblicità).
 
-1. Apri una finestra di browser al link di DataCamp: https://www.datacamp.com/
-
-2. Fai click in alto a destra sul pulsante "Sign In" 
-
-3. Effettua l'accesso con le credenziali (indirizzo email e password) ricevute per posta
-
-4. Poi ***Apri una nuova finestra di browser*** al link: https://www.datacamp.com/community/open-courses/introduzione-a-r
-
-**step 2: visualizza elenco dei capitoli del corso di R**
-
-![datacamp](/images/modulo2/datacamp4.png)
-
-1. premi sul pulsante giallo con su scritto "Start Free Course"
-
-![datacamp](/images/modulo2/datacamp5.png)
-
-2. premi sul pulsante "Course Outline" in alto al centro della schermata
-
-![datacamp](/images/modulo2/datacamp6.png)
-
-3. scorri i capitoli e fai click sul pulsante "View Chapter Details" del capitolo di tuo interesse
-
-![datacamp](/images/modulo2/datacamp7.png)
-
-4. Vedrai in grigio chiaro le parti di capitolo già fatte, **in blu scuro** quelle da fare. Fai click sulla prima voce **in blu scuro** per riprendere da lì a lavorare al corso di R
+<hr>
 
 
 # → METTI ALLA PROVA LA TUA CONOSCENZA DI R !
@@ -210,7 +180,6 @@ Quale comando si può utilizzare in R per visualizzare il contenuto del proprio 
 - *b. read()*
 - *c. ls()*
 - *d. list()*
-
 
 
 2. Il comando  c(1, TRUE,"A") genera in R un vettore di che tipo?
@@ -227,13 +196,10 @@ Quale comando si può utilizzare in R per visualizzare il contenuto del proprio 
 4. Voglio estrarre da un vettore chiamato "compiti" composto da 24 elementi, i valori corrispondenti alle posizioni 3, 11, 15 e 21. Scrivi il comando R opportuno per farlo.
 
 
-
 5. La funzione rep() di R genera ripetizioni di un dato vettore tante volte quanto specificato nel parametro times. Ad esempio: *rep( c(1,0,2), times=2)* genererà il seguente output:  *1 0 2 1 0 2*. Usa il comando *rep()* per generare il seguente vettore: *1 0 1 0 1 0 1 0 1 0 1 0*
 
 
-
 6. Scrivi 3 righe di codice R che facciano quanto segue: (1) creare un vettore denominato "regioni" che contiene gli elementi "Sicilia", "Lombardia" e "Liguria"; (2) aggiungere a questo vettore l'elemento "Molise"; (3) stampare a video il contenuto del vettore regioni. 
-
 
 
 7. Risolvi la seguente espressione in R: *-3 x 5<sub>6</sub> + 3<sub>2-2</sub> x 2<sub>2</sub> -(-2)<sub>2</sub>*. Quanto fa?
