@@ -587,7 +587,7 @@ head(data_url)
 Attenzione all'uso creativo dello spazio nei fogli excel. Spesso per armonia di visione "umana", si dispongono dati in un foglio excel perdendo completamente il formato righe e colonne che caratterizza una matrice di dati. 
 E che è anche l'unico formato (righe x colonne) importabile in R.
 <br>
-Prova ad esempio a scaricare(*) i seguenti file EXCEL sul tuo PC. Arpili, e prova a capire cosa NON va:
+Prova ad esempio a scaricare(*) i seguenti file EXCEL sul tuo PC. Aprili e prova a capire cosa NON va:
 <br>
 <a href="https://github.com/maghetta/teaching_R/blob/main/esempio1.xlsx" download>Esempio 1</a>
 <a href="https://github.com/maghetta/teaching_R/blob/main/esempio2.xlsx" download>Esempio 2</a>
@@ -668,7 +668,7 @@ boxplot(iris$Sepal.Length ~ iris$Species, main="Boxplot di Sepal Length per Spec
 
 
 # Scatter plot: altro scopo nella statistica descrittiva è evidenziare possibili associazioni tra variabili.
-Lo scatter plot è una rappresentazione grafica utile a identificare possibili associazioni tra i variabili.
+# Lo scatter plot è una rappresentazione grafica utile a identificare possibili associazioni tra i variabili.
 
 plot(iris$Sepal.Length, iris$Petal.Length, main="Scatter plot di Sepal Length vs Petal Length", xlab="Lunghezza del sepalo", ylab="Lunghezza del petalo", col="red")
 
