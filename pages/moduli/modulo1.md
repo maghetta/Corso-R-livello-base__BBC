@@ -140,7 +140,7 @@ ___
 
 Per svolgere i capitoli 1 (*Introduzione alle basi di R*) e 2 (**Vettori**) del corso online "Introduzione a R" di DataCamp, segui le istruzioni fornite <a href="https://maghetta.github.io/Corso-R-livello-base/premessa">a questo link</a>.
 
-NOTA: possono comparire durante il corso messaggi promozionali (vedi ad esempio **Figura "esempio messaggio promozionale da rifiutare"**). Semplicemente, scegli sempre di chiudere il messaggio (quando possibile) oppure di continuare il corso ("Continue course" nella figura di esempio riportata qui sotto).
+NOTA: possono comparire durante il corso messaggi promozionali (vedi ad esempio **Figura "esempio messaggio promozionale da rifiutare"**). Scegli sempre di chiudere il messaggio (quando possibile, facendo click sulla X in alto a destra del riquadro, oppure facendo click al di fuori del riquadro di pubblicità).
 
 
 ![modulo1_schema_datacamp](images/modulo1/schema_datacamp.png)
