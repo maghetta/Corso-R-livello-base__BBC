@@ -137,7 +137,7 @@ A proposito: cos'è una variabile? E come la creo in R?
 
 Una perla di saggezza: in R tutto è un oggetto (sia esso un vettore, una matrice, o... altri oggeti che conosceremo nelle prossime puntate). A proposito: i nomi di un vettore, che tipo di oggetto sono?
 
-4. **Qua e la tra i capitoli abbiamo anche conosciuto**
+4. **Qua e là tra i capitoli abbiamo anche conosciuto**
 
 - alcuni esempi di funzioni disponibili in R (quali: c(), class(), mean() )
 
