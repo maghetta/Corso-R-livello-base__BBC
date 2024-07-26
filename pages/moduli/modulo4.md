@@ -261,7 +261,7 @@ Per eseguire il codice di esempio qui di seguito, **ti servirà una console di R
 In questo esempio, utilizzeremo il pacchetto dplyr per dimostrare come caricare un pacchetto e applicare alcune delle sue funzioni per la manipolazione dei dati.
 
 ## Installazione del Pacchetto
-Se non hai già installato il pacchetto dplyr, puoi farlo con il comando `install.packages()`. Questa operazione deve essere eseguita solo una volta.
+Se non hai già installato il pacchetto dplyr, puoi farlo con il comando **install.packages()**. Questa operazione deve essere eseguita solo una volta.
 
 ```
 # Installazione del pacchetto dplyr (da eseguire una sola volta)
