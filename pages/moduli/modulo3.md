@@ -151,15 +151,15 @@ Per riprendere il corso di R su DataCamp al capitolo 5 --> segui i passaggi illu
 
 <hr>
 
-Grafici in R
+## Grafici in R
 
 <hr>
 
-**Leggi attentamente** la guida su come creare grafici con R che trovi qui: [https://www.html.it/pag/67232/grafici-con-r/](https://www.html.it/pag/67232/grafici-con-r/)
+**Andiamo a leggere** la guida su come creare grafici con R che trovi qui: [https://www.html.it/pag/67232/grafici-con-r/](https://www.html.it/pag/67232/grafici-con-r/)
 
 Vedrai che la guida include dei **blocchi di codice R** (evidenziati come box su sfondo grigio nella guida): 
 
-- esegui nella console R ciascuno di questi blocchi di codice e fai una foto allo schermo del risultato ottenuto
+- esegui nella console R ciascuno di questi blocchi di codice, provando anche a modificare il codice (ad esempio cambiando il colore suggerito in altro)
 
 
 <hr>
