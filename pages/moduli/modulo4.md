@@ -139,9 +139,7 @@ Per riprendere il corso di R su DataCamp al capitolo 5 --> segui i passaggi illu
 
 <hr>
 
-## Sfide interattive
-
-<h2 class="bg-dark mb-3">Ottenere aiuto in R</h2>
+## Ottenere aiuto in R
 
 Come abbiamo detto, R è un linguaggio molto ben documentato e supportato da una vasta e attiva comunità di utenti.
 
@@ -165,13 +163,13 @@ la sessione *Arguments*, ti illustra i diversi argomenti che prende in input la 
 la sessione *Examples* (in fondo alla pagina), ti illustra esempi di uso della data funzione
 
 
-Alternativamente, e nel caso in cui non conosci già il nome della funzione R da usare per un dato scopo:
+Alternativamente, e nel caso in cui non conoscessi già il nome della funzione R da usare per un dato scopo:
 
  
 
 - Puoi trovare aiuto in rete utilizzando un motore di ricerca (es. [https://www.google.com/](https://www.google.com/)), specificando con le giuste parole chiave il tuo dubbio / problema.
 
-Prova ad esempio a digitare su Google il tuo dubbio. Meglio ancora se poni la richeista in inglese: avrai accesso ad un numero ancor più vasto di documenti tecnici e discussioni in forum specializzati.
+Prova ad esempio a digitare su Google il tuo dubbio. Meglio ancora se poni la richiesta in inglese: avrai accesso ad un numero ancor più vasto di documenti tecnici e discussioni in forum specializzati.
 <br>
 Ad esempio:
 
@@ -190,11 +188,11 @@ Avrai in risposta un elenco di tutti i pacchetti R che contengono funzioni (ripo
 
 <hr>
 
-Pacchetti R: cosa sono, come si usano
+## Pacchetti R: cosa sono, come si usano
 
 - I pacchetti di R sono delle ulteriori collezioni di funzioni, rispetto alle funzioni di base già disponibili in qualunque console di R, dedicate a svolgere un certo compito.
 
-![R-page](/images/modulo4/R.png)
+![R-page](images/modulo4/R.png)
 
 <br>
 Esistono al momento oltre 20,000 pacchetti di R disponibili per essere installati sul proprio PC, e caricati all'occorrenza nella  propria sessione di lavoro di R. L'elenco completo dei pacchetti si può trovare qui: [Table of available packages, sorted by name](https://cloud.r-project.org/web/packages/available_packages_by_name.html)
@@ -202,19 +200,19 @@ Esistono al momento oltre 20,000 pacchetti di R disponibili per essere installat
 <br>
 <br>
 
-Per utilizzare un pacchetto di R sul nostro computer, ci servirà di seguire 2 passaggi:
+Per utilizzare un pacchetto di R sul nostro computer, seguire 2 passaggi:
 
 
-1. installare il pacchetto sul nostro PC con la funzione R install.packages() 
+1. **installare il pacchetto sul nostro PC** con la funzione R **install.packages()**
 
-es. install.packages("A3")	# nota il nome del pacchetto messo tra virgolette
+es. **install.packages("A3")**	# nota il nome del pacchetto messo tra virgolette
 
 NOTA 1: questo lo possiamo fare SOLO sulla nostra console R locale, dove abbiamo permessi adeguati
 
 NOTA 2: questo passaggio sarà necessario solo la prima volta che usiamo un nuovo pacchetto
 
 
-2. caricare il dato pacchetto nella propria sessione di lavoro di R,  con la funzione library():
+2. **caricare il dato pacchetto nella propria sessione di lavoro** di R,  con la funzione **library()**:
 
 es. **library(A3)**                            # nota il nome del pacchetto scritto senza virgolette
 
