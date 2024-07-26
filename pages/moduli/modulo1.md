@@ -188,20 +188,6 @@ Per sottomettere con successo la risposta è necessario considerare per il vetto
 
 <hr class="bg-dark mb-4">
 
-## Esercizi
-
-<br>
-<br>
-
-- Nomina 2 funzioni di R che conosci
-- a = c(1:7, 21:15,67); come puoi sapere in R la media del vettore a? \[opzione 1: ***mean(a)***; opzione 2: ***media(a)***; opzione 3: ***median(a)***]
-- come fai in R a verificare se 65 è maggiore di 34?
-- Quale parentesi devi usare per specificare 1 o + elementi di un vettore da estrarre?  \[opzione 1: ***{}***; opzione 2: ***\[]***; opzione 3: ***(())***]
-- qui = c("A","E","O"); quo = "I"; qua = "U"
-
-<br>
-
-<hr class="bg-dark mb-4">
 
 ### Riferimenti utili
 
