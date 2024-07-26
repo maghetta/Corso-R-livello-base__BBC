@@ -171,10 +171,10 @@ NOTA: possono comparire durante lo svolgimento del corso online - soprattutto al
 <hr>
 
 
-# → METTI ALLA PROVA LA TUA CONOSCENZA DI R !
+**Esercizi**
 <br>
 
-Quale comando si può utilizzare in R per visualizzare il contenuto del proprio spazio di lavoro?
+1. Quale comando si può utilizzare in R per visualizzare il contenuto del proprio spazio di lavoro?
 
 - *a. dir()*
 - *b. read()*
