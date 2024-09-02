@@ -120,16 +120,9 @@ A proposito: secondo te, posso avere colonne di classe diversa in una matrice? P
 
 <br>
 
-3. Abbiamo conosciuto il terzo tipo di "oggetto" di R: il fattore
+3. Qua e là tra i capitoli abbiamo anche conosciuto
 
-![modulo3_datacamp](images/modulo3/dataCamp3.png)
-
-A proposito, sapresti farmi un esempio di variabile fattoriale nominale? e un esempio di variabile fattoriale ordinale?
-
-
-4. Qua e là tra i capitoli abbiamo anche conosciuto
-
-diversi altri esempi di funzioni disponibili in R, quali: *matrix(), rownames(), colnames(), rowSums(), colSums(), ls(), mean(), factor(), levels(), summary(), cbind(), rbind()*
+diversi altri esempi di funzioni disponibili in R, quali: *matrix(), rownames(), colnames(), rowSums(), colSums(), ls(), mean()*
 
 <hr>
 
