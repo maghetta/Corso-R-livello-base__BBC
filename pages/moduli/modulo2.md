@@ -8,7 +8,7 @@ title: Modulo 2
 
 ## Argomenti
 
-- Matrici e Fattori in R, cioé i capitoli 3 e 4 del corso di Introduzione a R di DataCamp
+- Matrici in R, cioé il capitolo 3 del corso di Introduzione a R di DataCamp
 
 <hr>
 
@@ -32,13 +32,6 @@ Al termine di questa attività dovresti essere in grado di:
 
 - effettuare delle operazioni matematiche (es. +, -, /, \*) con matrici numeriche
 
-- fornire qualche esempio di variabile categorica
-
-- descrivere cos'è e come si crea un fattore in R
-
-- distinguere una variabile categorica nominale da una variabile categorica ordinale
-
-- confrontare variabili categoriche ordinali
 
 
 ## Durata e programma dell'attività:
