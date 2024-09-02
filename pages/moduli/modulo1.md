@@ -90,11 +90,11 @@ Al termine di questa attività dovresti essere in grado di:
 	</tr>
 	<tr>
 		<td>[45']</td>
-		<td>Svolgimento corso R online (capitolo 3 del corso di DataCamp)</td>		
+		<td>Svolgimento corso R online (capitolo 4 del corso di DataCamp)</td>		
 	</tr>
 	<tr>
 		<td>[35']</td>
-		<td>Sfide interattive sul contenuto del capitolo 3</td>		
+		<td>Sfide interattive sul contenuto del capitolo 4</td>		
 	</tr>
 	<tr>
 	<td colspan="2">pausa 15'</td>
@@ -150,10 +150,10 @@ Il linguaggio di programmazione R
 
 ___
 
-## Svolgimento corso R online su DataCamp (capitoli 1 e 2)
+## Svolgimento corso R online su DataCamp (capitoli 1, 2 e 3)
 <br>
 
-Per svolgere i capitoli 1 (*Introduzione alle basi di R*) e 2 (**Vettori**) del corso online "Introduzione a R" di DataCamp, segui le istruzioni fornite <a href="https://maghetta.github.io/Corso-R-livello-base/premessa">a questo link</a>.
+Per svolgere i capitoli 1 (*Introduzione alle basi di R*), 2 (*Vettori*) e 3 (*Fattori*) del corso online "Introduzione a R" di DataCamp, segui le istruzioni fornite <a href="https://maghetta.github.io/Corso-R-livello-base/premessa">a questo link</a>.
 
 NOTA: possono comparire durante il corso messaggi promozionali (vedi ad esempio **Figura "esempio messaggio promozionale da rifiutare"**). Scegli sempre di chiudere il messaggio (quando possibile, facendo click sulla X in alto a destra del riquadro, oppure facendo click al di fuori del riquadro di pubblicità).
 
