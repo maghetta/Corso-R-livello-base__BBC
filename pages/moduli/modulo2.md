@@ -65,6 +65,10 @@ Al termine di questa attività dovresti essere in grado di:
 		<td>[15']</td>
 		<td>Conclusioni</td>		
 	</tr>
+	<tr>
+		<td>[15']</td>
+		<td>Uno sguardo al prossimo Modulo: Data Frames vs. Matrici</td>		
+	</tr>
 </table>
 
 
@@ -113,11 +117,11 @@ Nota:
 
 A proposito: cos'è una variabile? E come la creo in R?
 
-3. **Abbiamo conosciuto il primo tipo di "oggetto" di R: il vettore**
+3. **Abbiamo conosciuto i primi due tipi di "oggetto" di R: il vettore e il fattore**
 
 ![datacamp](images/modulo2/datacamp3.png)
 
-Una perla di saggezza: in R tutto è un oggetto (sia esso un vettore, una matrice, o... altri oggetti che conosceremo nelle prossime puntate). A proposito: i nomi di un vettore, che tipo di oggetto sono?
+Una perla di saggezza: in R tutto è un oggetto (sia esso un vettore, un fattore, o... altri oggetti che conosceremo nelle prossime puntate). A proposito: i nomi di un vettore, che tipo di oggetto sono?
 
 4. **Qua e là tra i capitoli abbiamo anche conosciuto**
 
@@ -133,12 +137,10 @@ Una perla di saggezza: in R tutto è un oggetto (sia esso un vettore, una matric
 
 <hr>
 
-**Svolgimento corso R online (capitoli 3 e 4)**
+**Svolgimento corso R online (capitoli 3)**
 
 
 - Nel capitolo 3 (Matrici) imparerai come utilizzare le matrici in R. Alla fine del capitolo, avrai appreso come creare matrici e come effettuare le operazioni di bases su di esse. 
-
-- Nel capitolo 4 (Fattori) imparerai come creare, suddividere e confrontare i fattori, cioé oggetti R adatti a contenere dati categorici.  I dati categorici sono quelli che possono essere raggruppati in un certo numero di categorie. Per esempio, le "stellette" date come giudizio finale di una recensione dai clienti ad un ristorante. 
 
 <hr>
 
