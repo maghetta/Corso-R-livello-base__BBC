@@ -12,7 +12,7 @@ title: Modulo 1
 
 - la piattaforma di learning DataCamp e il suo corso di Introduzione a R, gratuito ed in italiano; 
 
-- Introduzione alle basi di R e Vettori in R, cioé i capitoli 1 e 2 del corso di Introduzione a R di DataCamp
+- Introduzione alle basi di R, Vettori e Fattori in R, cioé i capitoli 1, 2 e 3 del corso di Introduzione a R di DataCamp
 
 
 <br>
@@ -42,13 +42,17 @@ Al termine di questa attività dovresti essere in grado di:
 - selezionare uno o più elementi da un vettore
 - calcolare la media di un vettore numerico
 - selezionare elementi di un vettore in base ad una condizione posta
+- fornire qualche esempio di variabile categorica
+- descrivere cos'è e come si crea un fattore in R
+- distinguere una variabile categorica nominale da una variabile categorica ordinale
+- confrontare variabili categoriche ordinali
 
 <br>
 <br>
 
 ## Durata e programma dell'attività:
 
-4 ore;
+6 ore;
 
 <table border="1" width="700">
 	<tr>
@@ -78,18 +82,29 @@ Al termine di questa attività dovresti essere in grado di:
 		<td>Svolgimento corso R online (capitolo 2 del corso di DataCamp)</td>		
 	</tr>
 	<tr>
-		<td>[30']</td>
+		<td>[35']</td>
 		<td>Sfide interattive sul contenuto del capitolo 2</td>		
 	</tr>
 	<tr>
-	<td colspan="2">pausa 10'</td>
+	<td colspan="2">pausa 15'</td>
 	</tr>
 	<tr>
-		<td>[20']</td>
-		<td>Spazio per domande e curiosità</td>		
+		<td>[45']</td>
+		<td>Svolgimento corso R online (capitolo 3 del corso di DataCamp)</td>		
 	</tr>
 	<tr>
-		<td>[10']</td>
+		<td>[35']</td>
+		<td>Sfide interattive sul contenuto del capitolo 3</td>		
+	</tr>
+	<tr>
+	<td colspan="2">pausa 15'</td>
+	</tr>	
+	<tr>
+		<td>[40']</td>
+		<td>Spazio per domande, discussione e curiosità</td>		
+	</tr>
+	<tr>
+		<td>[15']</td>
 		<td>Conclusioni</td>		
 	</tr>
 </table>
