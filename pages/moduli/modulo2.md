@@ -40,18 +40,18 @@ Al termine di questa attività dovresti essere in grado di:
 
 <table border="1" width="700">
 	<tr>
-		<td>[35']</td>
+		<td>[50']</td>
 		<td>Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa</td>
 	</tr>
 	<tr>
-	<td colspan="2">5'</td>
+	<td colspan="2">pausa 15'</td>
 	</tr>
 	<tr>
-		<td>[40']</td>
+		<td>[45']</td>
 		<td>Svolgimento corso R online (capitolo 3 del corso di DataCamp)</td>		
 	</tr>
 	<tr>
-		<td>[30']</td>
+		<td>[45']</td>
 		<td>Sfide interattive sul contenuto del capitolo 3</td>		
 	</tr>
 	<tr>
@@ -59,21 +59,10 @@ Al termine di questa attività dovresti essere in grado di:
 	</tr>
 	<tr>
 		<td>[40']</td>
-		<td>Svolgimento corso R online (capitolo 4 del corso di DataCamp)</td>		
-	</tr>
-	<tr>
-		<td>[30']</td>
-		<td>Sfide interattive sul contenuto del capitolo 4</td>		
-	</tr>
-	<tr>
-	<td colspan="2">pausa 15'</td>
-	</tr>
-	<tr>
-		<td>[20']</td>
 		<td>Spazio per domande e curiosità</td>		
 	</tr>
 	<tr>
-		<td>[10']</td>
+		<td>[15']</td>
 		<td>Conclusioni</td>		
 	</tr>
 </table>
