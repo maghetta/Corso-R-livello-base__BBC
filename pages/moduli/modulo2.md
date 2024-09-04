@@ -194,7 +194,7 @@ NOTA: possono comparire durante lo svolgimento del corso online - soprattutto al
 6. Scrivi 3 righe di codice R che facciano quanto segue: (1) creare un vettore denominato "regioni" che contiene gli elementi "Sicilia", "Lombardia" e "Liguria"; (2) aggiungere a questo vettore l'elemento "Molise"; (3) stampare a video il contenuto del vettore regioni. 
 
 
-7. Risolvi la seguente espressione in R: *-3 x 5<sub>6</sub> + 3<sub>2-2</sub> x 2<sub>2</sub> -(-2)<sub>2</sub>*. Quanto fa?
+7. Risolvi la seguente espressione in R: *-3 x 5<sup>6</sup> + 3<sup>2-2</sup> x 2<sup>2</sup> -(-2)<<sup>2</sup>*. Quanto fa?
 
 
 8. considerando la seguente matrice *m = matrix(-31:100, ncol=6)*, come fai a vedere che dimensioni ha? e qual'è il valore medio della sua 5a riga?
