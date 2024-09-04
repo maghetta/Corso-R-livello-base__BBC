@@ -12,7 +12,7 @@ title: Modulo 1
 
 - la piattaforma di learning DataCamp e il suo corso di Introduzione a R, gratuito ed in italiano; 
 
-- Introduzione alle basi di R, Vettori e Fattori in R, cioé i capitoli 1, 2 e 3 del corso di Introduzione a R di DataCamp
+- Introduzione alle basi di R, Vettori e Fattori in R, cioé i capitoli 1, 2 e 4 del corso di Introduzione a R di DataCamp
 
 
 <br>
@@ -150,10 +150,10 @@ Il linguaggio di programmazione R
 
 ___
 
-## Svolgimento corso R online su DataCamp (capitoli 1, 2 e 3)
+## Svolgimento corso R online su DataCamp (capitoli 1, 2 e 4)
 <br>
 
-Per svolgere i capitoli 1 (*Introduzione alle basi di R*), 2 (*Vettori*) e 3 (*Fattori*) del corso online "Introduzione a R" di DataCamp, segui le istruzioni fornite <a href="https://maghetta.github.io/Corso-R-livello-base/premessa">a questo link</a>.
+Per svolgere i capitoli 1 (*Introduzione alle basi di R*), 2 (*Vettori*) e 4 (*Fattori*) del corso online "Introduzione a R" di DataCamp, segui le istruzioni fornite <a href="https://maghetta.github.io/Corso-R-livello-base/premessa">a questo link</a>.
 
 NOTA: possono comparire durante il corso messaggi promozionali (vedi ad esempio **Figura "esempio messaggio promozionale da rifiutare"**). Scegli sempre di chiudere il messaggio (quando possibile, facendo click sulla X in alto a destra del riquadro, oppure facendo click al di fuori del riquadro di pubblicità).
 
