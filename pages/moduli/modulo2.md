@@ -200,6 +200,7 @@ NOTA: possono comparire durante lo svolgimento del corso online - soprattutto al
 8. considerando la seguente matrice *m = matrix(-31:100, ncol=6)*, come fai a vedere che dimensioni ha? e qual'è il valore medio della sua 5a riga?
 
 
-9. Crea un vettore denominato x con i seguenti elementi: *3,4,5,6,6,5,2,2,6,7,8,2,3,2,5,4,5,9*
+9. Crea un vettore denominato x con i seguenti elementi: *3,4,5,6,6,5,2,2,6,7,8,2,3,2,5,4,5,9*; Poi calcola la media e la lunghezza del vettore x.
 
-Poi calcola la media e la lunghezza del vettore x.
+
+10. Crea un fattore ordinato denominato *geografia* che contenga le seguenti valutazioni di uno studente in geografia nei tre anni delle scuole medie: *ottimo, buono, buono, discreto, ottimo, insufficiente, buono*
