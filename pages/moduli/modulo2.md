@@ -197,7 +197,7 @@ NOTA: possono comparire durante lo svolgimento del corso online - soprattutto al
 7. Risolvi la seguente espressione in R: *-3 x 5<sup>6</sup> + 3<sup>2-2</sup> x 2<sup>2</sup> -(-2)<sup>2</sup>*. Quanto fa?
 
 
-8. considerando la seguente matrice *m = matrix(-31:100, ncol=6)*, come fai a vedere che dimensioni ha? e qual'è il valore medio della sua 5a riga?
+8. La funzione dim() di R ti permette di conoscere le dimensioni di un oggetto multidimensionale, come ad esempio una matrice (che ha 2 dimensioni). Considerando la seguente matrice: *m = matrix(-31:100, ncol=6)*, applica la funzione dim() alla matrice m per vedere che dimensioni ha. Poi, calcola il valore medio della sua 5a riga.
 
 
 9. Crea un vettore denominato x con i seguenti elementi: *3,4,5,6,6,5,2,2,6,7,8,2,3,2,5,4,5,9*; Poi calcola la media e la lunghezza del vettore x.
