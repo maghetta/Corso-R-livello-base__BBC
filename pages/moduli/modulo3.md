@@ -201,4 +201,4 @@ Hai ancora energie??? Allora crea un altro sottoinsieme di dati chiamato Xaltro 
 Fai un grafico a torte di Xaltro (**domanda tremendissima**: quale fascia di età è più rappresentata nella categoria "db3" dei vaccinati ?)
 
 
-Beh, già se sei arrivato a leggere fin qui ti faccio i complimenti per il coraggio e la tenacia!!! E non vedo l'ora di ricevere il tuo codice :)
+Beh, già se sei arrivato a leggere fin qui ti faccio i complimenti per il coraggio e la tenacia!!!
