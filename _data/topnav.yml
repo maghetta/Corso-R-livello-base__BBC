@@ -3,12 +3,8 @@
 subitems:
 - title: Home
   url: /index
-- title: Schedule
-  url: /schedule
 - title: Moduli Tematici
   subitems:
-    - title: Perché programmare?
-      url: /programmare
     - title: Premessa - prima di iniziare
       url: /premessa
     - title: Modulo 1
