@@ -56,33 +56,29 @@ Al termine di questa attività dovresti essere in grado di:
 
 <table border="1" width="700">
 	<tr>
-		<td>[30']</td>
+		<td>[20']</td>
 		<td>R: una panoramica introduttiva (cosa è, diffusione, vantaggi)</td>
 	</tr>
 	<tr>
 		<td>[40']</td>
 		<td>Svolgimento tutorial: Introduzione alla Console R</td>	
-		<td>Sfide interattive sul contenuto del tutorial1</td>		
+		<td>Sfide interattive sul contenuto del tutorial</td>		
 	</tr>
 	<tr>
 	<td colspan="2">pausa 10'</td>
 	</tr>
 	<tr>
-		<td>[40']</td>
+		<td>[50']</td>
 		<td>Svolgimento tutorial: Vettori in R</td>
 		<td>Sfide interattive sul contenuto del tutorial</td>		
 	</tr>
 	<tr>
-	<td colspan="2">pausa 5'</td>
+	<td colspan="2">pausa 10'</td>
 	</tr>	
 	<tr>
-		<td>[35']</td>
+		<td>[50']</td>
 		<td>Svolgimento tutorial: Fattori in R</td>		
 		<td>Sfide interattive sul contenuto del tutorial</td>		
-	</tr>
-	<tr>
-		<td>[10']</td>
-		<td>Spazio per domande, discussione e curiosità</td>		
 	</tr>
 </table>
 
@@ -131,18 +127,6 @@ ___
 ## Svolgimento tutorial in R: "Introduzione alla Console R"
 <br>
 
-
-![datacamp1](images/modulo1/datacamp1.png)
-
-**Figura "step 6"**
-
-![datacamp2](images/modulo1/datacamp2.png)
-
-**Figura "esempio messaggio promozionale da rifiutare"**
-
-![schema_datacamp2](images/modulo1/schema_datacamp2.png)
-
-<hr class="bg-dark mb-4">
 
 
 ### Riferimenti utili
