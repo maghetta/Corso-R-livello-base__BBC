@@ -120,8 +120,8 @@ Il linguaggio di programmazione R
 ![Pagina wiki R](images/modulo1/R_page.png)
 
 
-- R è un linguaggio di programmazione potente e gratuito, specialmente per l'analisi di dati e la visualizzazione grafica dei risultati
-- R, con Python, è ormai da anni il linguaggio di programmazione *open source* più usato per l'analisi di dati (vedi ad esempio questa classifica stilata da [KDnuggets](https://www.kdnuggets.com/2019/05/new-poll-software-analytics-data-science-machine-learning.html))
+- R è un linguaggio di programmazione potente e gratuito, particolarmente efficiente per l'analisi statistica e la visualizzazione grafica dei dati
+- R, secondo solo a Python, è tra i linguaggi di programmazione *open source* più usati in ricerca accademica e scientifica, e in generale in data science
 
 ![Pagina wiki R](images/modulo1/R_page2.png)
 
@@ -134,6 +134,12 @@ Il linguaggio di programmazione R
 ___
 
 ## Svolgimento tutorial in R: "Introduzione alla Console R"
+<br>
+
+## Svolgimento tutorial in R: "Vettori in R"
+<br>
+
+## Svolgimento tutorial in R: "Fattori in R"
 <br>
 
 
