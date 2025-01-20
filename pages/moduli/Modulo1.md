@@ -61,7 +61,9 @@ Al termine di questa attività dovresti essere in grado di:
 	</tr>
 	<tr>
 		<td>[40']</td>
-		<td>Svolgimento tutorial: Introduzione alla Console R</td>	
+		<td>Svolgimento tutorial: Introduzione alla Console R</td>
+	</tr>
+	<tr>
 		<td>Sfide interattive sul contenuto del tutorial</td>		
 	</tr>
 	<tr>
@@ -70,6 +72,8 @@ Al termine di questa attività dovresti essere in grado di:
 	<tr>
 		<td>[50']</td>
 		<td>Svolgimento tutorial: Vettori in R</td>
+	</tr>
+	<tr>
 		<td>Sfide interattive sul contenuto del tutorial</td>		
 	</tr>
 	<tr>
