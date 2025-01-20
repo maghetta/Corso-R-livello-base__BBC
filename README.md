@@ -1,1 +1,1 @@
-Materiale del corso di progrmmazione R di base sviluppato per il DOttorato in Bioinformatica e Biologia Computazionale (BBC) dell'Università Sapienza di Roma 
+Materiale del corso di progrmmazione base in R per il Dottorato in Bioinformatica e Biologia Computazionale (BBC) dell'Università Sapienza di Roma 
