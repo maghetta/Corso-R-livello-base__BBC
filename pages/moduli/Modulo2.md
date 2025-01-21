@@ -18,7 +18,7 @@ Al termine di questa attività dovresti essere in grado di:
 
 - descrivere cos'è e come si crea una matrice in R
 
--assegnare i nomi alle righe e/o alle colonne di una matrice
+- assegnare i nomi alle righe e/o alle colonne di una matrice
 
 - calcolare la somma degli elementi di ogni riga o di ogni colonna di una matrice numerica
 
@@ -33,12 +33,12 @@ Al termine di questa attività dovresti essere in grado di:
 - effettuare delle operazioni matematiche (es. +, -, /, \*) con matrici numeriche
 
 
-Durata e programma dell'attività:
+## Durata e programma dell'attività:
 
 3 ore;
-td> td> td>
-[20'] 	R: una panoramica introduttiva (cosa è, diffusione, vantaggi)
-[40'] 	Svolgimento tutorial: Introduzione alla Console R
+<td> td> td>
+[40'] 	Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa
+[40'] 	Svolgimento tutorial: Matrici in R
 	Sfide interattive sul contenuto del tutorial	
 pausa 10'
 [50'] 	Svolgimento tutorial: Vettori in R
@@ -56,11 +56,13 @@ Introduzione all'attività del modulo
 
 <table border="1" width="700">
 	<tr>
-		<td>[50']</td>
+		<td>[30']</td>
 		<td>Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa</td>
+		<td>[20']</td>
+		<td>Esercizi</td>
 	</tr>
 	<tr>
-	<td colspan="2">pausa 15'</td>
+	<td colspan="2">pausa 10'</td>
 	</tr>
 	<tr>
 		<td>[45']</td>
@@ -68,10 +70,10 @@ Introduzione all'attività del modulo
 	</tr>
 	<tr>
 		<td>[45']</td>
-		<td>Sfide interattive sul contenuto del capitolo 3</td>		
+		<td>Sfide interattive sul contenuto del tutprial</td>		
 	</tr>
 	<tr>
-	<td colspan="2">pausa 15'</td>
+	<td colspan="2">pausa 10'</td>
 	</tr>
 	<tr>
 		<td>[40']</td>
@@ -162,22 +164,6 @@ Una perla di saggezza: in R tutto è un oggetto (sia esso un vettore, un fattore
 
 <hr>
 
-**Svolgimento corso R online (capitoli 3)**
-
-
-- Nel capitolo 3 (Matrici) imparerai come utilizzare le matrici in R. Alla fine del capitolo, avrai appreso come creare matrici e come effettuare le operazioni di bases su di esse. 
-
-<hr>
-
-**Come riprendere il corso di Introduzione a R su DataCamp da dove lo si aveva interrotto**
-
-<hr>
-
-Per riprendere il corso online "Introduzione a R" su DataCamp, segui le istruzioni fornite <a href="https://maghetta.github.io/Corso-R-livello-base/premessa">a questo link</a>.
-
-NOTA: possono comparire durante lo svolgimento del corso online - soprattutto al completameno di un capitolo - messaggi promozionali. Scegli sempre di chiudere il messaggio (quando possibile, facendo click sulla X in alto a destra del messaggio. Oppure facendo click al difuori del riquadro di pubblicità).
-
-<hr>
 
 
 **Esercizi**
@@ -221,3 +207,25 @@ NOTA: possono comparire durante lo svolgimento del corso online - soprattutto al
 
 
 10. Crea un fattore ordinato denominato *geografia* che contenga le seguenti valutazioni di uno studente in geografia nei tre anni delle scuole medie: *ottimo, buono, buono, discreto, ottimo, insufficiente, buono*
+
+
+
+
+
+**Svolgimento del tutorial: Matrici in R**
+
+
+- In questo tutorial imparerai come creare matrici e come effettuare operazioni di base su di esse. 
+
+<hr>
+
+**Come riprendere il corso di Introduzione a R su DataCamp da dove lo si aveva interrotto**
+
+<hr>
+
+Per riprendere il corso online "Introduzione a R" su DataCamp, segui le istruzioni fornite <a href="https://maghetta.github.io/Corso-R-livello-base/premessa">a questo link</a>.
+
+NOTA: possono comparire durante lo svolgimento del corso online - soprattutto al completameno di un capitolo - messaggi promozionali. Scegli sempre di chiudere il messaggio (quando possibile, facendo click sulla X in alto a destra del messaggio. Oppure facendo click al difuori del riquadro di pubblicità).
+
+<hr>
+
