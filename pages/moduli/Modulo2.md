@@ -41,6 +41,8 @@ Al termine di questa attività dovresti essere in grado di:
 	<tr>
 		<td>[40']</td>
 		<td>Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa</td>
+        </tr>
+	<tr>
 		<td>[20']</td>
 		<td>Esercizi</td>
 	</tr>
