@@ -12,7 +12,7 @@ remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@3.0.0
 exclude:
   - README.md
   - vendor
-  - Gemfile
+  - Gemfile*
 
 defaults:
 # Define here page metadata attributes for all pages at once or on specific directories. More information: https://jekyllrb.com/docs/configuration/front-matter-defaults/
