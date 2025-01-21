@@ -70,6 +70,8 @@ Al termine di questa attività dovresti essere in grado di:
 <table>
 	<tr>
 		<td><iframe src="https://rdrr.io/snippets/embed/" width="800" height="600"></iframe></td>
+	</tr>
+	<tr>
 		<td>Emulatore della console di R disponibile gratuitamente online al link: <a href="https://rdrr.io/snippets/"><(https://rdrr.io/snippets/)</a></td>
 	</tr>
 </table>
