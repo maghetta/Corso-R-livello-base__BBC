@@ -75,22 +75,6 @@ Al termine di questa attività dovresti essere in grado di:
 	</tr>
 </table>
 
-![modulo1](images/modulo2/1_rstudiopanels.jpg)
-
-<br>
-
-schema della finestra di lavoro su RStudio
-
-NOTA: 
-
-- i riquadri (1), (2) e (4) sono specifici del sito di  DataCamp.
-
-- (3) e (5) rappresentano 2 elementi fondamentali della programmazione in R, in particolare:
-
-	1. Il riquadro (3) fornisce un editor di testo (software per scrivere il tuo codice R)
-
-	2. Il riquadro (5) fornisce la console R: ambiente interattivo in grado di ricevere e interpretare le righe di comando scritte utilizzando la sintassi del linguaggio R
-
 Nota: 
 
 - un editor di testo non è strettamente fondamentale. Puoi anche digitare i tuoi comandi R direttamente nella console interattiva e premere invio per eseguirli. Però i comandi digitati direttamente in console verranno dimenticati quando chiudi la sessione di lavoro.
@@ -98,27 +82,33 @@ Nota:
 - di solito un codice R per svolgere un certo obiettivo lo si costruisce avendo aperti davanti un editor di testo e la console di R. Sulla console di R puoi testare il comando (esempio: il comando per creare un vettore), una volta trovata la riga di codice che funziona, la puoi annotare nell'editor di testo per conservarla. E magari integrarla con una riga di commento che ne spieghi il senso. Il codice così costruito nell'editor di testo lo puoi salvare con un nome (es. "mio_primo_script.R") per conservarlo sul tuo PC. L'estensione del nome del file ".R" (in maiuscolo o in minuscolo) viene convenzionalmente usato per specificare che quel dato file di testo semplice contiene istruzioni scritte nel linguaggio R ed eseguibili se lette da un interprete R.
 
 
-2. **Abbiamo conosciuto l'utilizzo di base della console di R, come un semplice calcolatore**
+2. Abbiamo cominciato ad usare R in RStudio
 
-![datacamp](images/modulo2/datacamp2.png)
+![modulo1](images/modulo2/1_rstudiopanels.jpg)
+
+<br>
+
+Schema della interfaccia di lavoro su RStudio. Nella figura qui sopra (presa da [questo ebook di R della Prof.ssa Michela Cameletti](https://bookdown.org/michela_cameletti/sapf2021_rlab_appunti/intro.html), sono indicate le funzioni principali dei quattro riquadri che compongono l'interfaccia.
+
+
+
+
+3. **Abbiamo conosciuto l'utilizzo di base della console di R, come un semplice calcolatore**
+Ad esempio, quanto fa: (1-(5-4))+\{2^10/2^7-(6-(3\*2-10\/5))\}  ?
+
+4. **Abbiamo imparato a creare una variabilein R**
 
 A proposito: cos'è una variabile? E come la creo in R?
 
-3. **Abbiamo conosciuto i primi due tipi di "oggetto" di R: il vettore e il fattore**
-
-![datacamp](images/modulo2/datacamp3.png)
+5. **Abbiamo conosciuto i primi due tipi di "oggetto" di R: il vettore e il fattore**
 
 A proposito: in cosa si somigliano e in cosa si differenziano, ad esempio, un vettore e un fattore?
 
-![modulo3_datacamp](images/modulo3/dataCamp3.png)
-
-A proposito, sapresti farmi un esempio di variabile fattoriale nominale? e un esempio di variabile fattoriale ordinale?
-
-
+E, sapresti fare un esempio di variabile fattoriale nominale? e un esempio di variabile fattoriale ordinale?
 
 Una perla di saggezza: in R tutto è un oggetto (sia esso un vettore, un fattore, o... altri oggetti che conosceremo nelle prossime puntate). A proposito: i nomi di un vettore, che tipo di oggetto sono?
 
-4. **Qua e là tra i capitoli abbiamo anche conosciuto**
+6. **Qua e là tra i capitoli abbiamo anche conosciuto**
 
 - alcuni esempi di funzioni disponibili in R (quali: c(), class(), mean(), factor(), levels(), summary() )
 
@@ -153,30 +143,19 @@ Una perla di saggezza: in R tutto è un oggetto (sia esso un vettore, un fattore
 
 <br>
 
-3. Risolvi la seguente espressione in R: (1-(5-4))+\{2^10/2^7-(6-(3\*2-10\/5))\} . Quanto fa? 
+3. Voglio estrarre da un vettore chiamato "compiti" composto da 24 elementi, i valori corrispondenti alle posizioni 3, 11, 15 e 21. Scrivi il comando R opportuno per farlo.
 
+4. La funzione rep() di R genera ripetizioni di un dato vettore tante volte quanto specificato nel parametro times. Ad esempio: *rep( c(1,0,2), times=2)* genererà il seguente output:  *1 0 2 1 0 2*. Usa il comando *rep()* per generare il seguente vettore: *1 0 1 0 1 0 1 0 1 0 1 0*
 
-4. Voglio estrarre da un vettore chiamato "compiti" composto da 24 elementi, i valori corrispondenti alle posizioni 3, 11, 15 e 21. Scrivi il comando R opportuno per farlo.
+5. Scrivi 3 righe di codice R che facciano quanto segue: (1) creare un vettore denominato "regioni" che contiene gli elementi "Sicilia", "Lombardia" e "Liguria"; (2) aggiungere a questo vettore l'elemento "Molise"; (3) stampare a video il contenuto del vettore regioni. 
 
+6. Risolvi la seguente espressione in R: *-3 x 5<sup>6</sup> + 3<sup>2-2</sup> x 2<sup>2</sup> -(-2)<sup>2</sup>*. Quanto fa?
 
-5. La funzione rep() di R genera ripetizioni di un dato vettore tante volte quanto specificato nel parametro times. Ad esempio: *rep( c(1,0,2), times=2)* genererà il seguente output:  *1 0 2 1 0 2*. Usa il comando *rep()* per generare il seguente vettore: *1 0 1 0 1 0 1 0 1 0 1 0*
+7. La funzione dim() di R ti permette di conoscere le dimensioni di un oggetto multidimensionale, come ad esempio una matrice (che ha 2 dimensioni). Considerando la seguente matrice: *m = matrix(-31:100, ncol=6)*, applica la funzione dim() alla matrice m per vedere che dimensioni ha. Poi, calcola il valore medio della sua 5a riga.
 
+8. Crea un vettore denominato x con i seguenti elementi: *3,4,5,6,6,5,2,2,6,7,8,2,3,2,5,4,5,9*; Poi calcola la media e la lunghezza del vettore x.
 
-6. Scrivi 3 righe di codice R che facciano quanto segue: (1) creare un vettore denominato "regioni" che contiene gli elementi "Sicilia", "Lombardia" e "Liguria"; (2) aggiungere a questo vettore l'elemento "Molise"; (3) stampare a video il contenuto del vettore regioni. 
-
-
-7. Risolvi la seguente espressione in R: *-3 x 5<sup>6</sup> + 3<sup>2-2</sup> x 2<sup>2</sup> -(-2)<sup>2</sup>*. Quanto fa?
-
-
-8. La funzione dim() di R ti permette di conoscere le dimensioni di un oggetto multidimensionale, come ad esempio una matrice (che ha 2 dimensioni). Considerando la seguente matrice: *m = matrix(-31:100, ncol=6)*, applica la funzione dim() alla matrice m per vedere che dimensioni ha. Poi, calcola il valore medio della sua 5a riga.
-
-
-9. Crea un vettore denominato x con i seguenti elementi: *3,4,5,6,6,5,2,2,6,7,8,2,3,2,5,4,5,9*; Poi calcola la media e la lunghezza del vettore x.
-
-
-10. Crea un fattore ordinato denominato *geografia* che contenga le seguenti valutazioni di uno studente in geografia nei tre anni delle scuole medie: *ottimo, buono, buono, discreto, ottimo, insufficiente, buono*
-
-
+9. Crea un fattore ordinato denominato *geografia* che contenga le seguenti valutazioni di uno studente in geografia nei tre anni delle scuole medie: *ottimo, buono, buono, discreto, ottimo, insufficiente, buono*
 
 
 
@@ -187,13 +166,6 @@ Una perla di saggezza: in R tutto è un oggetto (sia esso un vettore, un fattore
 
 <hr>
 
-**Come riprendere il corso di Introduzione a R su DataCamp da dove lo si aveva interrotto**
-
-<hr>
-
-Per riprendere il corso online "Introduzione a R" su DataCamp, segui le istruzioni fornite <a href="https://maghetta.github.io/Corso-R-livello-base/premessa">a questo link</a>.
-
-NOTA: possono comparire durante lo svolgimento del corso online - soprattutto al completameno di un capitolo - messaggi promozionali. Scegli sempre di chiudere il messaggio (quando possibile, facendo click sulla X in alto a destra del messaggio. Oppure facendo click al difuori del riquadro di pubblicità).
 
 <hr>
 
