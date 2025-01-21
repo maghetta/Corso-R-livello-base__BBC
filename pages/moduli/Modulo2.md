@@ -39,22 +39,19 @@ Al termine di questa attività dovresti essere in grado di:
 
 <table border="1" width="700">
 	<tr>
-		<td>[40']</td>
+		<td>[30']</td>
 		<td>Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa</td>
         </tr>
 	<tr>
-		<td>[20']</td>
+		<td>[30']</td>
 		<td>Esercizi</td>
-	</tr>
-	<tr>
-	<td colspan="2">pausa 10'</td>
 	</tr>
 	<tr>
 		<td>[40']</td>
 		<td>Svolgimento tutorial: Matrici in R</td>		
 	</tr>
 	<tr>
-		<td>[30']</td>
+		<td>[20']</td>
 		<td>Sfide interattive sul contenuto del tutprial</td>		
 	</tr>
 </table>
