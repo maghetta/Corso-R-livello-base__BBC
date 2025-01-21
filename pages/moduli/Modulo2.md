@@ -8,7 +8,7 @@ title: Modulo 2
 
 ## Argomenti
 
-- Matrici in R, cioé il capitolo 3 del corso di Introduzione a R di DataCamp
+- Matrici in R
 
 <hr>
 
@@ -35,24 +35,7 @@ Al termine di questa attività dovresti essere in grado di:
 
 ## Durata e programma dell'attività:
 
-3 ore;
-<td> td> td>
-[40'] 	Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa
-[40'] 	Svolgimento tutorial: Matrici in R
-	Sfide interattive sul contenuto del tutorial	
-pausa 10'
-[50'] 	Svolgimento tutorial: Vettori in R
-	Sfide interattive sul contenuto del tutorial	
-pausa 10'
-[50'] 	Svolgimento tutorial: Fattori in R	
-	Sfide interattive sul contenuto del tutorial	
-
-Introduzione all'attività del modulo
-
-
-## Durata e programma dell'attività:
-
-4 ore;
+2 ore;
 
 <table border="1" width="700">
 	<tr>
@@ -65,27 +48,12 @@ Introduzione all'attività del modulo
 	<td colspan="2">pausa 10'</td>
 	</tr>
 	<tr>
-		<td>[45']</td>
-		<td>Svolgimento corso R online (capitolo 3 del corso di DataCamp)</td>		
-	</tr>
-	<tr>
-		<td>[45']</td>
-		<td>Sfide interattive sul contenuto del tutprial</td>		
-	</tr>
-	<tr>
-	<td colspan="2">pausa 10'</td>
-	</tr>
-	<tr>
 		<td>[40']</td>
-		<td>Spazio per domande e curiosità</td>		
+		<td>Svolgimento tutorial: Matrici in R</td>		
 	</tr>
 	<tr>
-		<td>[15']</td>
-		<td>Conclusioni</td>		
-	</tr>
-	<tr>
-		<td>[15']</td>
-		<td>Uno sguardo al prossimo Modulo: Data Frames vs. Matrici</td>		
+		<td>[20']</td>
+		<td>Sfide interattive sul contenuto del tutprial</td>		
 	</tr>
 </table>
 
@@ -99,11 +67,18 @@ Introduzione all'attività del modulo
 
 1. Abbiamo cominciato ad usare la console di R
 
-![datacamp](images/modulo2/datacamp1.png)
+
+<table>
+	<tr>
+		<td><iframe src="https://rdrr.io/snippets/embed/" width="800" height="600"></iframe></td>
+		<td>Emulatore della console di R disponibile gratuitamente online al link: <a href="https://rdrr.io/snippets/"><(https://rdrr.io/snippets/)</a></td>
+	</tr>
+</table>
+
 
 <br>
 
-schema della finestra di lavoro del corso R su DataCamp
+schema della finestra di lavoro su RStudio
 
 NOTA: 
 
@@ -120,14 +95,6 @@ Nota:
 - un editor di testo non è strettamente fondamentale. Puoi anche digitare i tuoi comandi R direttamente nella console interattiva e premere invio per eseguirli. Però i comandi digitati direttamente in console verranno dimenticati quando chiudi la sessione di lavoro.
 
 - di solito un codice R per svolgere un certo obiettivo lo si costruisce avendo aperti davanti un editor di testo e la console di R. Sulla console di R puoi testare il comando (esempio: il comando per creare un vettore), una volta trovata la riga di codice che funziona, la puoi annotare nell'editor di testo per conservarla. E magari integrarla con una riga di commento che ne spieghi il senso. Il codice così costruito nell'editor di testo lo puoi salvare con un nome (es. "mio_primo_script.R") per conservarlo sul tuo PC. L'estensione del nome del file ".R" (in maiuscolo o in minuscolo) viene convenzionalmente usato per specificare che quel dato file di testo semplice contiene istruzioni scritte nel linguaggio R ed eseguibili se lette da un interprete R.
-
-
-<table>
-	<tr>
-		<td><iframe src="https://rdrr.io/snippets/embed/" width="800" height="600"></iframe></td>
-		<td>Emulatore della console di R disponibile gratuitamente online al link: <a href="https://rdrr.io/snippets/"><(https://rdrr.io/snippets/)</a></td>
-	</tr>
-</table>
 
 
 2. **Abbiamo conosciuto l'utilizzo di base della console di R, come un semplice calcolatore**
