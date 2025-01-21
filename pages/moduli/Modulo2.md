@@ -75,6 +75,7 @@ Al termine di questa attività dovresti essere in grado di:
 	</tr>
 </table>
 
+![modulo1](images/modulo2/1_rstudiopanels.jpg)
 
 <br>
 
