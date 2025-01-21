@@ -1,44 +1,26 @@
- title
-Modulo 1
+title
+Modulo 2
 
-modulo1
+modulo2
 
 Argomenti
 
-    Il linguaggio di programmazione R
-
-    Introduzione alla console di R
-
-    Vettori e Fattori in R
-
-
+    Matrici in R, cioé il capitolo 3 del corso di Introduzione a R di DataCamp
 
 Obiettivi conoscitivi
 
 Al termine di questa attività dovresti essere in grado di:
 
-    descrivere cos'è la console di R (anche detto terminale)
-    eseguire dei comandi nella console di R
-    scrivere una riga di commento in un codice R
-    utilizzare il terminale di R come una semplice calcolatrice
-    descrivere cos'è una variabile
-    creare una nuova variabile in R o assegnare un valore ad una variabile già esistente
-    eseguire operazioni su variabili, come ad esempio la somma di due variabili di tipo numerico
-    elencare almeno 3 tipi diversi di variabili
-    creare una variabile di tipo carattere
-    elencare i possibili valori per una variabile di tipo booleano
-    verificare di che tipo è una data variabile
-    effettuare la somma di tutti gli elementi di un vettore
-    elencare gli operatori di confronto (logici) disponibili in R
-    confrontare 2 variabili numeriche
-    selezionare uno o più elementi da un vettore
-    calcolare la media di un vettore numerico
-    selezionare elementi di un vettore in base ad una condizione posta
-    fornire qualche esempio di variabile categorica
-    descrivere cos'è e come si crea un fattore in R
-    distinguere una variabile categorica nominale da una variabile categorica ordinale
-    confrontare variabili categoriche ordinali
+    descrivere cos'è e come si crea una matrice in R
 
+-assegnare i nomi alle righe e/o alle colonne di una matrice
+
+    calcolare la somma degli elementi di ogni riga o di ogni colonna di una matrice numerica
+    aggiungere una o più colonne ad una matrice
+    aggiungere una o più righe ad una matrice
+    ispezionare il contenuto del tuo spazio di lavoro (workspace)
+    selezionare gli elementi di una matrice
+    effettuare delle operazioni matematiche (es. +, -, /, *) con matrici numeriche
 
 
 Durata e programma dell'attività:
