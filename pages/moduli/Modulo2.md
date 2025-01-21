@@ -39,7 +39,7 @@ Al termine di questa attività dovresti essere in grado di:
 
 <table border="1" width="700">
 	<tr>
-		<td>[30']</td>
+		<td>[40']</td>
 		<td>Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa</td>
 		<td>[20']</td>
 		<td>Esercizi</td>
@@ -52,7 +52,7 @@ Al termine di questa attività dovresti essere in grado di:
 		<td>Svolgimento tutorial: Matrici in R</td>		
 	</tr>
 	<tr>
-		<td>[20']</td>
+		<td>[30']</td>
 		<td>Sfide interattive sul contenuto del tutprial</td>		
 	</tr>
 </table>
