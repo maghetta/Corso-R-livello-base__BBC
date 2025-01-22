@@ -102,6 +102,9 @@ giorni_distanze_lunghe <- vettore_distanze[vettore_selezione]
 vettore_selezione <- vettore_costi > 50
 giorni_costi_alti <- vettore_costi[vettore_selezione]
 
+#--> domandona per te: se `mean()` è una funzione che restituisce la media dei valori di un vettore dato come
+# suo argomento, sapresti scrivere il codice R che assegna ad un vettore chiamato `sopra_media`
+# gli elementi del vettore_costi che eccedono la media dei costi registrati nella settimana?
 
 # Mettiamo ora insieme confronti e selezione di elementi.
 # Ad esempio, individuamo in quali giorni della settimana si sono registrati il costo massimo e minimo.
