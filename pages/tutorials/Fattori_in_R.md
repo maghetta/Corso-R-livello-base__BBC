@@ -114,8 +114,9 @@ summary(factor_vettore_genere)
 # Converti vettore_gradimento in un fattore ordinale
 factor_vettore_gradimento <- factor(vettore_gradimento, ordered = TRUE, levels = c("Basso", "Medio", "Alto"))
 
-# Dai uno sguardo al contenuto di factor_vettore_gradimento
+#--> domanda per te: Dai uno sguardo al contenuto di factor_vettore_gradimento. COsa noti di diverso?
 factor_vettore_gradimento
+
 
 # Confrontare Due Fattori Ordinali
 
