@@ -1,3 +1,7 @@
+---
+title: Introduzione alla Console R
+---
+
 ```markdown
 # Tutorial introduttivo a R e all'uso della sua console interattiva
 
