@@ -4,21 +4,21 @@ title: Fattori in R
 
 ```markdown
 
-# Tutorial introduttivo all'oggetto di classe fattore in R
+## Tutorial introduttivo all'oggetto di classe fattore in R
 
-# Introduzione
 # Questo tutorial ti guiderà nella scoperta dei fattori in R. Più precisamente, imparerai a:
 # - Riconoscere tipi di dati per i quali è utile ricorrere ai fattori
 # - Creare e manipolare fattori, ordinati e non
 # - Selezionare specifici elementi di un fattore
 
--
-
-# Tutorial sui Fattori in R
 
 ## Introduzione ai Fattori
 
-# Molto spesso i dati possono essere raggruppati in un certo numero di categorie. Per esempio, i film possono essere raggruppati per genere (commedia, horror, avventura...). In R, le variabili di tipo categorico sono salvate come fattori, cioè speciali vettori caratterizzati da livelli (ossia, le categorie presenti nella variabile categorica considerata). 
+# Certe volte i dati che ci troviamo ad analizzare possono essere raggruppati in un certo numero di categorie.
+# Per esempio, i film possono essere raggruppati per genere (commedia, horror, avventura...).
+# In R, le `variabili di tipo categorico` sono salvate in oggetti di classe `fattore`,
+# cioè speciali vettori caratterizzati dalla presenza di `livelli`
+# (ossia, le categorie presenti nella variabile categorica considerata). 
 
 ### Che cos'è un fattore e perché dovresti utilizzarlo?
 
