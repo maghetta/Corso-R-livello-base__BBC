@@ -66,8 +66,8 @@ fattore_vettore_genere <- factor(vettore_genere)
 ### Cambiare i Livelli dei Fattori
 
 # Alcune volte ti capiterà di voler cambiare il nome dei livelli di un fattore, per ragioni di chiarezza (o altro).
-# R ti permette di effettuare questa operazione utilizzando la funzione `levels()`. Questa funzione può essere utilizzata
-# o per visualizzare i livelli di un fattore, o per modificarli
+# R ti permette di effettuare questa operazione utilizzando la funzione `levels()`.
+# Questa funzione può essere utilizzata sia per visualizzare i livelli di un fattore, sia per modificarli
 
 # Codice per costruire factor_vettore_genere
 vettore_genere <- c("C", "H", "A", "C", "H")
@@ -105,10 +105,11 @@ summary(factor_vettore_genere)
 
 # Fattori Ordinali
 
-# Diciamo che sei a capo di un gruppo che valuta il gradimento dei corsi e vuoi classificare il livello di gradimento come "Basso", "Medio" o "Alto". Salvi i risultati in `vettore_gradimento`.
+# Diciamo che sei a capo di un gruppo che valuta il gradimento dei corsi erogati
+# e vuoi classificare il livello di gradimento come "Basso", "Medio" o "Alto".
+# Salvi i risultati in  un vettore chiamato `vettore_gradimento`.
 
-# Crea vettore_gradimento
-vettore_gradimento <- c("Medio","Basso","Basso","Medio","Alto")
+#---> domanda per te: Crea vettore_gradimento che contenga i risultati delle interviste a 5 studenti
 
 # Converti vettore_gradimento in un fattore ordinale
 factor_vettore_gradimento <- factor(vettore_gradimento, ordered = TRUE, levels = c("Basso", "Medio", "Alto"))
