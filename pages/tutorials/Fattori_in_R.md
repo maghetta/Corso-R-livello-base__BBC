@@ -25,26 +25,32 @@ title: Fattori in R
 # e una variabile di tipo continuo consiste nel fatto che la variabile categorica può appartenere
 # a un numero limitato di categorie. Una variabile di tipo continuo, al contrario, può assumere infiniti valori.
 
-# Permettere a R di sapere se sta operando su variabili di tipo categorico o continuo è molto importante siccome i modelli statistici che utilizzerai in futuro trattano i due tipi di variabile in modo molto diverso.
-
-# Un buon esempio di una variabile categorica è il genere del film. Un film può essere "Commedia", "Horror" o "Avventura". In questo caso, "Commedia", "Horror" e "Avventura" sono i tre possibili valori che la variabile categorica "genere" può assumere e a ogni osservazione sarà assegnato uno dei tre possibili valori.
+# Permettere a R di sapere se sta operando su variabili di tipo categorico o continuo può essere
+# molto importante ad esempio nel caso di modelli statistici che trattano i due tipi di variabile
+# in modo molto diverso.
 
 ### Creare un Fattore
 
-# Per creare un fattore in R si utilizza la funzione `factor()`. La prima cosa da fare è creare un vettore che contiene tutte le osservazioni che appartengono a un numero limitato di categorie. Per esempio, `vettore_genere` contiene il genere di 5 differenti film:
+# Per creare un fattore in R si utilizza la funzione `factor()`.
+# La prima cosa da fare è creare un vettore che contenga tutte le osservazioni di interesse.
+a Per esempio, `vettore_genere` contiene il genere di 5 differenti film:
 
-```r
-# Vettore genere
 vettore_genere <- c("Commedia", "Horror", "Avventura", "Commedia", "Horror")
 
-# Converti vettore_genere in un fattore
+# Per convertire il vettore_genere in un fattore, applica la funzione `factor()`
 fattore_vettore_genere <- factor(vettore_genere)
 
-# Stampa fattore_vettore_genere
-fattore_vettore_genere 
-```
+#--> domanda per te: Stampa a video il contenuto della variabile fattore_vettore_genere.
+#                            Cosa noti di diverso rispetto a un vettore?
 
-### Tipi di Variabili Categoricali
+
+#--> domanda per te: Adatta la procedura vista qui sopra per creare un fattore dei risultati
+#                            di un'ipotetica intervista a 5 neo-laureati
+#                            sulla presenza o meno di lode nella loro votazione di laurea
+
+
+
+### Tipi di Variabili Categoriche
 
 # Esistono due tipi di variabili categoriche: le variabili categoriche nominali e le variabili categoriche ordinali.
 
