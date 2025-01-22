@@ -23,3 +23,5 @@ subitems:
       url: /Introduzione_alla_Console_R
     - title: Vettori in R
       url: /Vettori_in_R
+    - title: Fattori in R
+      url: /Fattori_in_R
