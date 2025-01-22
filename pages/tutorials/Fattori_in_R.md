@@ -118,7 +118,8 @@ factor_vettore_gradimento
 
 # Confrontare Due Fattori Ordinali
 
-# Il fatto che `factor_vettore_gradimento` sia un ordinale ci permette di comparare i suoi elementi. Per effettuare il confronto, utilizza semplicemente gli operatori già conosciuti nei capitoli precedenti.
+# Il fatto che `factor_vettore_gradimento` sia un ordinale ci permette di comparare i suoi elementi.
+# Per effettuare il confronto, utilizza semplicemente gli operatori di confronto già incontrati in precedenza.
 
 
 # Valore del fattore per il secondo corso
