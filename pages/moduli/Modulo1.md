@@ -147,4 +147,4 @@ ___
 ### Riferimenti utili
 
 - <span style="color:blue;">Progetto R - sito ufficiale: [https://www.r-project.org/](https://www.r-project.org/)</span>
-- <span style="color:blue;">Ebook del Prof. Federico Reali:[Note dal aboratorio di R del corso di Probabilità e Statistica Matematica - aa 2018/2019](https://thefreolo.github.io/book/primi-passi-con-r.html)</span>
+- <span style="color:blue;">Ebook del Prof. Federico Reali: [Note dal aboratorio di R del corso di Probabilità e Statistica Matematica - aa 2018/2019](https://thefreolo.github.io/book/primi-passi-con-r.html)</span>
