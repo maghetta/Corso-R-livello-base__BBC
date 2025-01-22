@@ -21,3 +21,5 @@ subitems:
   subitems:
     - title: Introduzione alla Console R
       url: /Introduzione_alla_Console_R
+    - title: Vettori in R
+      url: /Vettori_in_R
