@@ -76,10 +76,6 @@ costo_totale_medio <- totale_costi / totale_distanze
 # il contenuto della variabile totale_distanze
 
 
-# Individuamo in quali giorni della settimana si sono registrati il costo massimo e minimo.
-giorno_costo_max <- giorni[which.max(vettore_costi)]
-giorno_costo_min <- giorni[which.min(vettore_costi)]
-
 # Selezione degli elementi dai vettori
 # Usiamo gli indici o i nomi per selezionare elementi specifici.
 distanze_metà_settimana <- vettore_distanze[2:4]
@@ -93,7 +89,6 @@ media_distanze_inizio <- mean(distanze_inizio_settimana)
 # vale anche per gli operatori di confronto (`<`, `>`, `==`, `!=`, `<=`, `>=`). Anche qui, i confronti verranno
 # eseguiti elemento per elemento.  
 
-
 # Filtriamo i giorni con distanze superiori a 100 km.
 vettore_selezione <- vettore_distanze > 100
 giorni_distanze_lunghe <- vettore_distanze[vettore_selezione]
@@ -102,25 +97,12 @@ giorni_distanze_lunghe <- vettore_distanze[vettore_selezione]
 vettore_selezione <- vettore_costi > 50
 giorni_costi_alti <- vettore_costi[vettore_selezione]
 
-# Risultati finali
-print("Costo medio per chilometro:")
-print(costo_medio_km)
-print("Totale distanze settimanali:")
-print(totale_distanze)
-print("Totale costi settimanali:")
-print(totale_costi)
-print("Giorno con costo massimo:")
-print(giorno_costo_max)
-print("Giorno con costo minimo:")
-print(giorno_costo_min)
-print("Media distanze inizio settimana:")
-print(media_distanze_inizio)
-print("Giorni con distanze lunghe:")
-print(giorni_distanze_lunghe)
-print("Giorni con costi alti:")
-print(giorni_costi_alti)
 
-
-
+# Mettiamo ora insieme confronti e selezione di elementi.
+# Ad esempio, individuamo in quali giorni della settimana si sono registrati il costo massimo e minimo.
+costo_massimo <- max(vettore_costi)
+costo_minimo <- min(vettore_costi)
+giorno_costo_max <- names(vettore_costi)[vettore_costi == costo_massimo]
+giorno_costo_min <- names(vettore_costi)[vettore_costi == costo_minimo]
 
 ```
