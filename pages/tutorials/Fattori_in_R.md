@@ -65,24 +65,32 @@ fattore_vettore_genere <- factor(vettore_genere)
 
 ### Cambiare i Livelli dei Fattori
 
-# Quando ispezioni un nuovo dataset, noterai spesso che contiene fattori con diversi livelli. Tuttavia, alcune volte ti capiterà di voler cambiare il nome di questi livelli per ragioni di chiarezza (o altro). R ti permette di effettuare questa operazione utilizzando la funzione `levels()`:
+# Alcune volte ti capiterà di voler cambiare il nome dei livelli di un fattore, per ragioni di chiarezza (o altro).
+# R ti permette di effettuare questa operazione utilizzando la funzione `levels()`. Questa funzione può essere utilizzata
+# o per visualizzare i livelli di un fattore, o per modificarli
 
-```r
 # Codice per costruire factor_vettore_genere
 vettore_genere <- c("C", "H", "A", "C", "H")
 factor_vettore_genere <- factor(vettore_genere)
 
-# Specifica i livelli di factor_vettore_genere
+#--> domanda per te: stampa a video il contenuto della variabile factor_vettore_genere appena creata
+
+
+# Riassegna i valori ai livelli di factor_vettore_genere
 levels(factor_vettore_genere) <- c("Avventura", "Commedia", "Horror")
 
-factor_vettore_genere
-```
+#--> domanda per te: cosa hai fatto con quest'ultimo comando?
 
-### Ottenere un Sommario di un Fattore
+#--> Stampa a video i livelli della variabile factor_vettore_genere utilizzando la funzione `levels()`.
+#    Che cosa ti ricorda? Che tipo di oggetto? (Suggerimento: in R tutto è un oggetto, e tutto si ricicla!)
 
-# Alla fine di questo corso una delle tue funzioni preferite sarà `summary()`. Questa funzione ti permetterà di ottenere un'overview del contenuto di una variabile:
 
-```r
+
+# Ottenere un Sommario di un Fattore
+
+# In R, la funzione `summary()` ti permette di ottenere un'overview del contenuto di una variabile.
+# Vediamo ad esempio quale risultato dia questa funzione applicata ad un oggetto di classe fattore.
+
 # Crea factor_vettore_genere
 vettore_genere <- c("C", "H", "A", "C", "H")
 factor_vettore_genere <- factor(vettore_genere)
@@ -93,9 +101,9 @@ summary(vettore_genere)
 
 # Genera sommario per factor_vettore_genere
 summary(factor_vettore_genere)
-```
 
-### Fattori Ordinali
+
+# Fattori Ordinali
 
 # Diciamo che sei a capo di un gruppo che valuta il gradimento dei corsi e vuoi classificare il livello di gradimento come "Basso", "Medio" o "Alto". Salvi i risultati in `vettore_gradimento`.
 
@@ -108,7 +116,7 @@ factor_vettore_gradimento <- factor(vettore_gradimento, ordered = TRUE, levels =
 # Dai uno sguardo al contenuto di factor_vettore_gradimento
 factor_vettore_gradimento
 
-### Confrontare Due Fattori Ordinali
+# Confrontare Due Fattori Ordinali
 
 # Il fatto che `factor_vettore_gradimento` sia un ordinale ci permette di comparare i suoi elementi. Per effettuare il confronto, utilizza semplicemente gli operatori già conosciuti nei capitoli precedenti.
 
