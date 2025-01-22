@@ -52,11 +52,16 @@ fattore_vettore_genere <- factor(vettore_genere)
 
 ### Tipi di Variabili Categoriche
 
-# Esistono due tipi di variabili categoriche: le variabili categoriche nominali e le variabili categoriche ordinali.
+# Esistono due tipi di variabili categoriche:
+# le `variabili categoriche nominali` e le `variabili categoriche ordinali`.
 
-# Una variabile categorica nominale è una variabile che non è possibile ordinare naturalmente. Per esempio, pensa alla variabile categorica `vettore_animali` contenente le categorie "Elefante", "Giraffa", "Asino" e "Cavallo". In questo caso è abbastanza difficile ordinare le categorie.
+# Una variabile categorica nominale è una variabile che non possiede un ordine naturale.
+# Per esempio, pensa alla variabile categorica `vettore_animali` contenente le categorie
+# "Elefante", "Lupo", "Cane" e "Criceto". In questo caso è abbastanza difficile ordinare le categorie.
 
-# In senso opposto, le variabili categoriche ordinali hanno un ordine naturale. Considera la variabile categorica `vettore_gradimento` con le categorie "Basso", "Medio" e "Alto". Qui è abbastanza ovvio che, in un certo senso, "Medio" si trova sopra a "Basso" e "Alto" si trova sopra a "Medio".
+# In senso opposto, le variabili categoriche ordinali hanno un ordine naturale.
+# Considera la variabile categorica `vettore_gradimento` con le categorie "Basso", "Medio" e "Alto".
+# Qui è abbastanza ovvio che, in un certo senso, "Medio" si trova sopra a "Basso" e "Alto" si trova sopra a "Medio".
 
 ### Cambiare i Livelli dei Fattori
 
@@ -94,16 +99,14 @@ summary(factor_vettore_genere)
 
 # Diciamo che sei a capo di un gruppo che valuta il gradimento dei corsi e vuoi classificare il livello di gradimento come "Basso", "Medio" o "Alto". Salvi i risultati in `vettore_gradimento`.
 
-```r
 # Crea vettore_gradimento
 vettore_gradimento <- c("Medio","Basso","Basso","Medio","Alto")
 
 # Converti vettore_gradimento in un fattore ordinale
 factor_vettore_gradimento <- factor(vettore_gradimento, ordered = TRUE, levels = c("Basso", "Medio", "Alto"))
 
-# Stampa factor_vettore_gradimento
+# Dai uno sguardo al contenuto di factor_vettore_gradimento
 factor_vettore_gradimento
-```
 
 ### Confrontare Due Fattori Ordinali
 
