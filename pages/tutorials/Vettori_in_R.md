@@ -93,6 +93,11 @@ media_distanze_inizio <- mean(distanze_inizio_settimana)
 vettore_selezione <- vettore_distanze > 100
 giorni_distanze_lunghe <- vettore_distanze[vettore_selezione]
 
+#--> domande per te:
+# che tipo di vettore è il vettore_selezione?
+# sapresti spiegare come R stia usando gli elementi del
+#           vettore_selezione per estrarre alcuni elementi del vettore distanze?
+
 # Ripetiamo la selezione per i costi.
 vettore_selezione <- vettore_costi > 50
 giorni_costi_alti <- vettore_costi[vettore_selezione]
@@ -104,5 +109,9 @@ costo_massimo <- max(vettore_costi)
 costo_minimo <- min(vettore_costi)
 giorno_costo_max <- names(vettore_costi)[vettore_costi == costo_massimo]
 giorno_costo_min <- names(vettore_costi)[vettore_costi == costo_minimo]
+
+#--> domande per te:
+# in quale giorno della settimana si è registrato il costo massimo?
+# in quale giorno il costo minimo?
 
 ```
