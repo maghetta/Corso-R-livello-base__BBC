@@ -3,9 +3,16 @@ title: Fattori in R
 ---
 
 ```markdown
-Certo! Ecco il tutorial riscritto con i commenti per le righe che non sono codice:
 
----
+# Tutorial introduttivo all'oggetto di classe fattore in R
+
+# Introduzione
+# Questo tutorial ti guiderà nella scoperta dei fattori in R. Più precisamente, imparerai a:
+# - Riconoscere tipi di dati per i quali è utile ricorrere ai fattori
+# - Creare e manipolare fattori, ordinati e non
+# - Selezionare specifici elementi di un fattore
+
+-
 
 # Tutorial sui Fattori in R
 
