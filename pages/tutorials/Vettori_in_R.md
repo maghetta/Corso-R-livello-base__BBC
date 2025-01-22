@@ -78,12 +78,17 @@ costo_totale_medio <- totale_costi / totale_distanze
 
 # Selezione degli elementi dai vettori
 
-# Esistono varie modalità per selezionare elementi di interesse da un vettore:
+# Esistono varie modalità per selezionare elementi di interesse da un vettore, elencati qui di seguito.
+# Nota come ogni volta che si voglia estrarre degli elementi da un vettore, compariranno le parentesi quadre.
+# Sintatticamente troverai sempre il nome del vettore da cui vuoi estrarre elementi seguito immediatamente
+# da parentesi quadre, con all'interno specificati, esplicitamente o in forma di condizione, gli elementi da estrarre.
 
 # 1. Tramite indici di posizione degli elementi di interesse
 vettore_distanze[1:3]  # Seleziona i primi tre elementi
 
-# Piccolo inciso: nel codice qui sopra, nota il simbolo `:` che viene utilizzato in R per generare sequenze di numeri interi continui, creando un intervallo con incrementi di uno tra un valore iniziale e uno finale. Esempio:
+# Piccolo inciso: nel codice qui sopra, nota il simbolo `:` che viene utilizzato in R per generare sequenze
+# di numeri interi continui, creando un intervallo con incrementi di uno tra un valore iniziale e uno finale.
+# Esempio:
 1:5 # Genera la sequenza 1, 2, 3, 4, 5
 5:1  # Genera la sequenza 5, 4, 3, 2, 1 (decrescente)
 
@@ -96,6 +101,8 @@ vettore_distanze[vettore_distanze > 100]  # Seleziona elementi maggiori di 100
 # 4. Utilizzando funzioni come which()
 vettore_distanze[which(vettore_distanze == max(vettore_distanze))]  # Seleziona l'elemento massimo
 vettore_distanze[which(vettore_distanze == min(vettore_distanze))]  # Seleziona l'elemento minimo
+
+#--> domanda per te: seleziona gli elementi del vettore_costi corrispondenti ai giorni di Martedì, Mercoledì e Giovedì
 
 
 # Usiamo gli indici o i nomi per selezionare elementi specifici.
