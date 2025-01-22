@@ -9,6 +9,7 @@ In questo breve tutorial vedremo:
 - cos'è e come usare la console interattiva (o terminale interattivo) di R
 - come utilizzare R come una calcolatrice
 - cos'è una variabile e come crearla in R, o modificarne il valore
+- quali sono i tipi principali di variabili che si possono incontrare
 
 ## Terminale Interattivo di R
 
@@ -101,6 +102,70 @@ print(paste("Prodotto:", prodotto))
 print(paste("Quoziente:", quoziente))
 print(paste("Potenza:", potenza))
 print(paste("Radice quadrata:", radice))
+```
+
+Certo! Ecco il tutorial in Markdown:
+
+```markdown
+# Introduzione a R
+
+R è un linguaggio di programmazione utilizzato principalmente per l'analisi statistica e la visualizzazione dei dati.
+In R, le variabili possono essere di diversi tipi, ognuno con le proprie caratteristiche e utilizzi.
+
+## Principali Tipi di Variabili in R
+
+1. **Variabili Numeriche**
+   - **Interi**: Numeri senza decimali.
+     ```R
+     intero <- 10
+     ```
+   - **Numeri a virgola mobile (double)**: Numeri con decimali.
+     ```R
+     numerico <- 10.5
+     ```
+
+2. **Variabili Carattere (Stringhe)**
+   - Sequenze di caratteri racchiuse tra virgolette.
+     ```R
+     stringa <- "Ciao, mondo!"
+     ```
+
+3. **Variabili Logiche (Boolean)**
+   - Variabili che possono assumere solo due valori: `TRUE` o `FALSE`.
+     ```R
+     logico <- TRUE
+     ```
+
+4. **Fattori**
+   - Utilizzati per rappresentare variabili categoriali.
+     ```R
+     fattore <- factor(c("rosso", "verde", "blu"))
+     ```
+
+## Esempio Pratico
+
+Ecco un esempio che mostra come creare e utilizzare questi tipi di variabili in R:
+
+```R
+# Variabili numeriche
+intero <- 10
+numerico <- 10.5
+
+# Variabili carattere
+stringa <- "Ciao, mondo!"
+
+# Variabili logiche
+logico <- TRUE
+
+# Fattori
+fattore <- factor(c("rosso", "verde", "blu"))
+
+# Stampa delle variabili
+print(intero)
+print(numerico)
+print(stringa)
+print(logico)
+print(fattore)
 ```
 
 ## Conclusione
