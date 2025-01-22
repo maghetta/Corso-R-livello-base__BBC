@@ -20,9 +20,10 @@ title: Fattori in R
 # cioè speciali vettori caratterizzati dalla presenza di `livelli`
 # (ossia, le categorie presenti nella variabile categorica considerata). 
 
-### Che cos'è un fattore e perché dovresti utilizzarlo?
-
-# Il termine fattore si riferisce a un particolare tipo di dato utilizzato per immagazzinare variabili di tipo categorico. La differenza tra una variabile di tipo categorico e una variabile di tipo continuo consiste nel fatto che la variabile categorica può appartenere a un numero limitato di categorie. Una variabile di tipo continuo, al contrario, può assumere infiniti valori.
+# Quindi, il termine `fattore` si riferisce ad un particolare tipo di oggetto utilizzato
+# per immagazzinare variabili di tipo categorico. La differenza tra una variabile di tipo categorico
+# e una variabile di tipo continuo consiste nel fatto che la variabile categorica può appartenere
+# a un numero limitato di categorie. Una variabile di tipo continuo, al contrario, può assumere infiniti valori.
 
 # Permettere a R di sapere se sta operando su variabili di tipo categorico o continuo è molto importante siccome i modelli statistici che utilizzerai in futuro trattano i due tipi di variabile in modo molto diverso.
 
