@@ -13,6 +13,7 @@ title: Vettori in R
 # - Selezionare specifici elementi di un vettore
 
 # Creazione di vettori
+
 # I vettori sono array monodimensionali che possono contenere dati di tipo numerico, 
 # carattere o logico. 
 # Per creare un vettore in R abbiamo a disposizione la funzione `c()`, versione essenziale che sta per `concatenate`.
@@ -20,10 +21,12 @@ title: Vettori in R
 # A proposito: in R, **una funzione** è un blocco di codice progettato per eseguire un compito specifico.
 # Le funzioni sono strumenti fondamentali per ridurre la duplicazione del codice, migliorare la leggibilità
 # e organizzare le operazioni in modo modulare. Una funzione in R si riconosce sintatticamente
-# perché il suo nome è immediatamente seguito da parentesi tonde, che possono contenere eventuali argomenti
-# da passare alla funzione. Ad esempio: `sum(7, 2)` restituisce la somma dei due numeri forniti come input.
+# perché il suo nome è immediatamente seguito da parentesi tonde, che possono contenere eventuali argomenti,
+# ciascuno separato da virgola, da passare alla funzione.
+# Ad esempio: `sum(7, 2)` restituisce la somma dei due numeri forniti come input.
 
-# Esempi di vettori:
+# La funzione `c()` vuole come argomenti gli elementi che si vogliono concatenare per formare il vettore.
+# Ad esempio:
 vettore_numerico <- c(1, 2, 3)
 vettore_carattere <- c("a", "b", "c")
 
@@ -33,6 +36,7 @@ vettore_distanze <- c(140, 50, 120, 300, 240) # in chilometri
 vettore_costi <- c(30, 10, 50, 100, 80) # in euro
 
 # Assegnazione dei nomi agli elementi di un vettore
+
 # Usiamo la funzione `names()` per assegnare un nome agli elementi di un vettore.
 # Ad esempio, potremmo nominare gli elementi dei vettori appena creati con i giorni della settimana.
 giorni <- c("Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì")
@@ -40,6 +44,11 @@ names(vettore_distanze) <- giorni
 names(vettore_costi) <- giorni
 
 # Operazioni con i vettori
+
+# Vettori di tipo numerico possono essere trattati in R come potrebbero essere trattati dei semplici numeri.
+# Ad esempio, possono essere usati per effettuare delle operazioni.
+# Una nota importante: in R se effettui una operazione matematica tra due vettori,
+# questa viene effettuata `elemento per elemento`. Vediamo alcuni esempi.
 
 # Dividiamo i costi per le distanze utilizzando l'operatore `/`. La divisione tra due vettori
 # viene effettuata elemento per elemento, ovvero il primo elemento del primo vettore
@@ -66,10 +75,8 @@ costo_totale_medio <- totale_costi / totale_distanze
 #--> domanda per te: prova a utilizzare la funzione `print()` per stampare a video
 # il contenuto della variabile totale_distanze
 
-# Operatori di Confronto applicati ai vettori
 
-# Confrontiamo i giorni con costi più alti e più bassi
-# Verifichiamo quale giorno ha il costo massimo e minimo.
+# Individuamo in quali giorni della settimana si sono registrati il costo massimo e minimo.
 giorno_costo_max <- giorni[which.max(vettore_costi)]
 giorno_costo_min <- giorni[which.min(vettore_costi)]
 
@@ -80,7 +87,13 @@ costi_metà_settimana <- vettore_costi[2:4]
 distanze_inizio_settimana <- vettore_distanze[c("Lunedì", "Martedì", "Mercoledì")]
 media_distanze_inizio <- mean(distanze_inizio_settimana)
 
-# Selezione basata su condizioni
+# Operatori di confronto e selezione di elementi basata su condizioni
+
+# Quanto sopra visto riguardo alla possibilità di applicare operazioni matematiche a vettori numerici
+# vale anche per gli operatori di confronto (`<`, `>`, `==`, `!=`, `<=`, `>=`). Anche qui, i confronti verranno
+# eseguiti elemento per elemento.  
+
+
 # Filtriamo i giorni con distanze superiori a 100 km.
 vettore_selezione <- vettore_distanze > 100
 giorni_distanze_lunghe <- vettore_distanze[vettore_selezione]
