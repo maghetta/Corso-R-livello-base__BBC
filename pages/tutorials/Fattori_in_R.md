@@ -110,22 +110,18 @@ factor_vettore_gradimento
 
 ### Confrontare Due Fattori Ordinali
 
-# Il fatto che `factor_vettore_gradimento` è ordinale ci permette di comparare i suoi elementi. Per effettuare il confronto, utilizza semplicemente gli operatori già conosciuti nei capitoli precedenti.
+# Il fatto che `factor_vettore_gradimento` sia un ordinale ci permette di comparare i suoi elementi. Per effettuare il confronto, utilizza semplicemente gli operatori già conosciuti nei capitoli precedenti.
 
-```r
+
 # Valore del fattore per il secondo corso
-da2 <- factor_vettore_gradimento[2]
+val2 <- factor_vettore_gradimento[2]
 
 # Valore del fattore per il quinto corso
-da5 <- factor_vettore_gradimento[5]
+val5 <- factor_vettore_gradimento[5]
 
 # Il secondo corso è più gradito del quinto?
-da2 > da5
-```
+val2 > val5
+
 
 ---
 
-Spero che questo tutorial ti sia utile! Se hai altre domande o hai bisogno di ulteriori chiarimenti, fammi sapere! 😊
-
-
-```
