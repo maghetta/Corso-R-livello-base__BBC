@@ -134,7 +134,7 @@ Il linguaggio di programmazione R
 ___
 
 ## Svolgimento tutorial in R: "Introduzione alla Console R"
-<br>Puoi visualizzare o scaricare il tutorial da [qui](https://maghetta.github.io/teaching_R/blob/main/tutorials/Introduzione_alla_console_R.md) 
+<br>Puoi visualizzare o scaricare il tutorial da <a href="https://maghetta.github.io/Corso-R-livello-base__BBC/pages/tutorials/Introduzione_alla_Console_R.md">qui</a>
 
 ## Svolgimento tutorial in R: "Vettori in R"
 <br>
