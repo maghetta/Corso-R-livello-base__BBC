@@ -9,6 +9,7 @@ title: Fattori in R
 # Questo tutorial ti guiderà nella scoperta dei fattori in R. Più precisamente, imparerai a:
 # - Riconoscere tipi di dati per i quali è utile ricorrere ai fattori
 # - Creare e manipolare fattori, ordinati e non
+# - Assegnare i nomi agli elementi di un fattore
 # - Selezionare specifici elementi di un fattore
 
 
@@ -83,6 +84,25 @@ levels(factor_vettore_genere) <- c("Avventura", "Commedia", "Horror")
 
 #--> Stampa a video i livelli della variabile factor_vettore_genere utilizzando la funzione `levels()`.
 #    Che cosa ti ricorda? Che tipo di oggetto? (Suggerimento: in R tutto è un oggetto, e tutto si ricicla!)
+
+
+# Assegnare i nomi agli elementi di un fattore
+
+# In modo del tutto simile a quanto visto per i vettori, possiamo assegnare nomi agli elementi
+# di un fattore in R utilizzando la funzione `names()`.
+# Ecco un esempio di codice R che illustra come farlo:
+
+# Creiamo un vettore fattore di esempio
+factor_vettore_gradimento <- factor(c("Alto", "Medio", "Basso", "Alto", "Medio", "Alto"))
+
+# Assegniamo nomi agli elementi del fattore
+names(factor_vettore_gradimento) <- c("Algebra", "Informatica", "Storia Contemporanea", "Biologia", "Genetica", "Fisica")
+
+# Visualizziamo il fattore con i nomi assegnati
+print(factor_vettore_gradimento)
+
+# Possiamo anche accedere agli elementi del fattore utilizzando i nomi
+print(factor_vettore_gradimento["Informatica"])
 
 
 
