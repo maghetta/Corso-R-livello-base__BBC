@@ -19,5 +19,5 @@ subitems:
       url: /modulo5
 - title: Tutorials
   subitems:
-    - title: Introduzione alla console R
+    - title: Introduzione alla Console R
       url: /Introduzione_alla_Console_R
