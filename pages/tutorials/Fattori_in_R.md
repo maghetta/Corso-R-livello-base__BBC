@@ -133,6 +133,9 @@ val5 <- factor_vettore_gradimento[5]
 # Il secondo corso è più gradito del quinto?
 val2 > val5
 
+#--> domandaccia per te: prova a scrivere un codice R per scoprire quali elementi
+#              del fattore factor_vettore_gradimento hanno ricevuto un alto gradimento
+
 
 ---
 
