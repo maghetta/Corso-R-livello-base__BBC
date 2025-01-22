@@ -78,9 +78,9 @@ y <- x + 3
 print(y)
 ```
 
-## Esempio Completo
+## Esempio
 
-Mettiamo tutto insieme in un esempio completo:
+Rivediamo tutto insieme in un esempio:
 
 ```R
 # Assegnazione di valori a variabili
@@ -104,13 +104,6 @@ print(paste("Potenza:", potenza))
 print(paste("Radice quadrata:", radice))
 ```
 
-Certo! Ecco il tutorial in Markdown:
-
-```markdown
-# Introduzione a R
-
-R è un linguaggio di programmazione utilizzato principalmente per l'analisi statistica e la visualizzazione dei dati.
-In R, le variabili possono essere di diversi tipi, ognuno con le proprie caratteristiche e utilizzi.
 
 ## Principali Tipi di Variabili in R
 
@@ -139,7 +132,7 @@ In R, le variabili possono essere di diversi tipi, ognuno con le proprie caratte
 4. **Fattori**
    - Utilizzati per rappresentare variabili categoriali.
      ```R
-     fattore <- factor(c("rosso", "verde", "blu"))
+     fattore <- factor(c("rosso", "verde", "blu", "rosso", "blu", "verde", "blu"))
      ```
 
 ## Esempio Pratico
@@ -161,16 +154,9 @@ logico <- TRUE
 fattore <- factor(c("rosso", "verde", "blu"))
 
 # Stampa delle variabili
-print(intero)
-print(numerico)
-print(stringa)
-print(logico)
-print(fattore)
+print(intero)   # ma anche, più semplicemente, prova a digitare il sul terminale il nome della variabile che vuoi stampare a video
 ```
 
 ## Conclusione
-
-In questo tutorial, abbiamo visto come usare R come calcolatrice e abbiamo introdotto i concetti di variabile e assegnazione.
-
-Buon divertimento con R!
+In questo tutorial, abbiamo visto come usare R come calcolatrice, abbiamo introdotto i concetti di variabile e assegnazione, e visto i principali tipi di variabile.
 ```
