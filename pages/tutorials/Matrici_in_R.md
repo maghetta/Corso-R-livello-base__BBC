@@ -43,7 +43,7 @@ matrice_vendite <- matrix(vendite_totali, nrow = 3, byrow = FALSE,
 #--> domandaccia per te: crea ora una aseconda matrice, chiamata `matrice_vendite_v2`, in cui nella prima colonna
 #          ci siano le vendite degli album nel mondo, e nella seconda colonna le vendite in Italia
 
----
+
 
 #### **Assegnare nomi alle righe e colonne**
 # Anche nel caso delle matrici, puoi aggiungere nomi (o modificarli) al tuo oggetti in R.
@@ -78,7 +78,7 @@ colnames(matrice_vendite) <- c("Italia", "Mondo")
 
 # ancora una volta, stampa a video il contenuto di questa matrice per vedere cosa è cambiato
 
----
+
 
 #### **Operazioni per riga e per colonna**
 # Per calcolare i totali delle vendite, sommiamo i valori su ogni riga usando la funzione `rowSums()`.
@@ -89,7 +89,7 @@ totali_album
 #---> domanda per te: che classe di oggetto è la variabile `totali_album`? E, ti è chiaro cosa ha fatto
 # la funzione `rowSums()`?
 
----
+
 
 
 #### **Unire matrici per riga o per colonna**
@@ -127,7 +127,7 @@ print(matrice_completa2)
 # numeri ti parlerebbero della lunghezza della terza dimensione, quarta, etc).
 
 #--> domanda per te: usa la funzione dim() per scoprire le dimensioni della variabile `matrice_completa2`
----
+
 
 #### **Aggiungere una colonna o una riga ad una matrice**
 # Utilizzando le stesse funzioni `rbind()` e `cbind()`, possiamo aggiungere
@@ -138,7 +138,6 @@ print(matrice_completa2)
 matrice_completa <- cbind(matrice_vendite, Totale = totali_album)  # Nota come inserisco anche il nome alla colonna che aggiungo
 print(matrice_completa)
 
----
 
 
 #### **Calcolare i totali delle vendite per regione**
@@ -147,7 +146,6 @@ Usiamo la funzione `colSums()` per sommare le vendite in Italia e nel mondo.
 totali_regioni <- colSums(matrice_completa2)
 print(totali_regioni)
 
----
 
 #### **Selezionare elementi specifici**
 Possiamo selezionare righe o colonne specifiche con le parentesi quadre `[ ]`.
@@ -160,8 +158,6 @@ vendite_mondo_tutti <- matrice_completa2[, "Mondo"]
 media_mondo <- mean(vendite_mondo_tutti)
 media_mondo
 
-
----
 
 #### **Aritmetica con le matrici**
 Puoi eseguire operazioni aritmetiche direttamente sugli elementi delle matrici.
