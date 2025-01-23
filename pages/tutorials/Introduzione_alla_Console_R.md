@@ -55,7 +55,10 @@ sqrt(16)
 
 ## Variabili e Assegnazione
 
-In R, possiamo memorizzare i risultati delle operazioni in variabili. Una variabile è un nome che rappresenta un valore. Utilizziamo il simbolo `<-` per assegnare un valore a una variabile.
+In R, possiamo memorizzare i risultati delle operazioni in variabili. Una variabile è un contenitore con un nome che rappresenta un valore. Per assegnare il valore ad una variabile, in R si utilizza il simbolo `<-` (o `=`). 
+Una variabile è un contenitore simbolico utilizzato per memorizzare un valore o un insieme di valori in un programma. In R, una variabile può contenere diversi tipi di dati come numeri, stringhe, vettori, matrici, liste o data frame.
+
+Le variabili rendono il codice più flessibile e leggibile, permettendo di riferirsi ai dati senza conoscerne direttamente il valore specifico.
 
 ```R
 # Assegnazione di un valore a una variabile
