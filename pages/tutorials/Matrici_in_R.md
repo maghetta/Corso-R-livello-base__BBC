@@ -98,7 +98,7 @@ totali_album
 apply(matrice_vendite, 1, sum)  # nota come in questo caso eccezionalmente scrivo il nome della funzione, senza parentesi
 apply(matrice_vendite, 2, mean)
 
-# Qui sopra, la funzione di R `apply()` permette di applicare una data funzione a tutte le righe o colonne di una matrice
+# La funzione di R `apply()` permette di applicare una funzione a tutte le righe o colonne di una matrice
 # **Il primo argomento** (`matrice_vendite`) specifica l'oggetto cui si vuole applicare una funzione
 # **Il secondo argomento** specifica se la si vuole applicare per riga (`1`) o per colonna (`2`)
 # **Il terzo argomento** specifica quale funzione si vuole applicare
@@ -164,6 +164,10 @@ print(totali_regioni)
 #### **Selezionare elementi specifici**
 # Analogamente a quanto visto con gli oggetti precedenti, possiamo selezionare elementi di una matrice
 # dalle sue righe e/o colonne specificando gli indici degli oggetti di interesse tra le parentesi quadre `[ ]`.
+# Analogamente a quanto già visto, avremo vari modi per specificare le posizioni di interesse.
+# Una differenza importante: ora avremo bisogno di specificare due indici:
+# **il primo indice** (cioé, il primo numero tra le parentesi quadre `[ ]`, seguito da `,`) per specificare quali righe
+# **il secondo indice** (cioé, secondo numero tra le parentesi quadre `[ ]`, dopo la `,`) per specificare quali colonne
 
 
 # Vendite nel mondo per tutti gli album
