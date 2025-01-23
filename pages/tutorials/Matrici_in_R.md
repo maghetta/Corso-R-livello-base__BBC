@@ -152,16 +152,18 @@ matrice_completa <- cbind(matrice_vendite, Totale = totali_album)  # Nota come i
 print(matrice_completa)
 
 
-
 #### **Calcolare i totali delle vendite per regione**
-Usiamo la funzione `colSums()` per sommare le vendite in Italia e nel mondo.
+# Usiamo la funzione `colSums()` per sommare le vendite in Italia e nel mondo.
 
 totali_regioni <- colSums(matrice_completa2)
 print(totali_regioni)
 
+#--> domanda per te: ripeti il calcolo della somma per colonna, ma utilizzando la funzione `apply()`
+
 
 #### **Selezionare elementi specifici**
-Possiamo selezionare righe o colonne specifiche con le parentesi quadre `[ ]`.
+# Analogamente a quanto visto con gli oggetti precedenti, possiamo selezionare elementi di una matrice
+# dalle sue righe e/o colonne specificando gli indici degli oggetti di interesse tra le parentesi quadre `[ ]`.
 
 
 # Vendite nel mondo per tutti gli album
