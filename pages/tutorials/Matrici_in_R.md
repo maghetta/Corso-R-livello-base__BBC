@@ -91,21 +91,11 @@ totali_album
 
 ---
 
-#### **Aggiungere una colonna con i totali delle vendite**
-Possiamo aggiungere una colonna alla matrice con i totali calcolati.
-
-matrice_completa <- cbind(matrice_vendite, Totale = totali_album)
-print(matrice_completa)
-
----
 
 #### **Unire matrici per riga o per colonna**
 # Immaginiamo di avere una seconda matrice con le vendite di altri tre album dei Pink Floyd.
 # In R, possiamo unire per riga due (o più) matrici usando funzione `rbind()`, che sta per row-wise bind
 # a patto che le due matrici abbiano lo **stesso numero di colonne**.
-
-#--> domanda per te: sapresti dire perché le due matrici da unire per riga devono avere lo stesso numero di colonne?
-#  Se non ti è chiaro il perché, prova ad eseguire il codice qui sotto, e osservane il risultato stampandolo a video
 
 # Dati della seconda matrice
 vendite_italia2 <- c(0.9, 1.0, 0.8)
@@ -123,7 +113,30 @@ matrice_vendite2 <- matrix(vendite_totali2, nrow = 3, byrow = FALSE,
 matrice_completa2 <- rbind(matrice_completa, matrice_vendite2)
 print(matrice_completa2)
 
+#--> domanda per te: sapresti dire perché le due matrici da unire per riga devono avere lo stesso numero di colonne?
+
+#--> domandaccia per te: un'analoga funzione di R che si chiama `cbind()`
+# permette di unire due (o più) matrici per colonna, a patto che abbiano lo stesso numero di righe (sai dire perché?)
+# costruisci due matrici, chiamate X e Y, che abbiano entrambe 5 righe (e il numero di colonne che vuoi tu), poi
+# uniscile per colonna a formare un'unica matrice chiamata Z
+
+
+# A proposito, in R la funzione `dim()` applicata ad una matrice (o ad altro oggetto con più di una dimensione)
+# ti restituisce le dimensioni del dato oggetto. Lo fa restiruendo in output (almeno) 2 numeri: il primo numero indica
+# il numero delle righe del dato oggetto e il secondo numero ti dice il numero delle colonne (mentre eventuali altri
+# numeri ti parlerebbero della lunghezza della terza dimensione, quarta, etc).
+
+#--> domanda per te: usa la funzione dim() per scoprire le dimensioni della variabile `matrice_completa2`
 ---
+
+#### **Aggiungere una colonna o una riga ad una matrice**
+# Utilizzando le stesse funzioni `rbind()` e `cbind()`, possiamo aggiungere una colonna alla matrice con i totali calcolati.
+
+matrice_completa <- cbind(matrice_vendite, Totale = totali_album)
+print(matrice_completa)
+
+---
+
 
 #### **Calcolare i totali delle vendite per regione**
 Usiamo la funzione `colSums()` per sommare le vendite in Italia e nel mondo.
