@@ -1,17 +1,18 @@
-Ecco una versione riadattata del materiale sotto forma di tutorial R con il tema delle vendite dei dischi dei Pink Floyd in Italia e nel mondo:
-
+---
+title: Matrici in R
 ---
 
-### **Tutorial: Utilizzare le Matrici in R con l'Esempio dei Dischi dei Pink Floyd**
+```markdown
+
+### **Tutorial: Introduzione all'oggetto di classe `Matrice` in R**
 
 #### **Che cos'è una matrice in R?**
-In R, una matrice è una collezione di elementi dello stesso tipo (numerico, carattere o logico) disposti in un numero fisso di righe e colonne. In questo tutorial lavoreremo con matrici bidimensionali.
+# In R, una matrice è una collezione di elementi dello stesso tipo (numerico, carattere o logico) disposti in un numero fisso di righe e colonne.
+# In questo tutorial lavoreremo con matrici bidimensionali, e prenderemo come spunto alcuni dischi famosi dei Pink Floyd
 
-Per creare una matrice in R, utilizziamo la funzione `matrix()`. Ecco un esempio:
+# Per creare una matrice in R, utilizziamo la funzione `matrix()`. Ecco un esempio:
 
-```R
 matrix(1:9, byrow = TRUE, nrow = 3)
-```
 
 - **Il primo argomento** (`1:9`) rappresenta la sequenza di elementi da disporre nella matrice. È equivalente a `c(1, 2, 3, ..., 9)`.
 - **L'argomento `byrow`** specifica se riempire la matrice per riga (`TRUE`) o per colonna (`FALSE`).
