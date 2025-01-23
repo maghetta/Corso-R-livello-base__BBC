@@ -130,9 +130,12 @@ print(matrice_completa2)
 ---
 
 #### **Aggiungere una colonna o una riga ad una matrice**
-# Utilizzando le stesse funzioni `rbind()` e `cbind()`, possiamo aggiungere una colonna alla matrice con i totali calcolati.
+# Utilizzando le stesse funzioni `rbind()` e `cbind()`, possiamo aggiungere
+# rispettivamente una riga o una colonna ad una matrice.
+# Ad esempio, aggiungiamo una colonna alla matrice delle vendite dei primi tre album
+# con i totali delle vendite per ogni album.
 
-matrice_completa <- cbind(matrice_vendite, Totale = totali_album)
+matrice_completa <- cbind(matrice_vendite, Totale = totali_album)  # Nota come inserisco anche il nome alla colonna che aggiungo
 print(matrice_completa)
 
 ---
