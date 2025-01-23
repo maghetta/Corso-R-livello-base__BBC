@@ -28,16 +28,6 @@ Se poi scegliessi l'opzione #3, dovrai aver installato sul tuo PC anche RStudio.
 Se così non fosse, puoi vedere come installare R e/o RStudio ad esempio [qui](https://rstudio-education.github.io/hopr/starting.html).
 Una volta avviato il terminale interattivo, vedrete un prompt (solitamente `>`), dove potrete digitare i vostri comandi R.
 
-Esempio di utilizzo del terminale interattivo:
-
-```R
-> 3 + 5
-[1] 8
-> x <- 10
-> y <- x * 2
-> print(y)
-[1] 20
-```
 
 ## Uso di R come Calcolatrice
 
@@ -89,7 +79,7 @@ b <- 2
 
 # Operazioni aritmetiche
 somma <- a + b
-differenza <- a - b
+diffrenza <- a - b
 prodotto <- a * b
 quoziente <- a / b
 potenza <- a^b
@@ -128,30 +118,6 @@ print(paste("Radice quadrata:", radice))
      ```R
      logico <- TRUE
      ```
-
-4. **Fattori**
-   - Utilizzati per rappresentare variabili categoriali.
-     ```R
-     fattore <- factor(c("rosso", "verde", "blu", "rosso", "blu", "verde", "blu"))
-     ```
-
-## Esempio Pratico
-
-Ecco un esempio che mostra come creare e utilizzare questi tipi di variabili in R:
-
-```R
-# Variabili numeriche
-intero <- 10
-numerico <- 10.5
-
-# Variabili carattere
-stringa <- "Ciao, mondo!"
-
-# Variabili logiche
-logico <- TRUE
-
-# Fattori
-fattore <- factor(c("rosso", "verde", "blu"))
 
 # Stampa delle variabili
 print(intero)   # ma anche, più semplicemente, prova a digitare il sul terminale il nome della variabile che vuoi stampare a video
