@@ -140,7 +140,7 @@ ___
 <br>Puoi visualizzare o scaricare il tutorial da [qui](https://maghetta.github.io/Corso-R-livello-base__BBC/Vettori_in_R)
 
 ## Svolgimento tutorial in R: "Fattori in R"
-<br>
+<br>Puoi visualizzare o scaricare il tutorial da [qui](https://maghetta.github.io/Corso-R-livello-base__BBC/Fattori_in_R)
 
 
 
