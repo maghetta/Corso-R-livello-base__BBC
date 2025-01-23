@@ -99,8 +99,13 @@ print(matrice_completa)
 
 ---
 
-#### **Unire matrici per riga**
-Immaginiamo di avere una seconda matrice con le vendite di altri tre album dei Pink Floyd. Possiamo combinare le due matrici usando `rbind()`.
+#### **Unire matrici per riga o per colonna**
+# Immaginiamo di avere una seconda matrice con le vendite di altri tre album dei Pink Floyd.
+# In R, possiamo unire per riga due (o più) matrici usando funzione `rbind()`, che sta per row-wise bind
+# a patto che le due matrici abbiano lo **stesso numero di colonne**.
+
+#--> domanda per te: sapresti dire perché le due matrici da unire per riga devono avere lo stesso numero di colonne?
+#  Se non ti è chiaro il perché, prova ad eseguire il codice qui sotto, e osservane il risultato stampandolo a video
 
 # Dati della seconda matrice
 vendite_italia2 <- c(0.9, 1.0, 0.8)
@@ -112,7 +117,9 @@ matrice_vendite2 <- matrix(vendite_totali2, nrow = 3, byrow = FALSE,
                            dimnames = list(c("The Wall", "The Division Bell", "A Momentary Lapse of Reason"), 
                                            c("Italia", "Mondo")))
 
-# Unisci le due matrici
+# stampa a video il contenuto della variabile `matrice_vendite2` che hai appena creato
+
+# Unisci le due matrici per riga
 matrice_completa2 <- rbind(matrice_completa, matrice_vendite2)
 print(matrice_completa2)
 
