@@ -7,7 +7,8 @@ title: Matrici in R
 ### **Tutorial: Introduzione all'oggetto di classe `Matrice` in R**
 
 #### **Che cos'è una matrice in R?**
-# In R, una matrice è una collezione di elementi dello stesso tipo (numerico, carattere o logico) disposti in un numero fisso di righe e colonne.
+# In R, una matrice è una collezione di elementi dello stesso tipo (numerico, carattere o logico)
+# disposti in un numero fisso di righe e colonne.
 # In questo tutorial lavoreremo con matrici bidimensionali, e prenderemo come spunto alcuni dischi famosi dei Pink Floyd
 
 # Per creare una matrice in R, utilizziamo la funzione `matrix()`. Ecco un esempio:
@@ -95,7 +96,7 @@ totali_album
 # Queste sono solo operazioni molto usate per cui qualcuno ha creato apposita funzione.
 # In realtà, la sintassi estesa, che permette di applicare qualsiasi funzione per riga o per colonna, è la seguante:
 
-apply(matrice_vendite, 1, sum)  # nota come in questo caso eccezionalmente scrivo il nome della funzione, senza parentesi
+apply(matrice_vendite, 1, sum)  # nota come in questo caso scrivo il nome della funzione, senza parentesi `()`
 apply(matrice_vendite, 2, mean)
 
 # La funzione di R `apply()` permette di applicare una funzione a tutte le righe o colonne di una matrice
@@ -135,8 +136,9 @@ print(matrice_completa2)
 
 
 # A proposito, in R la funzione `dim()` applicata ad una matrice (o ad altro oggetto con più di una dimensione)
-# ti restituisce le dimensioni del dato oggetto. Lo fa restiruendo in output (almeno) 2 numeri: il primo numero indica
-# il numero delle righe del dato oggetto e il secondo numero ti dice il numero delle colonne (mentre eventuali altri
+# ti restituisce le dimensioni del dato oggetto. Lo fa restiruendo in output (almeno) 2 numeri:
+# il primo numero indica il numero delle righe del dato oggetto e
+# il secondo numero ti dice il numero delle colonne (mentre eventuali altri
 # numeri ti parlerebbero della lunghezza della terza dimensione, quarta, etc).
 
 #--> domanda per te: usa la funzione dim() per scoprire le dimensioni della variabile `matrice_completa2`
@@ -148,7 +150,7 @@ print(matrice_completa2)
 # Ad esempio, aggiungiamo una colonna alla matrice delle vendite dei primi tre album
 # con i totali delle vendite per ogni album.
 
-matrice_completa <- cbind(matrice_vendite, Totale = totali_album)  # Nota come inserisco anche il nome alla colonna che aggiungo
+matrice_completa <- cbind(matrice_vendite, Totale = totali_album)  # Nota: inserisco anche il nome della colonna
 print(matrice_completa)
 
 
@@ -166,8 +168,8 @@ print(totali_regioni)
 # dalle sue righe e/o colonne specificando gli indici degli oggetti di interesse tra le parentesi quadre `[ ]`.
 # Analogamente a quanto già visto, avremo vari modi per specificare le posizioni di interesse.
 # Una differenza importante: ora avremo bisogno di specificare due indici:
-# **il primo indice** (cioé, il primo numero tra le parentesi quadre `[ ]`, seguito da `,`) per specificare quali righe
-# **il secondo indice** (cioé, secondo numero tra le parentesi quadre `[ ]`, dopo la `,`) per specificare quali colonne
+# **il primo indice** (primo numero tra le parentesi quadre `[ ]`, seguito da `,`) per specificare quali righe
+# **il secondo indice** (secondo numero tra le parentesi quadre `[ ]`, dopo la `,`) per specificare quali colonne
 
 
 # Vendite nel mondo per tutti gli album
