@@ -25,3 +25,6 @@ subitems:
       url: /Vettori_in_R
     - title: Fattori in R
       url: /Fattori_in_R
+    - title: Matrici in R
+      url: /Matrici_in_R
+
