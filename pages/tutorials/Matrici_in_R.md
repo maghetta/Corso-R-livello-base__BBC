@@ -46,12 +46,31 @@ matrice_vendite <- matrix(vendite_totali, nrow = 3, byrow = FALSE,
 ---
 
 #### **Assegnare nomi alle righe e colonne**
-Puoi aggiungere o modificare i nomi delle righe e delle colonne utilizzando le funzioni `rownames()` e `colnames()`.
+# Anche nel caso delle matrici, puoi aggiungere nomi (o modificarli) al tuo oggetti in R.
+# Nel caso di una matrice bidimensionale, potrai aggiungere nomi sia alle righe che alle colonne.
+
+# Nell'esempio qui sopra degli album del Pink Floyd, abbiamo assegnato nomi alle due dimensioni
+# della matrice direttamente mentre la costruivamo, specificandoli con l'argomento `dimnames`.
+# Ma potevamo anche creare una matrice priva di nomi, e poi aggiungerli in un secondo momento.
+# Ecco ad esempio la stessa matrice costruita prima con i soli numeri:
+
+matrice_vendite <- matrix(vendite_totali, nrow = 3, byrow = FALSE)
+
+# stampa a video il contenuto di questa matrice
+matrice_vendite 
+
+# Aggiungiamo ora i nomi sia alle righe che alle colonne di questa matrice "muta".
+# Le funzioni di R da utilizzare per farlo sono, rispettivamente,`rownames()` e `colnames()`.
+
+rownames(matrice_vendite) <- c("the dark side of the moon", "wish you were here", "animals")
+colnames(matrice_vendite) <- c("italia", "mondo")
+
+# ri-stampa a video il contenuto di questa matrice per vedere cosa è cambiato
+matrice_vendite 
 
 rownames(matrice_vendite) <- c("The Dark Side of the Moon", "Wish You Were Here", "Animals")
 colnames(matrice_vendite) <- c("Italia", "Mondo")
 
-print(matrice_vendite)
 
 ---
 
