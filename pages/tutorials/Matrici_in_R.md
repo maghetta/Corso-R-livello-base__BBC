@@ -59,7 +59,7 @@ matrice_vendite <- matrix(vendite_totali, nrow = 3, byrow = FALSE)
 # stampa a video il contenuto di questa matrice
 matrice_vendite 
 
-# Aggiungiamo ora i nomi sia alle righe che alle colonne di questa matrice "muta".
+# Aggiungi ora i nomi sia alle righe che alle colonne di questa matrice "muta".
 # Le funzioni di R da utilizzare per farlo sono, rispettivamente,`rownames()` e `colnames()`.
 
 rownames(matrice_vendite) <- c("the dark side of the moon", "wish you were here", "animals")
@@ -68,9 +68,15 @@ colnames(matrice_vendite) <- c("italia", "mondo")
 # ri-stampa a video il contenuto di questa matrice per vedere cosa è cambiato
 matrice_vendite 
 
+#--> domanda per te: stampa ora solo i nomi delle righe e poi i nomi delle colonne
+
+# Immagina di esserti reso/a conto di aver dimenticato le maiuscole. Con le stesse funzioni
+# possiamo rinominare sia righe che colonne, così:
+
 rownames(matrice_vendite) <- c("The Dark Side of the Moon", "Wish You Were Here", "Animals")
 colnames(matrice_vendite) <- c("Italia", "Mondo")
 
+# ancora una volta, stampa a video il contenuto di questa matrice per vedere cosa è cambiato
 
 ---
 
