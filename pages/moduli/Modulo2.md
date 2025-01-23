@@ -89,7 +89,7 @@ Nota:
 
 <br>
 
-Schema della interfaccia di lavoro su RStudio. Nella figura qui sopra (presa da [questo ebook di R della Prof.ssa Michela Cameletti](https://bookdown.org/michela_cameletti/sapf2021_rlab_appunti/intro.html), sono indicate le funzioni principali dei quattro riquadri che compongono l'interfaccia.
+Schema della interfaccia di lavoro su RStudio. Nella figura qui sopra (presa da [questo ebook di R della Prof.ssa Michela Cameletti](https://bookdown.org/michela_cameletti/sapf2021_rlab_appunti/intro.html)), sono indicate le funzioni principali dei quattro riquadri che compongono l'interfaccia.
 
 
 
