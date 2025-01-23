@@ -89,6 +89,18 @@ totali_album
 #---> domanda per te: che classe di oggetto è la variabile `totali_album`? E, ti è chiaro cosa ha fatto
 # la funzione `rowSums()`?
 
+# Esistono altre funzioni, analoghe a `rowSums()` per eseguire operazioni ricorrenti per riga o per colonna,
+# quali ad esempio: `rowMeans()`, o `colSums()` e `colMeans()`
+
+# Queste sono solo operazioni molto usate per cui qualcuno ha creato apposita funzione.
+# In realtà, la sintassi estesa, che permette di applicare qualsiasi funzione per riga o per colonna, è la seguante:
+
+apply(matrice_vendite, 1, sum)  # nota come in questo caso eccezionalmente scrivo il nome della funzione, senza parentesi
+apply(matrice_vendite, 2, mean)
+
+# Qui sopra, la funzione di R `apply()`
+# **Il primo argomento** (`1:9`) rappresenta la sequenza di elementi da disporre nella matrice.
+# **L'argomento `byrow`** specifica se riempire la matrice per riga (`TRUE`) o per colonna (`FALSE`)
 
 
 
