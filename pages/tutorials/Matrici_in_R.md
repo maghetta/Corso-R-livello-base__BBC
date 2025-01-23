@@ -98,9 +98,10 @@ totali_album
 apply(matrice_vendite, 1, sum)  # nota come in questo caso eccezionalmente scrivo il nome della funzione, senza parentesi
 apply(matrice_vendite, 2, mean)
 
-# Qui sopra, la funzione di R `apply()`
-# **Il primo argomento** (`1:9`) rappresenta la sequenza di elementi da disporre nella matrice.
-# **L'argomento `byrow`** specifica se riempire la matrice per riga (`TRUE`) o per colonna (`FALSE`)
+# Qui sopra, la funzione di R `apply()` permette di applicare una data funzione a tutte le righe o colonne di una matrice
+# **Il primo argomento** (`matrice_vendite`) specifica l'oggetto cui si vuole applicare una funzione
+# **Il secondo argomento** specifica se la si vuole applicare per riga (`1`) o per colonna (`2`)
+# **Il terzo argomento** specifica quale funzione si vuole applicare
 
 
 
