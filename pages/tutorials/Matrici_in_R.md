@@ -37,7 +37,11 @@ matrice_vendite <- matrix(vendite_totali, nrow = 3, byrow = FALSE,
                                             "Animals"), 
                                           c("Italia", "Mondo")))
 
-#--> domande per te: stampa a video la variabile `matrice_vendite`
+#--> domanda per te: stampa a video la variabile `matrice_vendite`
+
+
+#--> domandaccia per te: crea ora una aseconda matrice, chiamata `matrice_vendite_v2`, in cui nella prima colonna
+#          ci siano le vendite degli album nel mondo, e nella seconda colonna le vendite in Italia
 
 ---
 
