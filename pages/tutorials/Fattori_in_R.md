@@ -145,6 +145,9 @@ summary(factor_vettore_genere)
 
 # Fattori Ordinali
 
+# Vediamo ora come sfruttare meglio l'ordine naturale che appartiene alle variabili
+# di tipo categorico ordinale, modificando l'oggetto di classe fattore perché
+# tenga conto di questa ulteriore caratteristica. Vediamo infatti come creare fattori ordinali.
 # Diciamo che sei a capo di un gruppo che valuta il gradimento dei corsi erogati
 # e vuoi classificare il livello di gradimento come "Basso", "Medio" o "Alto".
 # Salvi i risultati in  un vettore chiamato `vettore_gradimento`.
