@@ -98,11 +98,34 @@ factor_vettore_gradimento <- factor(c("Alto", "Medio", "Basso", "Alto", "Medio",
 # Assegniamo nomi agli elementi del fattore
 names(factor_vettore_gradimento) <- c("Algebra", "Informatica", "Storia Contemporanea", "Biologia", "Genetica", "Fisica")
 
-# Visualizziamo il fattore con i nomi assegnati
-print(factor_vettore_gradimento)
 
-# Possiamo anche accedere agli elementi del fattore utilizzando i nomi
-print(factor_vettore_gradimento["Informatica"])
+# Selezione di elementi da un fattore
+
+# Anche in questo caso, possiamo selezionare elementi di un fattore in modo del tutto simile
+# a quanto visto per i vettori. A questo proposito, mettiti alla prova:
+# utilizzando il vettore factor_vettore_gradimento appena creato, e le modalità di selezione
+# apprese nel tutorial sui vettori, prova a completare tu con il codice appropriato un esempio 
+# del il tipo di selezione indicata nei commenti. 
+
+# 1. Estrazione di un singolo elemento per indice di posizione
+# Ad esempio, estrai il primo elemento del fattore factor_vettore_gradimento
+
+
+# 2. Estrazione di un singolo elemento per nome
+# Ad esempio, estrai l'elemento nominato "Fisica" del fattore factor_vettore_gradimento
+
+# 3. Estrazione di più elementi per posizione
+elementi_posizione <- factor_vettore_gradimento[c(1, 3, 5)]
+print(elementi_posizione)  # Stampa "alto" "basso" "medio"
+
+# 4. Estrazione di più elementi per nome
+elementi_nome <- factor_vettore_gradimento[c("Elemento1", "Elemento3", "Elemento5")]
+print(elementi_nome)  # Stampa "alto" "basso" "medio"
+
+# 5. Estrazione di elementi con una condizione logica
+elementi_condizione <- factor_vettore_gradimento[factor_vettore_gradimento == "alto"]
+print(elementi_condizione)  # Stampa "alto" "alto" "alto"
+
 
 
 
