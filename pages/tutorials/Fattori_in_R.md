@@ -115,17 +115,14 @@ names(factor_vettore_gradimento) <- c("Algebra", "Informatica", "Storia Contempo
 # Ad esempio, estrai l'elemento nominato "Fisica" del fattore factor_vettore_gradimento
 
 # 3. Estrazione di più elementi per posizione
-elementi_posizione <- factor_vettore_gradimento[c(1, 3, 5)]
-print(elementi_posizione)  # Stampa "alto" "basso" "medio"
+# Ad esempio, estrai gli elementi da 3 a 5 del fattore factor_vettore_gradimento
 
-# 4. Estrazione di più elementi per nome
-elementi_nome <- factor_vettore_gradimento[c("Elemento1", "Elemento3", "Elemento5")]
-print(elementi_nome)  # Stampa "alto" "basso" "medio"
+# Ora esageriamo: pensando che tutto è un oggetto in R, ti viene in mente come estrarre
+# gli elementi 1, 3, e 5 del fattore factor_vettore_gradimento?
 
-# 5. Estrazione di elementi con una condizione logica
-elementi_condizione <- factor_vettore_gradimento[factor_vettore_gradimento == "alto"]
-print(elementi_condizione)  # Stampa "alto" "alto" "alto"
-
+# 4. Estrazione di elementi con una condizione logica
+# Ad esmpio: estrai gli elementi del fattore factor_vettore_gradimento che contengono
+#  come valore "Alto"
 
 
 
