@@ -110,7 +110,7 @@ matrice_vendite2 <- matrix(vendite_totali2, nrow = 3, byrow = FALSE,
 # stampa a video il contenuto della variabile `matrice_vendite2` che hai appena creato
 
 # Unisci le due matrici per riga
-matrice_completa2 <- rbind(matrice_completa, matrice_vendite2)
+matrice_completa2 <- rbind(matrice_vendite, matrice_vendite2)
 print(matrice_completa2)
 
 #--> domanda per te: sapresti dire perché le due matrici da unire per riga devono avere lo stesso numero di colonne?
