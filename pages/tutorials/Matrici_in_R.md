@@ -80,11 +80,14 @@ colnames(matrice_vendite) <- c("Italia", "Mondo")
 
 ---
 
-#### **Calcolare i totali delle vendite per album**
-Per calcolare i totali delle vendite, sommiamo i valori su ogni riga usando la funzione `rowSums()`.
+#### **Operazioni per riga e per colonna**
+# Per calcolare i totali delle vendite, sommiamo i valori su ogni riga usando la funzione `rowSums()`.
 
 totali_album <- rowSums(matrice_vendite)
 totali_album
+
+#---> domanda per te: che classe di oggetto è la variabile `totali_album`? E, ti è chiaro cosa ha fatto
+# la funzione `rowSums()`?
 
 ---
 
