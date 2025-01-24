@@ -166,18 +166,16 @@ print(totali_regioni)
 #### **Selezionare elementi specifici**
 # Analogamente a quanto visto con gli oggetti precedenti, possiamo selezionare elementi di una matrice
 # dalle sue righe e/o colonne specificando gli indici degli oggetti di interesse tra le parentesi quadre `[ ]`.
-# Analogamente a quanto già visto, avremo vari modi per specificare le posizioni di interesse.
+# Analogamente a quanto già visto, potremo usare vari modi per specificare le posizioni di interesse.
 # Una differenza importante: ora avremo bisogno di specificare due indici:
 # **il primo indice** (primo numero tra le parentesi quadre `[ ]`, seguito da `,`) per specificare quali righe
 # **il secondo indice** (secondo numero tra le parentesi quadre `[ ]`, dopo la `,`) per specificare quali colonne
+# Nota: lasciar vuoto lo spazio del primo o secondo indicde equivale a prendere l'intera riga o colonna, rispettivamente.
 
 
-# Vendite nel mondo per tutti gli album
+#--> domandaccia per te:
 vendite_mondo_tutti <- matrice_completa2[, "Mondo"]
 
-# Media delle vendite nel mondo
-media_mondo <- mean(vendite_mondo_tutti)
-media_mondo
 
 
 ### Operazioni con le Matrici
@@ -189,8 +187,8 @@ media_mondo
 #--> domanda per te: prova a scrivere il comando per moltiplicare per 10 la matrice `matrice_vendite`
 
 
-# Sempre iuppin modo analogo a quanto sperimentato con i vettori, posso anche compiere operazioni tra due (o più) matrici.
-# Suppniamo, ad esempio, che il costo di un disco in Italia sia di 20€, e nel mondo sia di 25€.
+# Sempre in modo analogo a quanto sperimentato con i vettori, posso anche compiere operazioni tra due (o più) matrici.
+# Supponiamo, ad esempio, che il costo di un disco in Italia sia di 20€, e nel mondo sia di 25€.
 
 # creiamo una matrice con i costi dei dischi
 prezzo_disco <- matrix(c(20, 25), nrow = 3, ncol = 2, byrow = TRUE)
@@ -203,5 +201,5 @@ dischi_venduti <- matrice_completa[, c("Italia", "Mondo")] / prezzo_disco
 
 print(dischi_venduti)
 
-#--> domanda per te: scrivi codice analogo per `matrice_vendite2`
+#--> domanda per te: scrivi codice analogo per stimare i dischi venduti in `matrice_vendite2`
 ---
