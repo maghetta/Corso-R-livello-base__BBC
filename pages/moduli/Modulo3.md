@@ -39,7 +39,9 @@ Al termine di questa attività dovresti essere in grado di:
 
 - selezionare un sottinsieme di dati di un data.frame (es. 1+ righe o 1+ colonne) utilizzando un vettore logico
 
-- riordinare le righe di un data.frame (es. secondo valori crescenti o decrescenti di un dato vettore)  
+- riordinare le righe di un data.frame (es. secondo valori crescenti o decrescenti di un dato vettore)
+  
+- creare 
 
 <br>
 
@@ -49,45 +51,31 @@ Al termine di questa attività dovresti essere in grado di:
 
 <table border="1" width="700">
 	<tr>
-		<td>[35']</td>
+		<td>[15']</td>
 		<td>Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa</td>
 	</tr>
 	<tr>
-	<td colspan="2">5'</td>
-	</tr>
-	<tr>
-		<td>[40']</td>
-		<td>Svolgimento corso R online (capitolo 5 del corso di DataCamp)</td>		
-	</tr>
-	<tr>
-		<td>[30']</td>
-		<td>Sfide interattive sul contenuto del capitolo 5</td>		
-	</tr>
-	<tr>
-	<td colspan="2">pausa 15'</td>
+		<td>[50']</td>
+		<td>Svolgimento del tutorial Dataframes in R</td>		
 	</tr>
 	<tr>
 		<td>[20']</td>
-		<td>Svolgimento del tutorial sui grafici in R (scorri questa pagina per trovarlo)</td>		
+		<td>Sfide interattive sul contenuto del tutorial</td>		
+	</tr>
+	<tr>
+	<td colspan="2">pausa 10'</td>
+	</tr>
+	<tr>
+		<td>[45']</td>
+		<td>Svolgimento del tutorial ABD Grafici in R</td>		
 	</tr>
 	<tr>
 		<td>[30']</td>
 		<td>Svolgimento sfida tremendissima  (scorri questa pagina per trovarla)</td>		
 	</tr>
 	<tr>
-		<td>[20']</td>
-		<td>Sfide interattive sul contenuto del capitolo 2</td>		
-	</tr>
-	<tr>
-	<td colspan="2">pausa 15'</td>
-	</tr>
-	<tr>
-		<td>[20']</td>
-		<td>Spazio per domande e curiosità</td>		
-	</tr>
-	<tr>
 		<td>[10']</td>
-		<td>Conclusioni</td>		
+		<td>Spazio per domande e curiosità</td>		
 	</tr>
 </table>
 
@@ -100,21 +88,7 @@ Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa
 
 
 
-1. Abbiamo visto un altro modo di accedere ad una console di R per fare i propri esercizi: la console di R del corso di DataCamp
-
-![modulo3_datacamp](images/modulo3/dataCamp1.png)
-
-- Sia l'editor di testo (riquadro in alto a dx della finestra di lavoro di DataCamp) che la console di R (riquadro in basso a dx della finestra di lavoro di DataCamp) possono essere usati anche per svolgere propri esercizi (ad esempio, per scrivere e testare il codice R richiesto come compito alla fine di ciascun modulo di PCTO).
-
-- Ad esempio, nella foto allo schermo riportata qui sopra si può leggere nell'editor un testo indipendete dall'esercizio del corso di DataCamp.
-
-- Per eseguire un codice a proprio piacimento e da te scritto nell'editor di DataCamp (riquadro in alto a dx) --> premi sul tasto "Run Code" e ne vedrai apparire il risultato nella console di R deella stessa schermata di DataCamp  (riquadro in basso a dx)
-
-<br>
-
-2. Abbiamo conosciuto il secondo tipo di "oggetto" di R: la matrice
-
-![modulo3_datacamp](images/modulo3/dataCamp2.png)
+1. Abbiamo conosciuto la terza classe di "oggetto" di R: le *Matrici*
 
 A proposito: secondo te, posso avere colonne di classe diversa in una matrice? Perché (perché si o perché no)?
 
