@@ -189,12 +189,19 @@ media_mondo
 #--> domanda per te: prova a scrivere il comando per moltiplicare per 10 la matrice `matrice_vendite`
 
 
-# Supponiamo che il costo di un disco in Italia e nel mondo sia 20 euro
-prezzo_disco <- matrix(c(20, 20), nrow = 3, ncol = 2, byrow = TRUE)
+# Sempre iuppin modo analogo a quanto sperimentato con i vettori, posso anche compiere operazioni tra due (o più) matrici.
+# Suppniamo, ad esempio, che il costo di un disco in Italia sia di 20€, e nel mondo sia di 25€.
 
-# Numero stimato di dischi venduti
-dischi_venduti <- matrice_completa2[, c("Italia", "Mondo")] / prezzo_disco
+# creiamo una matrice con i costi dei dischi
+prezzo_disco <- matrix(c(20, 25), nrow = 3, ncol = 2, byrow = TRUE)
+
+#--> domanda per te: guarda bene il comando qui sopra e i suoi argomenti. Noti nulla di strano? 
+
+# Ora usiamo la matrice dei prezzi appena creata come divisore, per stimare il numero di dischi venduti
+
+dischi_venduti <- matrice_completa[, c("Italia", "Mondo")] / prezzo_disco
+
 print(dischi_venduti)
 
-
+#--> domanda per te: scrivi codice analogo per `matrice_vendite2`
 ---
