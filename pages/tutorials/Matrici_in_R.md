@@ -173,8 +173,9 @@ print(totali_regioni)
 # Nota: lasciar vuoto lo spazio del primo o secondo indicde equivale a prendere l'intera riga o colonna, rispettivamente.
 
 
-#--> domandaccia per te:
-vendite_mondo_tutti <- matrice_completa2[, "Mondo"]
+#--> domandacce per te: utilizzando la matrice `matrice_vendite2`, prova a selezionare i seguenti elementi:
+# 1. tutte le righe, ma solo la colonna `Mondo`
+matrice_completa2[, "Mondo"]
 
 
 
