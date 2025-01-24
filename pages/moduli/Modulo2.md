@@ -126,6 +126,8 @@ Una perla di saggezza: in R tutto è un oggetto (sia esso un vettore, un fattore
 
 **Svolgimento del tutorial: Matrici in R**
 
+<br>Puoi visualizzare o scaricare il tutorial da [qui](https://maghetta.github.io/Corso-R-livello-base__BBC/Matrici_in_R)
+
 
 - In questo tutorial imparerai come creare matrici e come effettuare operazioni di base su di esse. 
 
