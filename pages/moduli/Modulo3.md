@@ -100,10 +100,10 @@ diversi altri esempi di funzioni disponibili in R, quali: *matrix(), rownames(),
 
 <hr>
 
-## Svolgimento corso R online (capitolo 5)
+## Svolgimento tutorial Dataframes in R
 
 
-- Nel capitolo 5 (*Data.Frames*) imparerai a creare un data frame, selezionare solo alcuni elementi di esso che ti interessano e ordinarlo in funzione di certe variabili. Questo tipo di oggetto, che può ospitare dati eterogenei nelle sue diverse colonne, è il tipo di oggetto R di uso più comune per immagazzinare la maggior parte dei set di dati con cui ci si può trovare a lavorare, che spesso includono colonne di varia natura (esempio, colonna di dati di tipo numerico alternata a colonna di dati categorici).
+- In questo tutorial imparerai a creare un dataframe, selezionare solo alcuni elementi di esso che ti interessano e ordinarlo in funzione di certe variabili. Questo tipo di oggetto, che può ospitare dati eterogenei nelle sue diverse colonne, è il tipo di oggetto R di uso più comune per immagazzinare la maggior parte dei set di dati con cui ci si può trovare a lavorare, che spesso includono colonne di varia natura (esempio, colonna di dati di tipo numerico alternata a colonna di dati categorici).
 
 
 <hr>
