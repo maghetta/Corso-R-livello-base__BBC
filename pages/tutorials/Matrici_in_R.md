@@ -180,8 +180,13 @@ media_mondo <- mean(vendite_mondo_tutti)
 media_mondo
 
 
-#### **Aritmetica con le matrici**
-Puoi eseguire operazioni aritmetiche direttamente sugli elementi delle matrici.
+### Operazioni con le Matrici
+# In modo simile a quanto visto per i vettori, in R puoi applicare a matrici numeriche (o logiche)
+# tutte le operazioni che applicheresti ad un singolo elemento dello stesso tipo (es. `numeric` o `logical`). 
+# Anche in questo caso, come per i vettori, un'operazione matematica o logica
+# applicata ad una matrice verrà eseguita elemento per elemento.
+
+#--> domanda per te: prova a scrivere il comando per moltiplicare per 10 la matrice `matrice_vendite`
 
 
 # Supponiamo che il costo di un disco in Italia e nel mondo sia 20 euro
