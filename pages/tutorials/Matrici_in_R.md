@@ -175,8 +175,14 @@ print(totali_regioni)
 
 #--> domandacce per te: utilizzando la matrice `matrice_vendite2`, prova a selezionare i seguenti elementi:
 # 1. tutte le righe, ma solo la colonna `Mondo`
-matrice_completa2[, "Mondo"]
 
+# 2. tutte le colonne, ma solo per la riga `The Division Bell`
+
+# 3. le righe 1 e 3, ma solo la colonna `Italia`
+
+# 4. le righe 2 e 3, e tutte le colonne
+
+# 5. le righe `The Wall` e `The Division Bell`, e la colonna 2
 
 
 ### Operazioni con le Matrici
