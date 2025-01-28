@@ -131,7 +131,7 @@ varia natura (ad esempio, sia dati di tipo numerico che di tipo categorico).
 
 ## Svolgimento tutorial Primi passi con i Grafici in R
 
-<br>Puoi visualizzare o scaricare il tutorial da [qui](https://maghetta.github.io/Corso-R-livello-base__BBC/ABC_Grafici_in_R)
+<br>Puoi visualizzare o scaricare il tutorial da [qui](https://maghetta.github.io/Corso-R-livello-base__BBC/ABC_Grafici)
 
 <hr>
 
