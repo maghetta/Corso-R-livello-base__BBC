@@ -5,8 +5,6 @@ subitems:
   url: /index
 - title: Moduli Tematici
   subitems:
-    - title: Premessa - prima di iniziare
-      url: /premessa
     - title: Modulo 1
       url: /Modulo1
     - title: Modulo 2
