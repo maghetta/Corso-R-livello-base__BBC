@@ -8,7 +8,7 @@ title: Modulo 3
 
 ## Argomenti
 
-- *Data Frames in R*
+- *Data Frame in R*
 
 - *Primi passi con i Grafici in R*
 
@@ -19,29 +19,41 @@ title: Modulo 3
 
 Al termine di questa attività dovresti essere in grado di:
 
-- descrivere cos'è e come si crea un data.frame in R
+- descrivere cos'è e come si crea un *data frame* in R
 
-- elencare almeno una differenza tra matrici e data.frames in R
+- elencare almeno una differenza tra matrici e data frame in R
 
-- caricare un data.frame di dati di esempio (*mtcars*) nella console R 
+- caricare un data frame di dati di esempio (*mtcars*) nella console R 
 
-- stampare a video nella console di R le prime o le ultime righe di un data.frame
+- stampare a video nella console di R le prime o le ultime righe di un data frame
 
-- ispezionare la struttura di un data.frame
+- ispezionare la struttura di un data frame
 
-- creare un data.frame in R
+- creare un data frame in R
 
-- selezionare gli elementi di un data.frame (es. 1+ righe e/o 1+ colonne) utilizzando l'indice numerico di righe e colonne
+- selezionare gli elementi di un data frame (es. 1+ righe e/o 1+ colonne) utilizzando l'indice numerico di righe e colonne
 
-- selezionare gli elementi di un data.frame (es. 1+ righe e/o 1+ colonne) utilizzando il nome di righe e colonne
+- selezionare gli elementi di un data frame (es. 1+ righe e/o 1+ colonne) utilizzando il nome di righe e colonne
 
-- selezionare una colonna di un data.frame utilizzando il simbolo $
+- selezionare una colonna di un data frame utilizzando il simbolo $
 
-- selezionare un sottinsieme di dati di un data.frame (es. 1+ righe o 1+ colonne) utilizzando un vettore logico
+- selezionare un sottinsieme di dati di un data frame (es. 1+ righe o 1+ colonne) utilizzando un vettore logico
 
-- riordinare le righe di un data.frame (es. secondo valori crescenti o decrescenti di un dato vettore)
+- riordinare le righe di un data frame (es. secondo valori crescenti o decrescenti di un dato vettore)
   
-- creare 
+- creare uno scatterplot in R
+  
+- creare un barplot in R
+
+- creare un grafico a torta in R
+
+- esportare un grafico creato in R salvandolo come file di immagine sul PC
+
+- modificare caratteristiche di un grafico, quali colore, etichette degli assi o simboli in uno scatterplot
+
+- aggiungere una linea orizzontale o verticale ad un grafico
+
+- aggiungere titolo o legenda ad un grafico
 
 <br>
 
@@ -94,24 +106,24 @@ A proposito: secondo te, posso avere colonne di classe diversa in una matrice? P
 
 <br>
 
-3. Qua e là tra i capitoli abbiamo anche conosciuto
+3. Qua e là tra i tutorial abbiamo anche conosciuto
 
 diversi altri esempi di funzioni disponibili in R, quali: *matrix(), rownames(), colnames(), rowSums(), colSums(), ls(), cbind(), rbind()*
 
 <hr>
 
-## Svolgimento tutorial Dataframes in R
+## Svolgimento tutorial Data frame in R
 
 
-- In questo tutorial imparerai a creare un dataframe, selezionare solo alcuni elementi di esso che ti interessano e ordinarlo in funzione di certe variabili. Questo tipo di oggetto, che può ospitare dati eterogenei nelle sue diverse colonne, è il tipo di oggetto R di uso più comune per immagazzinare la maggior parte dei set di dati con cui ci si può trovare a lavorare, che spesso includono colonne di varia natura (esempio, colonna di dati di tipo numerico alternata a colonna di dati categorici).
+# In questo tutorial imparerai a creare un data frame, selezionare da esso solo alcuni elementi di interesse, e ordinarlo in funzione di certe variabili.
+# Questo tipo di oggetto, che può ospitare dati eterogenei nelle sue diverse colonne, è il tipo di oggetto R di uso più comune poiché si presta 
+# ad immagazzinare la maggior parte dei set di dati con cui ci si possa trovare a lavorare. Dati di lavoro infatti spesso includono colonne di 
+# varia natura (ad esempio, sia dati di tipo numerico che di tipo categorico).
 
 
 <hr>
 
 
-***Come riprendere il corso di Introduzione a R su DataCamp da dove lo si aveva interrotto***
-<br>
-Per riprendere il corso di R su DataCamp al capitolo 5 --> segui i passaggi illustrati nel <a href="https://maghetta.github.io/Corso-R-livello-base/modulo2">[modulo 2]</a> alla sezione intitolata
 
 
 <hr>
