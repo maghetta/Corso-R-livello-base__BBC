@@ -129,16 +129,9 @@ varia natura (ad esempio, sia dati di tipo numerico che di tipo categorico).
 
 <hr>
 
-## Grafici in R
+## Svolgimento tutorial Primi passi con i Grafici in R
 
-<hr>
-
-**Andiamo a leggere** la guida su come creare grafici con R che trovi qui: [https://www.html.it/pag/67232/grafici-con-r/](https://www.html.it/pag/67232/grafici-con-r/)
-
-Vedrai che la guida include dei **blocchi di codice R** (evidenziati come box su sfondo grigio nella guida): 
-
-- esegui nella console R ciascuno di questi blocchi di codice, provando anche a modificare il codice (ad esempio cambiando il colore suggerito in altro)
-
+<br>Puoi visualizzare o scaricare il tutorial da [qui](https://maghetta.github.io/Corso-R-livello-base__BBC/ABC_Grafici_in_R)
 
 <hr>
 
@@ -146,8 +139,7 @@ Vedrai che la guida include dei **blocchi di codice R** (evidenziati come box su
 
 **Premessa:**
 <br>
-
-Per risolvere questa sfida tremendissima **ti servirà una console di R**. Se non ne hai una installata in locale sul tuo PC (ad esempio, disponibile da RStudio), **puoi usare quella del corso di DataCamp**.
+Per poterti mettere alla prova con questa sfida tremendissima **ti servirà una console di R** installata sul tuo PC (ad esempio, quella integrata nell'interfaccia di *RStudio*).
 
 <br>
 
