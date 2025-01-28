@@ -139,32 +139,29 @@ ___
 **Esercizi**
 <br>
 
-1. Quale tra i seguenti comandi in R crea una matrice di 3 righe e 5 colonne?
+1. Scrivi un comando in R per creare una matrice di 3 righe e 5 colonne, denominata M,
+	che contenga i numeri interi da 16 a 30
 
-a) *matrix(1:15, byrow=TRUE, ncol=5)*
-b) *matrix(1:9, nrow=3)*
-c) *makeMatrix(3, 5)*
-d) *makeMatrix(5)*
+2. Nomina righe e colonne della matrice M che hai appena creato, utilizzando le prime
+   	tre lettere minuscole e le prime cinque maiuscole dell'alfabeto, rispettivamente.
 
+3. Scrivi il comando R utile per estrarre la 3a riga dalla matrice M sopra creata
 
-2. Etichetta come VERA o FALSA la seguente affermazione:
-- *Le matrici in R possono contenere dati di tipo diverso (es. numeri e testo), purchè in colonne diverse*
+4. Scrivi il comando per estrarre le prime 2 righe e le colonne 1 e 3 dalla matrice M
 
+5. Sapresti scrivere due comandi alternativi per estrarre le colonne 1, 2 e 5 dalla matrice M?
+  
+6. Decidi se la seguente affermazione è VERA o FALSA:
+*Le matrici in R possono contenere dati di tipo diverso (es. numeri e testo), purchè in colonne diverse*
 
-3. Voglio estrarre da un vettore chiamato "compiti" composto da 24 elementi, i valori corrispondenti alle posizioni 3, 11, 15 e 21. Scrivi il comando R opportuno per farlo.
+7. che risultato da il seguente comando in R applicato a due matrici M1 e M2?
+*rbind(M1, M2)*
 
-4. La funzione rep() di R genera ripetizioni di un dato vettore tante volte quanto specificato nel parametro times. Ad esempio: *rep( c(1,0,2), times=2)* genererà il seguente output:  *1 0 2 1 0 2*. Usa il comando *rep()* per generare il seguente vettore: *1 0 1 0 1 0 1 0 1 0 1 0*
+8. se G è una matrice numerica, come fai in R a moltiplicare per 2 tutti i suoi valori?
 
-5. Scrivi 3 righe di codice R che facciano quanto segue: (1) creare un vettore denominato "regioni" che contiene gli elementi "Sicilia", "Lombardia" e "Liguria"; (2) aggiungere a questo vettore l'elemento "Molise"; (3) stampare a video il contenuto del vettore regioni. 
-
-6. Risolvi la seguente espressione in R: *-3 x 5<sup>6</sup> + 3<sup>2-2</sup> x 2<sup>2</sup> -(-2)<sup>2</sup>*. Quanto fa?
-
-7. La funzione dim() di R ti permette di conoscere le dimensioni di un oggetto multidimensionale, come ad esempio una matrice (che ha 2 dimensioni). Considerando la seguente matrice: *m = matrix(-31:100, ncol=6)*, applica la funzione dim() alla matrice m per vedere che dimensioni ha. Poi, calcola il valore medio della sua 5a riga.
-
-8. Crea un vettore denominato x con i seguenti elementi: *3,4,5,6,6,5,2,2,6,7,8,2,3,2,5,4,5,9*; Poi calcola la media e la lunghezza del vettore x.
-
-9. Crea un fattore ordinato denominato *geografia* che contenga le seguenti valutazioni di uno studente in geografia nei tre anni delle scuole medie: *ottimo, buono, buono, discreto, ottimo, insufficiente, buono*
-
-
-
+9. con quale dei seguenti comandi di R puoi aggiungere il vettore V come nuova colonna di una matrice M?
+- rbind(V,M)
+- c(V, M)
+- cbind(M, V)
+- nessuno di questi
 
