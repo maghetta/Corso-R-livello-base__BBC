@@ -14,9 +14,9 @@ subitems:
     - title: Modulo 3
       url: /Modulo3
     - title: Modulo 4
-      url: /modulo4
+      url: /Modulo4
     - title: Modulo 5
-      url: /modulo5
+      url: /Modulo5
 - title: Tutorials
   subitems:
     - title: Introduzione alla Console R
