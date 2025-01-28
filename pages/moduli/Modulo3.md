@@ -114,7 +114,7 @@ diversi altri esempi di funzioni disponibili in R, quali: *matrix(), rownames(),
 
 ## Svolgimento tutorial Data frame in R
 
-<br>Puoi visualizzare o scaricare il tutorial da [qui](https://maghetta.github.io/Corso-R-livello-base__BBC/Dataframes_in_R)
+<br>Puoi visualizzare o scaricare il tutorial da [qui](https://maghetta.github.io/Corso-R-livello-base__BBC/Dataframe_in_R)
 
 In questo tutorial imparerai a creare un data frame, selezionare da esso solo alcuni elementi di interesse, e ordinarlo in funzione di certe variabili.
 Questo tipo di oggetto, che può ospitare dati eterogenei nelle sue diverse colonne, è il tipo di oggetto R di uso più comune poiché si presta 
