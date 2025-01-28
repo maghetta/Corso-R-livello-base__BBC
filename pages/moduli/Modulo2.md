@@ -152,16 +152,16 @@ ___
 5. Sapresti scrivere due comandi alternativi per estrarre le colonne 1, 2 e 5 dalla matrice M?
   
 6. Decidi se la seguente affermazione è VERA o FALSA:
-*Le matrici in R possono contenere dati di tipo diverso (es. numeri e testo), purchè in colonne diverse*
+<br>*Le matrici in R possono contenere dati di tipo diverso (es. numeri e testo), purchè in colonne diverse*
 
 7. che risultato da il seguente comando in R applicato a due matrici M1 e M2?
-*rbind(M1, M2)*
+<br>*rbind(M1, M2)*
 
 8. se G è una matrice numerica, come fai in R a moltiplicare per 2 tutti i suoi valori?
 
 9. con quale dei seguenti comandi di R puoi aggiungere il vettore V come nuova colonna di una matrice M?
-- rbind(V,M)
-- c(V, M)
-- cbind(M, V)
-- nessuno di questi
+	- *M <- rbind(V,M)*
+	- *M <- c(V, M)*
+	- *M <- cbind(M, V)*
+	- *nessuno di questi*
 
