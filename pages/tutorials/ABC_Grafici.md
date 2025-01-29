@@ -6,8 +6,9 @@ title: ABC Grafici in R
 # Tutorial: Creazione di Grafici Base in R
 
 # R offre molte funzioni per creare grafici base, utili per visualizzare i dati.
-# In questo tutorial esploreremo le funzioni plot, barplot, hist, pie e boxplot.
-# Inoltre, vedremo come personalizzare i grafici modificando colori, legende e stili.
+# Questo tutorial introduce le basi per creare e personalizzare grafici in R.
+# In particolare, esploreremo le funzioni `plot()`, `barplot()`, `hist()`, `pie()` e `boxplot()`.
+# Inoltre, vedremo alcuni esempi su come personalizzare i grafici modificando colori, legende e stili.
 
 # 1. Funzione plot
 # La funzione plot() è molto versatile e consente di creare diversi tipi di grafici.
@@ -89,6 +90,4 @@ png("grafico.png")
 plot(x, y, main = "Scatter plot salvato", xlab = "X", ylab = "Y", col = "blue", pch = 19)
 dev.off()
 
-# Questo tutorial introduce le basi per creare e personalizzare grafici in R.
-# Per ulteriori dettagli, consultare la documentazione ufficiale di R (es: ?plot, ?barplot).
 ```
