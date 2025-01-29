@@ -136,7 +136,7 @@ In questa sezione, copriremo i seguenti argomenti:
 
 In statistica, le variabili si classificano in diversi tipi in base alla natura dei dati che rappresentano e al tipo di misurazione. Conoscere la tipologia di dati con cui si sta lavorando è essenziale per scegliere i giusti metodi di analisi statistica e per una corretta interpretazione dei risultati.Ecco una panoramica dei principali tipi di variabili:
 
-# 1. Variabili Qualitative (o Categoriali)
+# 1. Variabili Qualitative (o Categoriche)
 Queste variabili descrivono categorie o attributi distinti e non numerici.
 
 - **Nominali**: Le categorie non hanno un ordine intrinseco. Esempi includono il colore degli occhi (blu, verde, marrone), il genere (maschio, femmina), e il tipo di veicolo (auto, moto, bici).
