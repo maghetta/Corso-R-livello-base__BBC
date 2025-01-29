@@ -13,8 +13,8 @@ title: Data frame in R
 
 # In R, un data frame è una struttura dati simile ad una tabella, dove le colonne possono contenere dati
 # di tipo diverso (ad esempio, numerico, categorico, logico, ecc.).
-# Nella maggior parte dei casi, è l'oggetto ideale per gestire set di dati, che spesso contengono 
-# variabili di tipo diverso.
+# Nella maggior parte dei casi, è l'oggetto ideale per gestire set di dati, che spesso effettivamente
+# contengono variabili di tipo diverso, organizzati in colonne (variabili) e righe (osservazioni).
 
 
 # Per creare un data frame in R, utilizziamo la funzione `data.frame()`, come nell'esempio che segue,
@@ -58,6 +58,9 @@ str(piante)   #--> domanda per te: quali informazioni ottieni?
 # --> domanda per te: utilizzando la funzione `rownames()`, attribuisci alle
 # righe del data frame *piante* le prime cinque lettere minuscole dell'alfabeto.
 
+# --> domanda per te: utilizzando la funzione `colnames()`, modifica
+# il nome della 3a colonna del data frame *piante* da `Altezza_cm` a `Altezza`
+
 
 ## Selezione di elementi di interesse
 
@@ -80,10 +83,29 @@ str(piante)   #--> domanda per te: quali informazioni ottieni?
 # 5. solo le piante perenni 
 
 
+# Oltre ai modi già visti per estrarre elementi
+# basati su indici numerici delle posizioni
+# e/o i nomi delle righe o colonne di interesse,
+# per i data frame in R esiste una scorciatoia nel caso
+# in cui vogliamo estrarre una variabile (cioé, una colonna).
+# La sintassi accorciata specifica il nome della colonna
+# da estrarre dopo il simbolo `$`, come ad esempio:
 
+piante$Perenne
+
+#--> domanda per te: prova ora ad estrarre, utilizzando
+# la sintassi con il simbolo `$`, la colonna `Nome` dal
+# data frame *piante*.
+
+
+# Da ultimo, per estrarre un sottoinsieme di dati
+# da un data frame, possiamo usare la funzione R `subset()`.
+# Se volessimo ad esempio utilizzare questa via per
+# estrarre dal data frame *piante* il sottoinsieme delle
+# piante perenni, potremmo usare il seguente comando:
 
 piante_perenni <- subset(piante, Perenne == TRUE)
-piante_perenni  # Stampa il sottoinsieme delle piante perenni
+piante_perenni
 
 # Ordinare il dataset in base all'altezza (in ordine crescente)
 piante_ordinate <- piante[order(piante$Altezza_cm), ]
