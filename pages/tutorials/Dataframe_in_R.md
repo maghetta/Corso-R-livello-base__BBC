@@ -6,8 +6,16 @@ title: Data frame in R
 
 # Introduzione ai data.frame in R
 # ---------------------------------
-# In R, un data.frame è una struttura dati simile a una tabella, dove le colonne possono contenere dati di tipo diverso (numerico, carattere, fattori, ecc.).
-# È ideale per gestire dataset strutturati, come un elenco di piante con informazioni su nome, tipo, altezza, ecc.
+
+# In questo tutorial apprenderai cosa caratterizza l'oggetto data frame in R, come crearne uno,
+# come selezionare solo le parti di interesse e come ordinarlo in funzione di certe variabili.
+
+
+# In R, un data frame è una struttura dati simile ad una tabella, dove le colonne possono contenere dati
+# di tipo diverso (ad esempio, numerico, categorico, logico, ecc.).
+# È ideale per gestire dataset con più variabili, come un elenco di piante con relative informazioni
+# su nome, tipo, altezza, ecc.
+
 
 # Creazione di un data.frame con informazioni su alcune piante da giardino
 piante <- data.frame(
