@@ -17,24 +17,30 @@ title: Data frame in R
 # su nome, tipo, altezza, ecc.
 
 
-# Creazione di un data.frame con informazioni su alcune piante da giardino
+
+# Per creare un data frame in R, utilizziamo la funzione `data.frame()`, come nell'esempio che segue:
+
 piante <- data.frame(
-  Nome = c("Rosa", "Lavanda", "Girasole", "Tulipano", "Orchidea"),  # Colonna di caratteri
-  Tipo = c("Arbusto", "Erbacea", "Erbacea", "Bulbosa", "Epifita"),   # Colonna di caratteri
-  Altezza_cm = c(120, 60, 180, 40, 50),  # Colonna numerica
-  Perenne = c(TRUE, TRUE, FALSE, FALSE, TRUE)  # Colonna logica (TRUE/FALSE)
+  Nome = c("Rosa", "Lavanda", "Girasole", "Tulipano", "Orchidea"),   # dato di tipo carattere
+  Tipo = c("Arbusto", "Erbacea", "Erbacea", "Bulbosa", "Epifita"),   # dato di tipo categorico
+  Altezza_cm = c(120, 60, 180, 40, 50),                              # dato di tipo numerico
+  Perenne = c(TRUE, TRUE, FALSE, FALSE, TRUE)                        # dato di tipo logico
 )
 
-# Visualizzare le prime righe del data.frame
+# Per ispezionare il contenuto di un data frame, possiamo utilizzare le funzioni `head()` e `tail()`
+# per visualizzare rispettivamente le prime o le ultime righe
+
 head(piante)  # Mostra le prime 6 righe (di default) del dataset
 
-# Visualizzare le ultime righe del data.frame
-tail(piante)  # Mostra le ultime 6 righe (di default)
+#--> domanda per te: prova ora a visualizzare le ultime 6 righe dello stesso data frame.
 
-# Esaminare la struttura del data.frame
+# Un'altra funzione utile per esaminare un data frame con cui stiamo lavorando è `str()`
+# che ci restutisce una panoramica della sua struttura e composizione.
+# Osserva ad esempio le informazioni restituite dal seguente comando:
+
 str(piante)   # Fornisce informazioni sui tipi di dati contenuti in ogni colonna
 
-# Estrazione di un sottoinsieme: selezionare solo le piante perenni
+# Analogamente a quanto visto in Estrazione di un sottoinsieme: selezionare solo le piante perenni
 piante_perenni <- subset(piante, Perenne == TRUE)
 piante_perenni  # Stampa il sottoinsieme delle piante perenni
 
