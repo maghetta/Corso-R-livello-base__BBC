@@ -104,20 +104,24 @@ ricetta["Quantita"][2,]  # selezionerà la 2a riga della maatrice *Quantita*
 #--> domanda per te: prova ora tu ad estrarre dalla lista *ricetta*
 #  la 2a e 3a colonna del data frame "Info_nutrizionali"
 
+# Infine, puoi anche selezionare un elemento da una lista utilizzando il simbolo `$`.
+# Ad esempio, selezioniamo l'elemento *Info_nutrizionali* dalla lista *ricetta* con `$`:
 
- o il simbolo $
-print(ricetta[["ingredienti"]])  # Stampa il vettore degli ingredienti
-print(ricetta$quantita)  # Stampa la matrice delle quantità
+ricetta$Info_nutrizionali
 
-# Selezioniamo un singolo valore all'interno di un elemento della lista
-print(ricetta$quantita[1, "Farina"])  # Quantità di farina nella prima dose
+#--> domandaccia per te: utilizzando la funzione `class()` per verificare la classe dell'oggetto
+#    che hai appena selezionato con il comando qui sopra, equipareresti l'estrazione mediante
+#    simbolo `$` alla estrazione con le parentesi `[]` o a quella con le parentesi `[[]]`?
 
-# Aggiungere un nuovo elemento alla lista
-# Aggiungiamo il tempo di cottura della ricetta
+## Aggiungere un nuovo elemento ad una lista
+
+# Possiamo aggiungere un nuovo elemento in coda ad una lista con due sintassi alternative:
+`c(lista_attuale, nuovo_elemento)`  # cioè, utilizzando la funzione `c()` [NB: creerà una lista!]
+`lista_attuale$nuovo_nome <- nuovo_elemento`  # cioé, utilizzando `$` per creare una posizione successiva all'ultima
+
+# Aggiungiamo ad esempio il tempo di cottura della ricetta, utilizzando le due sintassi alternative:
 ricetta_completa <- c(ricetta, tempo_cottura = 30)
-
-# Stampiamo la struttura della nuova lista
-str(ricetta_completa)
+ricetta$tempo_cottura = 30
 
 
 
