@@ -1,6 +1,8 @@
 ---
 title: ABC Grafici in R
 ---
+
+```markdown
 # Tutorial: Creazione di Grafici Base in R
 
 # R offre molte funzioni per creare grafici base, utili per visualizzare i dati.
@@ -89,3 +91,4 @@ dev.off()
 
 # Questo tutorial introduce le basi per creare e personalizzare grafici in R.
 # Per ulteriori dettagli, consultare la documentazione ufficiale di R (es: ?plot, ?barplot).
+```
