@@ -38,7 +38,7 @@ Al termine di questa attività dovresti essere in grado di:
 
 ## Durata e programma dell'attività:
 
-4 ore;
+2,5 ore;
 
 
 <table border="1" width="700">
@@ -51,35 +51,20 @@ Al termine di questa attività dovresti essere in grado di:
 		<td>Statistica descrittiva: una panoramica introduttiva</td>
 	</tr>
 	<tr>
-	<td colspan="2">pausa 5'</td>
-	</tr>
-	<tr>
 		<td>[30']</td>
-		<td>esercizi</td>		
-	</tr>
-	<tr>
-	<td colspan="2">pausa 15'</td>
-	</tr>
-	<tr>
-		<td>[40']</td>
-		<td>Slides statistica</td>
-	</tr>
-	<tr>
-		<td>[30']</td>
-		<td>Esercizi</td>		
+		<td>esercizi, parte 1</td>		
 	</tr>
 	<tr>
 	<td colspan="2">pausa 10'</td>
 	</tr>
 	<tr>
-		<td>[20']</td>
-		<td>Spazio per domande e curiosità</td>		
+		<td>[30']</td>
+		<td>Esercizi, parte 2</td>		
 	</tr>
 	<tr>
 		<td>[10']</td>
 		<td>Conclusioni</td>		
-	</tr>
-</table>
+	</tr></table>
 
 
 
