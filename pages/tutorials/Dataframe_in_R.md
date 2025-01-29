@@ -75,7 +75,9 @@ str(piante)   #--> domanda per te: quali informazioni ottieni?
 
 # 3. solo l'altezza della pianta corrispondente al 4° rigo
 
-# 4. solo le piante perenni 
+# 4. i primi 3 valori della variabile "Nome"
+
+# 5. solo le piante perenni 
 
 
 
