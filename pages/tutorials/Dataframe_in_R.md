@@ -120,8 +120,19 @@ piante_perenni <- subset(piante, Perenne == TRUE)
 #  per selezionare dal data frame *piante* il sottoinsieme di piante
 #  con altezza superiore a 50 cm.
 
+## Riordinare un data frame secondo i valori di una variabile
 
-# Ordinare il dataset in base all'altezza (in ordine crescente)
+# Durante un'analisi di dati, può tornare utile ordinare
+# le informazioni a disposizione sulla base di una certa variabile
+# contenuta nel set di dati (ad esempio, nel caso di un data frame
+# di risultati di un test statistico, potrebbe essere utile
+# riordinare i dati per significatività creascente).
+# In R, questa operazione può essere effettuata utilizzando
+# la funzione `order()`
+
+# 
+
+ Ordinare il dataset in base all'altezza (in ordine crescente)
 piante_ordinate <- piante[order(piante$Altezza_cm), ]
 piante_ordinate  # Mostra il dataset ordinato per altezza
 
