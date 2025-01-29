@@ -39,48 +39,31 @@ Al termine di questa attività dovresti essere in grado di:
 
 ## Durata e programma dell'attività:
 
-4 ore;
+2 ore;
 
 <table border="1" width="700">
 	<tr>
-		<td>[35']</td>
+		<td>[20']</td>
 		<td>Ricapitolando: vediamo insieme cosa abbiamo imparato a fare la volta scorsa</td>
 	</tr>
 	<tr>
-	<td colspan="2">5'</td>
-	</tr>
-	<tr>
-	<td colspan="2">pausa 15'</td>
-	</tr>
-	<tr>
 		<td>[40']</td>
-		<td>Svolgimento corso R online (capitolo 6 del corso di DataCamp)</td>		
-	</tr>
-	<tr>
-		<td>[30']</td>
-		<td>Sfide interattive sul contenuto del capitolo 6</td>		
-	</tr>
-	<tr>
-	<td colspan="2">pausa 15'</td>
-	</tr>
-	<tr>
-		<td>[35']</td>
-		<td>Ottenere aiuto in R (vedi box qui sotto)</td>		
-	</tr>
-	<tr>
-		<td>[35']</td>
-		<td>Pacchetti R: cosa sono, come si usano (vedi box qui sotto)</td>		
-	</tr>
-	<tr>
-	<td colspan="2">pausa 15'</td>
+		<td>Svolgimento del tutorial *Liste in R*</td>		
 	</tr>
 	<tr>
 		<td>[20']</td>
-		<td>Spazio per domande e curiosità</td>		
+		<td>Sfide interattive sul contenuto del capitolo 6</td>		
 	</tr>
 	<tr>
-		<td>[10']</td>
-		<td>Conclusioni</td>		
+		<td colspan="2">pausa 10'</td>
+	</tr>
+	<tr>
+		<td>[15']</td>
+		<td>Ottenere aiuto in R (vedi box qui sotto)</td>		
+	</tr>
+	<tr>
+		<td>[15']</td>
+		<td>Pacchetti R: cosa sono, come si usano (vedi box qui sotto)</td>		
 	</tr>
 </table>
 
@@ -90,10 +73,7 @@ Al termine di questa attività dovresti essere in grado di:
 
 
 
-1. Abbiamo conosciuto il quarto tipo di "oggetto" di R: il data.frame
-
-![modulo4_datacamp](images/modulo4/dataCamp1.png)
-
+1. Abbiamo conosciuto il quarto tipo di "oggetto" di R: il *data frame*
 
 A proposito, te li ricordi tutti i tipi di oggetti R che abbiamo conosciuto fin qui in questo corso introduttivo di R?
 
@@ -103,41 +83,23 @@ A proposito, te li ricordi tutti i tipi di oggetti R che abbiamo conosciuto fin 
 
 3. Qua e la tra i capitoli abbiamo anche conosciuto
 
-- diversi altri esempi di funzioni disponibili in R, quali: *head(), tail(),  str(), data.frame(), subset(), order()*
+- diversi altri esempi di funzioni disponibili in R, quali: *head()*, *tail()*,  *str()*, *data.frame()*, *subset()*, *order()*
 
-- alcune funzioni utili per creare grafici come: *plot(), barplot(), pie(), title(), lines(), box(), axis()*
+- alcune funzioni utili per creare grafici come: *plot()*, *barplot()*, *pie()*, *title()*, *lines()*, *box()*, *axis()*
 
 - uno di tanti dataset di esempio (in particolare, *mtcars*) già pronti da caricare nello spazio di lavoro di R per esercitarsi
 
 
 <hr>
 
-## Svolgimento corso R online (capitolo 6)
+## Svolgimento del tutorial: Liste in R
 
 
-Nel capitolo 6 (*Liste*) imparerai a creare e maneggiare una lista, selezionarne alcuni elementi o assegnare dei nomi ai suoi elementi. Contrariamente ai vettori, le liste in R possono contenere tipi di dato differenti tra loro. (a proposito: conosci un altro tipo di oggetto in R che ti permette di immagazzinare tipi diversi / non omogenei?)
+In questo tutorial imparerai a creare e maneggiare una lista, selezionarne alcuni elementi o assegnare dei nomi ai suoi elementi. Contrariamente ai vettori, le liste possono contenere come elementi tipi di dato differenti tra loro (a proposito: conosci un altro tipo di oggetto in R che ti permette di immagazzinare tipi diversi / non omogenei di dato?)
 
-**segnalazione di un errore nel capitolo 6!!!!**
 
-Alla schermata " 
-# Creare una lista con i nomi (2)
-", nelle istruzioni dell'esercizio c'è un piccolo errore.
 
-Dove dice:
 
-*Non dimenticarti di assegnare i nomi agli elementi della lista (i nomi da assegnare sono nome_film, attori e reviews).*
-
-Tu leggi come fosse scritto:
-
-*Non dimenticarti di assegnare i nomi agli elementi della lista (i nomi da assegnare sono nome_film, <span style="color:red;">actors</span> e reviews).*
-
-<hr>
-
-Per riprendere il corso di R su DataCamp al capitolo 5 --> segui i passaggi illustrati pagina web del Modulo 2](pages/moduli/modulo2.md) alla sezione intitolata
-
-***Come riprendere il corso di Introduzione a R su DataCamp da dove lo si aveva interrotto***
-
-<hr>
 
 ## Ottenere aiuto in R
 
