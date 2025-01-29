@@ -233,47 +233,25 @@ Per eseguire il codice di esempio qui di seguito, **ti servirà una console di R
 In questo esempio, utilizzeremo il pacchetto dplyr per dimostrare come caricare un pacchetto e applicare alcune delle sue funzioni per la manipolazione dei dati.
 
 ## Installazione del Pacchetto
-Se non hai già installato il pacchetto dplyr, puoi farlo con il comando **install.packages()**. Questa operazione deve essere eseguita solo una volta.
+Se non hai già installato il pacchetto `dplyr`, puoi farlo con il comando **install.packages()**. Questa operazione deve essere eseguita solo una volta.
 
 ```
 # Installazione del pacchetto dplyr (da eseguire una sola volta)
 install.packages("dplyr")
-Caricamento del Pacchetto
-Una volta installato, puoi caricare il pacchetto dplyr utilizzando library().
+# questo comando si connette alla fonte sul web che mantiene il dato pacchetto,
+# e lo scarica sul tuo PC rendendolo così disponibile quando ne hai bisogno.
 ```
 
 ```
-# Caricamento del pacchetto dplyr
+# Caricamento del pacchetto dplyr nel tuo spazio di lavoro
 library(dplyr)
-Uso delle Funzioni di dplyr
-Utilizziamo il pacchetto dplyr per eseguire alcune operazioni di manipolazione dei dati. Useremo il dataset integrato mtcars per questo esempio.
 ```
 
-```
-# Visualizzazione delle prime righe del dataset mtcars
-head(mtcars)
-Filtraggio dei Dati
-Filtriamo le auto con almeno 6 cilindri.
-```
+Con il comando `library(dplyr)` hai reso disponibii tutte le funzioni del pacchetto `dplyr` nella tua sessione di lavoro.
+Ad esempio, puoi ora utilizzare la funzione `arrange()` disponibile da questo pacchetto per ordinare il data frame `mtcars`
+secondo l'ordine decrescente dei valori della sua colonna `hp`
 
 ```
-# Filtraggio delle auto con almeno 6 cilindri
-mtcars_6_cyl <- filter(mtcars, cyl >= 6)
-head(mtcars_6_cyl)
-Selezione delle Colonne
-Selezioniamo solo le colonne mpg (miglia per gallone) e hp (potenza del motore).
-```
-
-```
-# Selezione delle colonne mpg e hp
-mtcars_mpg_hp <- select(mtcars, mpg, hp)
-head(mtcars_mpg_hp)
-Ordinamento dei Dati
-Ordiniamo le auto in base alla potenza del motore (hp) in ordine decrescente.
-```
-
-```
-# Ordinamento delle auto per potenza del motore in ordine decrescente
 mtcars_sorted <- arrange(mtcars, desc(hp))
 head(mtcars_sorted)
 ```
