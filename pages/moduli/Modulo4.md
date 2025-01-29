@@ -94,10 +94,9 @@ A proposito, te li ricordi tutti i tipi di oggetti R che abbiamo conosciuto fin 
 
 ## Svolgimento del tutorial: Liste in R
 
-
 In questo tutorial imparerai a creare e maneggiare una lista, selezionarne alcuni elementi o assegnare dei nomi ai suoi elementi. Contrariamente ai vettori, le liste possono contenere come elementi tipi di dato differenti tra loro (a proposito: conosci un altro tipo di oggetto in R che ti permette di immagazzinare tipi diversi / non omogenei di dato?)
 
-
+<br>Puoi visualizzare o scaricare il tutorial da [qui](https://maghetta.github.io/Corso-R-livello-base__BBC/Liste_in_R)
 
 
 
