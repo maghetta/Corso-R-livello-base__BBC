@@ -10,9 +10,9 @@ title: Modulo 5
 
 - cenni di statistica descrittiva
 
-- caricamento e ispezione di dati in R
-
 - tipi di grafici di uso comune per la rappresentazione grafica di dati
+
+- caricamento di dati in R
 
 <br>
 <br>
@@ -38,7 +38,7 @@ Al termine di questa attività dovresti essere in grado di:
 
 ## Durata e programma dell'attività:
 
-2,5 ore;
+3 ore;
 
 
 <table border="1" width="700">
@@ -52,14 +52,18 @@ Al termine di questa attività dovresti essere in grado di:
 	</tr>
 	<tr>
 		<td>[30']</td>
-		<td>esercizi, parte 1</td>		
+		<td>esercizi</td>		
 	</tr>
 	<tr>
 	<td colspan="2">pausa 10'</td>
 	</tr>
 	<tr>
 		<td>[30']</td>
-		<td>Esercizi, parte 2</td>		
+		<td>Come importare dati in R</td>
+	</tr>
+	<tr>
+		<td>[30']</td>
+		<td>Esercizi</td>		
 	</tr>
 	<tr>
 		<td>[10']</td>
@@ -72,7 +76,6 @@ Al termine di questa attività dovresti essere in grado di:
 
 1. **Abbiamo conosciuto il quinto ed ultimo tipo di "oggetto" di R: la lista**
 
-![r_liste](images/modulo5/r_liste.png)
 
 2. **Abbiamo imparato come chiedere aiuto se abbiamo dubbi sul codice, in R o in rete**
 
