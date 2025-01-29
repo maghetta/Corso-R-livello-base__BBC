@@ -116,13 +116,12 @@ ricetta$Info_nutrizionali
 ## Aggiungere un nuovo elemento ad una lista
 
 # Possiamo aggiungere un nuovo elemento in coda ad una lista con due sintassi alternative:
-`c(lista_attuale, nuovo_elemento)`  # cioè, utilizzando la funzione `c()` [NB: creerà una lista!]
-`lista_attuale$nuovo_nome <- nuovo_elemento`  # cioé, utilizzando `$` per creare una posizione successiva all'ultima
+# `c(lista_attuale, nuovo_elemento)`  # cioè, utilizzando la funzione `c()` [NB: creerà una lista!]
+# `lista_attuale$nuovo_nome <- nuovo_elemento`  # cioé, utilizzando `$` per creare e valorizzare una
+#                                      posizione successiva all'ultima presente nella lista attuale
 
 # Aggiungiamo ad esempio il tempo di cottura della ricetta, utilizzando le due sintassi alternative:
 ricetta_completa <- c(ricetta, tempo_cottura = 30)
 ricetta$tempo_cottura = 30
-
-
 
 ```
