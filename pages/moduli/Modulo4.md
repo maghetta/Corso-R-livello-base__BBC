@@ -59,11 +59,11 @@ Al termine di questa attività dovresti essere in grado di:
 	</tr>
 	<tr>
 		<td>[15']</td>
-		<td>Ottenere aiuto in R (vedi box qui sotto)</td>		
+		<td>Ottenere aiuto in R</td>		
 	</tr>
 	<tr>
 		<td>[15']</td>
-		<td>Pacchetti R: cosa sono, come si usano (vedi box qui sotto)</td>		
+		<td>Pacchetti R: cosa sono, come si usano</td>		
 	</tr>
 </table>
 
