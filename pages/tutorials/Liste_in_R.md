@@ -12,7 +12,9 @@ title: Liste in R
 # inclusi vettori, matrici, data frame e persino altre liste.
 
 ## Creare una lista in R
-# In R puoi creare una lista utilizzando il comando `list()`.
+# In R puoi creare una lista utilizzando il comando `list()`, a cui dovrai dare
+# come argomenti separati da virgola l'elemento o gli elementi che vuoi inserire
+# nella data lista. Es. `list(elemento1, elemento2, ecc.)`.
 # Creiamo ad esempio una lista per organizzare gli ingredienti di una ricetta:
 
 # Definiamo gli ingredienti principali come vettore
@@ -34,6 +36,14 @@ ricetta <- list(ingredienti = ingredienti,
                 quantita = quantita, 
                 info_nutrizionali = info_nutrizionali)
 
+#--> domanda per te: stampa a video la variabile *ricetta* appena creata
+
+# Potresti aver notato che abbiamo nominato gli elementi della lista nello
+# stesso comando `list()` con cui l'abbiamo creata.
+
+#--> domanda per te: che nome abbiamo dato agli elementi della lista *ricetta*?
+
+
 ## Ispezionare una lista
 # Analogamente a quanto visto con i data frame, possiamo utilizzare la funzione `str()`
 # per ispezionare la struttura di una lista.
@@ -43,17 +53,56 @@ ricetta <- list(ingredienti = ingredienti,
 
 
 ## Nominare gli elementi di una lista
-# Per dare un nome agli elementi di una lista, possiamo tornare ad utilizzare
-# la funzione `names()` già incontrata con i `vettori` e i `fattori`.
+# Oltre alla possibilità di nominare gli elementi di una lista all'interno del
+# comando `list()`, possiamo visualizzare o rinominare gli elementi di una lista, 
+# utilizzando la funzione `names()` già incontrata con i `vettori` e i `fattori`.
+
+#--> domanda per te: prova a stampare a video i nomi degli elementi della lista *ricetta*
+
+#--> domanda per te: con quale comando R potresti rinominare gli elementi della lista
+#  *ricetta* in "Ingredienti", "Quantita" e "Info_nutrizionali" ?
 
 
 ## Selezione di elementi da una lista
 # Possiamo accedere agli elementi della lista utilizzando sempre le parentesi `[]`,
 # ma con una sintassi un pò diversa, che riflette la struttura delle liste.
-# Vi ricordate quando abbiamo detto che tutto in R è un oggetto?
-# Ecco, per accedere ad un elemento di una lista, dovremo utilizzare doppie parentesi `[[]]`
+# In particolare, utilizzeremo:
+# - le parentesi `[]`: per una sottolista contenente 1+ elementi della lista originale
+# - le doppie parentesi `[[]]`: per accedere ad un elemento specifico di una lista
+# - le doppie parentesi `[[]]` seguite da parentesi `[]`: per selezionare elementi dall'oggetto
+#    contenuto nell'elemento della lista selezionato.
 
-# Ad esempio, per accedere all'oggetto 
+# Vi sentite persi??! Vediamo degli esempi, molto più chiari delle parole!
+
+#... Alcuni esempi della situazione #1: le parentesi `[]`:
+
+#--> domanda per te: utilizzando la funzioni `length()` e `class()` verifica rispettivamente lunghezza e classe
+#  di oggetto delle selezioni che andremo ad effettuare con i comandi qui sotto
+
+ricetta[2]      # selezionerà una sottolista composta dal solo 2° elemento della lista *ricetta*
+ricetta[c(1,3)] # selezionerà una sottolista composta dagli elementi 1 e 3 della lista *ricetta*
+ricetta[2:3]    # selezionerà una sottolista composta dagli elementi 2 e 3 della lista *ricetta*
+
+#... Alcuni esempi della situazione #2: le parentesi `[[]]`:
+# Ricordi quando abbiamo detto che tutto in R è un oggetto? Utilizzando la funzione `class()`,
+# verifica classe di oggetto delle selezioni che andremo ad effettuare con i comandi qui sotto
+
+ricetta[[2]]    # estrarrà l'oggetto che costituisce il 2° elemento della lista *ricetta*
+ricetta[[3]]    # estrarrà l'oggetto che costituisce il 3° elemento della lista *ricetta*
+ricetta[[1]]    # estrarrà l'oggetto che costituisce il 1° elemento della lista *ricetta*
+
+#... Alcuni esempi della situazione #3: le parentesi `[[]]` seguite da parentesi `[]`:
+# Negli esempi qui sotto, come usare le parentesi `[]` dipenderà dal tipo di oggetto
+# selezionato dalla lista attraverso l'uso delle parentesi `[[]]`. Ad esempio:
+
+ricetta[[1]][4]    # selezionerà il 4° elemento del vettore *Ingredienti*
+                   # che costituisce il 1° elemento della lista *ricetta*
+
+ricetta["Quantita"][2,]  # selezionerà la 2a riga della maatrice *Quantita*
+                         # che costituisce il 2° elemento della lista *ricetta*
+
+#--> domanda per te: prova ora tu ad estrarre dalla lista *ricetta*
+#  la 2a e 3a colonna del data frame "Info_nutrizionali"
 
 
  o il simbolo $
