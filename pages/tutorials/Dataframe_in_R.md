@@ -128,18 +128,29 @@ piante_perenni <- subset(piante, Perenne == TRUE)
 # di risultati di un test statistico, potrebbe essere utile
 # riordinare i dati per significatività creascente).
 # In R, questa operazione può essere effettuata utilizzando
-# la funzione `order()`
+# la funzione `order()`. Questa funzione prende in input un vettore
+# e restituisce in output l'ordine da dare agli
+# elementi di questo vettore, ossia il modo
+# in cui gli elementi dovrebbero essere disposti,
+# affinchè questi risultino ordinati in ordine crescente (default).
+# Ad esempio, utilizziamo la funzione `order()` per ordinare
+# in modo crescente i valori della colonna *Altezza* del data frame *piante*:
 
-# 
+order(piante$Altezza)  # ordine numerico crescente
 
- Ordinare il dataset in base all'altezza (in ordine crescente)
-piante_ordinate <- piante[order(piante$Altezza_cm), ]
-piante_ordinate  # Mostra il dataset ordinato per altezza
+# usiamolo ora per ordinare i valori della colonna *Nome*:
 
-# Ordinare il dataset in base all'altezza in ordine decrescente
-piante_ordinate_desc <- piante[order(-piante$Altezza_cm), ]
-piante_ordinate_desc  # Mostra il dataset ordinato in ordine decrescente
+order(piante$Nome)     # ordine alfabetico
 
+# usiamolo infine per ordinare i valori della colonna *Perenne* in ordine decrescente:
 
+order(piante$Perenne, decreasing=TRUE)     # ordine alfabetico
+
+#--> domanda per te: cosa rappresentano i numeri che ottieni in output
+# dai comandi digitati qui sopra?
+
+#--> domanda per te: prova a combinare selezione con `[]`
+# e il risultato della funzione `order()` per stampare a video
+# il data frame *piante* riordinato in base all'altezza (in ordine crescente)
 
 ```
