@@ -207,20 +207,20 @@ Prova ad esempio a digitare il seguente comando di R nella console di R che util
 sessionInfo()
 ```
 
-- Ogni pacchetto di R ha una pagina dedicata, dove è anche possibile scaricare la documentazione che ci insegna ad usarlo. Es.: fai click sul nome A3 nell'elenco di pacchetti che trovi a questo link [Table of available packages, sorted by name](https://cloud.r-project.org/web/packages/available_packages_by_name.html) per accedere alla pagina di documentazione del pacchetto A3
+- Ogni pacchetto di R ha una pagina dedicata, dove è anche possibile scaricare la documentazione che ci insegna ad usarlo. Es.: fai click sul nome A3 nell'elenco di pacchetti che trovi [a questo link](https://cloud.r-project.org/web/packages/available_packages_by_name.html) per accedere alla pagina di documentazione del pacchetto A3
 
-NOTA: per scoprire come installare e caricare pacchetti in R, avremmo anche potuto applicare quanto appena imparato. E cioé, chiedere a un motore di ricerca per trovare aiuto. Prova ad esempio a cercare su [https://www.google.com/](https://www.google.com/) la seguente combinazione di parole:
+NOTA: per scoprire come installare e caricare pacchetti in R, avremmo anche potuto applicare quanto appena imparato. E cioé, chiedere a un motore di ricerca per trovare aiuto su come fare. Prova ad esempio a cercare su [https://www.google.com/](https://www.google.com/) la seguente combinazione di parole:
 
-come caricare e installare pacchetti in R
+*come caricare e installare pacchetti in R*
 
 oppure in inglese:
 
-how to install / load packages in R
+*how to install / load packages in R*
 
 Ha funzionato la ricerca? Hai trovato risultati utili per risolvere il tuo dubbio (cioé, come installare e caricare pacchetti R)?
 
 
-Suggerimento extra: se leggere la documentazione non ti piace, dai uno sguardo anche ai risultati della tua ricerca trovati tra i video. Ad esempio, su youtube puoi trovare tantissimi tutorial su vari aspetti di R, a diversi livelli di complessità. Qui c'è un esempio di questi video tutorial.
+Suggerimento extra: se leggere la documentazione non ti piace, dai uno sguardo anche ai risultati della tua ricerca trovati tra i video. Ad esempio, su *youtube* puoi trovare tantissimi tutorial su vari aspetti di R, a diversi livelli di complessità.
 
 
 <br>
