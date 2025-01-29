@@ -128,13 +128,12 @@ Alternativamente, e nel caso in cui non conoscessi già il nome della funzione R
 
  
 
-- Puoi trovare aiuto in rete utilizzando un motore di ricerca (es. [https://www.google.com/](https://www.google.com/)), specificando con le giuste parole chiave il tuo dubbio / problema.
+- Puoi trovare aiuto in rete utilizzando un motore di ricerca (es. [https://www.google.com/](https://www.google.com/)), specificando con le giuste parole chiave il tuo dubbio / problema. Prova ad esempio a cercare nel tuo motore di ricerca preferito quanto segue:
 
-Prova ad esempio a digitare su Google il tuo dubbio. Meglio ancora se poni la richiesta in inglese: avrai accesso ad un numero ancor più vasto di documenti tecnici e discussioni in forum specializzati.
-<br>
-Ad esempio:
+*How do I rename rows and columns of a data.frame in R?*
 
-How do I rename rows and columns of a data.frame in R?
+Nota: Se poni la richiesta in inglese, avrai accesso ad un numero ancor più vasto di documenti tecnici e discussioni in forum specializzati per trovare la risposta che cerchi.
+
 
 **--> Sei soddisfatto del risultato? Hai trovato la risposta al tuo dubbio?**
 
@@ -145,7 +144,7 @@ How do I rename rows and columns of a data.frame in R?
 
 es. help.search("names") o ??"names"
 
-Avrai in risposta un elenco di tutti i pacchetti R che contengono funzioni (riportati come nome_pacchetto::nome_funzione) nella cui documentazione è presente la/le parola/e chiave da te inserite per la ricerca di aiuto, insieme ad una minima descrizione di scopo della data funzione R.
+Avrai in risposta un elenco di tutti i pacchetti R che contengano funzioni nella cui documentazione è presente la/le parola/e chiave da te inserite per la ricerca di aiuto, insieme ad una minima descrizione di scopo della data funzione R. Nell'elenco vedrai le funzioni di possibile interesse forniti in risposta al tuo quesito indicati in questo formato: *nome_pacchetto::nome_funzione*
 
 <hr>
 
