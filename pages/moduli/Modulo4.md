@@ -151,12 +151,24 @@ Avrai in risposta un elenco di tutti i pacchetti R che contengono funzioni (ripo
 
 ## Pacchetti R: cosa sono, come si usano
 
-- I pacchetti di R sono delle ulteriori collezioni di funzioni, rispetto alle funzioni di base già disponibili in qualunque console di R, dedicate a svolgere un certo compito.
+Uno dei punti di forza del linguaggio e ambiente di sviluppo *R* è la vasta disponibilità di pacchetti, #
+ovvero raccolte di funzioni, dati e documentazione che estendono le capacità di base del linguaggio.
+
+I pacchetti in R consentono di eseguire operazioni avanzate senza dover scrivere codice da zero, 
+offrendo strumenti e funzioni già pronte all’uso, applicabili in diversi contesti come analisi statistiche, 
+machine learning, visualizzazione grafica e molto altro.
+Esistono decine di migliaia di pacchetti R, che possono essere installati e caricati facilmente 
+tramite il portale [*CRAN* (*Comprehensive R Archive Network*)](https://cran.r-project.org/), oppure da [*Bioconductor*](https://www.bioconductor.org/), un progetto che sviluppa, 
+mantiene aggiornati e rende disponibili pacchetti specifici per l’analisi di dati biomedici. 
+Altri pacchetti possono essere scaricati da repository alternativi o direttamente da sviluppatori indipendenti.
+
+L’uso dei pacchetti rende R estremamente flessibile e adatto a una vasta gamma di applicazioni, sia in ambito scientifico che professionale.
 
 ![R-page](images/modulo4/R.png)
 
 <br>
-Esistono al momento oltre 20,000 pacchetti di R disponibili per essere installati sul proprio PC, e caricati all'occorrenza nella  propria sessione di lavoro di R. L'elenco completo dei pacchetti si può trovare qui: [Table of available packages, sorted by name](https://cloud.r-project.org/web/packages/available_packages_by_name.html)
+I pacchetti di R disponibili dal *CRAN* per essere installati sul proprio PC, e caricati all'occorrenza nella propria sessione di lavoro di R sono elencati [qui](https://cloud.r-project.org/web/packages/available_packages_by_name.html)
+I pacchetti di R disponibili dal progetto *Bioconductor* per essere installati sul proprio PC, e caricati all'occorrenza nella propria sessione di lavoro di R sono elencati [qui](https://www.bioconductor.org/packages/release/BiocViews.html#___Software)
 
 <br>
 <br>
