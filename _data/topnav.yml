@@ -25,7 +25,11 @@ subitems:
       url: /Fattori_in_R
     - title: Matrici in R
       url: /Matrici_in_R
+    - title: Data frame in R
+      url: /Dataframe_in_R
     - title: ABC Grafici in R
       url: /ABC_Grafici
+    - title: Liste in R
+      url: /Liste_in_R
     
 
