@@ -105,7 +105,21 @@ piante$Perenne
 # piante perenni, potremmo usare il seguente comando:
 
 piante_perenni <- subset(piante, Perenne == TRUE)
-piante_perenni
+
+# Nel comando qui sopra:
+# - Il **primo argomento**: specifica il data frame da cui
+#    si vuole estrarre un sottoinsieme di elementi
+# - Il **secondo argomento**: specifica una condizione su
+#    cui voler operare la selezione di elementi
+
+#--> domanda per te: stampa a video il contenuto della
+# variabile *piante_perenni* per osservare il
+# risultato della funzione `subset()`.
+
+#--> domanda per te: prova ora a utilizzare la funzione `subset()`
+#  per selezionare dal data frame *piante* il sottoinsieme di piante
+#  con altezza superiore a 50 cm.
+
 
 # Ordinare il dataset in base all'altezza (in ordine crescente)
 piante_ordinate <- piante[order(piante$Altezza_cm), ]
