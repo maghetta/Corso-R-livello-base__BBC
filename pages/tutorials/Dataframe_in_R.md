@@ -13,12 +13,13 @@ title: Data frame in R
 
 # In R, un data frame è una struttura dati simile ad una tabella, dove le colonne possono contenere dati
 # di tipo diverso (ad esempio, numerico, categorico, logico, ecc.).
-# È ideale per gestire dataset con più variabili, come un elenco di piante con relative informazioni
-# su nome, tipo, altezza, ecc.
+# Nella maggior parte dei casi, è l'oggetto ideale per gestire set di dati, che spesso contengono 
+# variabili di tipo diverso.
 
 
-
-# Per creare un data frame in R, utilizziamo la funzione `data.frame()`, come nell'esempio che segue:
+# Per creare un data frame in R, utilizziamo la funzione `data.frame()`, come nell'esempio che segue,
+# dove creerai un data frame che contiene un elenco di piante con relative informazioni
+# su nome, tipo, altezza e altro:
 
 piante <- data.frame(
   Nome = c("Rosa", "Lavanda", "Girasole", "Tulipano", "Orchidea"),   # dato di tipo carattere
@@ -27,8 +28,10 @@ piante <- data.frame(
   Perenne = c(TRUE, TRUE, FALSE, FALSE, TRUE)                        # dato di tipo logico
 )
 
+## Ispezionare il contenuto
+
 # Per ispezionare il contenuto di un data frame, possiamo utilizzare le funzioni `head()` e `tail()`
-# per visualizzare rispettivamente le prime o le ultime righe
+# per visualizzarne rispettivamente le prime o le ultime righe.
 
 head(piante)  # Mostra le prime 6 righe (di default) del dataset
 
@@ -38,9 +41,45 @@ head(piante)  # Mostra le prime 6 righe (di default) del dataset
 # che ci restutisce una panoramica della sua struttura e composizione.
 # Osserva ad esempio le informazioni restituite dal seguente comando:
 
-str(piante)   # Fornisce informazioni sui tipi di dati contenuti in ogni colonna
+str(piante)   #--> domanda per te: quali informazioni ottieni?
 
-# Analogamente a quanto visto in Estrazione di un sottoinsieme: selezionare solo le piante perenni
+
+## Nominare righe e colonne
+# Anche nel caso di data frame, possiamo attribuire nomi sia alle colonne che alle righe
+# di un data frame, sia mentre lo creiamo (come nell'esempio qui sopra,
+# dove abbiamo direttamente nominato le colonne nel comando `data.frame()`),
+# sia successivamente ricorrendo alle funzioni `rownames()` o `colnames()`
+
+# Come già visto, i comandi `rownames()` e `colnames()` possono essere usati sia per
+# visualizzare i nomi rispettivamente di righe e colonne, sia per modificarli.
+
+#--> domanda per te: le righe del data frame *piante* hanno dei nomi?
+
+# --> domanda per te: utilizzando la funzione `rownames()`, attribuisci alle
+# righe del data frame *piante* le prime cinque lettere minuscole dell'alfabeto.
+
+
+## Selezione di elementi di interesse
+
+# Analogamente a quanto visto con gli oggetti di R appresi nei precedenti tutorial,
+# potrai estrarre un sottoinsieme di dati di interesse, specificando opportunamente
+# tra le parentesi `[]` le righe e le colonne di tuo interesse. 
+
+# --> domande per te: Applicando le modalità gia usate per estrarre sottoinsiemi
+# di dati dall'oggetto matrice, prova ora a scrivere i comandi R opportuni per
+# selezionare dal data frame *piante*:
+
+# 1. le prime 3 righe e tutte le colonne
+
+# 2. solo le colonne 1, 2 e 5
+
+# 3. solo l'altezza della pianta corrispondente al 4° rigo
+
+# 4. solo le piante perenni 
+
+
+
+
 piante_perenni <- subset(piante, Perenne == TRUE)
 piante_perenni  # Stampa il sottoinsieme delle piante perenni
 
