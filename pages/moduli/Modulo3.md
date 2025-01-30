@@ -173,7 +173,7 @@ Crea un sottoinsieme di dati chiamato Xmf che contenga solo le colonne "m" e  "f
 
 Assegna come nomi delle righe dell'oggetto Xmf i valori della colonna "eta" del data.frame X
 
-Usa un operatore di confronto tra quelli che hai visto nel capitolo 2 del corso di DataCamp per vedere in quale fasce di età ci sono più vaccinati  tra le donne che tra gli uomini
+Usa un operatore di confronto per vedere in quale fasce di età ci sono più vaccinati  tra le donne che tra gli uomini
 
 Hai ancora energie??? Allora crea un altro sottoinsieme di dati chiamato Xaltro che contenga solo la colonna "db3" del data.frame X. Assegna come nomi al vettore Xaltro che hai appena creato i valori della colonna "eta" del data.frame X
 
