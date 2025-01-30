@@ -153,4 +153,14 @@ order(piante$Perenne, decreasing=TRUE)     # ordine alfabetico
 # e il risultato della funzione `order()` per stampare a video
 # il data frame *piante* riordinato in base all'altezza (in ordine crescente)
 
+
+## Altri modi per ottenere un data frame
+# In questo tutorial abbiamo visto come creare un data frame in R.
+# In realtà, è pratica più comune trovarsi ad importare in R i dati su cui intendiamo lavorare,
+# e che abbiamo magari sul nostro PC come file di testo organizzato in colonne, oppure come file excel.
+# Il tutorial `Dati in R: Diversi Formati e Modi Possibili` presente
+# al Modulo 5 di questo sito illustra le funzioni di R utili per creare
+# un data frame importando un file di dati.
+
+# Da ultimo, R 
 ```
