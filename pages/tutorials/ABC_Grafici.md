@@ -55,8 +55,9 @@ plot(x, y, main = "Scatter plot", xlab = "X", ylab = "Y", col = "blue", pch = 19
 #        come `points()`, `lines()` ecc. 
 
 
-# Qualche altra informazione utile 
-
+# Qualche altra informazione utile:
+# Con la funzione *abline()* possiamo aggiunre linee verticali o orizzontali al plot
+abline(3, h=TRUE, lty=2, col=3)
 
 # 2. Funzione barplot
 # La funzione barplot() è usata per creare grafici a barre.
@@ -90,7 +91,7 @@ hist(data, main = "Istogramma", xlab = "Valori", col = "lightblue", border = "da
 # Esempio: Grafico a torta
 slices <- c(40, 30, 20, 10)
 labels <- c("A", "B", "C", "D")
-pie(slices, labels = labels, main = "Grafico a torta", col = rainbow(length(slices)))
+pie(slices, labels = labels, main = "", col = c("orange", "green", "purple"))
 
 # Modifiche principali:
 # - labels: etichette delle sezioni
@@ -100,8 +101,8 @@ pie(slices, labels = labels, main = "Grafico a torta", col = rainbow(length(slic
 ## Aggiungere una legenda, un titolo o un sottotitolo
 # In R, possiamo ulteriormente modificare un grafico con funzioni cosiddette di "basso livello"
 # che ci permettono di aggiungere dettagli specici.
-legend("topright", legend = c("Gruppo 1", "Gruppo 2"), fill = c("orange", "green"))
-
+legend("topright", legend = c("Gruppo A", "Gruppo B", "Gruppo C"), fill = c("orange", "green", "purple"))
+title("Grafico a torta", col="cyan")
 
 
 # 5. Funzione boxplot
