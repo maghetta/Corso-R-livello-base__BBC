@@ -162,5 +162,35 @@ order(piante$Perenne, decreasing=TRUE)     # ordine alfabetico
 # al Modulo 5 di questo sito illustra le funzioni di R utili per creare
 # un data frame importando un file di dati.
 
-# Da ultimo, R 
+# Da ultimo, R ha disponibili, ad esempio per esercitarsi o sviluppare o testare dei comandi,
+# diversi data frame già pronti. Puoi visualizzare tutti i dataset di esempio disponibili in R con il comando data()
+data()  # Mostra un elenco dei dataset forniti con R e i pacchetti caricati
+
+# Esempio: Caricare il dataset "iris" nella sessione di lavoro
+data(iris)  # Il dataset è ora disponibile come dataframe
+
+# Visualizzare le prime righe del dataset "iris"
+head(iris)
+
+# Ottenere un riepilogo statistico del dataset
+summary(iris)
+
+# Visualizzare la struttura del dataset per capire il tipo di dati contenuti
+str(iris)
+
+# Esempio: Caricare un dataset da un pacchetto specifico (se installato)
+# Il pacchetto "MASS" include il dataset "Boston"
+if (!requireNamespace("MASS", quietly = TRUE)) {
+  install.packages("MASS")  # Installazione del pacchetto se non presente
+}
+library(MASS)  # Caricamento del pacchetto
+data(Boston)   # Caricamento del dataset "Boston"
+
+# Controllare la documentazione di un dataset specifico
+?iris  # Visualizza informazioni sul dataset "iris"
+?Boston  # Visualizza informazioni sul dataset "Boston" (se MASS è installato)
+
+# Verificare quali dataset sono disponibili in un pacchetto specifico
+data(package = "MASS")  # Mostra i dataset inclusi nel pacchetto MASS
+
 ```
