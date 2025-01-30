@@ -45,8 +45,15 @@ plot(x, y, main = "Scatter plot", xlab = "X", ylab = "Y", col = "blue", pch = 19
 
 #...d.) ripeti il grafico modificando l'aspetto dei punti, in modo che compaiano connessi da una linea
 # Per farlo, ti sarà utile sapere che il paramentro per modificare l'aspetto del tracciamento dei dati
-# si chiama `type`, e può assumere i seguenti valori:
-# - 
+# si chiama `type`, e può assumere tra gli altri i seguenti valori:
+# - "p": stampa i singoli punti (default)
+# - "l": stampa linee
+# - "b": (che sta per *both*) stampa punti connessi da linee
+# - "o": stampa punti sormontati da linee
+# - "n": Non stampa nulla riguardo i punti, mentre stampa gli assi e il sistema di coordinate in accordo con i dati.
+#        Si usa ad esempio nel caso si vogliano aggiungere poi gli ulteriori dettagli del plot con funzioni specifiche
+#        come `points()`, `lines()` ecc. 
+
 
 # Qualche altra informazione utile 
 
@@ -116,4 +123,6 @@ png("grafico.png")
 plot(x, y, main = "Scatter plot salvato", xlab = "X", ylab = "Y", col = "blue", pch = 19)
 dev.off()
 
+# Puoi continuare ad esplorare la funzione `plot()` e altre funzioni grafiche ad esempio nel capitolo 12
+# `Graphical procedures` del [Manuale in formato PDF **Introduction to R**](href="https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf)
 ```
