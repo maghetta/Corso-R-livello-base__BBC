@@ -98,7 +98,7 @@ ricetta[[1]]    # estrarrà l'oggetto che costituisce il 1° elemento della list
 ricetta[[1]][4]    # selezionerà il 4° elemento del vettore *Ingredienti*
                    # che costituisce il 1° elemento della lista *ricetta*
 
-ricetta["Quantita"][2,]  # selezionerà la 2a riga della maatrice *Quantita*
+ricetta[["Quantita"]][2,]  # selezionerà la 2a riga della maatrice *Quantita*
                          # che costituisce il 2° elemento della lista *ricetta*
 
 #--> domanda per te: prova ora tu ad estrarre dalla lista *ricetta*
