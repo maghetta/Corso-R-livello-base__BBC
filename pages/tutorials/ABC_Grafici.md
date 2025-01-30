@@ -57,7 +57,7 @@ plot(x, y, main = "Scatter plot", xlab = "X", ylab = "Y", col = "blue", pch = 19
 
 # Qualche altra informazione utile:
 # Con la funzione *abline()* possiamo aggiunre linee verticali o orizzontali al plot
-abline(3, h=TRUE, lty=2, col=3)
+abline(h=3, lty=2, col=3)
 
 # 2. Funzione barplot
 # La funzione barplot() è usata per creare grafici a barre.
