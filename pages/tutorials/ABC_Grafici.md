@@ -25,10 +25,30 @@ plot(x, y, main = "Scatter plot", xlab = "X", ylab = "Y", col = "blue", pch = 19
 # - col: colore dei punti
 # - pch: stile dei punti
 
-#--> domanda per te: prova a modificare il grafico appena fatto come segue:
+#--> domande per te: prova a modificare il grafico appena fatto come segue:
 
-# 1. ripeti il grafico modificando il colore dei punti da blue a green
+#...a.) ripeti il grafico modificando il colore dei punti da blu a verde
 # A proposito: puoi stampare l'intero elenco dei 657 colori a tua disposizione digitando `colors()`
+
+#...b.) ripeti il grafico modificando l'aspetto dei punti, da pallino pieno a triangolino pieno.
+# Per farlo ti sarà utile sapere che il parametro da modificare nel comando del plot per modificare
+# l'aspetto dei punti è `pch` (`plotting character`), e che questo parametro può assumere valori da 0 a 25,
+# ognuno associato ad un diverso simbolo per rappresentare i punti nel plot.
+# A proposito: puoi visualizzare l'intero elenco dei 26 caratteri di plot a tua disposizione digitando `?pch`
+
+#...c.) ripeti il grafico modificando sia il contenuto del titolo (da "Scatter plot" a "Primo plot"), che
+#      il colore (da nero a turchese).
+# Lascio a te di dedurre, guardando gli argomenti del comando `plot()` appena digitato, quale argomento
+# dovrai modificare per cambiare il titolo al grafico come richiesto. 
+# Invece, per modificarne il colore, ti sarà utile sapere che l'argomento che ti permette di modificare
+# il colore del titolo è: `col.main`
+
+#...d.) ripeti il grafico modificando l'aspetto dei punti, in modo che compaiano connessi da una linea
+# Per farlo, ti sarà utile sapere che il paramentro per modificare l'aspetto del tracciamento dei dati
+# si chiama `type`, e può assumere i seguenti valori:
+# - 
+
+# Qualche altra informazione utile 
 
 
 # 2. Funzione barplot
