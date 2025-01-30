@@ -96,6 +96,14 @@ pie(slices, labels = labels, main = "Grafico a torta", col = rainbow(length(slic
 # - labels: etichette delle sezioni
 # - col: colori delle sezioni
 
+
+## Aggiungere una legenda, un titolo o un sottotitolo
+# In R, possiamo ulteriormente modificare un grafico con funzioni cosiddette di "basso livello"
+# che ci permettono di aggiungere dettagli specici.
+legend("topright", legend = c("Gruppo 1", "Gruppo 2"), fill = c("orange", "green"))
+
+
+
 # 5. Funzione boxplot
 # La funzione boxplot() è usata per creare box plot.
 
@@ -112,9 +120,6 @@ boxplot(data, main = "Box plot", col = c("orange", "green"), names = c("Gruppo 1
 # Personalizzazione generale
 # I grafici possono essere ulteriormente personalizzati con:
 
-# Aggiungere una legenda:
-legend("topright", legend = c("Gruppo 1", "Gruppo 2"), fill = c("orange", "green"))
-
 # Modificare i margini:
 par(mar = c(5, 5, 4, 2))
 
@@ -123,6 +128,15 @@ png("grafico.png")
 plot(x, y, main = "Scatter plot salvato", xlab = "X", ylab = "Y", col = "blue", pch = 19)
 dev.off()
 
-# Puoi continuare ad esplorare la funzione `plot()` e altre funzioni grafiche ad esempio nel capitolo 12
+## Per finire... di inziare!
+# La grafica in R è un mondo! Ti basterà digitare in un motore di ricerca delle parole chiave in proposito per
+# trovare una marea di guide e videotutorial.
+# Per non perdervi in questo mare, vorrei concludere con un paio di indicazioni utili:
+# 1. Puoi continuare ad esplorare la funzione `plot()` e altre funzioni grafiche ad esempio nel capitolo 12
 # `Graphical procedures` del [Manuale in formato PDF **Introduction to R**](href="https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf)
+# 2. Puoi esplorare la **galleria grafica di R** (enorme risorsa!!), dove per ogni grafico di tuo interesse troverai
+# esempi di codice per realizzarlo, che potrai adattare ai tuoi dati.
+# 3. In questo tutorial abbiamo utilizzato un approccio classico (e più semplice) ai grafici. Esiste un approccio più compelsso,
+# ma anche molto più potente, per costruire grafici strutturandoli e definendoli livello dopo livello. Questa modalità di approccio
+# è abilitata dal pacchetto R `ggplot2`. Per esplorarne le potenzialità, potresti inziare da [questa](https://cran.r-project.org/web/packages/ggplot2/vignettes/ggplot2-in-packages.html) e [questa guida](https://ggplot2.tidyverse.org/).
 ```
