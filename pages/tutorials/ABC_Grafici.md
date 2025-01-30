@@ -25,6 +25,12 @@ plot(x, y, main = "Scatter plot", xlab = "X", ylab = "Y", col = "blue", pch = 19
 # - col: colore dei punti
 # - pch: stile dei punti
 
+#--> domanda per te: prova a modificare il grafico appena fatto come segue:
+
+# 1. ripeti il grafico modificando il colore dei punti da blue a green
+# A proposito: puoi stampare l'intero elenco dei 657 colori a tua disposizione digitando `colors()`
+
+
 # 2. Funzione barplot
 # La funzione barplot() è usata per creare grafici a barre.
 
