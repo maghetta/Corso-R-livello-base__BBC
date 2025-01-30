@@ -74,13 +74,11 @@ str(piante)   #--> domanda per te: quali informazioni ottieni?
 
 # 1. le prime 3 righe e tutte le colonne
 
-# 2. solo le colonne 1, 2 e 5
+# 2. solo le colonne 1, 2 e 4
 
 # 3. solo l'altezza della pianta corrispondente al 4° rigo
 
 # 4. i primi 3 valori della variabile "Nome"
-
-# 5. solo le piante perenni 
 
 
 # Oltre ai modi già visti per estrarre elementi
@@ -96,6 +94,11 @@ piante$Perenne
 #--> domanda per te: prova ora ad estrarre, utilizzando
 # la sintassi con il simbolo `$`, la colonna `Nome` dal
 # data frame *piante*.
+
+#--> domanda per te: sfruttando la sintassi con il simbolo
+# `$`, prova ora ad estrarre il sottoinsieme del data frame
+# *piante* relativo alle sole piante perenni.
+
 
 
 # Da ultimo, per estrarre un sottoinsieme di dati
