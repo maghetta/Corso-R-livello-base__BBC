@@ -19,11 +19,9 @@ title: Modulo 3
 
 Al termine di questa attività dovresti essere in grado di:
 
-- descrivere cos'è e come si crea un *data frame* in R
+- descrivere cos'è un *data frame* in R
 
 - elencare almeno una differenza tra matrici e data frame in R
-
-- caricare un data frame di dati di esempio (*mtcars*) nella console R 
 
 - stampare a video nella console di R le prime o le ultime righe di un data frame
 
@@ -40,6 +38,8 @@ Al termine di questa attività dovresti essere in grado di:
 - selezionare un sottinsieme di dati di un data frame (es. 1+ righe o 1+ colonne) utilizzando un vettore logico
 
 - riordinare le righe di un data frame (es. secondo valori crescenti o decrescenti di un dato vettore)
+
+- caricare un data frame di dati di esempio nella console R 
   
 - creare uno scatterplot in R
   
