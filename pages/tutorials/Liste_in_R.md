@@ -7,7 +7,7 @@ title: Liste in R
 ## Introduzione alle liste in R
 
 # In questo tutorial conoscerai l'ultimo tipo di oggetto fondamentale di R: le `liste`. Imparerai
-# come crearle, e come manipolarle. Ad esempio come accedere ai suoi elementi, o npminarli.  
+# come crearle, e come manipolarle. Ad esempio come accedere ai suoi elementi, o nominarli.  
 # Le liste in R sono oggetti flessibili che possono contenere come propri elementi diversi tipi di dati,
 # inclusi vettori, matrici, data frame e persino altre liste.
 
