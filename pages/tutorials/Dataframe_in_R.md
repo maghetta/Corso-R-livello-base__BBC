@@ -155,6 +155,7 @@ order(piante$Perenne, decreasing=TRUE)     # ordine alfabetico
 
 
 ## Altri modi per ottenere un data frame
+
 # In questo tutorial abbiamo visto come creare un data frame in R.
 # In realtà, è pratica più comune trovarsi ad importare in R i dati su cui intendiamo lavorare,
 # e che abbiamo magari sul nostro PC come file di testo organizzato in colonne, oppure come file excel.
@@ -162,8 +163,11 @@ order(piante$Perenne, decreasing=TRUE)     # ordine alfabetico
 # al Modulo 5 di questo sito illustra le funzioni di R utili per creare
 # un data frame importando un file di dati.
 
-# Da ultimo, R ha disponibili, ad esempio per esercitarsi o sviluppare o testare dei comandi,
-# diversi data frame già pronti. Puoi visualizzare tutti i dataset di esempio disponibili in R con il comando data()
+# Inoltre, R ha disponibili diversi set di dati già pronti, utili ad esempio per esercitarsi
+# o per sviluppare o testare dei comandi. Questi dati possono essere caricati nel proprio
+# spazio di lavoro semplicemente richiamandone il nome.
+# Puoi visualizzare tutti i set di dati di esempio disponibili in R con il comando `data()`
+
 data()  # Mostra un elenco dei dataset forniti con R e i pacchetti caricati
 
 # Esempio: Caricare il dataset "iris" nella sessione di lavoro
