@@ -162,3 +162,5 @@ ___
 	- *M <- cbind(M, V)*
 	- *nessuno di questi*
 
+10. La funzione dim() di R ti permette di conoscere le dimensioni di un oggetto multidimensionale, come ad esempio una matrice (che ha due dimensioni). Considerando la seguente matrice: *m <- matrix(-31:100, ncol=6)*, applica la funzione dim() alla matrice m per vedere che dimensioni ha. Poi, calcola il valore medio della sua 5a riga.
+
