@@ -123,7 +123,7 @@ print(paste("Radice quadrata:", radice))
      ```
 
 # Stampa delle variabili
-print(intero)   # ma anche, più semplicemente, prova a digitare il sul terminale il nome della variabile che vuoi stampare a video
+print(intero)   # ma anche, più semplicemente, prova a digitare sul terminale il nome della variabile che vuoi stampare a video
 ```
 
 ## Conclusione
