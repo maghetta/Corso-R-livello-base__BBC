@@ -99,27 +99,33 @@ print(paste("Radice quadrata:", radice))
 
 
 ## Principali Tipi di Variabili in R
+In R esistono quattro tipi principali di variabili: ***numeric***, ***integer***, ***character*** e ***logical***. Esempi di ciascun tipo di variabile sono forniti qui di seguito.
+Una funzione utile per conoscere la tipologia di dato contenuto in una variabile è **class()**.
 
 1. **Variabili Numeriche**
    - **Interi**: Numeri senza decimali.
      ```R
-     intero <- 10
+     x <- 10
+     class(x)   # per controllare il tipo di variabile contenuto nella variabile 'x'
+     x          # per stampare a video il contenuto della variabile x (alternativa più breve riepstto alla versione completa del comando: **print(x)** )
      ```
    - **Numeri a virgola mobile (double)**: Numeri con decimali.
      ```R
-     numerico <- 10.5
+     x <- 10.5
+     # con quale comando R puoi stampare a video il contenuto della variabile x ?
+     # con quale comando R puoi conoscere il tipo della variabile x ?
      ```
 
 2. **Variabili Carattere (Stringhe)**
    - Sequenze di caratteri racchiuse tra virgolette.
      ```R
-     stringa <- "Ciao, mondo!"
+     x <- "Ciao, mondo!"
      ```
 
 3. **Variabili Logiche (Boolean)**
    - Variabili che possono assumere solo due valori: `TRUE` o `FALSE`.
      ```R
-     logico <- TRUE
+     x <- TRUE
      ```
 
 # Stampa delle variabili
