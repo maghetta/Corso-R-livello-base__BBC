@@ -32,7 +32,7 @@ title: Introduzione alla Console R
 # Se così non fosse, puoi vedere come installare R e/o RStudio ad esempio qui:
 # https://rstudio-education.github.io/hopr/starting.html.
 # Una volta avviato il terminale interattivo,
-# un prompt (solitamente `>`), sarà il segnale che la console interattiva di
+# un prompt (`>`), sarà il segnale che la console interattiva di
 # R è pronta ad accettare ed eseguire i comandi digitati.
 
 ## A proposito del simbolo `#` che compare spesso in questo tutorial
@@ -89,6 +89,38 @@ y <- x + 3
 
 # Stampa del valore della variabile
 print(y)
+
+## controllo delle variabili create / presenti nel proprio spazio di lavoro
+# Per verificare quali variabili sono presenti nella sessione di lavoro R,
+# puoi utilizzare la funzione 'ls()'.
+# Ad esempio, prova a digitare:
+ls()
+# ls() restituisce un elenco dei nomi di tutti gli oggetti attualmente
+# creati nella sessione R.
+
+
+
+## Comandi incompleti e il prompt che si trasforma in `+`
+# Prima abbiamo menzionato che il simbolo `>` caratterizza
+# la console interattiva di R quando è pronta a ricevere ed
+# eseguire comandi. Qualche volta capita invece, premendo invio, di
+# trovarsi di fronte ad una riga che inizia con il simbolo `+`.
+# Questo simbolo `+` indica che R sta aspettando il completamento
+# del comando precedente. Succede ad esempio se ci si dimentica
+# di chiudere una parentesi. Infatti, se non completi un comando,
+# R aspetta che tu finisca di scriverlo e mostra il prompt
+# come un `+` invece del solito `>`. Per uscire da questa situazione,
+# concludi il comando oppure premi una delle seguenti opzioni:
+# a) la combinazione 'ctrl + c' (se lavori su terminale R)
+# b) tasto 'Esc' della tastiera (se lavori in RStudio)
+
+# Prova ad esempio a digitare il seguente comando incompleto
+# e premi il tasto invio per eseguirlo:
+x <- c(1, 2, 3   # manca la parentesi chiusa
+
+# Una volta chiusa la parentesi, il comando verrà eseguito correttamente
+
+
 
 
 ## Rivediamo tutto insieme in un esempio:
