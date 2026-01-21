@@ -201,18 +201,15 @@ ___
 - *c. ls()*
 - *d. list()*
 
-
 2. Il comando  c(1, TRUE,"A") genera in R un vettore di che tipo?
 
 - *a. Numerico.*
 - *b. Logico.* 
 - *c. Carattere.*
 
-<br>
-
 3. Voglio estrarre da un vettore chiamato "compiti" composto da 24 elementi, i valori corrispondenti alle posizioni 3, 11, 15 e 21. Scrivi il comando R opportuno per farlo.
 
-4. La funzione rep() di R genera ripetizioni di un dato vettore tante volte quanto specificato nel parametro times. Ad esempio: *rep( c(1,0,2), times=2)* genererà il seguente output:  *1 0 2 1 0 2*. Usa il comando *rep()* per generare il seguente vettore: *1 0 1 0 1 0 1 0 1 0 1 0*
+4. La funzione *rep()* di R genera ripetizioni di un dato vettore tante volte quanto specificato nel parametro *times*. Ad esempio: *rep( c(1,0,2), times=2)* genererà il seguente output:  *1 0 2 1 0 2*. Usa il comando *rep()* per generare il seguente vettore: *1 0 1 0 1 0 1 0 1 0 1 0*
 
 5. Scrivi 3 righe di codice R che facciano quanto segue: (1) creare un vettore denominato "regioni" che contiene gli elementi "Sicilia", "Lombardia" e "Liguria"; (2) aggiungere a questo vettore l'elemento "Molise"; (3) stampare a video il contenuto del vettore regioni. 
 
@@ -224,7 +221,3 @@ ___
 
 
 
-### Riferimenti utili
-
-- <span style="color:blue;">Progetto R - sito ufficiale: [https://www.r-project.org/](https://www.r-project.org/)</span>
-- <span style="color:blue;">Ebook del Prof. Federico Reali: [Note dal aboratorio di R del corso di Probabilità e Statistica Matematica - aa 2018/2019](https://thefreolo.github.io/book/primi-passi-con-r.html)</span>
