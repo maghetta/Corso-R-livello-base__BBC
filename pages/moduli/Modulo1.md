@@ -25,7 +25,7 @@ title: Modulo 1
 Al termine di questa attività dovresti essere in grado di:
 <br>
 
-- descrivere cos'è la console di R (anche detto terminale)
+- descrivere cos'è la console interattiva di R (anche detto terminale)
 - eseguire dei comandi nella console di R
 - scrivere una riga di commento in un codice R
 - utilizzare il terminale di R come una semplice calcolatrice
@@ -99,19 +99,27 @@ Al termine di questa attività dovresti essere in grado di:
 
 ### Un passo indietro: perché imparare a programmare?
 
-Programmare vuol dire saper scrivere una serie di istruzioni (**un programma**) che una macchina (ad esempio, il computer su cui stai lavorando) sappia interpretare ed eseguire. 
-Un programma è dunque un gruppo di operazioni (esempio funzioni logiche o matematiche) da svolgere in un dato ordine stabilito, che portano a compimento una data attività. 
-Queste istruzioni vengono scritte utilizzando un **linguaggio di programmazione**, che funge da ponte tra il pensiero umano e la macchina, permettendo di tradurre le idee in comandi eseguibili dal computer. 
-Programmare ci consente di creare cose come software per computer, siti web, applicazioni per il nostro cellulare e videogiochi.
+Programmare significa formalizzare un problema e descriverne la soluzione attraverso una sequenza di istruzioni che una macchina può interpretare ed eseguire. Un programma non è altro che una rappresentazione esplicita di un processo: una catena ordinata di operazioni logiche, matematiche o decisionali che trasformano dati in risultati.
 
-Ad esempio, un semplice programma potrebbe dire al computer di sommare due numeri e poi mostrare il risultato sullo schermo. In questo caso, le istruzioni, nell'ordine in cui devono essere eseguite, potrebbero essere: 'prendi il primo numero', 'prendi il secondo numero', 'somma il primo e il secondo numero' e 'mostra il risultato'.
+Un linguaggio di programmazione funge da interfaccia tra il ragionamento umano e l’esecuzione automatica, permettendo di tradurre ipotesi, modelli e procedure in strumenti operativi. In questo senso, programmare non è semplicemente "dire al computer cosa fare", ma **rendere esplicito, verificabile e riutilizzabile un metodo di lavoro**.
 
-Imparare a programmare è un'ottima scelta per tante buone ragioni, ad esempio: <br>
-- Per acquisire una forma mentale basata su **ragionamento lineare, logica e rigore di fronte ad un problema e per pensare e delineare una sua possibile soluzione**. Un'abilità che ha utilità in generale nella vita di chiunque, non solo per chi professionisti nel campo dell'informatica o in altri ambiti affini.
-- Perché nella nostra quotidianità siamo **pervasi dalla tecnologia**, e conoscere almeno le basi di un linguaggio di programmazione ci aiuta a vedere questa tecnologia - per quanto complessa - **non** come **magiche scatole nere** ma come prodotto della programmazione di qualche essere umano, riconducibile ad un numero finito di istruzioni.
-- Perché programmare è **molto più semplice di quanto si pensi**, almeno a livello base. Ed essere esposti ad un linguaggio di programmazione può farci scoprire un'interesse.
-- Per automatizzare procedure ripetute più volte, rendendole più semplici, più veloci e meno soggette ad errore (es. grafico settimanale dell'andamento di dati pandemici).
-- In ambito scientifico, **per assicurare trasparenza e riproducibilità** nelle procedure di analisi di dati che hanno portato ad una data conclusione.
+Imparare a programmare è particolarmente rilevante nel percorso di un dottorato per diverse ragioni: <br>
+- **Sviluppo del pensiero computazionale**
+Programmare richiede di scomporre problemi complessi in sotto-problemi ben definiti, di ragionare in termini di flussi logici, condizioni e dipendenze. Questo tipo di approccio rafforza la capacità di analisi e di progettazione di soluzioni, competenze centrali nella ricerca scientifica indipendentemente dal dominio disciplinare.
+
+- **Controllo consapevole degli strumenti digitali**
+Gran parte della ricerca contemporanea si basa su software, algoritmi e pipeline di analisi. Conoscere la programmazione consente di andare oltre l’uso “a scatola nera” degli strumenti, comprendendone assunzioni, limiti e potenziali fonti di errore.
+
+- **Automazione e scalabilità**
+Procedure ripetitive, analisi iterative, aggiornamento di figure o tabelle possono essere automatizzati, riducendo drasticamente il tempo necessario e la probabilità di errore umano. Questo è cruciale quando i dati crescono in dimensione, complessità o frequenza di aggiornamento.
+
+- **Riproducibilità e trasparenza scientifica**
+Un’analisi descritta tramite codice è ispezionabile, versionabile e riproducibile. Programmare significa poter documentare in modo preciso ogni passaggio che porta da dati grezzi a risultati finali, un requisito sempre più centrale nella scienza aperta e nella valutazione della qualità della ricerca.
+
+- **Flessibilità e autonomia**
+Anche una competenza di base consente di adattare metodi esistenti a nuovi contesti, esplorare dati in modo più libero e costruire pipeline personalizzate, senza dipendere completamente da software preconfezionati.
+
+In sintesi, imparare a programmare non è (soltanto) un obiettivo fine a sé stesso, ma anche uno strumento per pensare meglio i problemi di ricerca, lavorare in modo più efficiente e produrre risultati più solidi e affidabili.
 
 <hr>
 Il linguaggio di programmazione R
