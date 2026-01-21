@@ -11,6 +11,8 @@ title: Modulo 1
 - Il linguaggio di programmazione R 
 
 - Introduzione alla console di R
+
+- RStudio: ambiente di sviluppo integrato per R
   
 - Vettori e Fattori in R
 
@@ -122,7 +124,7 @@ Anche una competenza di base consente di adattare metodi esistenti a nuovi conte
 In sintesi, imparare a programmare non è soltanto un obiettivo fine a sé stesso, ma anche uno strumento per pensare meglio i problemi oggetto di studio, lavorare in modo più efficiente e produrre risultati più solidi e affidabili.
 
 <hr>
-Il linguaggio di programmazione R
+### Il linguaggio di programmazione R
 <hr>
 
 ![Pagina wiki R](images/modulo1/R_page.png)
@@ -141,6 +143,40 @@ Il linguaggio di programmazione R
 - **migliaia di pacchetti aggiornati** (CRAN, Bioconductor),
 - **ampio supporto** online (forum, mailing list, Q&A),
 - **documentazione** dettagliata e buone pratiche consolidate.
+
+___
+
+### RStudio: ambiente di sviluppo integrato per R
+
+In questo corso prenderemo confidenza con il linguaggio di programmazione R utilizzando il software **RStudio**, che fornisce un’interfaccia pratica e strutturata per questo scopo. Più precisamente, RStudio è un **ambiente di sviluppo integrato** (in inglese Integrated Development Environment, **IDE**) per il linguaggio di programmazione R, che mette a disposizione dell’utente un’interfaccia organizzata in quattro pannelli principali: <br>
+
+- **Console**
+  per eseguire in modo interattivo comandi R
+
+- **File sorgente (script R)**
+  per scrivere, modificare e salvare i comandi in file di testo
+  
+- **Environment / History**
+  per visualizzare gli oggetti presenti in memoria e la cronologia dei comandi eseguiti
+
+- **Files / Plots / Packages / Help**
+  per navigare nel file system, visualizzare grafici, gestire i pacchetti installati e accedere alla documentazione di supporto
+
+
+Tra le quattro finestre di RStudio, le due più rilevanti per il nostro lavoro sono:
+
+**Console**
+È l’interprete interattivo di R, dove i comandi possono essere eseguiti riga per riga. La console è utile per testare rapidamente piccoli frammenti di codice o per ottenere risultati immediati. I comandi digitati direttamente nella console non vengono salvati quando si chiude la sessione.
+
+**Source (Editor di script)**
+Fornisce un editor di testo per scrivere codice più lungo e complesso in modo ordinato. I comandi possono essere salvati in un file di codice R (*.R*) e riutilizzati, condivisi o modificati in futuro. È pratica comune costruire un codice R testando prima i comandi in console e poi annotandoli nell’editor, eventualmente con commenti esplicativi.
+
+![Pagina wiki R](images/modulo1/RStudio.png)
+Crediti di immagine: immagine presa da https://psicostat.github.io/Introduction2R/rstudio-gui.html
+
+Nota: anche se è possibile lavorare solo con la console, l’uso di uno script permette di conservare e documentare il lavoro in modo riproducibile. L’estensione *.R* del file generato è usata convenzionalmente per indicare che il file contiene istruzioni eseguibili in R.
+
+
 
 ___
 
