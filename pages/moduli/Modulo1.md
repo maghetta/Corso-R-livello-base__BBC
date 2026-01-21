@@ -119,7 +119,7 @@ Un’analisi descritta tramite codice è ispezionabile, versionabile e riproduci
 - **Flessibilità e autonomia**
 Anche una competenza di base consente di adattare metodi esistenti a nuovi contesti, esplorare dati in modo più libero e costruire pipeline personalizzate, senza dipendere completamente da software preconfezionati.
 
-In sintesi, imparare a programmare non è (soltanto) un obiettivo fine a sé stesso, ma anche uno strumento per pensare meglio i problemi di ricerca, lavorare in modo più efficiente e produrre risultati più solidi e affidabili.
+In sintesi, imparare a programmare non è soltanto un obiettivo fine a sé stesso, ma anche uno strumento per pensare meglio i problemi oggetto di studio, lavorare in modo più efficiente e produrre risultati più solidi e affidabili.
 
 <hr>
 Il linguaggio di programmazione R
@@ -128,16 +128,19 @@ Il linguaggio di programmazione R
 ![Pagina wiki R](images/modulo1/R_page.png)
 
 
-- R è un linguaggio di programmazione potente e gratuito, particolarmente efficiente per l'analisi statistica e la visualizzazione grafica dei dati
-- R, secondo solo a Python, è tra i linguaggi di programmazione *open source* più usati in ricerca accademica e scientifica, e in generale in data science
+- R è un linguaggio di programmazione *open source*, potente e gratuito, progettato specificamente per l’analisi statistica, la modellizzazione dei dati e la visualizzazione grafica.
+- R è, insieme a Python, uno dei linguaggi più utilizzati nella ricerca accademica e scientifica e, più in generale, nella *data science*, grazie alla sua forte integrazione con metodi statistici e bio-statistici e con risorse di dati e annotazioni biomediche.
 
 ![Pagina wiki R](images/modulo1/R_page2.png)
 
-- R è un software multipiattaforma, disponibile per sistemi UNIX e UNIX-based (Linux), Windows e Mac OS X
+- R è un software multipiattaforma, disponibile per sistemi Linux/UNIX, Windows e macOS.
 
 ![Pagina CRAN](images/modulo1/CRAN.png)
 
-- R ha una comunità di utilizzatori e sviluppatori attiva e vastissima, che assicura **migliaia di pacchetti disponibili e aggiornati**, grande supporto (es: forum online) e facile accesso a **documentazione**
+- R dispone di una comunità di sviluppatori e utenti estremamente ampia e attiva, che garantisce: <br>
+- **migliaia di pacchetti aggiornati** (CRAN, Bioconductor),
+- **ampio supporto** online (forum, mailing list, Q&A),
+- **documentazione** dettagliata e buone pratiche consolidate.
 
 ___
 
