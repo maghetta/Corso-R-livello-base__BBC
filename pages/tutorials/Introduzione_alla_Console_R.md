@@ -8,8 +8,10 @@ title: Introduzione alla Console R
 # In questo breve tutorial vedremo:
 # - cos'è e come usare la console interattiva (o terminale interattivo) di R
 # - come utilizzare R come una calcolatrice
+# - come scrivere un commento in un codice R
 # - cos'è una variabile e come crearla in R, o modificarne il valore
 # - quali sono i tipi principali di variabili che si possono incontrare
+
 
 ## Terminale Interattivo di R
 
@@ -32,6 +34,12 @@ title: Introduzione alla Console R
 # Una volta avviato il terminale interattivo,
 # un prompt (solitamente `>`), sarà il segnale che la console interattiva di
 # R è pronta ad accettare ed eseguire i comandi digitati.
+
+## A proposito del simbolo `#` che compare spesso in questo tutorial
+# questo simbolo indica all’interprete di ignorare tutto il testo che segue
+# sulla stessa riga. In altre parole, `#` serve a introdurre un commento,
+# utile per annotazioni, spiegazioni o promemoria per chi legge lo script,
+# senza influenzare l’esecuzione del codice.
 
 
 ## Uso di R come Calcolatrice
