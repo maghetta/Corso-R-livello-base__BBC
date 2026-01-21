@@ -108,7 +108,7 @@ A proposito: secondo te, posso avere colonne di classe diversa in una matrice? P
 
 3. Qua e là tra i tutorial abbiamo anche conosciuto
 
-diversi altri esempi di funzioni disponibili in R, quali: *matrix(), rownames(), colnames(), rowSums(), colSums(), ls(), cbind(), rbind()*
+diversi altri esempi di funzioni disponibili in R, quali: *dim(), matrix(), rownames(), colnames(), rowSums(), colSums(), ls(), cbind(), rbind()*
 
 <hr>
 
