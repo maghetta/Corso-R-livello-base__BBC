@@ -135,15 +135,7 @@ varia natura (ad esempio, sia dati di tipo numerico che di tipo categorico).
 
 <hr>
 
-<span style="color:red;">Sfida tremendissima</span>
-
-**Premessa:**
-<br>
-Per poterti mettere alla prova con questa sfida tremendissima **ti servirà una console di R** installata sul tuo PC (ad esempio, quella integrata nell'interfaccia di *RStudio*).
-
-<br>
-
-**Pronti? Via!**
+<span style="color:red;">Un esercizio più articolato per testare la confidenza raggiunta</span>
 
 <br>
 
@@ -175,9 +167,7 @@ Assegna come nomi delle righe dell'oggetto Xmf i valori della colonna "eta" del 
 
 Usa un operatore di confronto per vedere in quale fasce di età ci sono più vaccinati  tra le donne che tra gli uomini
 
-Hai ancora energie??? Allora crea un altro sottoinsieme di dati chiamato Xaltro che contenga solo la colonna "db3" del data.frame X. Assegna come nomi al vettore Xaltro che hai appena creato i valori della colonna "eta" del data.frame X
+Crea un altro sottoinsieme di dati chiamato Xaltro che contenga solo la colonna "db3" del data.frame X. Assegna come nomi al vettore Xaltro che hai appena creato i valori della colonna "eta" del data.frame X
 
 Fai un grafico a torte di Xaltro (**domanda tremendissima**: quale fascia di età è più rappresentata nella categoria "db3" dei vaccinati ?)
 
-
-Beh, già se sei arrivato a leggere fin qui ti faccio i complimenti per il coraggio e la tenacia!!!
