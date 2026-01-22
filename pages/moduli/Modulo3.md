@@ -154,7 +154,7 @@ Per esempio, i dati più aggiornati sulle vaccinazioni effettuate in Italia sono
 Li puoi caricare direttamente dalla rete in uno spazio di lavoro R con il seguente comando:
 
 ```markdown
-urlcsv <- "[https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/anagrafica-vaccini-summary-latest.csv](https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/anagrafica-vaccini-summary-latest.csv)"
+urlcsv <- "https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/anagrafica-vaccini-summary-latest.csv](https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/anagrafica-vaccini-summary-latest.csv)"
 
 X <- read.csv(url(urlcsv), header=1)
 
