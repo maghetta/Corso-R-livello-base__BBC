@@ -209,18 +209,16 @@ ggplot(dati, aes(x = x, y = y)) +                                # definiamo i d
 
 ## cenni sulla "filosofia ggplot2"
 
-# Il sistema grafico in R basato su ggplot2 è una "grammatica dei grafici" (Grammar of Graphics),
-# che costruisce visualizzazioni complesse *strato dopo strato*, adottando un approccio modulare.
-# A livello di codice, il grafico si costruisce tramite la combinazione di varie funzioni definite nel pacchetto ggplot
-# quali:
-# - la funzione ggplot() (grammar of graphics plot): per inizializzare lo spazio del grafico e definire l'oggetto che contiene i dati che verranno visualizzate nel grafico
-# - la funzione aes() (aesthetics): per mappare variabili dei dati a caratteristiche visive (colore, dimensione, forma, assi X/Y). 
-# - una tra la famiglia di funzioni "geoms" (forme geometriche, es. geom_point() per scatter plot, geom_bar() per grafico a barre) e si definiscono le caratteristiche estetiche (es. punti di colore blu)
-# - la funzione labs(): per specificare testo e grafica di etichette degli assi e titolo del grafico (opzionale)
-# - una tra la famiglia di funzioni "theme" (es. theme_minimal() o theme_dark()): per personalizzare l'aspetto dello spazio grafico (es. font, sfondo, griglie) (opzionale)
+# Il sistema grafico in R basato su ggplot2 si ispira al concetto di "Grammar of Graphics", teorizzato da Leland Wilkinson nel 1999.
+# In sintesi, un grafico si costruisce *strato dopo strato*, adottando un approccio modulare.
+
+# A livello di codice, il grafico si costruisce combinando varie funzioni del pacchetto ggplot2:
+# - ggplot(): inizializza lo spazio del grafico e definisce l'oggetto che contiene i dati da visualizzare
+# - aes() (aesthetics): mappa le variabili dei dati a caratteristiche visive (colore, dimensione, forma, assi x e y)
+# - funzioni "geoms" (forme geometriche), es. geom_point() per scatter plot, geom_bar() per grafici a barre; qui si definiscono anche le caratteristiche estetiche (es. colore dei punti)
+# - labs(): specifica titolo e etichette degli assi (opzionale)
+# - funzioni "theme", es. theme_minimal() o theme_dark(): personalizzano l'aspetto del grafico (font, sfondo, griglie) (opzionale)
 
 # Per una introduzione più rigorosa e approfondita al sistema di grafica basato su ggplot2: https://ggplot2.tidyverse.org/
-
-
 
 ```
