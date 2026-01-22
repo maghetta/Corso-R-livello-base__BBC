@@ -153,9 +153,12 @@ Per esempio, i dati più aggiornati sulle vaccinazioni effettuate in Italia sono
 
 Li puoi caricare direttamente dalla rete in uno spazio di lavoro R con il seguente comando:
 
-*urlcsv <- "[https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/anagrafica-vaccini-summary-latest.csv](https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/anagrafica-vaccini-summary-latest.csv)"*
+```markdown
+urlcsv <- "[https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/anagrafica-vaccini-summary-latest.csv](https://raw.githubusercontent.com/italia/covid19-opendata-vaccini/master/dati/anagrafica-vaccini-summary-latest.csv)"
 
-*X <- read.csv(url(urlcsv), header=1)*
+X <- read.csv(url(urlcsv), header=1)
+
+```
 
 1. Comincia la sfida eseguendo le 2 righe di codice qui sopra, così da creare il data.frame X nel tuo spazio di lavoro.
 
