@@ -36,7 +36,7 @@ title: Fattori in R
 
 # Per creare un fattore in R si utilizza la funzione `factor()`.
 # La prima cosa da fare è creare un vettore che contenga tutte le osservazioni di interesse.
-# a Per esempio, `vettore_genere` contiene il genere di 5 differenti film:
+# Per esempio, `vettore_genere` contiene il genere di 5 differenti film:
 
 vettore_genere <- c("Commedia", "Horror", "Avventura", "Commedia", "Horror")
 
@@ -75,7 +75,7 @@ fattore_vettore_genere <- factor(vettore_genere)
 # utilizzando la funzione `levels()`. Questa funzione può essere utilizzata sia per
 # visualizzare i livelli di un fattore, sia per modificarli
 
-# Codice per costruire factor_vettore_genere
+# Codice per costruire un vettore che contenga - abbreviati all'iniziale - i generi di 5 film
 vettore_genere <- c("C", "H", "A", "C", "H")
 factor_vettore_genere <- factor(vettore_genere)
 
