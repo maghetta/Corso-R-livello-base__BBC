@@ -180,5 +180,14 @@ X <- read.csv(url(urlcsv), header=1)
 
 10. Ora aggiungi al grafico una retta di regressione di colore rosso, adattando il codice visto nel tutorial sui grafici
 
-11. **Domanda tremendissima per te**: utilizzando la funzione text()
-
+11. **Domanda tremendissima per te**:
+    - lancia il seguente comando e descrivi cosa fa:
+	```markdown
+ 	text( Xmf$m, Xmf$f, labels = rownames(Xmf), pos = 4, cex = 0.7 )
+	```
+	- dal menù *Help* del riquadro in basso a dx di RStudio, cerca *text* nella barra di ricerca per accedere alla documentazione
+	di questa funzione. Poi prova a rispondere alle seguenti domande:
+ 		- cosa controlla l'argomento *pos*?
+		- cosa controlla l'argomento *cex*?  
+	- prova ora a modificare e rilanciare il comando text() che trovi qui sopra per far si che l'etichettà di ciascun
+	punto venga messa sotto il punto corrispondente
