@@ -207,19 +207,17 @@ Per utilizzare un pacchetto di R sul nostro computer, seguire 2 passaggi:
 
 ```
 # Esempio:
-install.packages("A3") 		# nota il nome del pacchetto messo tra virgolette
+install.packages("palmerpenguins") 		# nota il nome del pacchetto messo tra virgolette
 ```
 
-NOTA 1: questo lo possiamo fare SOLO sulla nostra console R locale, dove abbiamo permessi adeguati
-
-NOTA 2: questo passaggio sarà necessario solo la prima volta che usiamo un nuovo pacchetto
+NOTA: questo passaggio sarà necessario solo la prima volta che usiamo un nuovo pacchetto
 
 
 2. **caricare il dato pacchetto nella propria sessione di lavoro** di R,  con la funzione **library()**:
 
 ```
 # Esempio:
-library(A3)                 # nota il nome del pacchetto scritto senza virgolette
+library(palmerpenguins)                 # nota il nome del pacchetto scritto senza virgolette
 ```
 
 NOTA: questo passaggio sarà necessario ogni volta che vorremo utilizzare le funzioni di un dato pacchetto R nella nostra sessione di lavoro
@@ -235,20 +233,19 @@ Prova ad esempio a digitare il seguente comando di R nella console di R che util
 sessionInfo()
 ```
 
-- Ogni pacchetto di R ha una pagina dedicata, dove è anche possibile scaricare la documentazione che ci insegna ad usarlo. Es.: fai click sul nome A3 nell'elenco di pacchetti che trovi a questo link [Table of available packages, sorted by name](https://cloud.r-project.org/web/packages/available_packages_by_name.html) per accedere alla pagina di documentazione del pacchetto A3
-
-NOTA: per scoprire come installare e caricare pacchetti in R, avremmo anche potuto applicare quanto appena imparato. E cioé, chiedere a un motore di ricerca per trovare aiuto. Prova ad esempio a cercare su [https://www.google.com/](https://www.google.com/) la seguente combinazione di parole:
-
-come caricare e installare pacchetti in R
-
-oppure in inglese:
-
-how to install / load packages in R
-
-Ha funzionato la ricerca? Hai trovato risultati utili per risolvere il tuo dubbio (cioé, come installare e caricare pacchetti R)?
+- Ogni pacchetto di R ha una pagina dedicata, dove è anche possibile scaricare la documentazione che ci insegna ad usarlo. Ad esempio, prova una di queste strade per trovare la documentazione del pacchetto *palmerpenguins*:
+	- prova a cercare in un browser la combinazione di parole "palmerpenguins r".
+    - in RStudio, vai al menù "Help" nella finestra in basso a dx dell'interfaccia, poi digita "palmerpenguins" nella barra di ricerca
+    - nell'elenco di pacchetti che trovi a questo link [Table of available packages, sorted by name](https://cloud.r-project.org/web/packages/available_packages_by_name.html) cerca "palmerpenguins", e segui il link del nome
 
 
-Suggerimento extra: se leggere la documentazione non ti piace, dai uno sguardo anche ai risultati della tua ricerca trovati tra i video. Ad esempio, su youtube puoi trovare tantissimi tutorial su vari aspetti di R, a diversi livelli di complessità. Qui c'è un esempio di questi video tutorial.
+## il progetto R/Bioconductor
+Un'ulteriore vasta gamma di decine di migliaia di pacchetti totalemnte compatibili con il software R e sviluppati per facilitare la ricerca biomedica sono resi disponibili dal progetto R/Bioconductor.
+
+Per una rapida introduzione al progetto R/Bioconductor possiamo far riferimento alla sezione ad esso dedicata su questo sito:
+[https://cloud.r-project.org/web/packages/available_packages_by_name.html](https://sites.google.com/d/1gQps5DIYjxhOWMyfr2Sn2y7xcJ0EAWuh/p/11mir2eGHZisRcWF2fVIugiH4nfXTW7eQ/edit))
+
+
 
 
 <br>
