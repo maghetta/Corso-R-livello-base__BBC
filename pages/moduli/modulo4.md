@@ -148,43 +148,28 @@ A [questo link](https://www.r-project.org/help.html) puoi trovare un guida (in i
 Qui di seguito riassumerò due approcci molto comuni:
 
 
-Per trovare aiuto su come usare una data funzione di R ***di cui conosci il nome*** (esempio: per sapere quali argomenti la funzione si aspetta,  e quali parametri posso usare per modificarne il comportamento) posso accedere alla documentazione digitando nella console di R il comando:
+Per trovare aiuto su come usare una data funzione di R ***di cui conosci il nome*** (ad esempio, la funzione *text()*, puoi:
+ 	- provare a cercare in un browser la combinazione di parole "text() r".
+    - in RStudio, accedere al menù "Help" nella finestra in basso a dx dell'interfaccia, poi digitare "text" nella barra di ricerca
 
-**?\<nome della funzione\>**
+NOTA: la documentazione di una funzione cui si accede come visto qui sopra non è sempre di facile lettura. Ma, tra le tante informazioni disponibili, orientati in particolare su:
 
-*es. ?row.names*
-
-NOTA: la documentazione di una funzione cui si accede come visto qui sopra (?\<nome_della_funzione\>) non è sempre di facile lettura. Ma non ti spaventare!!! E soprattutto, tra le tante informazioni disponibili, orientati in particolare su:
-
-la sessione *Description*, ti fornisce una breve descrizione, in forma discorsiva, di cosa fa la data funzione
-
-la sessione *Arguments*, ti illustra i diversi argomenti che prende in input la data funzione
-
-la sessione *Examples* (in fondo alla pagina), ti illustra esempi di uso della data funzione
-
+- la sessione *Description*, ti fornisce una breve descrizione, in forma discorsiva, di cosa fa la data funzione
+- la sessione *Arguments*, ti illustra i diversi argomenti che prende in input la data funzione
+- la sessione *Examples* (in fondo alla pagina), ti illustra esempi di uso della data funzione
 
 Alternativamente, e nel caso in cui non conoscessi già il nome della funzione R da usare per un dato scopo:
 
- 
-
+- Puoi descrivere il tuo problema ad una AI (es. chatGPT).
 - Puoi trovare aiuto in rete utilizzando un motore di ricerca (es. [https://www.google.com/](https://www.google.com/)), specificando con le giuste parole chiave il tuo dubbio / problema.
 
-Prova ad esempio a digitare su Google il tuo dubbio. Meglio ancora se poni la richiesta in inglese: avrai accesso ad un numero ancor più vasto di documenti tecnici e discussioni in forum specializzati.
+Prova ad esempio a digitare su Google o in chatGPT il tuo dubbio. Meglio ancora se poni la richiesta in inglese: avrai accesso ad un numero ancor più vasto di documenti tecnici e discussioni in forum specializzati.
 <br>
 Ad esempio:
 
 How do I rename rows and columns of a data.frame in R?
 
 **--> Sei soddisfatto del risultato? Hai trovato la risposta al tuo dubbio?**
-
-
-- Altra via, digitando nella console di R il comando: 
-
-**help.search()** o il suo sinonimo **??**
-
-es. help.search("names") o ??"names"
-
-Avrai in risposta un elenco di tutti i pacchetti R che contengono funzioni (riportati come nome_pacchetto::nome_funzione) nella cui documentazione è presente la/le parola/e chiave da te inserite per la ricerca di aiuto, insieme ad una minima descrizione di scopo della data funzione R.
 
 <hr>
 
