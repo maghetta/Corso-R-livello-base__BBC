@@ -160,17 +160,25 @@ X <- read.csv(url(urlcsv), header=1)
 
 ```
 
-1. Comincia la sfida eseguendo le 2 righe di codice qui sopra, così da creare il data.frame X nel tuo spazio di lavoro.
+1. Esegui le 2 righe di codice qui sopra, così da creare il data.frame X nel tuo spazio di lavoro.
 
-2. Utilizza almeno un paio di funzioni che hai appreso nel modulo di oggi per: ispezionare la struttura del data.frame X e stamparne a video le prime righe (**domanda tremendissima**: *quante variabili sono presenti in questo data.frame?*)
+2. Utilizza almeno un paio di funzioni che hai appreso nel modulo di oggi per: ispezionare la struttura del data.frame *X*
+   e stamparne a video le prime righe (**domanda per te**: *quante variabili sono presenti in questo data.frame?*)
 
-Crea un sottoinsieme di dati chiamato Xmf che contenga solo le colonne "m" e  "f" del data.frame X (**domanda tremendissima**: *che tipo di oggetto è l'oggetto Xmf che hai appena creato?*)
+4. Crea un sottoinsieme di dati chiamato *Xmf* che contenga solo le colonne "m" e  "f" del data.frame X
+   (**domanda per te**: *che tipo di oggetto è l'oggetto Xmf che hai appena creato?*)
 
-Assegna come nomi delle righe dell'oggetto Xmf i valori della colonna "eta" del data.frame X
+6. Assegna come nomi delle righe dell'oggetto *Xmf* i valori della colonna *eta* del data.frame X
 
-Usa un operatore di confronto per vedere in quale fasce di età ci sono più vaccinati  tra le donne che tra gli uomini
+7. Usa un operatore di confronto per vedere in quale fasce di età ci sono più vaccinati tra le donne che tra gli uomini
 
-Crea un altro sottoinsieme di dati chiamato Xaltro che contenga solo la colonna "db3" del data.frame X. Assegna come nomi al vettore Xaltro che hai appena creato i valori della colonna "eta" del data.frame X
+8. Crea un grafico di dispersione (scatter plot) che abbia i valori della colonna *m* del data.frame *Xmf* sull'asse x,
+   e quelli della colonna *f* sull'asse y del grafico. Inoltre:
+   - fà che i simboli che identificano ciascun punto siano dei pallini pieni di colore blu
+   - assegna come nomi agli assi x e y, rispettivamente, "maschi vaccinati" e "femmine vaccinate"
+   - aggiungi come titolo del plot: "Confronto tra numeri di maschi e femmine vaccinate, per fascia di età"
 
-Fai un grafico a torte di Xaltro (**domanda tremendissima**: quale fascia di età è più rappresentata nella categoria "db3" dei vaccinati ?)
+10. Ora aggiungi al grafico una retta di regressione di colore rosso, adattando il codice visto nel tutorial sui grafici
+
+11. **Domanda tremendissima per te**: utilizzando la funzione text()
 
