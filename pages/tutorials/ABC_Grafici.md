@@ -59,6 +59,7 @@ plot(x, y, main = "Scatter plot", xlab = "X", ylab = "Y", col = "blue", pch = 19
 # Con la funzione *abline()* possiamo aggiunre linee verticali o orizzontali al plot
 abline(h=3, lty=2, col=3)
 
+
 # 2. Funzione barplot
 # La funzione barplot() è usata per creare grafici a barre.
 
@@ -139,5 +140,87 @@ dev.off()
 # esempi di codice per realizzarlo, che potrai adattare ai tuoi dati.
 # 3. In questo tutorial abbiamo utilizzato un approccio classico (e più semplice) ai grafici. Esiste un approccio più compelsso,
 # ma anche molto più potente, per costruire grafici strutturandoli e definendoli livello dopo livello. Questa modalità di approccio
-# è abilitata dal pacchetto R `ggplot2`. Per esplorarne le potenzialità, potresti inziare da [questa](https://cran.r-project.org/web/packages/ggplot2/vignettes/ggplot2-in-packages.html) e [questa guida](https://ggplot2.tidyverse.org/).
+# è abilitata dal pacchetto R `ggplot2`.
+# Per esplorarne le potenzialità, potresti inziare da qui:
+# https://cran.r-project.org/web/packages/ggplot2/vignettes/ggplot2-in-packages.html
+# oppure da qui: https://ggplot2.tidyverse.org/.
+
+#-------------
+
+## Quanto appreso fin qui in questo tutorial soddisfa pienamente i requisiti di un corso di base di R.
+## Se hai appena iniziato a conoscere questo linguaggio, il mio consiglio è di congratularti con te stessa/o
+## per aver raggiunto la fine di questo tutorial, e fermarti qui!
+## Se invece:
+# - hai particolare dimestichezza con la statistica e sogni di poter aggiungere una retta di regressione al tuo plot
+#     oppure
+# - sei un utente medio-avanzato di R e vorresti cimentarti con sistemi più avanzati di plotting, come *ggplot2*
+# puoi provare ad avventurarti in questi due blocchi di informazione EXTRA.
+
+
+## EXTRA #1:
+
+# Una retta spesso utile da aggiungere ad un grafico di dispersione per cogliere la relazione tra due variabili
+# è la *retta di dispersione lineare*, cioé la linea che “si avvicina il più possibile” a tutti i punti, 
+# minimizzando la somma dei quadrati delle distanze tra ciascun punto e la linea stessa.
+# Per approfondire gli aspetti teorici di una retta di regressione lineare, puoi vedere ad esempio la relativa pagina su Wikipedia:
+# https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf](https://it.wikipedia.org/wiki/Regressione_lineare
+
+# Qui di seguito vediamo un codice R essenziale per calcolarla e aggiungerla ad un plot.
+
+# Ipotizziamo di avere due variabili numeriche *x* e *y* così definite:
+set.seed(123)  # questa funzione serve a rendere i risultati riproducibili
+x <- 1:20
+y <- 2 * x + rnorm(20, mean = 0, sd = 5)  # questo comando genera del "rumore casuale" intorno a ciascun punto
+
+# ora facciamo uno scatterplot di queste due variabili:
+plot(x, y, main = "Scatterplot con retta di regressione lineare", xlab = "Variabile X",  ylab = "Variabile Y", pch = 19)
+
+# Utilizziamo la funzione *lm()* (per "linear model") di R per calcolare il modello di regressione lineare
+# che meglio descrive l'eventuale relazione tra la variabile dipendente *y*
+# e la variabile indipendente *x*.
+modello <- lm(y ~ x)
+
+# Aggiungiamo la retta di regressione allo scatter plot, utilizzando la funzione *abline()*
+abline(modello, col = "red", lwd = 2, lty = 2)
+
+# dove:
+# - l'argomento *lwd = 2* (line width) aumenta lo spessore della linea rispetto al valore di default, che è 1
+# - l'argomento *lty = 2* (line type) disegna la linea tratteggiata anziché continua, che è il default
+
+
+## EXTRA #2:
+# Lo stesso scatter plot con retta di regressione lineare, fatto con il sistema ggplot2, si potrebbe fare con il seguente codice:
+
+# prima di tutto, carichiamo il pacchetto ggplot2
+library(ggplot2)
+
+# poi, arrangiamo le nostre variabili x ed y in un dataframe:
+dati <- data.frame(x = x, y = y)
+
+# ora il codice per creare uno scatterplot con la retta di regressione lineare
+ggplot(dati, aes(x = x, y = y)) +                                # definiamo i dati
+  geom_point(color = "blue", size = 3) +                         # aggiungiamo i punti e definiamone lo stile (colore, grandezza)
+  geom_smooth(method = "lm", color = "red", se = FALSE) +        # aggiungiamo la retta di regressione lineare
+  labs(title = "Scatterplot con retta di regressione lineare",   # aggiungiamo titolo e etichette degli assi
+       x = "Variabile X",
+       y = "Variabile Y") +
+  theme_minimal()                                                # scegliamo lo stile grafico del plot (*minimal*)
+
+
+## cenni sulla "filosofia ggplot2"
+
+# Il sistema grafico in R basato su ggplot2 è una "grammatica dei grafici" (Grammar of Graphics),
+# che costruisce visualizzazioni complesse *strato dopo strato*, adottando un approccio modulare.
+# A livello di codice, il grafico si costruisce tramite la combinazione di varie funzioni definite nel pacchetto ggplot
+# quali:
+# - la funzione ggplot() (grammar of graphics plot): per inizializzare lo spazio del grafico e definire l'oggetto che contiene i dati che verranno visualizzate nel grafico
+# - la funzione aes() (aesthetics): per mappare variabili dei dati a caratteristiche visive (colore, dimensione, forma, assi X/Y). 
+# - una tra la famiglia di funzioni "geoms" (forme geometriche, es. geom_point() per scatter plot, geom_bar() per grafico a barre) e si definiscono le caratteristiche estetiche (es. punti di colore blu)
+# - la funzione labs(): per specificare testo e grafica di etichette degli assi e titolo del grafico (opzionale)
+# - una tra la famiglia di funzioni "theme" (es. theme_minimal() o theme_dark()): per personalizzare l'aspetto dello spazio grafico (es. font, sfondo, griglie) (opzionale)
+
+# Per una introduzione più rigorosa e approfondita al sistema di grafica basato su ggplot2: https://ggplot2.tidyverse.org/
+
+
+
 ```
