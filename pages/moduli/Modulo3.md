@@ -178,9 +178,7 @@ X <- read.csv(url(urlcsv), header=1)
    - assegna come nomi agli assi x e y, rispettivamente, "maschi vaccinati" e "femmine vaccinate"
    - aggiungi come titolo del plot: "Confronto tra numeri di maschi e femmine vaccinate, per fascia di età"
 
-10. Ora aggiungi al grafico una retta di regressione di colore rosso, adattando il codice visto nel tutorial sui grafici
-
-11. **Domanda tremendissima per te**:
+9. **Domanda tremendissima per te**:
     - lancia il seguente comando e descrivi cosa fa:
 	```markdown
  	text( Xmf$m, Xmf$f, labels = rownames(Xmf), pos = 4, cex = 0.7 )
@@ -191,3 +189,6 @@ X <- read.csv(url(urlcsv), header=1)
 		- cosa controlla l'argomento *cex*?  
 	- prova ora a modificare e rilanciare il comando text() che trovi qui sopra per far si che l'etichettà di ciascun
 	punto venga messa sotto il punto corrispondente
+
+10. [extra - solo se nel tutorial ABC dei grafici hai addirittura svolto la parte EXTRA #1]
+    Aggiungi al grafico una retta di regressione di colore rosso, adattando il codice visto nel tutorial sui grafici alla sezione "EXTRA #1"
