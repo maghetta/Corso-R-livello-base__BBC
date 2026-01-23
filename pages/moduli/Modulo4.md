@@ -108,7 +108,7 @@ A [questo link](https://www.r-project.org/help.html) puoi trovare un guida (in i
 
 Qui di seguito riassumerò due approcci molto comuni:
 
-# Per trovare aiuto su come usare una data funzione di R ***di cui conosci il nome*** (esempio: per sapere quali argomenti la funzione si aspetta, e quali parametri posso usare per modificarne il comportamento) posso accedere alla documentazione digitando nella console di R il comando:
+Per trovare aiuto su come usare una data funzione di R ***di cui conosci il nome*** (esempio: per sapere quali argomenti la funzione si aspetta, e quali parametri posso usare per modificarne il comportamento) posso accedere alla documentazione digitando nella console di R il comando:
 
 **?\<nome della funzione\>**
 
@@ -123,7 +123,7 @@ la sessione *Arguments*, ti illustra i diversi argomenti che prende in input la 
 la sessione *Examples* (in fondo alla pagina), ti illustra esempi di uso della data funzione
 
 
-# In realtà, soprattutto negli ultimi anni, da quando le ricerche su Internet e l’AI sono entrate nella nostra quotidianità, è diventato molto più facile (ed efficace!) avvalersi di questi strumenti per cercare aiuto.
+In realtà, soprattutto negli ultimi anni, da quando le ricerche su Internet e l’AI sono entrate nella nostra quotidianità, è diventato molto più facile (ed efficace!) avvalersi di questi strumenti per cercare aiuto.
 
 Puoi, ad esempio, trovare supporto online utilizzando un motore di ricerca (es. [https://www.google.com/](https://www.google.com/)), specificando con le giuste parole chiave il tuo dubbio o problema. Prova a cercare nel tuo motore di ricerca preferito:
 
@@ -154,8 +154,8 @@ L’uso dei pacchetti rende R estremamente flessibile e adatto a una vasta gamma
 ![R-page](images/modulo4/R.png)
 
 <br>
-I pacchetti di R disponibili dal *CRAN* per essere installati sul proprio PC, e caricati all'occorrenza nella propria sessione di lavoro di R sono elencati [qui](https://cloud.r-project.org/web/packages/available_packages_by_name.html)
-I pacchetti di R disponibili dal progetto *Bioconductor* per essere installati sul proprio PC, e caricati all'occorrenza nella propria sessione di lavoro di R sono elencati [qui](https://www.bioconductor.org/packages/release/BiocViews.html#___Software)
+I pacchetti di R disponibili dal *CRAN* per essere installati sul proprio PC sono elencati [qui](https://cloud.r-project.org/web/packages/available_packages_by_name.html).
+I pacchetti di R disponibili dal progetto *Bioconductor* per essere installati sul proprio PC, e caricati all'occorrenza nella propria sessione di lavoro di R sono elencati [qui](https://www.bioconductor.org/packages/release/BiocViews.html#___Software).
 
 <br>
 <br>
