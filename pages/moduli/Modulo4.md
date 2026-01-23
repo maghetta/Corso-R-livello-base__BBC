@@ -102,14 +102,13 @@ In questo tutorial imparerai a creare e maneggiare una lista, selezionarne alcun
 
 ## Ottenere aiuto in R
 
-Come abbiamo detto, R è un linguaggio molto ben documentato e supportato da una vasta e attiva comunità di utenti.
+Come abbiamo detto, tra i punti di forza di R c'è il fatto di essere un linguaggio molto ben documentato e supportato da una vasta e attiva comunità di utenti.
 
 A [questo link](https://www.r-project.org/help.html) puoi trovare un guida (in inglese) che illustra i diversi modi per chiedere aiuto in R.
 
 Qui di seguito riassumerò due approcci molto comuni:
 
-
-Per trovare aiuto su come usare una data funzione di R ***di cui conosci il nome*** (esempio: per sapere quali argomenti la funzione si aspetta, e quali parametri posso usare per modificarne il comportamento) posso accedere alla documentazione digitando nella console di R il comando:
+# Per trovare aiuto su come usare una data funzione di R ***di cui conosci il nome*** (esempio: per sapere quali argomenti la funzione si aspetta, e quali parametri posso usare per modificarne il comportamento) posso accedere alla documentazione digitando nella console di R il comando:
 
 **?\<nome della funzione\>**
 
@@ -124,7 +123,7 @@ la sessione *Arguments*, ti illustra i diversi argomenti che prende in input la 
 la sessione *Examples* (in fondo alla pagina), ti illustra esempi di uso della data funzione
 
 
-In realtà, soprattutto negli ultimi anni, da quando le ricerche su Internet e l’AI sono entrate nella nostra quotidianità, è diventato molto più facile (ed efficace!) avvalersi di questi strumenti per cercare aiuto.
+# In realtà, soprattutto negli ultimi anni, da quando le ricerche su Internet e l’AI sono entrate nella nostra quotidianità, è diventato molto più facile (ed efficace!) avvalersi di questi strumenti per cercare aiuto.
 
 Puoi, ad esempio, trovare supporto online utilizzando un motore di ricerca (es. [https://www.google.com/](https://www.google.com/)), specificando con le giuste parole chiave il tuo dubbio o problema. Prova a cercare nel tuo motore di ricerca preferito:
 
@@ -168,7 +167,7 @@ Per utilizzare un pacchetto di R sul nostro computer, seguire 2 passaggi:
 
 ```
 # Esempio:
-install.packages("A3") 		# nota il nome del pacchetto messo tra virgolette
+install.packages("palmerpenguins") 		# nota il nome del pacchetto messo tra virgolette
 ```
 
 NOTA 1: questo lo possiamo fare SOLO sulla nostra console R locale, dove abbiamo permessi adeguati
@@ -180,7 +179,7 @@ NOTA 2: questo passaggio sarà necessario solo la prima volta che usiamo un nuov
 
 ```
 # Esempio:
-library(A3)                 # nota il nome del pacchetto scritto senza virgolette
+library(palmerpenguins)                 # nota il nome del pacchetto scritto senza virgolette
 ```
 
 NOTA: questo passaggio sarà necessario ogni volta che vorremo utilizzare le funzioni di un dato pacchetto R nella nostra sessione di lavoro
@@ -196,7 +195,7 @@ Prova ad esempio a digitare il seguente comando di R nella console di R che util
 sessionInfo()
 ```
 
-- Ogni pacchetto di R ha una pagina dedicata, dove è anche possibile scaricare la documentazione che ci insegna ad usarlo. Es.: fai click sul nome A3 nell'elenco di pacchetti che trovi [a questo link](https://cloud.r-project.org/web/packages/available_packages_by_name.html) per accedere alla pagina di documentazione del pacchetto A3
+- Ogni pacchetto di R ha una pagina dedicata, dove è anche possibile scaricare la documentazione che ci insegna ad usarlo. Es.: fai click sul nome *palmerpenguins* nell'elenco di pacchetti che trovi [a questo link](https://cloud.r-project.org/web/packages/available_packages_by_name.html) per accedere alla pagina di documentazione del pacchetto palmerpenguins
 
 NOTA: per scoprire come installare e caricare pacchetti in R, avremmo anche potuto applicare quanto appena imparato. E cioé, chiedere a un motore di ricerca per trovare aiuto su come fare. Prova ad esempio a cercare su [https://www.google.com/](https://www.google.com/) la seguente combinazione di parole:
 
