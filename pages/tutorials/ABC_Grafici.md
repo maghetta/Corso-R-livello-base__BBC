@@ -219,6 +219,8 @@ ggplot(dati, aes(x = x, y = y)) +                                # definiamo i d
 # - labs(): specifica titolo e etichette degli assi (opzionale)
 # - funzioni "theme", es. theme_minimal() o theme_dark(): personalizzano l'aspetto del grafico (font, sfondo, griglie) (opzionale)
 
-# Per una introduzione più rigorosa e approfondita al sistema di grafica basato su ggplot2: https://ggplot2.tidyverse.org/
+# Per un’introduzione rigorosa e approfondita al sistema di grafica basato su ggplot2, consulta il sito ufficiale: https://ggplot2.tidyverse.org/.
+# A seconda del livello di confidenza con il sistema di pacchetti tidyverse (di cui ggplot2 fa parte), può essere molto utile comprendere la struttura
+# dei dati tidy leggendo il bellissimo libro R for Data Science (https://r4ds.hadley.nz/), disponibile anche in italiano: https://it.r4ds.hadley.nz/index.html
 
 ```
